@@ -6,15 +6,16 @@ An RDF dataset of classical Japanese waka poetry (古今和歌集 Kokinshu, 後�
 
 - [Apache Jena](https://jena.apache.org/)'s `arq` command-line SPARQL query tool
 - [`jq`](https://jqlang.org/)
+- [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/)'s `fuseki-server` -- only needed for the HTTP API (`start-fuseki.sh`), not for the `queries/*.sh` scripts
 
-Either must be on `PATH`. Install however you like, e.g.:
+Must be on `PATH`. Install however you like, e.g.:
 
 ```sh
 # nix
-nix shell nixpkgs#apache-jena nixpkgs#jq
+nix shell nixpkgs#apache-jena nixpkgs#apache-jena-fuseki nixpkgs#jq
 
 # Homebrew
-brew install jena jq
+brew install jena jena-fuseki jq
 ```
 
 ## Data (`data/`)
@@ -28,6 +29,28 @@ brew install jena jq
 | `concept-example.ttl` | Additional concept schemes not from WLSP: 部立 (anthology section topics), 官位, 宗教状態 |
 | `author-batch.ttl`, `author-example.ttl` | Poets (`foaf:Person`): name, gender, court rank, religious status |
 | `occurrence-batch.ttl` | Every word's occurrence at every position in every poem (`waka:TokenOccurrence`), linking poems to dictionary entries |
+
+## HTTP API
+
+`./start-fuseki.sh [port]` (default port `3030`) starts a [Fuseki](https://jena.apache.org/documentation/fuseki2/) SPARQL HTTP endpoint over the whole dataset -- in memory, read-only, reloaded fresh from `data/*.ttl` each time it starts. Any program in any language can then query it over the standard [SPARQL 1.1 Protocol](https://www.w3.org/TR/sparql11-protocol/) instead of shelling out to `queries/*.sh`:
+
+```
+http://localhost:3030/hachidaishu/sparql
+```
+
+Example, using the exact same query `queries/poems-by-word.sh` runs internally:
+
+```sh
+curl -G http://localhost:3030/hachidaishu/sparql \
+  --data-urlencode 'query=PREFIX waka: <https://example.org/waka/ontology#>
+PREFIX lex: <https://example.org/waka/lexicon/>
+SELECT DISTINCT ?waka WHERE {
+  ?occ waka:instantiates lex:とし【年】 ; waka:ofWaka ?waka .
+}' \
+  -H "Accept: application/sparql-results+json"
+```
+
+Response is the same [SPARQL Results JSON](https://www.w3.org/TR/sparql11-results-json/) shape documented below. Every query embedded in a `queries/*.sh` script is valid, unmodified SPARQL that can be copy-pasted and POSTed here the same way -- the shell scripts are just a convenience wrapper around `arq` for command-line use, not a different query language.
 
 ## Queries (`queries/`)
 
