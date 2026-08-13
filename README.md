@@ -60,10 +60,26 @@ Each query is a standalone shell script. Run it directly (`./queries/poems-by-wo
 
 ### Catalogs (no input)
 
+- **`poems-by-anthology.sh <anthology>`** — every poem in an anthology (`kokin`/`gosen`/`shuui`/`goshuui`). The population query recursive narrowing chains (see below) typically start from.
+  Output: `?waka`.
 - **`all-words.sh`** — every word with at least one real occurrence in the corpus.
   Output: `?word` (e.g. `"とし【年】"`).
 - **`all-concepts.sh`** — every WLSP/place/person concept actually referenced by some word.
   Output: `?concept` (local name, e.g. `"BG-02-3060"`), `?label` (human-readable "broader-leaf" string, e.g. `"思考・認識・知解-思考・認識・知解"` — see "Concept labels" below).
+- **`word-frequencies.sh <anthology>`** — every word used in `<anthology>` (`kokin`/`gosen`/`shuui`/`goshuui`), with its occurrence count in that anthology.
+  Output: `?word` (local name), `?count`.
+- **`concept-frequencies.sh <anthology>`** — every concept referenced by some word used in `<anthology>`, with its occurrence count in that anthology.
+  Output: `?concept` (local name), `?label` (same "broader-leaf" string as `all-concepts.sh`), `?count`.
+
+### Recursive narrowing (`--within`)
+
+`poems-by-word.sh`, `poems-by-concept.sh`, `poems-by-gender.sh`, and `poems-by-topic.sh` all accept an optional `--within <file-or->` argument: a SPARQL Results JSON document (the same shape any of these scripts outputs, e.g. a prior query's own stdout) restricting the search to that poem set instead of the whole corpus. `-` reads it from stdin. This lets queries be chained to arbitrary depth, narrowing further at each step — the output of one is valid `--within` input to any other (including itself):
+
+```sh
+./queries/poems-by-anthology.sh kokin \
+  | ./queries/poems-by-topic.sh 春 --within - \
+  | ./queries/poems-by-gender.sh Female --within -
+```
 
 ### Poem lookup
 
@@ -87,6 +103,13 @@ Each query is a standalone shell script. Run it directly (`./queries/poems-by-wo
   Output: `?pos`, `?otherEntry`, `?kind`.
 - **`concept-context-concept-in-poem.sh <concept> <poem-id>`** — same match as above, output mapped to concepts.
   Output: `?pos`, `?concept`, `?kind`.
+
+### By topic (部立)
+
+`<topic>` is an anthology-section topic local name (e.g. `春`, `春上`, `恋一`) — an independent classification scheme from the WLSP concepts above (see "Concept labels"'s note that 部立 is not part of that hierarchy).
+
+- **`poems-by-topic.sh <topic>`** — which poems are classified under this topic, broader-inclusive: also matches any poem tagged with a finer subdivision of it (e.g. `春` matches poems tagged `春`, `春上`, `春中`, or `春下` — 部立 subdivision is inconsistent across anthologies, so some poems only carry the coarse topic). For a topic with no finer subdivision (e.g. `春上` itself, or any of `恋一`..`恋六`), this is an exact match.
+  Output: `?waka`.
 
 ### By gender
 

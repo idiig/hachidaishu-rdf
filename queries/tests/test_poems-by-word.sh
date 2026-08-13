@@ -22,4 +22,12 @@ else
     FAILED=1
 fi
 
+# --within chains this query on top of a prior result set (here,
+# poems-by-anthology.sh's own output) instead of searching the whole
+# corpus -- 41 of the 195 corpus-wide とし【年】 poems are in Kokinshu
+# (verified via ad hoc arq COUNT query restricted to the kokin- prefix).
+JSON_WITHIN="$("$QUERIES_DIR/poems-by-word.sh" "とし【年】" --within <("$QUERIES_DIR/poems-by-anthology.sh" "kokin"))"
+assert_count "とし【年】 --within kokin: 41 poems (narrowed from 195 corpus-wide)" "$JSON_WITHIN" \
+    '.results.bindings | length' "41"
+
 finish

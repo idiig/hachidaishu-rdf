@@ -25,4 +25,12 @@ assert_true "shuui-1181 in Male results (joint composition)" "$JSON_M" \
 assert_true "shuui-1181 in Female results (joint composition)" "$JSON_F" \
     '[.results.bindings[].waka.value] | any(. == "https://example.org/waka/id/shuui-1181")'
 
+# --within chains this query on top of a prior result set (here,
+# poems-by-anthology.sh's own output) instead of searching the whole
+# corpus -- 84 kokin poems are attributable to Female (verified via ad
+# hoc arq COUNT query restricted to the kokin- prefix).
+JSON_F_WITHIN="$("$QUERIES_DIR/poems-by-gender.sh" "Female" --within <("$QUERIES_DIR/poems-by-anthology.sh" "kokin"))"
+assert_count "Female --within kokin: 84 poems" "$JSON_F_WITHIN" \
+    '.results.bindings | length' "84"
+
 finish

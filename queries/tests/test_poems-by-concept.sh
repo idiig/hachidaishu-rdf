@@ -23,4 +23,12 @@ else
     FAILED=1
 fi
 
+# --within chains this query on top of a prior result set (here,
+# poems-by-anthology.sh's own output) instead of searching the whole
+# corpus -- 526 kokin poems reference BG-02-3060 (verified via ad hoc
+# arq COUNT query restricted to the kokin- prefix).
+JSON_WITHIN="$("$QUERIES_DIR/poems-by-concept.sh" "BG-02-3060" --within <("$QUERIES_DIR/poems-by-anthology.sh" "kokin"))"
+assert_count "BG-02-3060 --within kokin: 526 poems" "$JSON_WITHIN" \
+    '.results.bindings | length' "526"
+
 finish
