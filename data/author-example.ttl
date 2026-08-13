@@ -1,0 +1,135 @@
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix schema:  <https://schema.org/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix waka:    <https://example.org/waka/ontology#> .
+@prefix concept: <https://example.org/waka/concept/> .
+@prefix person:  <https://example.org/waka/person/> .
+
+# Example instance data for the 作者 (author) file. Grounded in
+# data/kokin.xml's <back><listPerson> (194 <person> entries total).
+#
+# person:紀貫之 and person:在原元方 are the two poets already referenced
+# by dcterms:creator in waka-example.ttl (wakaid:n1/n2) -- this file is
+# what finally resolves those forward references into real foaf:Person
+# data. person:藤原定家 and person:藤原俊成 are unrelated to those two
+# poems (they appear elsewhere in kokin.xml, as manuscript-transmission
+# figures named in the colophon, not as authors of n1/n2) -- included
+# here only because their persName lists are the ones that happen to
+# carry clear courtRank/religiousStatus evidence, per
+# author-ontology.ttl's extraction caveat.
+
+# --- 紀貫之 ---
+# Source: kokin.xml <person xml:id="紀貫之" sex="1">
+person:紀貫之 a foaf:Person ;
+    foaf:name "紀貫之"@ja, "きのつらゆき"@ja-Hira ;
+    schema:gender schema:Male ;
+    schema:birthDate "0871"^^xsd:gYear ;   # <birth when="0871">貞観十三年頃</birth> -- 頃 = approximate
+    schema:deathDate "0946"^^xsd:gYear ;   # <death when="0946">天慶九年か</death> -- か = uncertain
+    owl:sameAs <http://viaf.org/viaf/1606145856885622920249> .
+
+# --- 在原元方 ---
+# Source: kokin.xml <person xml:id="在原元方" sex="1">. No birth/death
+# year here -- kokin.xml literally has <birth>不明</birth> and
+# <death>不明</death> (both "unknown", no @when at all) -- omitted
+# entirely rather than asserting a placeholder.
+person:在原元方 a foaf:Person ;
+    foaf:name "在原元方"@ja, "ありわらのもとかた"@ja-Hira ;
+    schema:gender schema:Male ;
+    owl:sameAs <http://viaf.org/viaf/114305486> .
+
+# --- 藤原定家 ---
+# Source: kokin.xml <person xml:id="藤原定家" sex="1">. persName list
+# includes "京極中納言" (a court-office epithet) and "明静" (a Buddhist
+# name taken on ordination) alongside his plain name and two readings --
+# manually identified evidence for waka:courtRank/waka:religiousStatus.
+person:藤原定家 a foaf:Person ;
+    foaf:name "藤原定家"@ja, "ふじわらのさだいえ"@ja-Hira, "ふじわらのていか"@ja-Hira ;
+    schema:gender schema:Male ;
+    schema:birthDate "1162"^^xsd:gYear ;
+    schema:deathDate "1241"^^xsd:gYear ;
+    owl:sameAs <http://viaf.org/viaf/29592327> ;
+    waka:courtRank concept:官位-中納言 ;
+    waka:religiousStatus concept:宗教状態-出家 .
+
+# --- 藤原俊成 ---
+# Source: kokin.xml <person xml:id="藤原俊成" sex="1">. persName list
+# includes "五条三位" and "釈阿" (his name after taking vows).
+person:藤原俊成 a foaf:Person ;
+    foaf:name "藤原俊成"@ja, "ふじわらのとしなり"@ja-Hira, "ふじわらのしゅんぜい"@ja-Hira ;
+    schema:gender schema:Male ;
+    schema:birthDate "1114"^^xsd:gYear ;
+    schema:deathDate "1204"^^xsd:gYear ;
+    waka:religiousStatus concept:宗教状態-出家 .
+    # No owl:sameAs -- kokin.xml's <idno type="VIAF"> element is present
+    # but empty for this person (present-but-empty means "not linked,"
+    # not "linked to an empty string" -- see author-ontology.ttl).
+    # No waka:courtRank asserted -- "五条三位" combines a residence name
+    # (五条) with 三位, which is a 位階 (rank), not an 官職 (office) like
+    # 中納言. Forcing it into courtRank (defined around 官職-style
+    # examples) would blur exactly the 位階/官職 distinction flagged in
+    # author-ontology.ttl -- left unasserted rather than guessing.
+
+# --- よみ人しらず (anonymous author) placeholders ---
+# All 9 gender x religious-status combinations, shared foaf:Person
+# resources -- no separate class for these, see author-ontology.ttl for
+# why (filtering/analysis always works by dereferencing the linked
+# person and checking its properties, never by checking its class).
+# Known axis values are asserted; an unknown axis is just the
+# corresponding property being absent -- RDF's open-world assumption
+# already reads "not asserted" as "not known," nothing extra needed to
+# model that. Many よみ人しらず poems' dcterms:creator will point at
+# person:anonymous-unknown-gender-unknown-status (nothing at all known,
+# likely the single most common case); the other 8 exist for poems
+# whose kotobagaki gives partial evidence (e.g. "女のよみ人しらず" ->
+# gender known, identity and religious status still not).
+
+person:anonymous-male-lay a foaf:Person ;
+    schema:gender schema:Male ;
+    waka:religiousStatus concept:宗教状態-俗 .
+
+person:anonymous-male-monastic a foaf:Person ;
+    schema:gender schema:Male ;
+    waka:religiousStatus concept:宗教状態-出家 .
+
+person:anonymous-male-unknown-status a foaf:Person ;
+    schema:gender schema:Male .
+
+person:anonymous-female-lay a foaf:Person ;
+    schema:gender schema:Female ;
+    waka:religiousStatus concept:宗教状態-俗 .
+
+person:anonymous-female-monastic a foaf:Person ;
+    schema:gender schema:Female ;
+    waka:religiousStatus concept:宗教状態-出家 .
+
+person:anonymous-female-unknown-status a foaf:Person ;
+    schema:gender schema:Female .
+
+person:anonymous-unknown-gender-lay a foaf:Person ;
+    waka:religiousStatus concept:宗教状態-俗 .
+
+person:anonymous-unknown-gender-monastic a foaf:Person ;
+    waka:religiousStatus concept:宗教状態-出家 .
+
+person:anonymous-unknown-gender-unknown-status a foaf:Person .
+
+# --- 非人間の作者 (non-human attributions, sex='4' in goshuishu-poet-list) ---
+# Each has its own name/identity (unlike the anonymous placeholders above,
+# these are NOT shared across many poems) but no schema:gender -- not
+# "unknown", genuinely not applicable to a shrine or a dream.
+# Source: goshuishu-poet-list's syuui_persons.jsonl / goshuishu_persons.jsonl.
+
+person:菩提 a foaf:Person ;
+    foaf:name "菩提"@ja, "ぼだい"@ja-Hira .
+    # alias "婆羅門" (Brahmin) in the source -- not modeled yet, no
+    # alias/altLabel property defined for persons in this prototype.
+
+person:賀茂明神 a foaf:Person ;
+    foaf:name "賀茂明神"@ja, "かもみゃうじん"@ja-Hira .
+
+person:夢想歌 a foaf:Person ;
+    foaf:name "夢想歌"@ja, "むそうか"@ja-Hira .
+
+person:伊勢大神宮 a foaf:Person ;
+    foaf:name "伊勢大神宮"@ja, "いせのおほかむみや"@ja-Hira .

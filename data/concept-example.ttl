@@ -1,0 +1,436 @@
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix concept: <https://example.org/waka/concept/> .
+@prefix scheme:  <https://example.org/waka/scheme/> .
+@prefix topic:   <https://example.org/waka/topic/> .
+
+# Example instance data for the 概念 (concept) layer. Pure SKOS reuse,
+# no custom vocabulary needed -- same pattern as lex-example.ttl. Source:
+# idiig/wlsph (github.com/idiig/wlsph), wlsph-full.json, checked
+# 2026-08-08. That repo also has no LICENSE file (gh api
+# repos/idiig/wlsph --jq '.license' is empty) -- don't vendor its JSON
+# files wholesale; a real conversion script should fetch fresh at
+# conversion time, same caution as yamagen/hachidaishu.
+#
+# wlsph-full.json's "categories" array covers ordinary WLSP semantic
+# codes (pos.code like "1"/"2"/"3"/…), place-name codes (pos.code
+# "CH.26" etc, one per prefecture), AND person-name codes (pos.code
+# "PR.01") all under the SAME 5-level pos/group/field/near_synonymy/
+# synonymy structure and the same "code" notation (e.g. "2.1513",
+# "CH.26.5240") -- so unlike the earlier assumption of three separate
+# schemes, this is one unified scheme:wlsp. 部立/topic classification
+# (春/恋/etc) is unrelated to WLSP and lives in its own scheme:部立 --
+# that ConceptScheme is currently declared in anthology-example.ttl
+# instead of here (organizational inconsistency, not yet reconciled --
+# see design-notes.md). scheme:歌題 (below) is a third, separate scheme:
+# the occasion-specific composition topic assigned to an individual waka
+# (waka:Waka's dcterms:subject, see waka-ontology.ttl), finer-grained
+# than and unrelated to 部立 (the anthology's structural section).
+#
+# Known data-quality issues in the source JSON (only matters for a real
+# conversion script, not for these hand-picked examples): 110/1000
+# entries have "field" misspelled as "filed"; a few more misspell
+# "near_synonymy" several different ways; 39 entries omit the
+# near_synonymy level entirely.
+#
+# concept:BG-AA-BBBB notation here mirrors idiig/wlsph's own "AA.BBBB"
+# codes (dot -> dash, to match this project's URI style elsewhere) --
+# NOT the full 4-segment hachidaishu bg_id. Per the correction in this
+# conversation: the full bg_id (all 4 dash segments, e.g.
+# BG-02-1513-01-0100) is right for a LexicalSense's own URI (traceable
+# to the exact hachidaishu row), but idiig/wlsph only defines concepts
+# down to the AA-BBBB level -- there's no source-of-truth for a finer
+# "citation index" concept, so ontolex:reference should point here, at
+# the truncated level, not at the full bg_id.
+
+scheme:wlsp a skos:ConceptScheme ;
+    dcterms:title "分類語彙表増補改訂版（地名・人名を含む）"@ja ;
+    dcterms:source <https://github.com/idiig/wlsph> .
+
+# --- 2.1513 / 2.1521 / 2.3330 / 2.3391: 立つ's four senses ---
+# (lex:立つ's ontolex:reference targets, once lex-example.ttl is fixed
+# to point here instead of the full bg_id)
+
+concept:BG-02 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:topConceptOf scheme:wlsp ;
+    skos:notation "2" ;
+    skos:prefLabel "用"@ja .
+
+concept:BG-02-1 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02 ;
+    skos:notation "2.1" ;
+    skos:prefLabel "抽象的関係"@ja .
+
+concept:BG-02-15 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-1 ;
+    skos:notation "2.15" ;
+    skos:prefLabel "作用・変化"@ja .
+
+concept:BG-02-151 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-15 ;
+    skos:notation "2.151" ;
+    skos:prefLabel "動き"@ja .
+
+concept:BG-02-1513 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-151 ;
+    skos:notation "2.1513" ;
+    skos:prefLabel "起立・横臥など"@ja .
+
+concept:BG-02-152 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-15 ;
+    skos:notation "2.152" ;
+    skos:prefLabel "進行・過程・経由"@ja .
+
+concept:BG-02-1521 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-152 ;
+    skos:notation "2.1521" ;
+    skos:prefLabel "移動・発着"@ja .
+
+# 2.3330 skips the near_synonymy level in the source (its synonymy
+# label duplicates its field label) -- broader goes straight from
+# synonymy to field, one level short of the other branches above.
+concept:BG-02-33 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02 ;
+    skos:notation "2.33" ;
+    skos:prefLabel "文化・風俗・祝福・処世"@ja .
+
+concept:BG-02-333 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-33 ;
+    skos:notation "2.333" ;
+    skos:prefLabel "生活・衣食住"@ja .
+
+concept:BG-02-3330 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-333 ;
+    skos:notation "2.3330" ;
+    skos:prefLabel "生活・衣食住"@ja .
+
+concept:BG-02-339 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-33 ;
+    skos:notation "2.339" ;
+    skos:prefLabel "全身的動作"@ja .
+
+concept:BG-02-3391 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-02-339 ;
+    skos:notation "2.3391" ;
+    skos:prefLabel "立ち居"@ja .
+
+# --- 1.1630: 年's sense (lex:年) ---
+concept:BG-01 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:topConceptOf scheme:wlsp ;
+    skos:notation "1" ;
+    skos:prefLabel "体"@ja .
+
+concept:BG-01-1 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-01 ;
+    skos:notation "1.1" ;
+    skos:prefLabel "抽象的関係"@ja .
+
+concept:BG-01-16 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-01-1 ;
+    skos:notation "1.16" ;
+    skos:prefLabel "位置・地点・場合"@ja .
+
+concept:BG-01-163 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-01-16 ;
+    skos:notation "1.163" ;
+    skos:prefLabel "年"@ja .
+
+concept:BG-01-1630 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-01-163 ;
+    skos:notation "1.1630" ;
+    skos:prefLabel "年"@ja .
+
+# --- 8.0061: の's sense (lex:の) ---
+# pos "8" = 助詞 (particle), per wlsph-full.json's pos-code table.
+concept:BG-08 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:topConceptOf scheme:wlsp ;
+    skos:notation "8" ;
+    skos:prefLabel "助詞"@ja .
+
+concept:BG-08-0061 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:BG-08 ;
+    skos:notation "8.0061" ;
+    skos:prefLabel "の"@ja .
+
+# --- CH.26.5240 / CH.26.0000: place-name codes (暗部山/暗部) ---
+# "source": "pn" in wlsph-full.json (person/place names), not "wlsp" --
+# same 5-level shape, same ConceptScheme in this prototype.
+concept:CH-26 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:topConceptOf scheme:wlsp ;
+    skos:notation "CH.26" ;
+    skos:prefLabel "地名-京都府"@ja .
+
+concept:CH-26-5 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:CH-26 ;
+    skos:notation "CH.26.5" ;
+    skos:prefLabel "自然・物体・物質"@ja .
+
+concept:CH-26-52 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:CH-26-5 ;
+    skos:notation "CH.26.52" ;
+    skos:prefLabel "天地"@ja .
+
+concept:CH-26-524 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:CH-26-52 ;
+    skos:notation "CH.26.524" ;
+    skos:prefLabel "地形・山野"@ja .
+
+concept:CH-26-5240 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:CH-26-524 ;
+    skos:notation "CH.26.5240" ;
+    skos:prefLabel "地形・山野"@ja .
+
+# CH.26.0000 (暗部's own sense) is a placeholder/root entry in the
+# source: group/field/near_synonymy/synonymy are all code "0" with
+# EMPTY category labels there (checked directly, not fabricated here --
+# no skos:prefLabel asserted, rather than inventing one).
+concept:CH-26-0000 a skos:Concept ;
+    skos:inScheme scheme:wlsp ;
+    skos:broader concept:CH-26 ;
+    skos:notation "CH.26.0000" .
+
+# --- 部立 (anthology structural section, e.g. 春上/恋一/雑体) scheme,
+# for waka:Book's dcterms:subject -- moved here from anthology-example.ttl
+# 2026-08-12 (organizational consistency: every other skos:ConceptScheme
+# in this prototype -- wlsp above, 官位/宗教状態 below -- already lives
+# in this file; 部立 was the one exception, left behind from before this
+# file existed). Not from idiig/wlsph, a separate source: all 40 labels
+# found across the four anthologies' Nichibunken tables of contents (see
+# scripts/generate_waka_fields.py). Flat except where a broader label is
+# also itself one of the 40 (春上/下/中 -> 春, 秋上/下/中 -> 秋) -- not
+# inventing broader terms that aren't themselves attested labels (e.g. no
+# bare topic:雑 or topic:恋 parent, since only 雑一..雑六 etc. and
+# 恋一..恋六 are actually used). NOT the same scheme as 歌題 below --
+# see that scheme's comment and waka-ontology.ttl's dcterms:subject note
+# for the distinction (部立 is the anthology's structural section, 歌題
+# is a finer-grained occasion-specific composition topic).
+scheme:部立 a skos:ConceptScheme ;
+    dcterms:title "勅撰和歌集部立分類"@ja .
+
+topic:春 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "春"@ja ;
+    skos:topConceptOf scheme:部立 .
+
+topic:春上 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "春上"@ja ;
+    skos:broader topic:春 .
+
+topic:春中 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:broader topic:春 ;
+    skos:prefLabel "春中"@ja .
+
+topic:春下 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:broader topic:春 ;
+    skos:prefLabel "春下"@ja .
+
+topic:夏 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "夏"@ja .
+
+topic:秋 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "秋"@ja .
+
+topic:秋上 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:broader topic:秋 ;
+    skos:prefLabel "秋上"@ja .
+
+topic:秋中 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:broader topic:秋 ;
+    skos:prefLabel "秋中"@ja .
+
+topic:秋下 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:broader topic:秋 ;
+    skos:prefLabel "秋下"@ja .
+
+topic:冬 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "冬"@ja .
+
+topic:賀 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "賀"@ja .
+
+topic:別 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "別"@ja .
+
+topic:羈旅 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "羈旅"@ja .
+
+topic:物名 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "物名"@ja .
+
+topic:恋一 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "恋一"@ja .
+
+topic:恋二 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "恋二"@ja .
+
+topic:恋三 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "恋三"@ja .
+
+topic:恋四 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "恋四"@ja .
+
+topic:恋五 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "恋五"@ja .
+
+topic:恋六 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "恋六"@ja .
+
+topic:雑上 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑上"@ja .
+
+topic:雑下 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑下"@ja .
+
+topic:雑一 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑一"@ja .
+
+topic:雑二 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑二"@ja .
+
+topic:雑三 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑三"@ja .
+
+topic:雑四 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑四"@ja .
+
+topic:雑五 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑五"@ja .
+
+topic:雑六 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑六"@ja .
+
+topic:雑体 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑体"@ja .
+
+topic:雑春 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑春"@ja .
+
+topic:雑秋 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑秋"@ja .
+
+topic:雑恋 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑恋"@ja .
+
+topic:雑賀 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "雑賀"@ja .
+
+topic:離別 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "離別"@ja .
+
+topic:離別羈旅 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "離別羈旅"@ja .
+
+topic:哀傷 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "哀傷"@ja .
+
+topic:慶賀哀傷 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "慶賀哀傷"@ja .
+
+topic:大歌所歌 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "大歌所歌"@ja .
+
+topic:神楽歌 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "神楽歌"@ja .
+
+topic:異本所載歌 a skos:Concept ;
+    skos:inScheme scheme:部立 ;
+    skos:prefLabel "異本所載歌"@ja .
+
+# --- 歌題 (poem-topic) scheme, for waka:Waka's dcterms:subject ---
+# Not from idiig/wlsph -- unrelated source, still to be identified. No
+# concrete concept instances yet (no confirmed source poem to ground an
+# example in), just the empty scheme declaration so waka-ontology.ttl's
+# documentation has somewhere real to point at.
+scheme:歌題 a skos:ConceptScheme ;
+    dcterms:title "歌題"@ja .
+
+# --- 官位 (court rank/office) scheme, for waka:courtRank (see
+# author-ontology.ttl) ---
+# Also not from idiig/wlsph or any other found external source (searched
+# 2026-08-08, nothing found for Heian court ranks/offices) -- built from
+# scratch, only as far as the one concept actually used in
+# author-example.ttl. See author-ontology.ttl's comment on this property
+# for the unresolved 位階/官職 distinction this scheme doesn't yet make.
+scheme:官位 a skos:ConceptScheme ;
+    dcterms:title "官位"@ja .
+
+concept:官位-中納言 a skos:Concept ;
+    skos:inScheme scheme:官位 ;
+    skos:prefLabel "中納言"@ja .
+
+# --- 宗教状態 (religious status) scheme, for waka:religiousStatus ---
+scheme:宗教状態 a skos:ConceptScheme ;
+    dcterms:title "宗教状態"@ja .
+
+concept:宗教状態-出家 a skos:Concept ;
+    skos:inScheme scheme:宗教状態 ;
+    skos:prefLabel "出家"@ja .
+
+# 俗 (layperson, i.e. NOT ordained) -- the complement of 出家, needed for
+# the anonymous-author 3x3 gender x religious-status placeholder matrix
+# in author-example.ttl.
+concept:宗教状態-俗 a skos:Concept ;
+    skos:inScheme scheme:宗教状態 ;
+    skos:prefLabel "俗"@ja .
