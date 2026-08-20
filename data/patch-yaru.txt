@@ -1,0 +1,51 @@
+## PATCH: やる【破る・遣る】split into 2 -- 破る「破る」vs 遣る「送る・行かせる」
+
+底本核实(全8代集)：破る恒为A00=BG-02-1571"破壊・切断"(仅2次)、遣る
+恒为A00=BG-02-1521"移動・発着"(167次，+A10=3770次选)，两者WLSP
+大类完全不同，是完全不同的两个动词被合并进同一个entry。
+
+已核实(限4部)：合并entry目前102处occurrence，逐条比对底本 = 破る2
+(gosen-1143-1, gosen-1143-4)+遣る100，完全对应，两个sense都是真实
+使用、无幽灵。
+
+无复合词引用，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:やる【破る・遣る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "やる"@ja-Hira, "破る"@ja, "遣る"@ja ] ;
+    ontolex:sense lex:破る-BG-02-1571-07-0201, lex:遣る-BG-02-1521-05-0101 .
+
+NEW（拆成2个entry）:
+lex:やる【破る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "やる"@ja-Hira, "破る"@ja ] ;
+    ontolex:sense lex:破る-BG-02-1571-07-0201 .
+
+lex:やる【遣る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "やる"@ja-Hira, "遣る"@ja ] ;
+    ontolex:sense lex:遣る-BG-02-1521-05-0101 .
+
+-- 破る-BG-02-1571-07-0201 的 isSenseOf 改指 やる【破る】
+-- 遣る-BG-02-1521-05-0101 的 isSenseOf 改指 やる【遣る】
+
+### occurrence-batch.ttl
+
+2处 waka:instantiates 从 lex:やる【破る・遣る】 改成 lex:やる【破る】：
+  occ:gosen-1143-1, occ:gosen-1143-4
+
+100处 waka:instantiates 从 lex:やる【破る・遣る】 改成 lex:やる【遣る】：
+  occ:kokin-13-17, occ:kokin-136-7, occ:kokin-373-21, occ:kokin-388-2, occ:kokin-488-11, occ:kokin-524-2, occ:kokin-570-14, occ:kokin-692-9, occ:kokin-980-2, occ:kokin-1087-13, occ:kokin-1089-7, occ:kokin-1098-19, occ:gosen-9-9, occ:gosen-13-14, occ:gosen-266-15, occ:gosen-516-2, occ:gosen-559-2, occ:gosen-603-13, occ:gosen-678-2, occ:gosen-879-14, occ:gosen-930-11, occ:gosen-938-19, occ:gosen-980-5, occ:gosen-1104-17, occ:gosen-1286-2, occ:gosen-1287-15, occ:gosen-1306-2, occ:gosen-1307-15, occ:gosen-1330-3, occ:gosen-1343-11, occ:gosen-1407-17, occ:gosen-1410-17, occ:shuui-58-2, occ:shuui-106-2, occ:shuui-175-14, occ:shuui-217-10, occ:shuui-230-17, occ:shuui-247-20, occ:shuui-269-17, occ:shuui-311-13, occ:shuui-313-9, occ:shuui-339-8, occ:shuui-353-16, occ:shuui-573-49, occ:shuui-657-15, occ:shuui-670-12, occ:shuui-671-2, occ:shuui-763-6, occ:shuui-817-2, occ:shuui-1025-12, occ:shuui-1040-9, occ:shuui-1041-9, occ:shuui-1077-10, occ:shuui-1105-14, occ:shuui-1137-17, occ:shuui-1241-5, occ:shuui-1242-2, occ:shuui-1303-2, occ:goshuui-17-4, occ:goshuui-26-16, occ:goshuui-28-6, occ:goshuui-66-2, occ:goshuui-86-2, occ:goshuui-87-12, occ:goshuui-97-13, occ:goshuui-145-18, occ:goshuui-184-15, occ:goshuui-227-10, occ:goshuui-277-16, occ:goshuui-286-12, occ:goshuui-312-12, occ:goshuui-404-17, occ:goshuui-413-2, occ:goshuui-444-2, occ:goshuui-448-17, occ:goshuui-451-2, occ:goshuui-469-12, occ:goshuui-533-10, occ:goshuui-549-6, occ:goshuui-552-15, occ:goshuui-561-2, occ:goshuui-587-9, occ:goshuui-596-2, occ:goshuui-605-12, occ:goshuui-722-5, occ:goshuui-725-9, occ:goshuui-726-2, occ:goshuui-731-2, occ:goshuui-755-12, occ:goshuui-785-8, occ:goshuui-787-2, occ:goshuui-889-11, occ:goshuui-964-4, occ:goshuui-972-16, occ:goshuui-1002-16, occ:goshuui-1003-2, occ:goshuui-1038-2, occ:goshuui-1040-2, occ:goshuui-1088-5, occ:goshuui-1112-16
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用やる【破る・遣る】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

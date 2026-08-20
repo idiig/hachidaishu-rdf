@@ -1189,7 +1189,7 @@ occ:kokin-13-16 a waka:TokenOccurrence ;
 occ:kokin-13-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-13 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:kokin-14 waka:hasOccurrence occ:kokin-14-1, occ:kokin-14-2, occ:kokin-14-3, occ:kokin-14-4, occ:kokin-14-5, occ:kokin-14-6, occ:kokin-14-7, occ:kokin-14-8, occ:kokin-14-9, occ:kokin-14-10, occ:kokin-14-11, occ:kokin-14-12, occ:kokin-14-13, occ:kokin-14-14, occ:kokin-14-15, occ:kokin-14-16 .
 
@@ -11760,7 +11760,7 @@ occ:kokin-136-6 a waka:TokenOccurrence ;
 occ:kokin-136-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-136 ;
     waka:position 7 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-136-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-136 ;
@@ -31549,7 +31549,7 @@ occ:kokin-373-20 a waka:TokenOccurrence ;
 occ:kokin-373-21 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-373 ;
     waka:position 21 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:kokin-374 waka:hasOccurrence occ:kokin-374-1, occ:kokin-374-2, occ:kokin-374-3, occ:kokin-374-4, occ:kokin-374-5, occ:kokin-374-6, occ:kokin-374-7, occ:kokin-374-8, occ:kokin-374-9, occ:kokin-374-10, occ:kokin-374-11, occ:kokin-374-12, occ:kokin-374-13, occ:kokin-374-14, occ:kokin-374-15 .
 
@@ -32714,7 +32714,7 @@ occ:kokin-388-1 a waka:TokenOccurrence ;
 occ:kokin-388-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-388 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-388-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-388 ;
@@ -41329,7 +41329,7 @@ occ:kokin-488-10 a waka:TokenOccurrence ;
 occ:kokin-488-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-488 ;
     waka:position 11 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-488-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-488 ;
@@ -44421,7 +44421,7 @@ occ:kokin-524-1 a waka:TokenOccurrence ;
 occ:kokin-524-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-524 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-524-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-524 ;
@@ -48478,7 +48478,7 @@ occ:kokin-570-13 a waka:TokenOccurrence ;
 occ:kokin-570-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-570 ;
     waka:position 14 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-570-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-570 ;
@@ -59092,7 +59092,7 @@ occ:kokin-692-8 a waka:TokenOccurrence ;
 occ:kokin-692-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-692 ;
     waka:position 9 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-692-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-692 ;
@@ -84193,7 +84193,7 @@ occ:kokin-980-1 a waka:TokenOccurrence ;
 occ:kokin-980-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-980 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-980-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-980 ;
@@ -97047,7 +97047,7 @@ occ:kokin-1087-12 a waka:TokenOccurrence ;
 occ:kokin-1087-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1087 ;
     waka:position 13 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-1087-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1087 ;
@@ -97186,7 +97186,7 @@ occ:kokin-1089-6 a waka:TokenOccurrence ;
 occ:kokin-1089-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1089 ;
     waka:position 7 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-1089-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1089 ;
@@ -97994,7 +97994,7 @@ occ:kokin-1098-18 a waka:TokenOccurrence ;
 occ:kokin-1098-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1098 ;
     waka:position 19 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:kokin-1098-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1098 ;
@@ -99818,7 +99818,7 @@ occ:gosen-9-8 a waka:TokenOccurrence ;
 occ:gosen-9-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-9 ;
     waka:position 9 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-9-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-9 ;
@@ -100211,7 +100211,7 @@ occ:gosen-13-13 a waka:TokenOccurrence ;
 occ:gosen-13-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-13 ;
     waka:position 14 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-13-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-13 ;
@@ -121622,7 +121622,7 @@ occ:gosen-266-14 a waka:TokenOccurrence ;
 occ:gosen-266-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-266 ;
     waka:position 15 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-266-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-266 ;
@@ -142527,7 +142527,7 @@ occ:gosen-516-1 a waka:TokenOccurrence ;
 occ:gosen-516-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-516 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-516-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-516 ;
@@ -146198,7 +146198,7 @@ occ:gosen-559-1 a waka:TokenOccurrence ;
 occ:gosen-559-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-559 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-559-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-559 ;
@@ -150006,7 +150006,7 @@ occ:gosen-603-12 a waka:TokenOccurrence ;
 occ:gosen-603-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-603 ;
     waka:position 13 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-603-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-603 ;
@@ -156426,7 +156426,7 @@ occ:gosen-678-1 a waka:TokenOccurrence ;
 occ:gosen-678-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-678 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-678-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-678 ;
@@ -173668,7 +173668,7 @@ occ:gosen-879-13 a waka:TokenOccurrence ;
 occ:gosen-879-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-879 ;
     waka:position 14 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-879-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-879 ;
@@ -178075,7 +178075,7 @@ occ:gosen-930-10 a waka:TokenOccurrence ;
 occ:gosen-930-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-930 ;
     waka:position 11 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-930-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-930 ;
@@ -178826,7 +178826,7 @@ occ:gosen-938-18 a waka:TokenOccurrence ;
 occ:gosen-938-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-938 ;
     waka:position 19 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-938-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-938 ;
@@ -182385,7 +182385,7 @@ occ:gosen-980-4 a waka:TokenOccurrence ;
 occ:gosen-980-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-980 ;
     waka:position 5 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-980-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-980 ;
@@ -193078,7 +193078,7 @@ occ:gosen-1104-16 a waka:TokenOccurrence ;
 occ:gosen-1104-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1104 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1104-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1104 ;
@@ -196401,7 +196401,7 @@ wakaid:gosen-1143 waka:hasOccurrence occ:gosen-1143-1, occ:gosen-1143-2, occ:gos
 occ:gosen-1143-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1143 ;
     waka:position 1 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【破る】 .
 
 occ:gosen-1143-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1143 ;
@@ -196416,7 +196416,7 @@ occ:gosen-1143-3 a waka:TokenOccurrence ;
 occ:gosen-1143-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1143 ;
     waka:position 4 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【破る】 .
 
 occ:gosen-1143-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1143 ;
@@ -208887,7 +208887,7 @@ occ:gosen-1286-1 a waka:TokenOccurrence ;
 occ:gosen-1286-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1286 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1286-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1286 ;
@@ -209034,7 +209034,7 @@ occ:gosen-1287-14 a waka:TokenOccurrence ;
 occ:gosen-1287-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1287 ;
     waka:position 15 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1287-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1287 ;
@@ -210637,7 +210637,7 @@ occ:gosen-1306-1 a waka:TokenOccurrence ;
 occ:gosen-1306-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1306 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1306-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1306 ;
@@ -210774,7 +210774,7 @@ occ:gosen-1307-14 a waka:TokenOccurrence ;
 occ:gosen-1307-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1307 ;
     waka:position 15 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:gosen-1308 waka:hasOccurrence occ:gosen-1308-1, occ:gosen-1308-2, occ:gosen-1308-3, occ:gosen-1308-4, occ:gosen-1308-5, occ:gosen-1308-6, occ:gosen-1308-7, occ:gosen-1308-8, occ:gosen-1308-9, occ:gosen-1308-10, occ:gosen-1308-11, occ:gosen-1308-12, occ:gosen-1308-13, occ:gosen-1308-14, occ:gosen-1308-15, occ:gosen-1308-16, occ:gosen-1308-17 .
 
@@ -212710,7 +212710,7 @@ occ:gosen-1330-2 a waka:TokenOccurrence ;
 occ:gosen-1330-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1330 ;
     waka:position 3 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1330-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1330 ;
@@ -213851,7 +213851,7 @@ occ:gosen-1343-10 a waka:TokenOccurrence ;
 occ:gosen-1343-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1343 ;
     waka:position 11 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1343-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1343 ;
@@ -219449,7 +219449,7 @@ occ:gosen-1407-16 a waka:TokenOccurrence ;
 occ:gosen-1407-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1407 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1407-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1407 ;
@@ -219700,7 +219700,7 @@ occ:gosen-1410-16 a waka:TokenOccurrence ;
 occ:gosen-1410-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1410 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:gosen-1410-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1410 ;
@@ -226011,7 +226011,7 @@ occ:shuui-58-1 a waka:TokenOccurrence ;
 occ:shuui-58-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-58 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-58-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-58 ;
@@ -230027,7 +230027,7 @@ occ:shuui-106-1 a waka:TokenOccurrence ;
 occ:shuui-106-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-106 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-106-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-106 ;
@@ -235715,7 +235715,7 @@ occ:shuui-175-13 a waka:TokenOccurrence ;
 occ:shuui-175-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-175 ;
     waka:position 14 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-175-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-175 ;
@@ -239239,7 +239239,7 @@ occ:shuui-217-9 a waka:TokenOccurrence ;
 occ:shuui-217-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-217 ;
     waka:position 10 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-217-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-217 ;
@@ -240315,7 +240315,7 @@ occ:shuui-230-16 a waka:TokenOccurrence ;
 occ:shuui-230-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-230 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:shuui-231 waka:hasOccurrence occ:shuui-231-1, occ:shuui-231-2, occ:shuui-231-3, occ:shuui-231-4, occ:shuui-231-5, occ:shuui-231-6, occ:shuui-231-7, occ:shuui-231-8, occ:shuui-231-9, occ:shuui-231-10, occ:shuui-231-11, occ:shuui-231-12, occ:shuui-231-13, occ:shuui-231-14 .
 
@@ -241754,7 +241754,7 @@ occ:shuui-247-19 a waka:TokenOccurrence ;
 occ:shuui-247-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-247 ;
     waka:position 20 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-247-21 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-247 ;
@@ -243608,7 +243608,7 @@ occ:shuui-269-16 a waka:TokenOccurrence ;
 occ:shuui-269-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-269 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:shuui-270 waka:hasOccurrence occ:shuui-270-1, occ:shuui-270-2, occ:shuui-270-3, occ:shuui-270-4, occ:shuui-270-5, occ:shuui-270-6, occ:shuui-270-7, occ:shuui-270-8, occ:shuui-270-9, occ:shuui-270-10, occ:shuui-270-11, occ:shuui-270-12, occ:shuui-270-13, occ:shuui-270-14, occ:shuui-270-15, occ:shuui-270-16, occ:shuui-270-17 .
 
@@ -247157,7 +247157,7 @@ occ:shuui-311-12 a waka:TokenOccurrence ;
 occ:shuui-311-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-311 ;
     waka:position 13 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-311-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-311 ;
@@ -247301,7 +247301,7 @@ occ:shuui-313-8 a waka:TokenOccurrence ;
 occ:shuui-313-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-313 ;
     waka:position 9 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-313-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-313 ;
@@ -249348,7 +249348,7 @@ occ:shuui-339-7 a waka:TokenOccurrence ;
 occ:shuui-339-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-339 ;
     waka:position 8 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-339-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-339 ;
@@ -250561,7 +250561,7 @@ occ:shuui-353-15 a waka:TokenOccurrence ;
 occ:shuui-353-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-353 ;
     waka:position 16 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-353-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-353 ;
@@ -272011,7 +272011,7 @@ occ:shuui-573-48 a waka:TokenOccurrence ;
 occ:shuui-573-49 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
     waka:position 49 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-573-50 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
@@ -281254,7 +281254,7 @@ occ:shuui-657-14 a waka:TokenOccurrence ;
 occ:shuui-657-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-657 ;
     waka:position 15 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-657-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-657 ;
@@ -282325,7 +282325,7 @@ occ:shuui-670-11 a waka:TokenOccurrence ;
 occ:shuui-670-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-670 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-670-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-670 ;
@@ -282362,7 +282362,7 @@ occ:shuui-671-1 a waka:TokenOccurrence ;
 occ:shuui-671-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-671 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-671-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-671 ;
@@ -290391,7 +290391,7 @@ occ:shuui-763-5 a waka:TokenOccurrence ;
 occ:shuui-763-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-763 ;
     waka:position 6 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-763-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-763 ;
@@ -295059,7 +295059,7 @@ occ:shuui-817-1 a waka:TokenOccurrence ;
 occ:shuui-817-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-817 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-817-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-817 ;
@@ -312710,7 +312710,7 @@ occ:shuui-1025-11 a waka:TokenOccurrence ;
 occ:shuui-1025-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1025 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1025-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1025 ;
@@ -313975,7 +313975,7 @@ occ:shuui-1040-8 a waka:TokenOccurrence ;
 occ:shuui-1040-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1040 ;
     waka:position 9 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1040-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1040 ;
@@ -314052,7 +314052,7 @@ occ:shuui-1041-8 a waka:TokenOccurrence ;
 occ:shuui-1041-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1041 ;
     waka:position 9 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1041-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1041 ;
@@ -316979,7 +316979,7 @@ occ:shuui-1077-9 a waka:TokenOccurrence ;
 occ:shuui-1077-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1077 ;
     waka:position 10 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1077-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1077 ;
@@ -319280,7 +319280,7 @@ occ:shuui-1105-13 a waka:TokenOccurrence ;
 occ:shuui-1105-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1105 ;
     waka:position 14 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:shuui-1106 waka:hasOccurrence occ:shuui-1106-1, occ:shuui-1106-2, occ:shuui-1106-3, occ:shuui-1106-4, occ:shuui-1106-5, occ:shuui-1106-6, occ:shuui-1106-7, occ:shuui-1106-8, occ:shuui-1106-9, occ:shuui-1106-10, occ:shuui-1106-11, occ:shuui-1106-12, occ:shuui-1106-13, occ:shuui-1106-14 .
 
@@ -322029,7 +322029,7 @@ occ:shuui-1137-16 a waka:TokenOccurrence ;
 occ:shuui-1137-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1137 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1137-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1137 ;
@@ -330903,7 +330903,7 @@ occ:shuui-1241-4 a waka:TokenOccurrence ;
 occ:shuui-1241-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1241 ;
     waka:position 5 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1241-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1241 ;
@@ -330975,7 +330975,7 @@ occ:shuui-1242-1 a waka:TokenOccurrence ;
 occ:shuui-1242-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1242 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1242-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1242 ;
@@ -336082,7 +336082,7 @@ occ:shuui-1303-1 a waka:TokenOccurrence ;
 occ:shuui-1303-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1303 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:shuui-1303-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1303 ;
@@ -341647,7 +341647,7 @@ occ:goshuui-17-3 a waka:TokenOccurrence ;
 occ:goshuui-17-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-17 ;
     waka:position 4 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-17-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-17 ;
@@ -342475,7 +342475,7 @@ occ:goshuui-26-15 a waka:TokenOccurrence ;
 occ:goshuui-26-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-26 ;
     waka:position 16 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-26-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-26 ;
@@ -342624,7 +342624,7 @@ occ:goshuui-28-5 a waka:TokenOccurrence ;
 occ:goshuui-28-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-28 ;
     waka:position 6 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-28-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-28 ;
@@ -345870,7 +345870,7 @@ occ:goshuui-66-1 a waka:TokenOccurrence ;
 occ:goshuui-66-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-66 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-66-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-66 ;
@@ -347455,7 +347455,7 @@ occ:goshuui-86-1 a waka:TokenOccurrence ;
 occ:goshuui-86-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-86 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-86-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-86 ;
@@ -347572,7 +347572,7 @@ occ:goshuui-87-11 a waka:TokenOccurrence ;
 occ:goshuui-87-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-87 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-88 waka:hasOccurrence occ:goshuui-88-1, occ:goshuui-88-2, occ:goshuui-88-3, occ:goshuui-88-4, occ:goshuui-88-5, occ:goshuui-88-6, occ:goshuui-88-7, occ:goshuui-88-8, occ:goshuui-88-9, occ:goshuui-88-10, occ:goshuui-88-11, occ:goshuui-88-12, occ:goshuui-88-13, occ:goshuui-88-14, occ:goshuui-88-15, occ:goshuui-88-16, occ:goshuui-88-17 .
 
@@ -348367,7 +348367,7 @@ occ:goshuui-97-12 a waka:TokenOccurrence ;
 occ:goshuui-97-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-97 ;
     waka:position 13 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-97-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-97 ;
@@ -352473,7 +352473,7 @@ occ:goshuui-145-17 a waka:TokenOccurrence ;
 occ:goshuui-145-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-145 ;
     waka:position 18 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-146 waka:hasOccurrence occ:goshuui-146-1, occ:goshuui-146-2, occ:goshuui-146-3, occ:goshuui-146-4, occ:goshuui-146-5, occ:goshuui-146-6, occ:goshuui-146-7, occ:goshuui-146-8, occ:goshuui-146-9, occ:goshuui-146-10, occ:goshuui-146-11, occ:goshuui-146-12, occ:goshuui-146-13, occ:goshuui-146-14, occ:goshuui-146-15, occ:goshuui-146-16, occ:goshuui-146-17, occ:goshuui-146-18 .
 
@@ -355621,7 +355621,7 @@ occ:goshuui-184-14 a waka:TokenOccurrence ;
 occ:goshuui-184-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-184 ;
     waka:position 15 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-184-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-184 ;
@@ -359077,7 +359077,7 @@ occ:goshuui-227-9 a waka:TokenOccurrence ;
 occ:goshuui-227-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-227 ;
     waka:position 10 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-227-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-227 ;
@@ -363352,7 +363352,7 @@ occ:goshuui-277-15 a waka:TokenOccurrence ;
 occ:goshuui-277-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-277 ;
     waka:position 16 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-278 waka:hasOccurrence occ:goshuui-278-1, occ:goshuui-278-2, occ:goshuui-278-3, occ:goshuui-278-4, occ:goshuui-278-5, occ:goshuui-278-6, occ:goshuui-278-7, occ:goshuui-278-8, occ:goshuui-278-9, occ:goshuui-278-10, occ:goshuui-278-11, occ:goshuui-278-12, occ:goshuui-278-13, occ:goshuui-278-14, occ:goshuui-278-15 .
 
@@ -364120,7 +364120,7 @@ occ:goshuui-286-11 a waka:TokenOccurrence ;
 occ:goshuui-286-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-286 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-286-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-286 ;
@@ -366367,7 +366367,7 @@ occ:goshuui-312-11 a waka:TokenOccurrence ;
 occ:goshuui-312-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-312 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-312-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-312 ;
@@ -374051,7 +374051,7 @@ occ:goshuui-404-16 a waka:TokenOccurrence ;
 occ:goshuui-404-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-404 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-405 waka:hasOccurrence occ:goshuui-405-1, occ:goshuui-405-2, occ:goshuui-405-3, occ:goshuui-405-4, occ:goshuui-405-5, occ:goshuui-405-6, occ:goshuui-405-7, occ:goshuui-405-8, occ:goshuui-405-9, occ:goshuui-405-10, occ:goshuui-405-11, occ:goshuui-405-12, occ:goshuui-405-13, occ:goshuui-405-14, occ:goshuui-405-15, occ:goshuui-405-16, occ:goshuui-405-17 .
 
@@ -374739,7 +374739,7 @@ occ:goshuui-413-1 a waka:TokenOccurrence ;
 occ:goshuui-413-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-413 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-413-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-413 ;
@@ -377326,7 +377326,7 @@ occ:goshuui-444-1 a waka:TokenOccurrence ;
 occ:goshuui-444-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-444 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-444-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-444 ;
@@ -377749,7 +377749,7 @@ occ:goshuui-448-16 a waka:TokenOccurrence ;
 occ:goshuui-448-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-448 ;
     waka:position 17 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-449 waka:hasOccurrence occ:goshuui-449-1, occ:goshuui-449-2, occ:goshuui-449-3, occ:goshuui-449-4, occ:goshuui-449-5, occ:goshuui-449-6, occ:goshuui-449-7, occ:goshuui-449-8, occ:goshuui-449-9, occ:goshuui-449-10, occ:goshuui-449-11, occ:goshuui-449-12, occ:goshuui-449-13, occ:goshuui-449-14, occ:goshuui-449-15, occ:goshuui-449-16 .
 
@@ -377930,7 +377930,7 @@ occ:goshuui-451-1 a waka:TokenOccurrence ;
 occ:goshuui-451-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-451 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-451-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-451 ;
@@ -379436,7 +379436,7 @@ occ:goshuui-469-11 a waka:TokenOccurrence ;
 occ:goshuui-469-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-469 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-469-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-469 ;
@@ -384734,7 +384734,7 @@ occ:goshuui-533-9 a waka:TokenOccurrence ;
 occ:goshuui-533-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-533 ;
     waka:position 10 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-533-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-533 ;
@@ -386046,7 +386046,7 @@ occ:goshuui-549-5 a waka:TokenOccurrence ;
 occ:goshuui-549-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-549 ;
     waka:position 6 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-549-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-549 ;
@@ -386342,7 +386342,7 @@ occ:goshuui-552-14 a waka:TokenOccurrence ;
 occ:goshuui-552-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-552 ;
     waka:position 15 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-553 waka:hasOccurrence occ:goshuui-553-1, occ:goshuui-553-2, occ:goshuui-553-3, occ:goshuui-553-4, occ:goshuui-553-5, occ:goshuui-553-6, occ:goshuui-553-7, occ:goshuui-553-8, occ:goshuui-553-9, occ:goshuui-553-10, occ:goshuui-553-11, occ:goshuui-553-12, occ:goshuui-553-13, occ:goshuui-553-14, occ:goshuui-553-15, occ:goshuui-553-16, occ:goshuui-553-17 .
 
@@ -387025,7 +387025,7 @@ occ:goshuui-561-1 a waka:TokenOccurrence ;
 occ:goshuui-561-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-561 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-561-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-561 ;
@@ -389367,7 +389367,7 @@ occ:goshuui-587-8 a waka:TokenOccurrence ;
 occ:goshuui-587-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-587 ;
     waka:position 9 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-587-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-587 ;
@@ -390090,7 +390090,7 @@ occ:goshuui-596-1 a waka:TokenOccurrence ;
 occ:goshuui-596-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-596 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-596-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-596 ;
@@ -390893,7 +390893,7 @@ occ:goshuui-605-11 a waka:TokenOccurrence ;
 occ:goshuui-605-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-605 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-605-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-605 ;
@@ -400702,7 +400702,7 @@ occ:goshuui-722-4 a waka:TokenOccurrence ;
 occ:goshuui-722-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-722 ;
     waka:position 5 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-722-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-722 ;
@@ -400958,7 +400958,7 @@ occ:goshuui-725-8 a waka:TokenOccurrence ;
 occ:goshuui-725-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-725 ;
     waka:position 9 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-725-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-725 ;
@@ -401005,7 +401005,7 @@ occ:goshuui-726-1 a waka:TokenOccurrence ;
 occ:goshuui-726-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-726 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-726-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-726 ;
@@ -401410,7 +401410,7 @@ occ:goshuui-731-1 a waka:TokenOccurrence ;
 occ:goshuui-731-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-731 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-731-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-731 ;
@@ -403483,7 +403483,7 @@ occ:goshuui-755-11 a waka:TokenOccurrence ;
 occ:goshuui-755-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-755 ;
     waka:position 12 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-755-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-755 ;
@@ -406038,7 +406038,7 @@ occ:goshuui-785-7 a waka:TokenOccurrence ;
 occ:goshuui-785-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-785 ;
     waka:position 8 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-785-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-785 ;
@@ -406167,7 +406167,7 @@ occ:goshuui-787-1 a waka:TokenOccurrence ;
 occ:goshuui-787-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-787 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-787-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-787 ;
@@ -414871,7 +414871,7 @@ occ:goshuui-889-10 a waka:TokenOccurrence ;
 occ:goshuui-889-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-889 ;
     waka:position 11 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-889-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-889 ;
@@ -421316,7 +421316,7 @@ occ:goshuui-964-3 a waka:TokenOccurrence ;
 occ:goshuui-964-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-964 ;
     waka:position 4 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-964-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-964 ;
@@ -422027,7 +422027,7 @@ occ:goshuui-972-15 a waka:TokenOccurrence ;
 occ:goshuui-972-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-972 ;
     waka:position 16 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-973 waka:hasOccurrence occ:goshuui-973-1, occ:goshuui-973-2, occ:goshuui-973-3, occ:goshuui-973-4, occ:goshuui-973-5, occ:goshuui-973-6, occ:goshuui-973-7, occ:goshuui-973-8, occ:goshuui-973-9, occ:goshuui-973-10, occ:goshuui-973-11, occ:goshuui-973-12, occ:goshuui-973-13, occ:goshuui-973-14, occ:goshuui-973-15, occ:goshuui-973-16, occ:goshuui-973-17 .
 
@@ -424512,7 +424512,7 @@ occ:goshuui-1002-15 a waka:TokenOccurrence ;
 occ:goshuui-1002-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1002 ;
     waka:position 16 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-1002-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1002 ;
@@ -424529,7 +424529,7 @@ occ:goshuui-1003-1 a waka:TokenOccurrence ;
 occ:goshuui-1003-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1003 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-1003-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1003 ;
@@ -427554,7 +427554,7 @@ occ:goshuui-1038-1 a waka:TokenOccurrence ;
 occ:goshuui-1038-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1038 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-1038-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1038 ;
@@ -427708,7 +427708,7 @@ occ:goshuui-1040-1 a waka:TokenOccurrence ;
 occ:goshuui-1040-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1040 ;
     waka:position 2 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-1040-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1040 ;
@@ -431799,7 +431799,7 @@ occ:goshuui-1088-4 a waka:TokenOccurrence ;
 occ:goshuui-1088-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1088 ;
     waka:position 5 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 occ:goshuui-1088-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1088 ;
@@ -433852,7 +433852,7 @@ occ:goshuui-1112-15 a waka:TokenOccurrence ;
 occ:goshuui-1112-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1112 ;
     waka:position 16 ;
-    waka:instantiates lex:やる【破る・遣る】 .
+    waka:instantiates lex:やる【遣る】 .
 
 wakaid:goshuui-1113 waka:hasOccurrence occ:goshuui-1113-1, occ:goshuui-1113-2, occ:goshuui-1113-3, occ:goshuui-1113-4, occ:goshuui-1113-5, occ:goshuui-1113-6, occ:goshuui-1113-7, occ:goshuui-1113-8, occ:goshuui-1113-9, occ:goshuui-1113-10, occ:goshuui-1113-11, occ:goshuui-1113-12, occ:goshuui-1113-13, occ:goshuui-1113-14, occ:goshuui-1113-15, occ:goshuui-1113-16 .
 

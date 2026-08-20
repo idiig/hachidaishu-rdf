@@ -18653,13 +18653,13 @@ lex:やりみづ【遣水】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やりみづ"@ja-Hira, "遣水"@ja ] ;
     ontolex:sense lex:遣水-BG-01-4720-03-0203 .
 
-lex:やる【破る・遣る】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "やる"@ja-Hira, "破る"@ja, "遣る"@ja ] ;
-    ontolex:sense lex:破る-BG-02-1571-07-0201, lex:遣る-BG-02-1521-05-0101 .
+lex:やる【破る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "やる"@ja-Hira, "破る"@ja ] ;
+    ontolex:sense lex:破る-BG-02-1571-07-0201 .
 
 lex:やる【遣る】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やる"@ja-Hira, "遣る"@ja ] ;
-    ontolex:sense lex:遣る-BG-02-3770-05-0100 .
+    ontolex:sense lex:遣る-BG-02-1521-05-0101, lex:遣る-BG-02-3770-05-0100 .
 
 lex:やをとめ【八少女】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やをとめ"@ja-Hira, "八少女"@ja ] ;
@@ -36738,7 +36738,7 @@ lex:破る-BG-02-1571-07-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1571 .
 
 lex:破る-BG-02-1571-07-0201 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:やる【破る・遣る】 ;
+    ontolex:isSenseOf lex:やる【破る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1571 .
 
@@ -41615,7 +41615,7 @@ lex:遣ふ-BG-02-3852-02-0103 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3852 .
 
 lex:遣る-BG-02-1521-05-0101 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:やる【破る・遣る】 ;
+    ontolex:isSenseOf lex:やる【遣る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1521 .
 
