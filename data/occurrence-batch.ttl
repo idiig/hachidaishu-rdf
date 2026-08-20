@@ -279,7 +279,7 @@ occ:kokin-3-13 a waka:TokenOccurrence ;
 occ:kokin-3-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-3 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-3-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-3 ;
@@ -463,7 +463,7 @@ occ:kokin-5-16 a waka:TokenOccurrence ;
 occ:kokin-5-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-5 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-5-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-5 ;
@@ -786,7 +786,7 @@ occ:kokin-9-9 a waka:TokenOccurrence ;
 occ:kokin-9-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-9 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-9-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-9 ;
@@ -1728,7 +1728,7 @@ occ:kokin-20-5 a waka:TokenOccurrence ;
 occ:kokin-20-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-20 ;
     waka:position 6 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-20-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-20 ;
@@ -1743,7 +1743,7 @@ occ:kokin-20-8 a waka:TokenOccurrence ;
 occ:kokin-20-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-20 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-20-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-20 ;
@@ -1860,7 +1860,7 @@ occ:kokin-21-17 a waka:TokenOccurrence ;
 occ:kokin-21-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-21 ;
     waka:position 18 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-21-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-21 ;
@@ -1917,7 +1917,7 @@ occ:kokin-22-9 a waka:TokenOccurrence ;
 occ:kokin-22-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-22 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:kokin-22-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-22 ;
@@ -2133,7 +2133,7 @@ occ:kokin-25-6 a waka:TokenOccurrence ;
 occ:kokin-25-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-25 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-25-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-25 ;
@@ -2784,7 +2784,7 @@ occ:kokin-33-11 a waka:TokenOccurrence ;
 occ:kokin-33-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-33 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:kokin-33-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-33 ;
@@ -5409,7 +5409,7 @@ occ:kokin-63-9 a waka:TokenOccurrence ;
 occ:kokin-63-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-63 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-63-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-63 ;
@@ -6068,7 +6068,7 @@ occ:kokin-70-16 a waka:TokenOccurrence ;
 occ:kokin-70-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-70 ;
     waka:position 17 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【増す】 .
 
 occ:kokin-70-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-70 ;
@@ -6463,7 +6463,7 @@ occ:kokin-75-10 a waka:TokenOccurrence ;
 occ:kokin-75-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-75 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-75-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-75 ;
@@ -7355,7 +7355,7 @@ occ:kokin-86-3 a waka:TokenOccurrence ;
 occ:kokin-86-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-86 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-86-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-86 ;
@@ -7514,7 +7514,7 @@ occ:kokin-88-2 a waka:TokenOccurrence ;
 occ:kokin-88-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-88 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-88-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-88 ;
@@ -9175,7 +9175,7 @@ occ:kokin-106-15 a waka:TokenOccurrence ;
 occ:kokin-106-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-106 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:kokin-106-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-106 ;
@@ -11872,7 +11872,7 @@ occ:kokin-137-11 a waka:TokenOccurrence ;
 occ:kokin-137-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-137 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-137-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-137 ;
@@ -12664,7 +12664,7 @@ occ:kokin-148-9 a waka:TokenOccurrence ;
 occ:kokin-148-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-148 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:kokin-148-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-148 ;
@@ -13449,7 +13449,7 @@ occ:kokin-158-9 a waka:TokenOccurrence ;
 occ:kokin-158-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-158 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:kokin-158-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-158 ;
@@ -21364,7 +21364,7 @@ occ:kokin-253-4 a waka:TokenOccurrence ;
 occ:kokin-253-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-253 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-253-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-253 ;
@@ -22000,7 +22000,7 @@ occ:kokin-261-1 a waka:TokenOccurrence ;
 occ:kokin-261-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-261 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-261-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-261 ;
@@ -22169,7 +22169,7 @@ occ:kokin-263-1 a waka:TokenOccurrence ;
 occ:kokin-263-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-263 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-263-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-263 ;
@@ -24021,7 +24021,7 @@ occ:kokin-284-10 a waka:TokenOccurrence ;
 occ:kokin-284-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-284 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-284-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-284 ;
@@ -24227,7 +24227,7 @@ occ:kokin-287-8 a waka:TokenOccurrence ;
 occ:kokin-287-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-287 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-287-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-287 ;
@@ -24329,7 +24329,7 @@ occ:kokin-288-9 a waka:TokenOccurrence ;
 occ:kokin-288-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-288 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-288-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-288 ;
@@ -25753,7 +25753,7 @@ occ:kokin-305-11 a waka:TokenOccurrence ;
 occ:kokin-305-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-305 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-305-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-305 ;
@@ -26802,7 +26802,7 @@ occ:kokin-317-12 a waka:TokenOccurrence ;
 occ:kokin-317-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-317 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-317-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-317 ;
@@ -26839,7 +26839,7 @@ occ:kokin-318-5 a waka:TokenOccurrence ;
 occ:kokin-318-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-318 ;
     waka:position 6 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-318-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-318 ;
@@ -26884,7 +26884,7 @@ occ:kokin-318-14 a waka:TokenOccurrence ;
 occ:kokin-318-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-318 ;
     waka:position 15 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-318-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-318 ;
@@ -26901,7 +26901,7 @@ wakaid:kokin-319 waka:hasOccurrence occ:kokin-319-1, occ:kokin-319-2, occ:kokin-
 occ:kokin-319-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-319 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-319-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-319 ;
@@ -27120,7 +27120,7 @@ occ:kokin-321-11 a waka:TokenOccurrence ;
 occ:kokin-321-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-321 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-321-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-321 ;
@@ -27172,7 +27172,7 @@ occ:kokin-322-5 a waka:TokenOccurrence ;
 occ:kokin-322-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-322 ;
     waka:position 6 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-322-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-322 ;
@@ -27249,7 +27249,7 @@ occ:kokin-323-1 a waka:TokenOccurrence ;
 occ:kokin-323-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-323 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-323-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-323 ;
@@ -27376,7 +27376,7 @@ occ:kokin-324-6 a waka:TokenOccurrence ;
 occ:kokin-324-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-324 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-324-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-324 ;
@@ -27505,7 +27505,7 @@ occ:kokin-326-2 a waka:TokenOccurrence ;
 occ:kokin-326-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-326 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-326-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-326 ;
@@ -27664,7 +27664,7 @@ occ:kokin-328-2 a waka:TokenOccurrence ;
 occ:kokin-328-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-328 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-328-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-328 ;
@@ -27736,7 +27736,7 @@ occ:kokin-329-1 a waka:TokenOccurrence ;
 occ:kokin-329-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-329 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-329-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-329 ;
@@ -27985,7 +27985,7 @@ occ:kokin-331-16 a waka:TokenOccurrence ;
 occ:kokin-331-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-331 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-331-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-331 ;
@@ -28057,7 +28057,7 @@ occ:kokin-332-12 a waka:TokenOccurrence ;
 occ:kokin-332-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-332 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-332-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-332 ;
@@ -28109,7 +28109,7 @@ occ:kokin-333-7 a waka:TokenOccurrence ;
 occ:kokin-333-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-333 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-333-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-333 ;
@@ -28241,7 +28241,7 @@ occ:kokin-334-15 a waka:TokenOccurrence ;
 occ:kokin-334-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-334 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-334-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-334 ;
@@ -28380,7 +28380,7 @@ occ:kokin-336-4 a waka:TokenOccurrence ;
 occ:kokin-336-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-336 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-336-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-336 ;
@@ -28462,7 +28462,7 @@ occ:kokin-337-1 a waka:TokenOccurrence ;
 occ:kokin-337-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-337 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-337-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-337 ;
@@ -28731,7 +28731,7 @@ occ:kokin-339-15 a waka:TokenOccurrence ;
 occ:kokin-339-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-339 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-339-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-339 ;
@@ -28753,7 +28753,7 @@ occ:kokin-340-1 a waka:TokenOccurrence ;
 occ:kokin-340-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-340 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-340-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-340 ;
@@ -30654,7 +30654,7 @@ occ:kokin-363-2 a waka:TokenOccurrence ;
 occ:kokin-363-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-363 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-363-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-363 ;
@@ -33982,7 +33982,7 @@ occ:kokin-402-4 a waka:TokenOccurrence ;
 occ:kokin-402-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-402 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-402-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-402 ;
@@ -34295,7 +34295,7 @@ occ:kokin-406-1 a waka:TokenOccurrence ;
 occ:kokin-406-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-406 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:kokin-406-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-406 ;
@@ -37205,7 +37205,7 @@ wakaid:kokin-441 waka:hasOccurrence occ:kokin-441-1, occ:kokin-441-2, occ:kokin-
 occ:kokin-441-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-441 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:kokin-441-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-441 ;
@@ -38988,7 +38988,7 @@ occ:kokin-460-12 a waka:TokenOccurrence ;
 occ:kokin-460-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-460 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-460-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-460 ;
@@ -40074,7 +40074,7 @@ occ:kokin-473-13 a waka:TokenOccurrence ;
 occ:kokin-473-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-473 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-473-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-473 ;
@@ -46760,7 +46760,7 @@ occ:kokin-551-6 a waka:TokenOccurrence ;
 occ:kokin-551-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-551 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-551-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-551 ;
@@ -48050,7 +48050,7 @@ occ:kokin-566-2 a waka:TokenOccurrence ;
 occ:kokin-566-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-566 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-566-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-566 ;
@@ -49892,7 +49892,7 @@ occ:kokin-587-6 a waka:TokenOccurrence ;
 occ:kokin-587-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-587 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-587-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-587 ;
@@ -50814,7 +50814,7 @@ occ:kokin-598-2 a waka:TokenOccurrence ;
 occ:kokin-598-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-598 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:kokin-598-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-598 ;
@@ -51403,7 +51403,7 @@ occ:kokin-605-2 a waka:TokenOccurrence ;
 occ:kokin-605-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-605 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:kokin-605-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-605 ;
@@ -52795,7 +52795,7 @@ occ:kokin-621-4 a waka:TokenOccurrence ;
 occ:kokin-621-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-621 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-621-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-621 ;
@@ -60238,7 +60238,7 @@ occ:kokin-705-12 a waka:TokenOccurrence ;
 occ:kokin-705-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-705 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-705-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-705 ;
@@ -62450,7 +62450,7 @@ occ:kokin-731-9 a waka:TokenOccurrence ;
 occ:kokin-731-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-731 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-731-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-731 ;
@@ -65219,7 +65219,7 @@ occ:kokin-763-7 a waka:TokenOccurrence ;
 occ:kokin-763-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-763 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-763-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-763 ;
@@ -66293,7 +66293,7 @@ occ:kokin-775-12 a waka:TokenOccurrence ;
 occ:kokin-775-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-775 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-775-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-775 ;
@@ -66892,7 +66892,7 @@ occ:kokin-782-8 a waka:TokenOccurrence ;
 occ:kokin-782-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-782 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-782-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-782 ;
@@ -71076,7 +71076,7 @@ occ:kokin-829-4 a waka:TokenOccurrence ;
 occ:kokin-829-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-829 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-829-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-829 ;
@@ -72314,7 +72314,7 @@ occ:kokin-843-17 a waka:TokenOccurrence ;
 occ:kokin-843-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-843 ;
     waka:position 18 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:kokin-844 waka:hasOccurrence occ:kokin-844-1, occ:kokin-844-3, occ:kokin-844-4, occ:kokin-844-5, occ:kokin-844-6, occ:kokin-844-7, occ:kokin-844-8, occ:kokin-844-9, occ:kokin-844-10, occ:kokin-844-11, occ:kokin-844-12, occ:kokin-844-13, occ:kokin-844-14, occ:kokin-844-15, occ:kokin-844-16, occ:kokin-844-17, occ:kokin-844-18 .
 
@@ -76300,7 +76300,7 @@ occ:kokin-891-4 a waka:TokenOccurrence ;
 occ:kokin-891-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-891 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-891-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-891 ;
@@ -77282,7 +77282,7 @@ occ:kokin-902-3 a waka:TokenOccurrence ;
 occ:kokin-902-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-902 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-902-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-902 ;
@@ -81846,7 +81846,7 @@ occ:kokin-954-13 a waka:TokenOccurrence ;
 occ:kokin-954-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-954 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-954-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-954 ;
@@ -85677,7 +85677,7 @@ occ:kokin-997-2 a waka:TokenOccurrence ;
 occ:kokin-997-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-997 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-997-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-997 ;
@@ -86335,7 +86335,7 @@ occ:kokin-1001-68 a waka:TokenOccurrence ;
 occ:kokin-1001-69 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1001 ;
     waka:position 69 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1001-70 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1001 ;
@@ -87197,7 +87197,7 @@ occ:kokin-1002-64 a waka:TokenOccurrence ;
 occ:kokin-1002-65 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
     waka:position 65 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1002-66 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
@@ -87792,7 +87792,7 @@ occ:kokin-1002-183 a waka:TokenOccurrence ;
 occ:kokin-1002-184 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
     waka:position 184 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1002-185 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
@@ -89583,7 +89583,7 @@ occ:kokin-1005-59 a waka:TokenOccurrence ;
 occ:kokin-1005-60 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1005 ;
     waka:position 60 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1005-61 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1005 ;
@@ -95208,7 +95208,7 @@ occ:kokin-1065-8 a waka:TokenOccurrence ;
 occ:kokin-1065-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1065 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1065-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1065 ;
@@ -95643,7 +95643,7 @@ occ:kokin-1070-4 a waka:TokenOccurrence ;
 occ:kokin-1070-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1070 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1070-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1070 ;
@@ -95877,7 +95877,7 @@ occ:kokin-1072-17 a waka:TokenOccurrence ;
 occ:kokin-1072-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1072 ;
     waka:position 18 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1072-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1072 ;
@@ -96207,7 +96207,7 @@ occ:kokin-1077-4 a waka:TokenOccurrence ;
 occ:kokin-1077-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1077 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:kokin-1077-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1077 ;
@@ -97718,7 +97718,7 @@ occ:kokin-1095-17 a waka:TokenOccurrence ;
 occ:kokin-1095-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1095 ;
     waka:position 18 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【増す】 .
 
 occ:kokin-1095-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1095 ;
@@ -99087,7 +99087,7 @@ wakaid:gosen-1 waka:hasOccurrence occ:gosen-1-1, occ:gosen-1-2, occ:gosen-1-3, o
 occ:gosen-1-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1 ;
@@ -100758,7 +100758,7 @@ occ:gosen-19-17 a waka:TokenOccurrence ;
 occ:gosen-19-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-19 ;
     waka:position 18 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:gosen-20 waka:hasOccurrence occ:gosen-20-1, occ:gosen-20-2, occ:gosen-20-3, occ:gosen-20-4, occ:gosen-20-5, occ:gosen-20-6, occ:gosen-20-7, occ:gosen-20-8, occ:gosen-20-9, occ:gosen-20-10, occ:gosen-20-11, occ:gosen-20-12, occ:gosen-20-13, occ:gosen-20-14, occ:gosen-20-15 .
 
@@ -101034,7 +101034,7 @@ occ:gosen-22-19 a waka:TokenOccurrence ;
 occ:gosen-22-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-22 ;
     waka:position 20 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-22-21 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-22 ;
@@ -101894,7 +101894,7 @@ occ:gosen-32-2 a waka:TokenOccurrence ;
 occ:gosen-32-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-32 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-32-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-32 ;
@@ -101986,7 +101986,7 @@ occ:gosen-33-4 a waka:TokenOccurrence ;
 occ:gosen-33-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-33 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-33-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-33 ;
@@ -102630,7 +102630,7 @@ occ:gosen-40-8 a waka:TokenOccurrence ;
 occ:gosen-40-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-40 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-40-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-40 ;
@@ -103010,7 +103010,7 @@ wakaid:gosen-45 waka:hasOccurrence occ:gosen-45-1, occ:gosen-45-2, occ:gosen-45-
 occ:gosen-45-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-45 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-45-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-45 ;
@@ -105473,7 +105473,7 @@ occ:gosen-74-4 a waka:TokenOccurrence ;
 occ:gosen-74-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-74 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-74-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-74 ;
@@ -112386,7 +112386,7 @@ occ:gosen-153-3 a waka:TokenOccurrence ;
 occ:gosen-153-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-153 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-153-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-153 ;
@@ -118474,7 +118474,7 @@ occ:gosen-227-1 a waka:TokenOccurrence ;
 occ:gosen-227-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-227 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-227-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-227 ;
@@ -124204,12 +124204,12 @@ occ:gosen-297-1 a waka:TokenOccurrence ;
 occ:gosen-297-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-297 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-297-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-297 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-297-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-297 ;
@@ -130765,7 +130765,7 @@ occ:gosen-375-1 a waka:TokenOccurrence ;
 occ:gosen-375-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-375 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-375-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-375 ;
@@ -133369,7 +133369,7 @@ occ:gosen-407-8 a waka:TokenOccurrence ;
 occ:gosen-407-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-407 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-407-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-407 ;
@@ -133764,7 +133764,7 @@ occ:gosen-412-2 a waka:TokenOccurrence ;
 occ:gosen-412-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-412 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-412-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-412 ;
@@ -136341,7 +136341,7 @@ occ:gosen-443-1 a waka:TokenOccurrence ;
 occ:gosen-443-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-443 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-443-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-443 ;
@@ -136408,7 +136408,7 @@ occ:gosen-444-1 a waka:TokenOccurrence ;
 occ:gosen-444-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-444 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-444-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-444 ;
@@ -136470,7 +136470,7 @@ occ:gosen-445-1 a waka:TokenOccurrence ;
 occ:gosen-445-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-445 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-445-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-445 ;
@@ -136480,7 +136480,7 @@ occ:gosen-445-3 a waka:TokenOccurrence ;
 occ:gosen-445-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-445 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-445-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-445 ;
@@ -136684,7 +136684,7 @@ occ:gosen-447-10 a waka:TokenOccurrence ;
 occ:gosen-447-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-447 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-447-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-447 ;
@@ -136721,7 +136721,7 @@ occ:gosen-448-4 a waka:TokenOccurrence ;
 occ:gosen-448-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-448 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-448-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-448 ;
@@ -136925,7 +136925,7 @@ occ:gosen-450-8 a waka:TokenOccurrence ;
 occ:gosen-450-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-450 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-450-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-450 ;
@@ -137037,7 +137037,7 @@ occ:gosen-451-13 a waka:TokenOccurrence ;
 occ:gosen-451-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-451 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-451-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-451 ;
@@ -137052,7 +137052,7 @@ occ:gosen-451-16 a waka:TokenOccurrence ;
 occ:gosen-451-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-451 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:gosen-452 waka:hasOccurrence occ:gosen-452-1, occ:gosen-452-2, occ:gosen-452-3, occ:gosen-452-4, occ:gosen-452-5, occ:gosen-452-6, occ:gosen-452-7, occ:gosen-452-8, occ:gosen-452-9, occ:gosen-452-10, occ:gosen-452-11, occ:gosen-452-12, occ:gosen-452-13, occ:gosen-452-14, occ:gosen-452-15 .
 
@@ -137278,7 +137278,7 @@ occ:gosen-454-13 a waka:TokenOccurrence ;
 occ:gosen-454-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-454 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:gosen-454-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-454 ;
@@ -137370,7 +137370,7 @@ occ:gosen-455-12 a waka:TokenOccurrence ;
 occ:gosen-455-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-455 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-455-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-455 ;
@@ -137462,7 +137462,7 @@ occ:gosen-456-14 a waka:TokenOccurrence ;
 occ:gosen-456-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-456 ;
     waka:position 15 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:gosen-457 waka:hasOccurrence occ:gosen-457-1, occ:gosen-457-4, occ:gosen-457-5, occ:gosen-457-6, occ:gosen-457-7, occ:gosen-457-8, occ:gosen-457-9, occ:gosen-457-10, occ:gosen-457-11, occ:gosen-457-12, occ:gosen-457-13, occ:gosen-457-14 .
 
@@ -137827,7 +137827,7 @@ occ:gosen-461-2 a waka:TokenOccurrence ;
 occ:gosen-461-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-461 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-461-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-461 ;
@@ -138103,7 +138103,7 @@ occ:gosen-464-3 a waka:TokenOccurrence ;
 occ:gosen-464-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-464 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-464-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-464 ;
@@ -138220,7 +138220,7 @@ occ:gosen-465-10 a waka:TokenOccurrence ;
 occ:gosen-465-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-465 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-465-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-465 ;
@@ -138312,7 +138312,7 @@ occ:gosen-466-15 a waka:TokenOccurrence ;
 occ:gosen-466-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-466 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-466-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-466 ;
@@ -138416,7 +138416,7 @@ occ:gosen-468-1 a waka:TokenOccurrence ;
 occ:gosen-468-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-468 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-468-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-468 ;
@@ -138533,7 +138533,7 @@ occ:gosen-469-11 a waka:TokenOccurrence ;
 occ:gosen-469-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-469 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-469-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-469 ;
@@ -138575,7 +138575,7 @@ occ:gosen-470-3 a waka:TokenOccurrence ;
 occ:gosen-470-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-470 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-470-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-470 ;
@@ -138657,7 +138657,7 @@ wakaid:gosen-471 waka:hasOccurrence occ:gosen-471-1, occ:gosen-471-2, occ:gosen-
 occ:gosen-471-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-471 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-471-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-471 ;
@@ -139455,7 +139455,7 @@ occ:gosen-480-2 a waka:TokenOccurrence ;
 occ:gosen-480-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-480 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:gosen-480-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-480 ;
@@ -139679,7 +139679,7 @@ occ:gosen-482-10 a waka:TokenOccurrence ;
 occ:gosen-482-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-482 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-482-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-482 ;
@@ -139843,7 +139843,7 @@ occ:gosen-484-9 a waka:TokenOccurrence ;
 occ:gosen-484-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-484 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-484-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-484 ;
@@ -139920,7 +139920,7 @@ occ:gosen-485-7 a waka:TokenOccurrence ;
 occ:gosen-485-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-485 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-485-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-485 ;
@@ -140223,7 +140223,7 @@ occ:gosen-489-3 a waka:TokenOccurrence ;
 occ:gosen-489-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-489 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-489-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-489 ;
@@ -140417,7 +140417,7 @@ occ:gosen-491-6 a waka:TokenOccurrence ;
 occ:gosen-491-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-491 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-491-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-491 ;
@@ -140571,7 +140571,7 @@ wakaid:gosen-493 waka:hasOccurrence occ:gosen-493-1, occ:gosen-493-2, occ:gosen-
 occ:gosen-493-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-493 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-493-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-493 ;
@@ -140745,7 +140745,7 @@ wakaid:gosen-495 waka:hasOccurrence occ:gosen-495-1, occ:gosen-495-2, occ:gosen-
 occ:gosen-495-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-495 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-495-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-495 ;
@@ -140912,7 +140912,7 @@ occ:gosen-496-15 a waka:TokenOccurrence ;
 occ:gosen-496-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-496 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-496-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-496 ;
@@ -140949,7 +140949,7 @@ occ:gosen-497-4 a waka:TokenOccurrence ;
 occ:gosen-497-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-497 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-497-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-497 ;
@@ -141128,7 +141128,7 @@ occ:gosen-499-2 a waka:TokenOccurrence ;
 occ:gosen-499-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-499 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-499-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-499 ;
@@ -141287,7 +141287,7 @@ occ:gosen-501-2 a waka:TokenOccurrence ;
 occ:gosen-501-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-501 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-501-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-501 ;
@@ -141461,7 +141461,7 @@ occ:gosen-503-4 a waka:TokenOccurrence ;
 occ:gosen-503-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-503 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-503-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-503 ;
@@ -144369,7 +144369,7 @@ occ:gosen-537-6 a waka:TokenOccurrence ;
 occ:gosen-537-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-537 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-537-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-537 ;
@@ -147011,7 +147011,7 @@ occ:gosen-568-2 a waka:TokenOccurrence ;
 occ:gosen-568-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-568 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-568-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-568 ;
@@ -156242,7 +156242,7 @@ wakaid:gosen-676 waka:hasOccurrence occ:gosen-676-1, occ:gosen-676-2, occ:gosen-
 occ:gosen-676-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-676 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-676-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-676 ;
@@ -166420,7 +166420,7 @@ occ:gosen-795-11 a waka:TokenOccurrence ;
 occ:gosen-795-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-795 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-795-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-795 ;
@@ -168003,7 +168003,7 @@ occ:gosen-814-6 a waka:TokenOccurrence ;
 occ:gosen-814-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-814 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-814-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-814 ;
@@ -171252,7 +171252,7 @@ occ:gosen-851-8 a waka:TokenOccurrence ;
 occ:gosen-851-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-851 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-851-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-851 ;
@@ -175738,7 +175738,7 @@ wakaid:gosen-904 waka:hasOccurrence occ:gosen-904-1, occ:gosen-904-2, occ:gosen-
 occ:gosen-904-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-904 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-904-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-904 ;
@@ -181751,7 +181751,7 @@ occ:gosen-973-1 a waka:TokenOccurrence ;
 occ:gosen-973-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-973 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-973-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-973 ;
@@ -181761,7 +181761,7 @@ occ:gosen-973-3 a waka:TokenOccurrence ;
 occ:gosen-973-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-973 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-973-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-973 ;
@@ -189916,7 +189916,7 @@ occ:gosen-1068-12 a waka:TokenOccurrence ;
 occ:gosen-1068-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1068 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1068-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1068 ;
@@ -190085,7 +190085,7 @@ occ:gosen-1070-10 a waka:TokenOccurrence ;
 occ:gosen-1070-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1070 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1070-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1070 ;
@@ -190269,7 +190269,7 @@ occ:gosen-1072-10 a waka:TokenOccurrence ;
 occ:gosen-1072-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1072 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1072-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1072 ;
@@ -190391,7 +190391,7 @@ occ:gosen-1073-17 a waka:TokenOccurrence ;
 occ:gosen-1073-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1073 ;
     waka:position 18 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:gosen-1074 waka:hasOccurrence occ:gosen-1074-1, occ:gosen-1074-2, occ:gosen-1074-3, occ:gosen-1074-4, occ:gosen-1074-5, occ:gosen-1074-6, occ:gosen-1074-7, occ:gosen-1074-8, occ:gosen-1074-9, occ:gosen-1074-10, occ:gosen-1074-11, occ:gosen-1074-12, occ:gosen-1074-13, occ:gosen-1074-14, occ:gosen-1074-15 .
 
@@ -195596,7 +195596,7 @@ occ:gosen-1133-13 a waka:TokenOccurrence ;
 occ:gosen-1133-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1133 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1133-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1133 ;
@@ -195611,7 +195611,7 @@ occ:gosen-1133-16 a waka:TokenOccurrence ;
 occ:gosen-1133-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1133 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:gosen-1134 waka:hasOccurrence occ:gosen-1134-1, occ:gosen-1134-2, occ:gosen-1134-3, occ:gosen-1134-4, occ:gosen-1134-5, occ:gosen-1134-6, occ:gosen-1134-7, occ:gosen-1134-8, occ:gosen-1134-9, occ:gosen-1134-10, occ:gosen-1134-11, occ:gosen-1134-12, occ:gosen-1134-13, occ:gosen-1134-14, occ:gosen-1134-15, occ:gosen-1134-16, occ:gosen-1134-17, occ:gosen-1134-18, occ:gosen-1134-19, occ:gosen-1134-20, occ:gosen-1134-21, occ:gosen-1134-22, occ:gosen-1134-23 .
 
@@ -203707,7 +203707,7 @@ occ:gosen-1226-5 a waka:TokenOccurrence ;
 occ:gosen-1226-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1226 ;
     waka:position 6 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【増す】 .
 
 occ:gosen-1226-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1226 ;
@@ -203874,7 +203874,7 @@ occ:gosen-1227-18 a waka:TokenOccurrence ;
 occ:gosen-1227-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1227 ;
     waka:position 19 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【増す】 .
 
 occ:gosen-1227-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1227 ;
@@ -204612,7 +204612,7 @@ occ:gosen-1236-4 a waka:TokenOccurrence ;
 occ:gosen-1236-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1236 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1236-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1236 ;
@@ -209178,7 +209178,7 @@ occ:gosen-1289-9 a waka:TokenOccurrence ;
 occ:gosen-1289-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1289 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1289-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1289 ;
@@ -214701,7 +214701,7 @@ occ:gosen-1353-8 a waka:TokenOccurrence ;
 occ:gosen-1353-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1353 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1353-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1353 ;
@@ -216600,7 +216600,7 @@ occ:gosen-1375-12 a waka:TokenOccurrence ;
 occ:gosen-1375-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1375 ;
     waka:position 13 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【増す】 .
 
 occ:gosen-1375-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1375 ;
@@ -220028,7 +220028,7 @@ occ:gosen-1414-10 a waka:TokenOccurrence ;
 occ:gosen-1414-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1414 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1414-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1414 ;
@@ -220911,7 +220911,7 @@ occ:gosen-1423-16 a waka:TokenOccurrence ;
 occ:gosen-1423-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1423 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:gosen-1423-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1423 ;
@@ -221604,7 +221604,7 @@ occ:shuui-7-9 a waka:TokenOccurrence ;
 occ:shuui-7-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-7 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-7-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-7 ;
@@ -221656,7 +221656,7 @@ occ:shuui-8-4 a waka:TokenOccurrence ;
 occ:shuui-8-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-8 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-8-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-8 ;
@@ -221927,7 +221927,7 @@ occ:shuui-11-4 a waka:TokenOccurrence ;
 occ:shuui-11-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-11 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-11-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-11 ;
@@ -222064,7 +222064,7 @@ occ:shuui-12-15 a waka:TokenOccurrence ;
 occ:shuui-12-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-12 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-12-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-12 ;
@@ -222101,7 +222101,7 @@ occ:shuui-13-4 a waka:TokenOccurrence ;
 occ:shuui-13-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-13 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-13-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-13 ;
@@ -222168,7 +222168,7 @@ wakaid:shuui-14 waka:hasOccurrence occ:shuui-14-1, occ:shuui-14-2, occ:shuui-14-
 occ:shuui-14-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-14 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-14-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-14 ;
@@ -225300,7 +225300,7 @@ occ:shuui-50-4 a waka:TokenOccurrence ;
 occ:shuui-50-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-50 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-50-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-50 ;
@@ -226357,7 +226357,7 @@ occ:shuui-61-15 a waka:TokenOccurrence ;
 occ:shuui-61-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-61 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:shuui-61-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-61 ;
@@ -226526,7 +226526,7 @@ occ:shuui-63-16 a waka:TokenOccurrence ;
 occ:shuui-63-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-63 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:shuui-64 waka:hasOccurrence occ:shuui-64-1, occ:shuui-64-2, occ:shuui-64-3, occ:shuui-64-4, occ:shuui-64-5, occ:shuui-64-6, occ:shuui-64-7, occ:shuui-64-8, occ:shuui-64-9, occ:shuui-64-10, occ:shuui-64-11, occ:shuui-64-12, occ:shuui-64-13, occ:shuui-64-14, occ:shuui-64-15, occ:shuui-64-16, occ:shuui-64-17 .
 
@@ -226608,7 +226608,7 @@ occ:shuui-64-15 a waka:TokenOccurrence ;
 occ:shuui-64-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-64 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-64-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-64 ;
@@ -228519,7 +228519,7 @@ occ:shuui-87-2 a waka:TokenOccurrence ;
 occ:shuui-87-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-87 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:shuui-87-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-87 ;
@@ -229113,7 +229113,7 @@ occ:shuui-94-3 a waka:TokenOccurrence ;
 occ:shuui-94-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-94 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-94-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-94 ;
@@ -233334,7 +233334,7 @@ occ:shuui-147-3 a waka:TokenOccurrence ;
 occ:shuui-147-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-147 ;
     waka:position 4 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【増す】 .
 
 occ:shuui-147-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-147 ;
@@ -234405,7 +234405,7 @@ occ:shuui-160-12 a waka:TokenOccurrence ;
 occ:shuui-160-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-160 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:shuui-160-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-160 ;
@@ -238501,7 +238501,7 @@ occ:shuui-208-8 a waka:TokenOccurrence ;
 occ:shuui-208-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-208 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-208-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-208 ;
@@ -239393,7 +239393,7 @@ occ:shuui-219-10 a waka:TokenOccurrence ;
 occ:shuui-219-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-219 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-219-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-219 ;
@@ -240173,7 +240173,7 @@ occ:shuui-229-4 a waka:TokenOccurrence ;
 occ:shuui-229-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-229 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-229-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-229 ;
@@ -241018,7 +241018,7 @@ occ:shuui-239-2 a waka:TokenOccurrence ;
 occ:shuui-239-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-239 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-239-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-239 ;
@@ -241401,7 +241401,7 @@ occ:shuui-243-12 a waka:TokenOccurrence ;
 occ:shuui-243-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-243 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-243-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-243 ;
@@ -241428,7 +241428,7 @@ wakaid:shuui-244 waka:hasOccurrence occ:shuui-244-1, occ:shuui-244-2, occ:shuui-
 occ:shuui-244-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-244 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-244-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-244 ;
@@ -241510,7 +241510,7 @@ occ:shuui-245-5 a waka:TokenOccurrence ;
 occ:shuui-245-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-245 ;
     waka:position 6 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-245-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-245 ;
@@ -241642,7 +241642,7 @@ occ:shuui-246-15 a waka:TokenOccurrence ;
 occ:shuui-246-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-246 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-246-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-246 ;
@@ -241821,7 +241821,7 @@ occ:shuui-248-11 a waka:TokenOccurrence ;
 occ:shuui-248-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-248 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-248-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-248 ;
@@ -242037,7 +242037,7 @@ occ:shuui-251-3 a waka:TokenOccurrence ;
 occ:shuui-251-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-251 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-251-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-251 ;
@@ -242199,7 +242199,7 @@ occ:shuui-252-17 a waka:TokenOccurrence ;
 occ:shuui-252-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-252 ;
     waka:position 18 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-252-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-252 ;
@@ -242226,7 +242226,7 @@ occ:shuui-253-2 a waka:TokenOccurrence ;
 occ:shuui-253-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-253 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-253-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-253 ;
@@ -242353,7 +242353,7 @@ occ:shuui-254-13 a waka:TokenOccurrence ;
 occ:shuui-254-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-254 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-254-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-254 ;
@@ -242405,7 +242405,7 @@ occ:shuui-255-7 a waka:TokenOccurrence ;
 occ:shuui-255-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-255 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-255-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-255 ;
@@ -242462,7 +242462,7 @@ occ:shuui-256-4 a waka:TokenOccurrence ;
 occ:shuui-256-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-256 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-256-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-256 ;
@@ -242681,7 +242681,7 @@ occ:shuui-258-10 a waka:TokenOccurrence ;
 occ:shuui-258-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-258 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-258-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-258 ;
@@ -247065,7 +247065,7 @@ occ:shuui-310-13 a waka:TokenOccurrence ;
 occ:shuui-310-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-310 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-310-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-310 ;
@@ -252577,7 +252577,7 @@ occ:shuui-376-10 a waka:TokenOccurrence ;
 occ:shuui-376-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-376 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-376-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-376 ;
@@ -259273,7 +259273,7 @@ occ:shuui-454-1 a waka:TokenOccurrence ;
 occ:shuui-454-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-454 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-454-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-454 ;
@@ -263543,7 +263543,7 @@ occ:shuui-504-10 a waka:TokenOccurrence ;
 occ:shuui-504-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-504 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-504-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-504 ;
@@ -267515,7 +267515,7 @@ occ:shuui-550-6 a waka:TokenOccurrence ;
 occ:shuui-550-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-550 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-550-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-550 ;
@@ -270107,7 +270107,7 @@ occ:shuui-571-81 a waka:TokenOccurrence ;
 occ:shuui-571-82 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-571 ;
     waka:position 82 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-571-83 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-571 ;
@@ -271099,7 +271099,7 @@ occ:shuui-572-56 a waka:TokenOccurrence ;
 occ:shuui-572-57 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
     waka:position 57 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-572-58 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
@@ -272706,7 +272706,7 @@ occ:shuui-573-187 a waka:TokenOccurrence ;
 occ:shuui-573-188 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
     waka:position 188 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-573-189 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
@@ -275390,7 +275390,7 @@ occ:shuui-585-7 a waka:TokenOccurrence ;
 occ:shuui-585-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-585 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-585-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-585 ;
@@ -280891,7 +280891,7 @@ occ:shuui-653-15 a waka:TokenOccurrence ;
 occ:shuui-653-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-653 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-653-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-653 ;
@@ -285338,7 +285338,7 @@ occ:shuui-704-5 a waka:TokenOccurrence ;
 occ:shuui-704-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-704 ;
     waka:position 6 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:shuui-704-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-704 ;
@@ -290560,7 +290560,7 @@ occ:shuui-765-3 a waka:TokenOccurrence ;
 occ:shuui-765-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-765 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-765-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-765 ;
@@ -293304,7 +293304,7 @@ wakaid:shuui-797 waka:hasOccurrence occ:shuui-797-1, occ:shuui-797-2, occ:shuui-
 occ:shuui-797-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-797 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-797-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-797 ;
@@ -295668,7 +295668,7 @@ occ:shuui-824-8 a waka:TokenOccurrence ;
 occ:shuui-824-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-824 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-824-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-824 ;
@@ -295877,7 +295877,7 @@ occ:shuui-826-10 a waka:TokenOccurrence ;
 occ:shuui-826-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-826 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-826-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-826 ;
@@ -297607,7 +297607,7 @@ occ:shuui-846-4 a waka:TokenOccurrence ;
 occ:shuui-846-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-846 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-846-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-846 ;
@@ -297893,7 +297893,7 @@ occ:shuui-849-9 a waka:TokenOccurrence ;
 occ:shuui-849-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-849 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:shuui-849-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-849 ;
@@ -303342,7 +303342,7 @@ occ:shuui-916-1 a waka:TokenOccurrence ;
 occ:shuui-916-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-916 ;
     waka:position 2 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【増す】 .
 
 occ:shuui-916-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-916 ;
@@ -306817,7 +306817,7 @@ occ:shuui-956-3 a waka:TokenOccurrence ;
 occ:shuui-956-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-956 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-956-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-956 ;
@@ -306954,7 +306954,7 @@ occ:shuui-957-15 a waka:TokenOccurrence ;
 occ:shuui-957-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-957 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-957-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-957 ;
@@ -306969,14 +306969,14 @@ occ:shuui-957-18 a waka:TokenOccurrence ;
 occ:shuui-957-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-957 ;
     waka:position 19 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:shuui-958 waka:hasOccurrence occ:shuui-958-1, occ:shuui-958-2, occ:shuui-958-3, occ:shuui-958-4, occ:shuui-958-5, occ:shuui-958-6, occ:shuui-958-7, occ:shuui-958-8, occ:shuui-958-9, occ:shuui-958-10, occ:shuui-958-11, occ:shuui-958-12, occ:shuui-958-13, occ:shuui-958-14, occ:shuui-958-15, occ:shuui-958-16, occ:shuui-958-17, occ:shuui-958-18, occ:shuui-958-19 .
 
 occ:shuui-958-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-958 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-958-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-958 ;
@@ -307113,7 +307113,7 @@ occ:shuui-959-8 a waka:TokenOccurrence ;
 occ:shuui-959-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-959 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-959-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-959 ;
@@ -307210,7 +307210,7 @@ occ:shuui-960-12 a waka:TokenOccurrence ;
 occ:shuui-960-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-960 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-960-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-960 ;
@@ -311139,7 +311139,7 @@ occ:shuui-1007-15 a waka:TokenOccurrence ;
 occ:shuui-1007-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1007 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1007-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1007 ;
@@ -311343,7 +311343,7 @@ occ:shuui-1009-18 a waka:TokenOccurrence ;
 occ:shuui-1009-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1009 ;
     waka:position 19 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【触る】 .
 
 occ:shuui-1009-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1009 ;
@@ -313468,7 +313468,7 @@ occ:shuui-1034-4 a waka:TokenOccurrence ;
 occ:shuui-1034-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1034 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1034-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1034 ;
@@ -315232,7 +315232,7 @@ occ:shuui-1056-11 a waka:TokenOccurrence ;
 occ:shuui-1056-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1056 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1056-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1056 ;
@@ -317625,7 +317625,7 @@ occ:shuui-1085-8 a waka:TokenOccurrence ;
 occ:shuui-1085-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1085 ;
     waka:position 9 ;
-    waka:instantiates lex:ます【在す・坐す・増す】 .
+    waka:instantiates lex:ます【在す】 .
 
 occ:shuui-1085-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1085 ;
@@ -319670,7 +319670,7 @@ occ:shuui-1110-3 a waka:TokenOccurrence ;
 occ:shuui-1110-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1110 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1110-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1110 ;
@@ -323025,7 +323025,7 @@ occ:shuui-1150-8 a waka:TokenOccurrence ;
 occ:shuui-1150-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1150 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1150-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1150 ;
@@ -323157,7 +323157,7 @@ occ:shuui-1151-16 a waka:TokenOccurrence ;
 occ:shuui-1151-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1151 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1151-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1151 ;
@@ -323256,7 +323256,7 @@ occ:shuui-1153-2 a waka:TokenOccurrence ;
 occ:shuui-1153-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1153 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1153-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1153 ;
@@ -323761,7 +323761,7 @@ occ:shuui-1158-13 a waka:TokenOccurrence ;
 occ:shuui-1158-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1158 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1158-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1158 ;
@@ -325289,7 +325289,7 @@ occ:shuui-1177-2 a waka:TokenOccurrence ;
 occ:shuui-1177-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1177 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1177-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1177 ;
@@ -328236,7 +328236,7 @@ occ:shuui-1210-3 a waka:TokenOccurrence ;
 occ:shuui-1210-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1210 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:shuui-1210-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1210 ;
@@ -330754,7 +330754,7 @@ occ:shuui-1239-12 a waka:TokenOccurrence ;
 occ:shuui-1239-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1239 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:shuui-1239-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1239 ;
@@ -331820,7 +331820,7 @@ occ:shuui-1252-4 a waka:TokenOccurrence ;
 occ:shuui-1252-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1252 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1252-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1252 ;
@@ -331887,7 +331887,7 @@ occ:shuui-1253-1 a waka:TokenOccurrence ;
 occ:shuui-1253-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1253 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1253-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1253 ;
@@ -332004,7 +332004,7 @@ occ:shuui-1254-5 a waka:TokenOccurrence ;
 occ:shuui-1254-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1254 ;
     waka:position 6 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1254-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1254 ;
@@ -335615,7 +335615,7 @@ occ:shuui-1297-16 a waka:TokenOccurrence ;
 occ:shuui-1297-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1297 ;
     waka:position 17 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1297-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1297 ;
@@ -336423,7 +336423,7 @@ occ:shuui-1306-14 a waka:TokenOccurrence ;
 occ:shuui-1306-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1306 ;
     waka:position 15 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1306-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1306 ;
@@ -338655,7 +338655,7 @@ occ:shuui-1332-2 a waka:TokenOccurrence ;
 occ:shuui-1332-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1332 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:shuui-1332-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1332 ;
@@ -340827,7 +340827,7 @@ occ:goshuui-7-1 a waka:TokenOccurrence ;
 occ:goshuui-7-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-7 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-7-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-7 ;
@@ -341739,7 +341739,7 @@ occ:goshuui-18-3 a waka:TokenOccurrence ;
 occ:goshuui-18-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-18 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-18-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-18 ;
@@ -341965,7 +341965,7 @@ wakaid:goshuui-21 waka:hasOccurrence occ:goshuui-21-1, occ:goshuui-21-2, occ:gos
 occ:goshuui-21-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-21 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-21-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-21 ;
@@ -344401,7 +344401,7 @@ occ:goshuui-49-12 a waka:TokenOccurrence ;
 occ:goshuui-49-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-49 ;
     waka:position 13 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-49-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-49 ;
@@ -354831,7 +354831,7 @@ occ:goshuui-174-10 a waka:TokenOccurrence ;
 occ:goshuui-174-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-174 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-174-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-174 ;
@@ -362574,7 +362574,7 @@ occ:goshuui-268-10 a waka:TokenOccurrence ;
 occ:goshuui-268-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-268 ;
     waka:position 11 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:goshuui-268-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-268 ;
@@ -365934,7 +365934,7 @@ occ:goshuui-308-1 a waka:TokenOccurrence ;
 occ:goshuui-308-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-308 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:goshuui-308-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-308 ;
@@ -370522,7 +370522,7 @@ occ:goshuui-362-4 a waka:TokenOccurrence ;
 occ:goshuui-362-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-362 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-362-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-362 ;
@@ -370793,7 +370793,7 @@ occ:goshuui-365-13 a waka:TokenOccurrence ;
 occ:goshuui-365-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-365 ;
     waka:position 14 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-365-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-365 ;
@@ -370957,7 +370957,7 @@ occ:goshuui-367-14 a waka:TokenOccurrence ;
 occ:goshuui-367-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-367 ;
     waka:position 15 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-367-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-367 ;
@@ -371337,7 +371337,7 @@ occ:goshuui-372-6 a waka:TokenOccurrence ;
 occ:goshuui-372-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-372 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-372-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-372 ;
@@ -373616,7 +373616,7 @@ occ:goshuui-399-14 a waka:TokenOccurrence ;
 occ:goshuui-399-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-399 ;
     waka:position 15 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-399-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-399 ;
@@ -373683,7 +373683,7 @@ occ:goshuui-400-11 a waka:TokenOccurrence ;
 occ:goshuui-400-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-400 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-400-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-400 ;
@@ -373740,7 +373740,7 @@ occ:goshuui-401-4 a waka:TokenOccurrence ;
 occ:goshuui-401-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-401 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-401-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-401 ;
@@ -373914,7 +373914,7 @@ occ:goshuui-403-7 a waka:TokenOccurrence ;
 occ:goshuui-403-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-403 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-403-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-403 ;
@@ -374026,7 +374026,7 @@ occ:goshuui-404-11 a waka:TokenOccurrence ;
 occ:goshuui-404-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-404 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-404-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-404 ;
@@ -374128,7 +374128,7 @@ occ:goshuui-405-14 a waka:TokenOccurrence ;
 occ:goshuui-405-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-405 ;
     waka:position 15 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-405-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-405 ;
@@ -374155,7 +374155,7 @@ occ:goshuui-406-2 a waka:TokenOccurrence ;
 occ:goshuui-406-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-406 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-406-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-406 ;
@@ -374272,7 +374272,7 @@ occ:goshuui-407-8 a waka:TokenOccurrence ;
 occ:goshuui-407-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-407 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-407-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-407 ;
@@ -374334,7 +374334,7 @@ occ:goshuui-408-1 a waka:TokenOccurrence ;
 occ:goshuui-408-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-408 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-408-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-408 ;
@@ -374436,7 +374436,7 @@ occ:goshuui-409-9 a waka:TokenOccurrence ;
 occ:goshuui-409-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-409 ;
     waka:position 10 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-409-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-409 ;
@@ -374918,7 +374918,7 @@ occ:goshuui-415-4 a waka:TokenOccurrence ;
 occ:goshuui-415-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-415 ;
     waka:position 5 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-415-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-415 ;
@@ -375087,7 +375087,7 @@ wakaid:goshuui-417 waka:hasOccurrence occ:goshuui-417-1, occ:goshuui-417-2, occ:
 occ:goshuui-417-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-417 ;
     waka:position 1 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-417-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-417 ;
@@ -382878,7 +382878,7 @@ occ:goshuui-510-11 a waka:TokenOccurrence ;
 occ:goshuui-510-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-510 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-510-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-510 ;
@@ -385646,7 +385646,7 @@ occ:goshuui-544-3 a waka:TokenOccurrence ;
 occ:goshuui-544-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-544 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-544-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-544 ;
@@ -387930,7 +387930,7 @@ occ:goshuui-571-11 a waka:TokenOccurrence ;
 occ:goshuui-571-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-571 ;
     waka:position 12 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-571-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-571 ;
@@ -392180,7 +392180,7 @@ occ:goshuui-621-3 a waka:TokenOccurrence ;
 occ:goshuui-621-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-621 ;
     waka:position 4 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:goshuui-621-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-621 ;
@@ -393475,7 +393475,7 @@ occ:goshuui-636-6 a waka:TokenOccurrence ;
 occ:goshuui-636-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-636 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-636-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-636 ;
@@ -399246,7 +399246,7 @@ occ:goshuui-704-7 a waka:TokenOccurrence ;
 occ:goshuui-704-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-704 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-704-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-704 ;
@@ -407571,7 +407571,7 @@ occ:goshuui-804-1 a waka:TokenOccurrence ;
 occ:goshuui-804-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-804 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-804-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-804 ;
@@ -407663,7 +407663,7 @@ occ:goshuui-805-2 a waka:TokenOccurrence ;
 occ:goshuui-805-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-805 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-805-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-805 ;
@@ -407877,7 +407877,7 @@ occ:goshuui-807-6 a waka:TokenOccurrence ;
 occ:goshuui-807-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-807 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-807-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-807 ;
@@ -411257,7 +411257,7 @@ occ:goshuui-847-1 a waka:TokenOccurrence ;
 occ:goshuui-847-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-847 ;
     waka:position 2 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-847-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-847 ;
@@ -418438,7 +418438,7 @@ occ:goshuui-930-6 a waka:TokenOccurrence ;
 occ:goshuui-930-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-930 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-930-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-930 ;
@@ -421895,7 +421895,7 @@ occ:goshuui-971-8 a waka:TokenOccurrence ;
 occ:goshuui-971-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-971 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:goshuui-971-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-971 ;
@@ -424599,7 +424599,7 @@ occ:goshuui-1003-15 a waka:TokenOccurrence ;
 occ:goshuui-1003-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1003 ;
     waka:position 16 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 wakaid:goshuui-1004 waka:hasOccurrence occ:goshuui-1004-1, occ:goshuui-1004-2, occ:goshuui-1004-3, occ:goshuui-1004-4, occ:goshuui-1004-5, occ:goshuui-1004-6, occ:goshuui-1004-7, occ:goshuui-1004-8, occ:goshuui-1004-9, occ:goshuui-1004-10, occ:goshuui-1004-11, occ:goshuui-1004-12, occ:goshuui-1004-13, occ:goshuui-1004-14, occ:goshuui-1004-15, occ:goshuui-1004-16, occ:goshuui-1004-17 .
 
@@ -430964,7 +430964,7 @@ occ:goshuui-1078-6 a waka:TokenOccurrence ;
 occ:goshuui-1078-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1078 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-1078-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1078 ;
@@ -433618,7 +433618,7 @@ occ:goshuui-1110-6 a waka:TokenOccurrence ;
 occ:goshuui-1110-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1110 ;
     waka:position 7 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-1110-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1110 ;
@@ -433812,7 +433812,7 @@ occ:goshuui-1112-7 a waka:TokenOccurrence ;
 occ:goshuui-1112-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1112 ;
     waka:position 8 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-1112-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1112 ;
@@ -434411,7 +434411,7 @@ occ:goshuui-1119-5 a waka:TokenOccurrence ;
 occ:goshuui-1119-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1119 ;
     waka:position 6 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-1119-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1119 ;
@@ -438670,7 +438670,7 @@ occ:goshuui-1171-2 a waka:TokenOccurrence ;
 occ:goshuui-1171-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1171 ;
     waka:position 3 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【降る】 .
 
 occ:goshuui-1171-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1171 ;
@@ -438782,7 +438782,7 @@ occ:goshuui-1172-8 a waka:TokenOccurrence ;
 occ:goshuui-1172-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1172 ;
     waka:position 9 ;
-    waka:instantiates lex:ふる【振る・触る・降る】 .
+    waka:instantiates lex:ふる【振る】 .
 
 occ:goshuui-1172-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1172 ;

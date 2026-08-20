@@ -1,0 +1,62 @@
+## PATCH: ます【在す・坐す・増す】split into 2 (坐す 并入既有ます【坐す】)
+
+底本核实(限4部)：ます读音共33个token。ます(假名,13,BG-09-0030，
+語法助動詞ます形，跟这三个完全无关，不受影响)、坐す(12，**每次都
+首选BG-02-1200"存在"，BG-02-1527"往来"只是末位备选**，跟既有
+ます【坐す】entry的sense完全对应)、増す(7，BG-02-1580)、在す(1，
+BG-02-1527)。
+
+已核实：合并entry目前仅8处occurrence，逐条比对底本 = 増す7+在す1，
+**坐す一次都不在里面**——merged entry里"坐す-BG-02-1527"这个sense
+完全是幽灵，从未有真实occurrence用过。既有独立的ます【坐す】entry
+(sense BG-02-1200)已经正确持有全部12处真实坐す occurrence，不用动。
+方案：合并entry删掉"坐す"，在す/増す各自独立成新entry。
+
+无复合词引用这三个entry，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:ます【在す・坐す・増す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "在す"@ja, "坐す"@ja, "増す"@ja ] ;
+    ontolex:sense lex:在す-BG-02-1527-03-0800, lex:坐す-BG-02-1527-03-0800, lex:増す-BG-02-1580-01-0300 .
+
+NEW（整条删除合并entry，拆成2个新entry；ます【坐す】不用动）:
+lex:ます【在す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "在す"@ja ] ;
+    ontolex:sense lex:在す-BG-02-1527-03-0800 .
+
+lex:ます【増す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "増す"@ja ] ;
+    ontolex:sense lex:増す-BG-02-1580-01-0300 .
+
+-- 删除孤立sense声明：坐す-BG-02-1527-03-0800（isSenseOf指向要删除的
+   合并entry，且这个sense从未被真实occurrence使用，直接删除不用
+   retarget——注意跟ます【坐す】自己的坐す-BG-02-1200-02-0800是
+   不同的sense id，不会冲突）
+-- 在す-BG-02-1527-03-0800 的 isSenseOf 改指 ます【在す】
+-- 増す-BG-02-1580-01-0300 的 isSenseOf 改指 ます【増す】
+
+### occurrence-batch.ttl
+
+7处 waka:instantiates 从 lex:ます【在す・坐す・増す】 改成
+lex:ます【増す】：
+  occ:kokin-70-17
+  occ:kokin-1095-18
+  occ:gosen-1226-6
+  occ:gosen-1227-19
+  occ:gosen-1375-13
+  occ:shuui-147-4
+  occ:shuui-916-2
+
+1处 waka:instantiates 从 lex:ます【在す・坐す・増す】 改成
+lex:ます【在す】：
+  occ:shuui-1085-9
+
+ます【坐す】自己原有的12处occurrence不用动，entry ID/sense都没变。
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用ます【在す・坐す・増す】。
+
+### 状态：已执行

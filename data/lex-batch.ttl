@@ -9523,7 +9523,7 @@ lex:そでふるやま【袖振山】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:そで【袖】 .
 
 lex:そでふるやま【袖振山】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:ふる【振る・触る・降る】 .
+    decomp:correspondsTo lex:ふる【振る】 .
 
 lex:そでふるやま【袖振山】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:やま【山】 .
@@ -10700,7 +10700,7 @@ lex:ちぬ【茅渟】 a ontolex:LexicalEntry ;
 
 lex:ちはやぶる【千早振】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ちはやぶる"@ja-Hira, "千早振"@ja ] ;
-    decomp:subterm lex:ち【千】, lex:はやし【早し】, lex:ふる【振る・触る・降る】 ;
+    decomp:subterm lex:ち【千】, lex:はやし【早し】, lex:ふる【振る】 ;
     ontolex:sense lex:千早振-BG-03-3450-09-0303 .
 
 lex:ちはら【茅原】 a ontolex:LexicalEntry ;
@@ -14854,13 +14854,17 @@ lex:ふる【布留】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "布留"@ja ] ;
     ontolex:sense lex:布留-CH-29-0000-00-0800 .
 
-lex:ふる【振る・触る・降る】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "振る"@ja, "触る"@ja, "降る"@ja ] ;
-    ontolex:sense lex:振る-BG-02-1511-02-0200, lex:触る-BG-02-1560-01-0100, lex:降る-BG-02-1540-10-0100 .
+lex:ふる【振る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "振る"@ja ] ;
+    ontolex:sense lex:振る-BG-02-1511-02-0200 .
+
+lex:ふる【触る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "触る"@ja ] ;
+    ontolex:sense lex:触る-BG-02-1560-01-0100 .
 
 lex:ふる【降る】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "降る"@ja ] ;
-    ontolex:sense lex:降る-BG-02-5150-03-0100 .
+    ontolex:sense lex:降る-BG-02-5150-03-0100, lex:降る-BG-02-1540-10-0100 .
 
 lex:ふるあと【古跡】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふるあと"@ja-Hira, "古跡"@ja ] ;
@@ -14968,7 +14972,7 @@ lex:ふるはた【古畑】 a ontolex:LexicalEntry ;
 
 lex:ふるまふ【振舞ふ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふるまふ"@ja-Hira, "振舞ふ"@ja ] ;
-    decomp:subterm lex:ふる【振る・触る・降る】, lex:まふ【舞ふ】 ;
+    decomp:subterm lex:ふる【振る】, lex:まふ【舞ふ】 ;
     ontolex:sense lex:振舞ふ-BG-02-3420-03-0202 .
 
 lex:ふるみち【古道】 a ontolex:LexicalEntry ;
@@ -15446,9 +15450,13 @@ lex:ます\*【ます】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "ます"@ja ] ;
     ontolex:sense lex:ます-BG-09-0030-03-0300 .
 
-lex:ます【在す・坐す・増す】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "在す"@ja, "坐す"@ja, "増す"@ja ] ;
-    ontolex:sense lex:在す-BG-02-1527-03-0800, lex:坐す-BG-02-1527-03-0800, lex:増す-BG-02-1580-01-0300 .
+lex:ます【在す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "在す"@ja ] ;
+    ontolex:sense lex:在す-BG-02-1527-03-0800 .
+
+lex:ます【増す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "増す"@ja ] ;
+    ontolex:sense lex:増す-BG-02-1580-01-0300 .
 
 lex:ます【坐す】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ます"@ja-Hira, "坐す"@ja ] ;
@@ -25367,7 +25375,7 @@ lex:圧し-BG-01-4540-25-0700 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-4540 .
 
 lex:在す-BG-02-1527-03-0800 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ます【在す・坐す・増す】 ;
+    ontolex:isSenseOf lex:ます【在す】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1527 .
 
@@ -25415,11 +25423,6 @@ lex:坐す-BG-02-1200-02-0800 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:まします【坐す】, lex:ます【坐す】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1200 .
-
-lex:坐す-BG-02-1527-03-0800 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ます【在す・坐す・増す】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1527 .
 
 lex:坪菫-BG-01-5520-12-0600 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:つぼすみれ【坪菫】 ;
@@ -25657,7 +25660,7 @@ lex:増さる-BG-02-1900-06-0400 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1900 .
 
 lex:増す-BG-02-1580-01-0300 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ます【在す・坐す・増す】 ;
+    ontolex:isSenseOf lex:ます【増す】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1580 .
 
@@ -30097,7 +30100,7 @@ lex:指艾-BG-01-5510-06-3202 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-5510 .
 
 lex:振る-BG-02-1511-02-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ふる【振る・触る・降る】 ;
+    ontolex:isSenseOf lex:ふる【振る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1511 .
 
@@ -40412,7 +40415,7 @@ lex:触らす-BG-02-3120-10-0800 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3120 .
 
 lex:触る-BG-02-1560-01-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ふる【振る・触る・降る】 ;
+    ontolex:isSenseOf lex:ふる【触る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1560 .
 
@@ -42249,7 +42252,7 @@ lex:降つ-BG-02-3790-03-0500 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3790 .
 
 lex:降る-BG-02-1540-10-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ふる【振る・触る・降る】 ;
+    ontolex:isSenseOf lex:ふる【降る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1540 .
 

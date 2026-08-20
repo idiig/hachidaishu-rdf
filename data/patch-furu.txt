@@ -1,0 +1,69 @@
+## PATCH: ふる【振る・触る・降る】split into 3 -- 振る/触る/降る(merge into existing ふる【降る】)
+
+底本核实(限4部)：ふる读音共325个token。振る46(BG-02-1511)、触る9
+(BG-02-1560)、古る34(BG-02-1600，已经是独立ふる【古る】entry不受
+影响)、布留6(CH-29-0000，已经是独立ふる【布留】entry不受影响)、
+降る230(候选**每次都同时带BG-02-1540"上がり下がり"和BG-02-5150
+"晴雨"两个码**，不是可区分的歧义，是同一义两个分类角度)。
+
+已核实：合并entry目前254处occurrence，逐条比对底本 = 振る15+触る9+
+降る230，完全对应，无残留。另有独立的ふる【降る】entry(sense
+BG-02-5150)但**0次真实occurrence**——是幽灵条目，降る的真实用法全部
+在合并entry的BG-02-1540分支下。方案：把合并entry的"降る"部分并入
+既有的ふる【降る】entry(两个码都留，因为底本230个token每次都两个
+码同时出现)，振る/触る各自独立成新entry。
+
+### lex-batch.ttl
+
+OLD:
+lex:ふる【振る・触る・降る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "振る"@ja, "触る"@ja, "降る"@ja ] ;
+    ontolex:sense lex:振る-BG-02-1511-02-0200, lex:触る-BG-02-1560-01-0100, lex:降る-BG-02-1540-10-0100 .
+
+lex:ふる【降る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "降る"@ja ] ;
+    ontolex:sense lex:降る-BG-02-5150-03-0100 .
+
+NEW（整条删除合并entry，拆成2个新entry，既有ふる【降る】追加一个
+sense）:
+lex:ふる【振る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "振る"@ja ] ;
+    ontolex:sense lex:振る-BG-02-1511-02-0200 .
+
+lex:ふる【触る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "触る"@ja ] ;
+    ontolex:sense lex:触る-BG-02-1560-01-0100 .
+
+lex:ふる【降る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ふる"@ja-Hira, "降る"@ja ] ;
+    ontolex:sense lex:降る-BG-02-5150-03-0100, lex:降る-BG-02-1540-10-0100 .
+
+-- 振る-BG-02-1511-02-0200 的 isSenseOf 改指 ふる【振る】
+-- 触る-BG-02-1560-01-0100 的 isSenseOf 改指 ふる【触る】
+-- 降る-BG-02-1540-10-0100 的 isSenseOf 改指 ふる【降る】(跟既有的
+   降る-BG-02-5150-03-0100共用同一个entry)
+
+### occurrence-batch.ttl
+
+15处 waka:instantiates 从 lex:ふる【振る・触る・降る】 改成
+lex:ふる【振る】：
+  occ:kokin-22-10, occ:kokin-148-10, occ:kokin-158-10, occ:kokin-406-2, occ:kokin-441-1, occ:kokin-598-3, occ:gosen-454-14, occ:gosen-480-3, occ:shuui-1210-4, occ:shuui-1239-13, occ:goshuui-268-11, occ:goshuui-308-2, occ:goshuui-621-4, occ:goshuui-971-9, occ:goshuui-1172-9
+
+9处 waka:instantiates 从 lex:ふる【振る・触る・降る】 改成
+lex:ふる【触る】：
+  occ:kokin-33-12, occ:kokin-106-16, occ:kokin-605-3, occ:shuui-61-16, occ:shuui-87-3, occ:shuui-160-13, occ:shuui-704-6, occ:shuui-849-10, occ:shuui-1009-19
+
+230处 waka:instantiates 从 lex:ふる【振る・触る・降る】 改成
+lex:ふる【降る】：
+  occ:kokin-3-14, occ:kokin-5-17, occ:kokin-9-10, occ:kokin-20-6, occ:kokin-20-9, occ:kokin-21-18, occ:kokin-25-7, occ:kokin-63-10, occ:kokin-75-11, occ:kokin-86-4, occ:kokin-88-3, occ:kokin-137-12, occ:kokin-253-5, occ:kokin-261-2, occ:kokin-263-2, occ:kokin-284-11, occ:kokin-287-9, occ:kokin-288-10, occ:kokin-305-12, occ:kokin-317-13, occ:kokin-318-6, occ:kokin-318-15, occ:kokin-319-1, occ:kokin-321-12, occ:kokin-322-6, occ:kokin-323-2, occ:kokin-324-7, occ:kokin-326-3, occ:kokin-328-3, occ:kokin-329-2, occ:kokin-331-17, occ:kokin-332-13, occ:kokin-333-8, occ:kokin-334-16, occ:kokin-336-5, occ:kokin-337-2, occ:kokin-339-16, occ:kokin-340-2, occ:kokin-363-3, occ:kokin-402-5, occ:kokin-460-13, occ:kokin-473-14, occ:kokin-551-7, occ:kokin-566-3, occ:kokin-587-7, occ:kokin-621-5, occ:kokin-705-13, occ:kokin-731-10, occ:kokin-763-8, occ:kokin-775-13, occ:kokin-782-9, occ:kokin-829-5, occ:kokin-843-18, occ:kokin-891-5, occ:kokin-902-4, occ:kokin-954-14, occ:kokin-997-3, occ:kokin-1001-69, occ:kokin-1002-65, occ:kokin-1002-184, occ:kokin-1005-60, occ:kokin-1065-9, occ:kokin-1070-5, occ:kokin-1072-18, occ:kokin-1077-5, occ:gosen-1-1, occ:gosen-19-18, occ:gosen-22-20, occ:gosen-32-3, occ:gosen-33-5, occ:gosen-40-9, occ:gosen-45-1, occ:gosen-74-5, occ:gosen-153-4, occ:gosen-227-2, occ:gosen-297-2, occ:gosen-297-3, occ:gosen-375-2, occ:gosen-407-9, occ:gosen-412-3, occ:gosen-443-2, occ:gosen-444-2, occ:gosen-445-2, occ:gosen-445-4, occ:gosen-447-11, occ:gosen-448-5, occ:gosen-450-9, occ:gosen-451-14, occ:gosen-451-17, occ:gosen-455-13, occ:gosen-456-15, occ:gosen-461-3, occ:gosen-464-4, occ:gosen-465-11, occ:gosen-466-16, occ:gosen-468-2, occ:gosen-469-12, occ:gosen-470-4, occ:gosen-471-1, occ:gosen-482-11, occ:gosen-484-10, occ:gosen-485-8, occ:gosen-489-4, occ:gosen-491-7, occ:gosen-493-1, occ:gosen-495-1, occ:gosen-496-16, occ:gosen-497-5, occ:gosen-499-3, occ:gosen-501-3, occ:gosen-503-5, occ:gosen-537-7, occ:gosen-568-3, occ:gosen-676-1, occ:gosen-795-12, occ:gosen-814-7, occ:gosen-851-9, occ:gosen-904-1, occ:gosen-973-2, occ:gosen-973-4, occ:gosen-1068-13, occ:gosen-1070-11, occ:gosen-1072-11, occ:gosen-1073-18, occ:gosen-1133-14, occ:gosen-1133-17, occ:gosen-1236-5, occ:gosen-1289-10, occ:gosen-1353-9, occ:gosen-1414-11, occ:gosen-1423-17, occ:shuui-7-10, occ:shuui-8-5, occ:shuui-11-5, occ:shuui-12-16, occ:shuui-13-5, occ:shuui-14-1, occ:shuui-50-5, occ:shuui-63-17, occ:shuui-64-16, occ:shuui-94-4, occ:shuui-208-9, occ:shuui-219-11, occ:shuui-229-5, occ:shuui-239-3, occ:shuui-243-13, occ:shuui-244-1, occ:shuui-245-6, occ:shuui-246-16, occ:shuui-248-12, occ:shuui-251-4, occ:shuui-252-18, occ:shuui-253-3, occ:shuui-254-14, occ:shuui-255-8, occ:shuui-256-5, occ:shuui-258-11, occ:shuui-310-14, occ:shuui-376-11, occ:shuui-454-2, occ:shuui-504-11, occ:shuui-550-7, occ:shuui-571-82, occ:shuui-572-57, occ:shuui-573-188, occ:shuui-585-8, occ:shuui-653-16, occ:shuui-765-4, occ:shuui-797-1, occ:shuui-824-9, occ:shuui-826-11, occ:shuui-846-5, occ:shuui-956-4, occ:shuui-957-16, occ:shuui-957-19, occ:shuui-958-1, occ:shuui-959-9, occ:shuui-960-13, occ:shuui-1007-16, occ:shuui-1034-5, occ:shuui-1056-12, occ:shuui-1110-4, occ:shuui-1150-9, occ:shuui-1151-17, occ:shuui-1153-3, occ:shuui-1158-14, occ:shuui-1177-3, occ:shuui-1252-5, occ:shuui-1253-2, occ:shuui-1254-6, occ:shuui-1297-17, occ:shuui-1306-15, occ:shuui-1332-3, occ:goshuui-7-2, occ:goshuui-18-4, occ:goshuui-21-1, occ:goshuui-49-13, occ:goshuui-174-11, occ:goshuui-362-5, occ:goshuui-365-14, occ:goshuui-367-15, occ:goshuui-372-7, occ:goshuui-399-15, occ:goshuui-400-12, occ:goshuui-401-5, occ:goshuui-403-8, occ:goshuui-404-12, occ:goshuui-405-15, occ:goshuui-406-3, occ:goshuui-407-9, occ:goshuui-408-2, occ:goshuui-409-10, occ:goshuui-415-5, occ:goshuui-417-1, occ:goshuui-510-12, occ:goshuui-544-4, occ:goshuui-571-12, occ:goshuui-636-7, occ:goshuui-704-8, occ:goshuui-804-2, occ:goshuui-805-3, occ:goshuui-807-7, occ:goshuui-847-2, occ:goshuui-930-7, occ:goshuui-1003-16, occ:goshuui-1078-7, occ:goshuui-1110-7, occ:goshuui-1112-8, occ:goshuui-1119-6, occ:goshuui-1171-3
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+3处，全部是"振る"义，改成lex:ふる【振る】：
+  そでふるやま【袖振山】-decomp-2-c2 的 decomp:correspondsTo
+  ちはやぶる【千早振】 的 decomp:subterm (lex:ち【千】, lex:はやし
+  【早し】, lex:ふる【振る・触る・降る】)
+  ふるまふ【振舞ふ】 的 decomp:subterm (lex:ふる【振る・触る・
+  降る】, lex:まふ【舞ふ】)
+
+### 状态：已执行
