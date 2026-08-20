@@ -71128,7 +71128,7 @@ wakaid:kokin-830 waka:hasOccurrence occ:kokin-830-1, occ:kokin-830-2, occ:kokin-
 occ:kokin-830-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-830 ;
     waka:position 1 ;
-    waka:instantiates lex:ち【乳・血】 .
+    waka:instantiates lex:ち【血】 .
 
 occ:kokin-830-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-830 ;
@@ -442562,7 +442562,7 @@ occ:goshuui-1217-5 a waka:TokenOccurrence ;
 occ:goshuui-1217-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1217 ;
     waka:position 6 ;
-    waka:instantiates lex:ち【乳・血】 .
+    waka:instantiates lex:ち【乳】 .
 
 occ:goshuui-1217-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1217 ;

@@ -1,0 +1,59 @@
+## PATCH: ち【乳・血】split into 2 -- 乳「乳房・乳汁」vs 血「血液」
+
+底本核实(全8代集，仅3个token)：乳(goshuui-1217-6，1次)恒同时带
+A00=BG-01-5720"胸・腹・背"+A10=BG-01-5770"血・孔・涙・汗・尿など"
+两个候选(乳既是身体部位又是体液，两个分类都成立，是同一token的
+真实双重候选，不是幽灵)；血(kokin-830-1，1次)恒为A00=BG-01-5770
+(仅此一个码)。乳和血本身是完全不同的两个名词，被合并进同一个entry
+找不到依据；但乳自己的两个sense(5720+5770)都要保留，因为都是同一
+真实token的合法候选。
+
+已核实(限4部)：合并entry目前2处occurrence，逐条比对底本 = 乳1
+(goshuui-1217-6)+血1(kokin-830-1)，完全对应，三个sense都是真实
+使用、无幽灵。
+
+### lex-batch.ttl
+
+OLD:
+lex:ち【乳・血】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ち"@ja-Hira, "乳"@ja, "血"@ja ] ;
+    ontolex:sense lex:乳-BG-01-5720-04-0700, lex:乳-BG-01-5770-05-0200, lex:血-BG-01-5770-01-0100 .
+
+NEW（拆成2个entry）:
+lex:ち【乳】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ち"@ja-Hira, "乳"@ja ] ;
+    ontolex:sense lex:乳-BG-01-5720-04-0700, lex:乳-BG-01-5770-05-0200 .
+
+lex:ち【血】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ち"@ja-Hira, "血"@ja ] ;
+    ontolex:sense lex:血-BG-01-5770-01-0100 .
+
+-- 乳-BG-01-5720-04-0700、乳-BG-01-5770-05-0200 的 isSenseOf 都改指
+   ち【乳】
+-- 血-BG-01-5770-01-0100 的 isSenseOf 改指 ち【血】
+
+### occurrence-batch.ttl
+
+1处 waka:instantiates 从 lex:ち【乳・血】 改成 lex:ち【乳】：
+  occ:goshuui-1217-6
+
+1处 waka:instantiates 从 lex:ち【乳・血】 改成 lex:ち【血】：
+  occ:kokin-830-1
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+1处，"乳"义（まつちやま【待乳山】= 地名"待乳山"，ち是"乳"的
+借字），改成lex:ち【乳】：
+  まつちやま【待乳山】-decomp-2-c2 的 decomp:correspondsTo
+
+### triple数预期变化
+
+entry声明: OLD 7 triple(a1+canonicalForm链接1+writtenRep2+sense3) ->
+NEW ち【乳】5(a1+canonicalForm链接1+writtenRep1+sense2)+ち【血】4
+(a1+canonicalForm链接1+writtenRep1+sense1) = 9，delta +2
+isSenseOf x3改target: delta 0
+decomp:correspondsTo改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

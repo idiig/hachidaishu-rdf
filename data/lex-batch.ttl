@@ -10568,9 +10568,13 @@ lex:だむ【訛む】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "だむ"@ja-Hira, "訛む"@ja ] ;
     ontolex:sense lex:訛む-BG-02-3120-06-0102 .
 
-lex:ち【乳・血】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "ち"@ja-Hira, "乳"@ja, "血"@ja ] ;
-    ontolex:sense lex:乳-BG-01-5720-04-0700, lex:乳-BG-01-5770-05-0200, lex:血-BG-01-5770-01-0100 .
+lex:ち【乳】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ち"@ja-Hira, "乳"@ja ] ;
+    ontolex:sense lex:乳-BG-01-5720-04-0700, lex:乳-BG-01-5770-05-0200 .
+
+lex:ち【血】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ち"@ja-Hira, "血"@ja ] ;
+    ontolex:sense lex:血-BG-01-5770-01-0100 .
 
 lex:ち【千】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ち"@ja-Hira, "千"@ja ] ;
@@ -15643,7 +15647,7 @@ lex:まつちやま【待乳山】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:まつ【待つ】 .
 
 lex:まつちやま【待乳山】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:ち【乳・血】 .
+    decomp:correspondsTo lex:ち【乳】 .
 
 lex:まつちやま【待乳山】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:やま【山】 .
@@ -22119,12 +22123,12 @@ lex:乱る-BG-02-1300-03-0100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1300 .
 
 lex:乳-BG-01-5720-04-0700 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ち【乳・血】 ;
+    ontolex:isSenseOf lex:ち【乳】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-5720 .
 
 lex:乳-BG-01-5770-05-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ち【乳・血】 ;
+    ontolex:isSenseOf lex:ち【乳】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-5770 .
 
@@ -40134,7 +40138,7 @@ lex:蟋蟀-BG-01-5650-07-0602 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-5650 .
 
 lex:血-BG-01-5770-01-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ち【乳・血】 ;
+    ontolex:isSenseOf lex:ち【血】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-5770 .
 
