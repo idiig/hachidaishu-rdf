@@ -4611,9 +4611,13 @@ lex:かしこ\*【彼処】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かしこ"@ja-Hira, "彼処"@ja ] ;
     ontolex:sense lex:彼処-BG-01-1700-02-0901 .
 
-lex:かしこし【畏し・賢し】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "かしこし"@ja-Hira, "畏し"@ja, "賢し"@ja ] ;
-    ontolex:sense lex:畏し-BG-03-3020-11-0500, lex:賢し-BG-03-3040-01-0302 .
+lex:かしこし【畏し】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かしこし"@ja-Hira, "畏し"@ja ] ;
+    ontolex:sense lex:畏し-BG-03-3020-11-0500 .
+
+lex:かしこし【賢し】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かしこし"@ja-Hira, "賢し"@ja ] ;
+    ontolex:sense lex:賢し-BG-03-3040-01-0302 .
 
 lex:かしこむ【畏む】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かしこむ"@ja-Hira, "畏む"@ja ] ;
@@ -35877,7 +35881,7 @@ lex:画く-BG-02-3150-01-0102 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3150 .
 
 lex:畏し-BG-03-3020-11-0500 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:かしこし【畏し・賢し】 ;
+    ontolex:isSenseOf lex:かしこし【畏し】 ;
     lexinfo:partOfSpeech lexinfo:adjective ;
     ontolex:reference concept:BG-03-3020 .
 
@@ -40889,7 +40893,7 @@ lex:賞づ-BG-02-3682-01-1100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3682 .
 
 lex:賢し-BG-03-3040-01-0302 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:かしこし【畏し・賢し】 ;
+    ontolex:isSenseOf lex:かしこし【賢し】 ;
     lexinfo:partOfSpeech lexinfo:adjective ;
     ontolex:reference concept:BG-03-3040 .
 

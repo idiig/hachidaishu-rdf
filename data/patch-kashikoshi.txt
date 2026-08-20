@@ -1,0 +1,55 @@
+## PATCH: かしこし【畏し・賢し】split into 2 -- 畏し「畏れ多い」vs 賢し「賢い」
+
+底本核实(全8代集，6个token)：畏し恒为A00=BG-03-3020"恐れ・不安など"
+(5次)、賢し恒为A00=BG-03-3040"賢愚"(1次)，两者WLSP大类完全不同，
+无任何交叉候选，是完全不同的两个形容词被合并进同一个entry。
+
+已核实(限4部)：合并entry目前4处occurrence，逐条比对底本 = 畏し3
+(shuui-531-6, shuui-574-25, shuui-1043-7)+賢し1(goshuui-1218-8)，
+完全对应，两个sense都是真实使用、无幽灵。
+
+无复合词引用，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:かしこし【畏し・賢し】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かしこし"@ja-Hira, "畏し"@ja, "賢し"@ja ] ;
+    ontolex:sense lex:畏し-BG-03-3020-11-0500, lex:賢し-BG-03-3040-01-0302 .
+
+NEW（拆成2个entry）:
+lex:かしこし【畏し】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かしこし"@ja-Hira, "畏し"@ja ] ;
+    ontolex:sense lex:畏し-BG-03-3020-11-0500 .
+
+lex:かしこし【賢し】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かしこし"@ja-Hira, "賢し"@ja ] ;
+    ontolex:sense lex:賢し-BG-03-3040-01-0302 .
+
+-- 畏し-BG-03-3020-11-0500 的 isSenseOf 改指 かしこし【畏し】
+-- 賢し-BG-03-3040-01-0302 的 isSenseOf 改指 かしこし【賢し】
+
+### occurrence-batch.ttl
+
+3处 waka:instantiates 从 lex:かしこし【畏し・賢し】 改成
+lex:かしこし【畏し】：
+  occ:shuui-531-6, occ:shuui-574-25, occ:shuui-1043-7
+
+1处 waka:instantiates 从 lex:かしこし【畏し・賢し】 改成
+lex:かしこし【賢し】：
+  occ:goshuui-1218-8
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用かしこし【畏し・賢し】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple(a1+canonicalForm链接1+writtenRep2+sense2) ->
+NEW 2个entry各4(a1+canonicalForm链接1+writtenRep1+sense1) = 8，
+delta +2
+isSenseOf x2改target: 同一triple换object，delta 0
+occurrence-batch.ttl: waka:instantiates换object，delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

@@ -265877,7 +265877,7 @@ occ:shuui-531-5 a waka:TokenOccurrence ;
 occ:shuui-531-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-531 ;
     waka:position 6 ;
-    waka:instantiates lex:かしこし【畏し・賢し】 .
+    waka:instantiates lex:かしこし【畏し】 .
 
 occ:shuui-531-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-531 ;
@@ -272873,7 +272873,7 @@ occ:shuui-574-24 a waka:TokenOccurrence ;
 occ:shuui-574-25 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-574 ;
     waka:position 25 ;
-    waka:instantiates lex:かしこし【畏し・賢し】 .
+    waka:instantiates lex:かしこし【畏し】 .
 
 occ:shuui-574-26 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-574 ;
@@ -314201,7 +314201,7 @@ occ:shuui-1043-6 a waka:TokenOccurrence ;
 occ:shuui-1043-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1043 ;
     waka:position 7 ;
-    waka:instantiates lex:かしこし【畏し・賢し】 .
+    waka:instantiates lex:かしこし【畏し】 .
 
 occ:shuui-1043-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1043 ;
@@ -442664,7 +442664,7 @@ occ:goshuui-1218-7 a waka:TokenOccurrence ;
 occ:goshuui-1218-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1218 ;
     waka:position 8 ;
-    waka:instantiates lex:かしこし【畏し・賢し】 .
+    waka:instantiates lex:かしこし【賢し】 .
 
 occ:goshuui-1218-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1218 ;
