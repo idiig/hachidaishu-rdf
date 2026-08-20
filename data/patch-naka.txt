@@ -1,0 +1,52 @@
+## PATCH: なか【中・仲】split into 2 -- 中「空間の中央」vs 仲「人間関係」
+
+底本核实(全8代集)：中恒为A00=BG-01-1101"空間"(59次，+A10=1742/
+A20=1770次选)、仲恒为A00=BG-01-1110"人間関係"(9次，无次选)，两者
+WLSP大类完全不同(空间位置 vs 人际关系)，是完全不同的两个词义被
+合并进同一个entry。
+
+已核实(限4部)：合并entry目前51处occurrence，逐条比对底本 = 中44+
+仲7，完全对应，两个sense都是真实使用、无幽灵。
+
+无复合词引用なか【中・仲】，核实完毕(1770/1742码对应的复合词用法
+不在本entry范围内，不受影响)。
+
+### lex-batch.ttl
+
+OLD:
+lex:なか【中・仲】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "なか"@ja-Hira, "中"@ja, "仲"@ja ] ;
+    ontolex:sense lex:中-BG-01-1101-02-0500, lex:仲-BG-01-1110-01-0400 .
+
+NEW（拆成2个entry）:
+lex:なか【中】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "なか"@ja-Hira, "中"@ja ] ;
+    ontolex:sense lex:中-BG-01-1101-02-0500 .
+
+lex:なか【仲】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "なか"@ja-Hira, "仲"@ja ] ;
+    ontolex:sense lex:仲-BG-01-1110-01-0400 .
+
+-- 中-BG-01-1101-02-0500 的 isSenseOf 改指 なか【中】
+-- 仲-BG-01-1110-01-0400 的 isSenseOf 改指 なか【仲】
+
+### occurrence-batch.ttl
+
+44处 waka:instantiates 从 lex:なか【中・仲】 改成 lex:なか【中】：
+  occ:kokin-283-10, occ:kokin-427-6, occ:kokin-465-2, occ:kokin-468-3, occ:kokin-493-4, occ:kokin-558-6, occ:kokin-825-7, occ:kokin-828-8, occ:kokin-952-5, occ:kokin-968-3, occ:kokin-992-6, occ:kokin-1002-126, occ:kokin-1003-134, occ:kokin-1006-40, occ:gosen-473-6, occ:gosen-636-7, occ:gosen-686-7, occ:gosen-734-3, occ:gosen-986-1, occ:gosen-1017-17, occ:gosen-1088-15, occ:gosen-1098-6, occ:gosen-1118-6, occ:gosen-1214-6, occ:gosen-1346-13, occ:gosen-1387-7, occ:gosen-1394-6, occ:shuui-358-4, occ:shuui-369-4, occ:shuui-574-112, occ:shuui-798-3, occ:shuui-863-11, occ:shuui-864-10, occ:shuui-957-7, occ:shuui-962-17, occ:shuui-1237-3, occ:goshuui-628-6, occ:goshuui-758-1, occ:goshuui-886-6, occ:goshuui-984-9, occ:goshuui-987-5, occ:goshuui-1047-12, occ:goshuui-1139-6, occ:goshuui-1139-16
+
+7处 waka:instantiates 从 lex:なか【中・仲】 改成 lex:なか【仲】：
+  occ:kokin-701-8, occ:kokin-717-6, occ:kokin-768-12, occ:gosen-1025-11, occ:shuui-573-193, occ:goshuui-299-4, occ:goshuui-480-3
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用なか【中・仲】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

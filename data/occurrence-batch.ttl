@@ -23944,7 +23944,7 @@ occ:kokin-283-9 a waka:TokenOccurrence ;
 occ:kokin-283-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-283 ;
     waka:position 10 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-283-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-283 ;
@@ -36032,7 +36032,7 @@ occ:kokin-427-5 a waka:TokenOccurrence ;
 occ:kokin-427-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-427 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-427-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-427 ;
@@ -39353,7 +39353,7 @@ occ:kokin-465-1 a waka:TokenOccurrence ;
 occ:kokin-465-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-465 ;
     waka:position 2 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-465-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-465 ;
@@ -39604,7 +39604,7 @@ occ:kokin-468-2 a waka:TokenOccurrence ;
 occ:kokin-468-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-468 ;
     waka:position 3 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-468-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-468 ;
@@ -41734,7 +41734,7 @@ occ:kokin-493-3 a waka:TokenOccurrence ;
 occ:kokin-493-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-493 ;
     waka:position 4 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-493-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-493 ;
@@ -47379,7 +47379,7 @@ occ:kokin-558-5 a waka:TokenOccurrence ;
 occ:kokin-558-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-558 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-558-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-558 ;
@@ -59875,7 +59875,7 @@ occ:kokin-701-7 a waka:TokenOccurrence ;
 occ:kokin-701-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-701 ;
     waka:position 8 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【仲】 .
 
 occ:kokin-701-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-701 ;
@@ -61207,7 +61207,7 @@ occ:kokin-717-5 a waka:TokenOccurrence ;
 occ:kokin-717-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-717 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【仲】 .
 
 occ:kokin-717-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-717 ;
@@ -65669,7 +65669,7 @@ occ:kokin-768-11 a waka:TokenOccurrence ;
 occ:kokin-768-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-768 ;
     waka:position 12 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【仲】 .
 
 occ:kokin-768-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-768 ;
@@ -70713,7 +70713,7 @@ occ:kokin-825-6 a waka:TokenOccurrence ;
 occ:kokin-825-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-825 ;
     waka:position 7 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-825-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-825 ;
@@ -71009,7 +71009,7 @@ occ:kokin-828-7 a waka:TokenOccurrence ;
 occ:kokin-828-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-828 ;
     waka:position 8 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-828-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-828 ;
@@ -81632,7 +81632,7 @@ occ:kokin-952-4 a waka:TokenOccurrence ;
 occ:kokin-952-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-952 ;
     waka:position 5 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-952-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-952 ;
@@ -83084,7 +83084,7 @@ occ:kokin-968-2 a waka:TokenOccurrence ;
 occ:kokin-968-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-968 ;
     waka:position 3 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-968-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-968 ;
@@ -85287,7 +85287,7 @@ occ:kokin-992-5 a waka:TokenOccurrence ;
 occ:kokin-992-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-992 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-992-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-992 ;
@@ -87502,7 +87502,7 @@ occ:kokin-1002-125 a waka:TokenOccurrence ;
 occ:kokin-1002-126 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
     waka:position 126 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-1002-127 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
@@ -88499,7 +88499,7 @@ occ:kokin-1003-133 a waka:TokenOccurrence ;
 occ:kokin-1003-134 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1003 ;
     waka:position 134 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-1003-135 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1003 ;
@@ -89860,7 +89860,7 @@ occ:kokin-1006-39 a waka:TokenOccurrence ;
 occ:kokin-1006-40 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1006 ;
     waka:position 40 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:kokin-1006-41 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1006 ;
@@ -138841,7 +138841,7 @@ occ:gosen-473-5 a waka:TokenOccurrence ;
 occ:gosen-473-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-473 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-473-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-473 ;
@@ -152837,7 +152837,7 @@ occ:gosen-636-6 a waka:TokenOccurrence ;
 occ:gosen-636-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-636 ;
     waka:position 7 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-636-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-636 ;
@@ -157162,7 +157162,7 @@ occ:gosen-686-6 a waka:TokenOccurrence ;
 occ:gosen-686-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-686 ;
     waka:position 7 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-686-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-686 ;
@@ -161273,7 +161273,7 @@ occ:gosen-734-2 a waka:TokenOccurrence ;
 occ:gosen-734-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-734 ;
     waka:position 3 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-734-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-734 ;
@@ -182852,7 +182852,7 @@ wakaid:gosen-986 waka:hasOccurrence occ:gosen-986-1, occ:gosen-986-2, occ:gosen-
 occ:gosen-986-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-986 ;
     waka:position 1 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-986-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-986 ;
@@ -185549,7 +185549,7 @@ occ:gosen-1017-16 a waka:TokenOccurrence ;
 occ:gosen-1017-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1017 ;
     waka:position 17 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1017-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1017 ;
@@ -186240,7 +186240,7 @@ occ:gosen-1025-10 a waka:TokenOccurrence ;
 occ:gosen-1025-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1025 ;
     waka:position 11 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【仲】 .
 
 occ:gosen-1025-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1025 ;
@@ -191671,7 +191671,7 @@ occ:gosen-1088-14 a waka:TokenOccurrence ;
 occ:gosen-1088-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1088 ;
     waka:position 15 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1088-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1088 ;
@@ -192481,7 +192481,7 @@ occ:gosen-1098-5 a waka:TokenOccurrence ;
 occ:gosen-1098-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1098 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1098-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1098 ;
@@ -194286,7 +194286,7 @@ occ:gosen-1118-5 a waka:TokenOccurrence ;
 occ:gosen-1118-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1118 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1118-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1118 ;
@@ -202653,7 +202653,7 @@ occ:gosen-1214-5 a waka:TokenOccurrence ;
 occ:gosen-1214-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1214 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1214-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1214 ;
@@ -214142,7 +214142,7 @@ occ:gosen-1346-12 a waka:TokenOccurrence ;
 occ:gosen-1346-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1346 ;
     waka:position 13 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1346-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1346 ;
@@ -217629,7 +217629,7 @@ occ:gosen-1387-6 a waka:TokenOccurrence ;
 occ:gosen-1387-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1387 ;
     waka:position 7 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1387-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1387 ;
@@ -218263,7 +218263,7 @@ occ:gosen-1394-5 a waka:TokenOccurrence ;
 occ:gosen-1394-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1394 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:gosen-1394-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1394 ;
@@ -250961,7 +250961,7 @@ occ:shuui-358-3 a waka:TokenOccurrence ;
 occ:shuui-358-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-358 ;
     waka:position 4 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-358-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-358 ;
@@ -251948,7 +251948,7 @@ occ:shuui-369-3 a waka:TokenOccurrence ;
 occ:shuui-369-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-369 ;
     waka:position 4 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-369-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-369 ;
@@ -272731,7 +272731,7 @@ occ:shuui-573-192 a waka:TokenOccurrence ;
 occ:shuui-573-193 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
     waka:position 193 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【仲】 .
 
 occ:shuui-573-194 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
@@ -273308,7 +273308,7 @@ occ:shuui-574-111 a waka:TokenOccurrence ;
 occ:shuui-574-112 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-574 ;
     waka:position 112 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-574-113 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-574 ;
@@ -293401,7 +293401,7 @@ occ:shuui-798-2 a waka:TokenOccurrence ;
 occ:shuui-798-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-798 ;
     waka:position 3 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-798-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-798 ;
@@ -299041,7 +299041,7 @@ occ:shuui-863-10 a waka:TokenOccurrence ;
 occ:shuui-863-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-863 ;
     waka:position 11 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-863-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-863 ;
@@ -299108,7 +299108,7 @@ occ:shuui-864-9 a waka:TokenOccurrence ;
 occ:shuui-864-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-864 ;
     waka:position 10 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-864-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-864 ;
@@ -306909,7 +306909,7 @@ occ:shuui-957-6 a waka:TokenOccurrence ;
 occ:shuui-957-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-957 ;
     waka:position 7 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-957-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-957 ;
@@ -307399,7 +307399,7 @@ occ:shuui-962-16 a waka:TokenOccurrence ;
 occ:shuui-962-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-962 ;
     waka:position 17 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-962-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-962 ;
@@ -330530,7 +330530,7 @@ occ:shuui-1237-2 a waka:TokenOccurrence ;
 occ:shuui-1237-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1237 ;
     waka:position 3 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:shuui-1237-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1237 ;
@@ -365191,7 +365191,7 @@ occ:goshuui-299-3 a waka:TokenOccurrence ;
 occ:goshuui-299-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-299 ;
     waka:position 4 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【仲】 .
 
 occ:goshuui-299-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-299 ;
@@ -380288,7 +380288,7 @@ occ:goshuui-480-2 a waka:TokenOccurrence ;
 occ:goshuui-480-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-480 ;
     waka:position 3 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【仲】 .
 
 occ:goshuui-480-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-480 ;
@@ -392804,7 +392804,7 @@ occ:goshuui-628-5 a waka:TokenOccurrence ;
 occ:goshuui-628-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-628 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-628-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-628 ;
@@ -403669,7 +403669,7 @@ wakaid:goshuui-758 waka:hasOccurrence occ:goshuui-758-1, occ:goshuui-758-2, occ:
 occ:goshuui-758-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-758 ;
     waka:position 1 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-758-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-758 ;
@@ -414600,7 +414600,7 @@ occ:goshuui-886-5 a waka:TokenOccurrence ;
 occ:goshuui-886-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-886 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-886-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-886 ;
@@ -423026,7 +423026,7 @@ occ:goshuui-984-8 a waka:TokenOccurrence ;
 occ:goshuui-984-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-984 ;
     waka:position 9 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-984-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-984 ;
@@ -423257,7 +423257,7 @@ occ:goshuui-987-4 a waka:TokenOccurrence ;
 occ:goshuui-987-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-987 ;
     waka:position 5 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-987-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-987 ;
@@ -428357,7 +428357,7 @@ occ:goshuui-1047-11 a waka:TokenOccurrence ;
 occ:goshuui-1047-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1047 ;
     waka:position 12 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-1047-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1047 ;
@@ -436081,7 +436081,7 @@ occ:goshuui-1139-5 a waka:TokenOccurrence ;
 occ:goshuui-1139-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1139 ;
     waka:position 6 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-1139-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1139 ;
@@ -436131,7 +436131,7 @@ occ:goshuui-1139-15 a waka:TokenOccurrence ;
 occ:goshuui-1139-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1139 ;
     waka:position 16 ;
-    waka:instantiates lex:なか【中・仲】 .
+    waka:instantiates lex:なか【中】 .
 
 occ:goshuui-1139-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1139 ;

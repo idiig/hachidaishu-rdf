@@ -11892,11 +11892,11 @@ lex:な【菜】 a ontolex:LexicalEntry ;
 
 lex:なか【中】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "なか"@ja-Hira, "中"@ja ] ;
-    ontolex:sense lex:中-BG-01-1742-01-0100, lex:中-BG-01-1770-01-0800 .
+    ontolex:sense lex:中-BG-01-1742-01-0100, lex:中-BG-01-1770-01-0800, lex:中-BG-01-1101-02-0500 .
 
-lex:なか【中・仲】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "なか"@ja-Hira, "中"@ja, "仲"@ja ] ;
-    ontolex:sense lex:中-BG-01-1101-02-0500, lex:仲-BG-01-1110-01-0400 .
+lex:なか【仲】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "なか"@ja-Hira, "仲"@ja ] ;
+    ontolex:sense lex:仲-BG-01-1110-01-0400 .
 
 lex:なかがき【中垣】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "なかがき"@ja-Hira, "中垣"@ja ] ;
@@ -21950,7 +21950,7 @@ lex:並蔵-BG-01-4410-10-0900 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-4410 .
 
 lex:中-BG-01-1101-02-0500 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:なか【中・仲】 ;
+    ontolex:isSenseOf lex:なか【中】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1101 .
 
@@ -22738,7 +22738,7 @@ lex:仰す-BG-02-3120-01-1001 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3120 .
 
 lex:仲-BG-01-1110-01-0400 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:なか【中・仲】 ;
+    ontolex:isSenseOf lex:なか【仲】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1110 .
 
