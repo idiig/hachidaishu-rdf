@@ -73067,7 +73067,7 @@ occ:kokin-852-9 a waka:TokenOccurrence ;
 occ:kokin-852-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-852 ;
     waka:position 10 ;
-    waka:instantiates lex:うら【占・心】 .
+    waka:instantiates lex:うら【心】 .
 
 occ:kokin-852-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-852 ;
@@ -107850,7 +107850,7 @@ occ:gosen-100-6 a waka:TokenOccurrence ;
 occ:gosen-100-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-100 ;
     waka:position 7 ;
-    waka:instantiates lex:うら【占・心】 .
+    waka:instantiates lex:うら【心】 .
 
 occ:gosen-100-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-100 ;
@@ -239301,7 +239301,7 @@ occ:shuui-218-8 a waka:TokenOccurrence ;
 occ:shuui-218-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-218 ;
     waka:position 9 ;
-    waka:instantiates lex:うら【占・心】 .
+    waka:instantiates lex:うら【心】 .
 
 occ:shuui-218-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-218 ;
@@ -271509,7 +271509,7 @@ occ:shuui-572-138 a waka:TokenOccurrence ;
 occ:shuui-572-139 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
     waka:position 139 ;
-    waka:instantiates lex:うら【占・心】 .
+    waka:instantiates lex:うら【心】 .
 
 occ:shuui-572-140 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
@@ -359820,7 +359820,7 @@ occ:goshuui-236-7 a waka:TokenOccurrence ;
 occ:goshuui-236-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-236 ;
     waka:position 8 ;
-    waka:instantiates lex:うら【占・心】 .
+    waka:instantiates lex:うら【心】 .
 
 occ:goshuui-236-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-236 ;
@@ -390110,7 +390110,7 @@ occ:goshuui-596-5 a waka:TokenOccurrence ;
 occ:goshuui-596-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-596 ;
     waka:position 6 ;
-    waka:instantiates lex:うら【占・心】 .
+    waka:instantiates lex:うら【心】 .
 
 occ:goshuui-596-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-596 ;
@@ -437140,7 +437140,7 @@ occ:goshuui-1151-10 a waka:TokenOccurrence ;
 occ:goshuui-1151-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1151 ;
     waka:position 11 ;
-    waka:instantiates lex:うら【占・心】 .
+    waka:instantiates lex:うら【心】 .
 
 occ:goshuui-1151-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1151 ;

@@ -1,0 +1,67 @@
+## PATCH: うら【占・心】-- 删除幽灵sense 占-BG-01-3066，entry改名为うら【心】
+
+底本核实(全8代集)：うら读音共168个token，按汉字分：浦(绝大多数，
+BG-01-5260，已经是独立うら【浦】entry不受影响)、裏(BG-01-1750，已经
+是独立うら【占・裏】entry的一部分)、占(6次：01-700-14/03-806-9/
+03-807-3为A00=BG-01-1750+A10=BG-01-3066；04-236-6/08-450-14/
+08-1820-15为C00=BG-01-1750，复合词用法)、心(9次：01-852-10/
+02-100-7/03-218-9/03-572-139/04-236-8/04-596-6/07-981-7/08-296-11，
+全部A00=BG-01-3000)、末(3次，另有独立entry不受影响)。
+
+**关键发现**：占的WLSP主分类(A00)在全8代集168个token中永远是
+BG-01-1750("面・側・表裏")，从未出现BG-01-3066("想像・推測・判断・
+決心")作为主分类——3066只在01-700-14/03-806-9/03-807-3这3处作为
+次选(A10)出现。而这3处真实occurrence目前已经正确挂在既有的
+うら【占・裏】entry下（sense 占-BG-01-1750-05-0500）。也就是说，
+うら【占・心】entry里的"占-BG-01-3066-04-0800"这个sense**从未被任何
+真实occurrence使用过**——是纯粹的幽灵sense，全8代集范围内都没有支持
+（不同于さす的刺す/みよ的三夜那种"4部没有但8部里有"的情况，这次是
+8部范围内本身就没有任何token以3066为主分类）。
+
+已核实：うら【占・心】目前7处occurrence，逐条比对底本 = 心 7处
+(kokin-852-10, gosen-100-7, shuui-218-9, shuui-572-139, goshuui-236-8,
+goshuui-596-6, goshuui-1151-11)，完全对应，占 0处。心(心/mind,
+WLSP 01-3000)和占(占い/想像推测，WLSP 01-3066)本身也是完全不同的
+词义，被合并进同一个entry找不到任何依据。
+
+方案：删除幽灵sense 占-BG-01-3066-04-0800，entry改名为うら【心】，
+只保留心-BG-01-3000-01-0301这一个sense。
+
+无复合词引用うら【占・心】，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:うら【占・心】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "うら"@ja-Hira, "占"@ja, "心"@ja ] ;
+    ontolex:sense lex:占-BG-01-3066-04-0800, lex:心-BG-01-3000-01-0301 .
+
+NEW:
+lex:うら【心】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "うら"@ja-Hira, "心"@ja ] ;
+    ontolex:sense lex:心-BG-01-3000-01-0301 .
+
+-- 删除孤立sense声明：占-BG-01-3066-04-0800（4个triple：a/isSenseOf/
+   partOfSpeech/reference全部删除，不retarget——从未被真实occurrence
+   使用）
+-- 心-BG-01-3000-01-0301 的 isSenseOf 改指 うら【心】
+
+### occurrence-batch.ttl
+
+7处 waka:instantiates 从 lex:うら【占・心】 改成 lex:うら【心】：
+  occ:kokin-852-10, occ:gosen-100-7, occ:shuui-218-9, occ:shuui-572-139, occ:goshuui-236-8, occ:goshuui-596-6, occ:goshuui-1151-11
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用うら【占・心】。
+
+### triple数预期变化
+
+entry声明: OLD 7 triple(a1+canonicalForm链接1+writtenRep3+sense2) ->
+NEW 5 triple(a1+canonicalForm链接1+writtenRep2+sense1)，delta -2
+删除占sense声明: -4 triple
+isSenseOf改target: 同一triple换object，delta 0
+occurrence-batch.ttl: waka:instantiates换object，delta 0
+总计lex-batch.ttl delta: -6
+
+### 状态：已执行

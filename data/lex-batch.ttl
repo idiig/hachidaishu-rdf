@@ -3451,9 +3451,9 @@ lex:うもれぎ【埋れ木】 a ontolex:LexicalEntry ;
     decomp:subterm lex:うもる【埋もる】, lex:き【木】 ;
     ontolex:sense lex:埋れ木-BG-01-1533-02-0600 .
 
-lex:うら【占・心】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "うら"@ja-Hira, "占"@ja, "心"@ja ] ;
-    ontolex:sense lex:占-BG-01-3066-04-0800, lex:心-BG-01-3000-01-0301 .
+lex:うら【心】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "うら"@ja-Hira, "心"@ja ] ;
+    ontolex:sense lex:心-BG-01-3000-01-0301 .
 
 lex:うら【占・裏】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うら"@ja-Hira, "占"@ja, "裏"@ja ] ;
@@ -24423,11 +24423,6 @@ lex:占-BG-01-1750-05-0500 a ontolex:LexicalSense ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1750 .
 
-lex:占-BG-01-3066-04-0800 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:うら【占・心】 ;
-    lexinfo:partOfSpeech lexinfo:commonNoun ;
-    ontolex:reference concept:BG-01-3066 .
-
 lex:占む-BG-02-3700-01-0601 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:しむ【占む】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
@@ -29209,7 +29204,7 @@ lex:心-BG-01-3000-01-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-3000 .
 
 lex:心-BG-01-3000-01-0301 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:うら【占・心】 ;
+    ontolex:isSenseOf lex:うら【心】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-3000 .
 
