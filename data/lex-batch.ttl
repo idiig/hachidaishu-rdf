@@ -8674,9 +8674,9 @@ lex:しむ【占む】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しむ"@ja-Hira, "占む"@ja ] ;
     ontolex:sense lex:占む-BG-02-3700-01-0601 .
 
-lex:しむ【染む・締む】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "しむ"@ja-Hira, "染む"@ja, "締む"@ja ] ;
-    ontolex:sense lex:染む-BG-02-1532-01-0100, lex:締む-BG-02-1565-05-0201, lex:締む-BG-02-1570-13-0201 .
+lex:しむ【染む】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しむ"@ja-Hira, "染む"@ja ] ;
+    ontolex:sense lex:染む-BG-02-1532-01-0100 .
 
 lex:しむ【標む・締む】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しむ"@ja-Hira, "標む"@ja, "締む"@ja ] ;
@@ -32257,7 +32257,7 @@ lex:柏木-BG-01-5520-25-1601 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-5520 .
 
 lex:染む-BG-02-1532-01-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しむ【染む・締む】 ;
+    ontolex:isSenseOf lex:しむ【染む】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1532 .
 
@@ -38207,16 +38207,6 @@ lex:締む-BG-02-1340-04-0202 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:しむ【標む・締む】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1340 .
-
-lex:締む-BG-02-1565-05-0201 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しむ【染む・締む】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1565 .
-
-lex:締む-BG-02-1570-13-0201 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しむ【染む・締む】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1570 .
 
 lex:編む-BG-02-1550-04-0100 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:あむ【編む】 ;

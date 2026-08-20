@@ -1,0 +1,63 @@
+## PATCH: しむ【染む・締む】-- 删除2个幽灵sense 締む-1565/1570，entry改名为しむ【染む】
+
+底本核实(全8代集)：染む恒为A00=BG-02-1532(49次)，无歧义。締む全库
+仅2个token(08-709-5、08-711-12，都在book08，超出本RDF覆盖的4部
+范围)，每次都同时带A00=BG-02-1340(主选)+A10=BG-02-1565(次选)+
+A20=BG-02-1570(三选)三个码。
+
+**关键**：締む的主选码1340已经被既有的独立entry しむ【標む・締む】
+正确持有(该entry是標む+締む的同码合并，两者本来就同属WLSP
+1340大类，不属于bug3范围)。也就是说，当前entry しむ【染む・締む】
+里的"締む-BG-02-1565-05-0201"和"締む-BG-02-1570-13-0201"这两个
+sense，用的是締む**从未被选为主分类**的次选/三选码，而且对应的2个
+真实token早已被另一个entry用主码1340正确收录——不是"4部没有但8部
+有"式的さす/みよ先例(那种情况下phantom sense是该token的唯一归属)，
+而是真实token已被别处正确收录、这两个sense纯属冗余候选码副本，
+删除不会丢失任何数据。
+
+已核实(限4部)：しむ【染む・締む】目前21处occurrence，逐条比对底本
+= 全部是染む，完全对应，締む 0处(在4部范围内締む本来就不存在)。
+
+方案：删除幽灵sense 締む-BG-02-1565-05-0201、締む-BG-02-1570-13-0201，
+entry改名为しむ【染む】，只保留染む-BG-02-1532-01-0100这一个sense。
+既有的しむ【標む・締む】entry不用动。
+
+无复合词引用しむ【染む・締む】，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:しむ【染む・締む】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しむ"@ja-Hira, "染む"@ja, "締む"@ja ] ;
+    ontolex:sense lex:染む-BG-02-1532-01-0100, lex:締む-BG-02-1565-05-0201, lex:締む-BG-02-1570-13-0201 .
+
+NEW:
+lex:しむ【染む】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しむ"@ja-Hira, "染む"@ja ] ;
+    ontolex:sense lex:染む-BG-02-1532-01-0100 .
+
+-- 删除孤立sense声明：締む-BG-02-1565-05-0201、締む-BG-02-1570-13-0201
+   （各4个triple：a/isSenseOf/partOfSpeech/reference，全部删除，
+   不retarget——从未被真实occurrence使用，对应真实token已被
+   しむ【標む・締む】正确收录）
+-- 染む-BG-02-1532-01-0100 的 isSenseOf 改指 しむ【染む】
+
+### occurrence-batch.ttl
+
+21处 waka:instantiates 从 lex:しむ【染む・締む】 改成 lex:しむ【染む】：
+  occ:kokin-35-16, occ:kokin-165-5, occ:kokin-381-14, occ:gosen-27-17, occ:gosen-449-19, occ:shuui-27-17, occ:shuui-53-13, occ:shuui-402-7, occ:shuui-502-12, occ:shuui-577-7, occ:shuui-633-3, occ:shuui-939-17, occ:goshuui-322-16, occ:goshuui-339-12, occ:goshuui-580-16, occ:goshuui-621-14, occ:goshuui-630-11, occ:goshuui-708-7, occ:goshuui-790-13, occ:goshuui-991-17, occ:goshuui-1134-9
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用しむ【染む・締む】。
+
+### triple数预期变化
+
+entry声明: OLD 7 triple(a1+canonicalForm链接1+writtenRep2+sense3) ->
+NEW 4 triple(a1+canonicalForm链接1+writtenRep1+sense1)，delta -3
+删除2个締む幽灵sense声明: -4*2 = -8
+isSenseOf改target: 同一triple换object，delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: -11
+
+### 状态：已执行

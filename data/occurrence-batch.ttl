@@ -2978,7 +2978,7 @@ occ:kokin-35-15 a waka:TokenOccurrence ;
 occ:kokin-35-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-35 ;
     waka:position 16 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:kokin-35-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-35 ;
@@ -13958,7 +13958,7 @@ occ:kokin-165-4 a waka:TokenOccurrence ;
 occ:kokin-165-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-165 ;
     waka:position 5 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:kokin-165-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-165 ;
@@ -32190,7 +32190,7 @@ occ:kokin-381-13 a waka:TokenOccurrence ;
 occ:kokin-381-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-381 ;
     waka:position 14 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:kokin-381-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-381 ;
@@ -101524,7 +101524,7 @@ occ:gosen-27-16 a waka:TokenOccurrence ;
 occ:gosen-27-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-27 ;
     waka:position 17 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 wakaid:gosen-28 waka:hasOccurrence occ:gosen-28-1, occ:gosen-28-2, occ:gosen-28-3, occ:gosen-28-4, occ:gosen-28-5, occ:gosen-28-6, occ:gosen-28-7, occ:gosen-28-8, occ:gosen-28-9, occ:gosen-28-10, occ:gosen-28-11, occ:gosen-28-12, occ:gosen-28-13, occ:gosen-28-14, occ:gosen-28-15, occ:gosen-28-16, occ:gosen-28-17, occ:gosen-28-18 .
 
@@ -136873,7 +136873,7 @@ occ:gosen-449-18 a waka:TokenOccurrence ;
 occ:gosen-449-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-449 ;
     waka:position 19 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:gosen-449-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-449 ;
@@ -223419,7 +223419,7 @@ occ:shuui-27-16 a waka:TokenOccurrence ;
 occ:shuui-27-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-27 ;
     waka:position 17 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 wakaid:shuui-28 waka:hasOccurrence occ:shuui-28-1, occ:shuui-28-2, occ:shuui-28-3, occ:shuui-28-4, occ:shuui-28-5, occ:shuui-28-6, occ:shuui-28-7, occ:shuui-28-8, occ:shuui-28-9, occ:shuui-28-10, occ:shuui-28-11, occ:shuui-28-12, occ:shuui-28-13, occ:shuui-28-14, occ:shuui-28-15, occ:shuui-28-16, occ:shuui-28-17, occ:shuui-28-18 .
 
@@ -225621,7 +225621,7 @@ occ:shuui-53-12 a waka:TokenOccurrence ;
 occ:shuui-53-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-53 ;
     waka:position 13 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:shuui-53-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-53 ;
@@ -254799,7 +254799,7 @@ occ:shuui-402-6 a waka:TokenOccurrence ;
 occ:shuui-402-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-402 ;
     waka:position 7 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:shuui-402-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-402 ;
@@ -263374,7 +263374,7 @@ occ:shuui-502-11 a waka:TokenOccurrence ;
 occ:shuui-502-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-502 ;
     waka:position 12 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:shuui-502-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-502 ;
@@ -274719,7 +274719,7 @@ occ:shuui-577-6 a waka:TokenOccurrence ;
 occ:shuui-577-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-577 ;
     waka:position 7 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:shuui-577-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-577 ;
@@ -279171,7 +279171,7 @@ occ:shuui-633-2 a waka:TokenOccurrence ;
 occ:shuui-633-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-633 ;
     waka:position 3 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:shuui-633-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-633 ;
@@ -305438,7 +305438,7 @@ occ:shuui-939-16 a waka:TokenOccurrence ;
 occ:shuui-939-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-939 ;
     waka:position 17 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:shuui-939-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-939 ;
@@ -367172,7 +367172,7 @@ occ:goshuui-322-15 a waka:TokenOccurrence ;
 occ:goshuui-322-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-322 ;
     waka:position 16 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-322-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-322 ;
@@ -368646,7 +368646,7 @@ occ:goshuui-339-11 a waka:TokenOccurrence ;
 occ:goshuui-339-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-339 ;
     waka:position 12 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-339-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-339 ;
@@ -388768,7 +388768,7 @@ occ:goshuui-580-15 a waka:TokenOccurrence ;
 occ:goshuui-580-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-580 ;
     waka:position 16 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 wakaid:goshuui-581 waka:hasOccurrence occ:goshuui-581-1, occ:goshuui-581-2, occ:goshuui-581-3, occ:goshuui-581-4, occ:goshuui-581-5, occ:goshuui-581-6, occ:goshuui-581-7, occ:goshuui-581-8, occ:goshuui-581-9, occ:goshuui-581-10, occ:goshuui-581-11, occ:goshuui-581-12, occ:goshuui-581-13, occ:goshuui-581-14, occ:goshuui-581-15, occ:goshuui-581-16, occ:goshuui-581-17, occ:goshuui-581-18 .
 
@@ -392230,7 +392230,7 @@ occ:goshuui-621-13 a waka:TokenOccurrence ;
 occ:goshuui-621-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-621 ;
     waka:position 14 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-621-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-621 ;
@@ -392988,7 +392988,7 @@ occ:goshuui-630-10 a waka:TokenOccurrence ;
 occ:goshuui-630-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-630 ;
     waka:position 11 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-630-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-630 ;
@@ -399579,7 +399579,7 @@ occ:goshuui-708-6 a waka:TokenOccurrence ;
 occ:goshuui-708-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-708 ;
     waka:position 7 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-708-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-708 ;
@@ -406433,7 +406433,7 @@ occ:goshuui-790-12 a waka:TokenOccurrence ;
 occ:goshuui-790-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-790 ;
     waka:position 13 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-790-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-790 ;
@@ -423625,7 +423625,7 @@ occ:goshuui-991-16 a waka:TokenOccurrence ;
 occ:goshuui-991-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-991 ;
     waka:position 17 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-991-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-991 ;
@@ -435661,7 +435661,7 @@ occ:goshuui-1134-8 a waka:TokenOccurrence ;
 occ:goshuui-1134-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1134 ;
     waka:position 9 ;
-    waka:instantiates lex:しむ【染む・締む】 .
+    waka:instantiates lex:しむ【染む】 .
 
 occ:goshuui-1134-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1134 ;
