@@ -93503,7 +93503,7 @@ occ:kokin-1045-12 a waka:TokenOccurrence ;
 occ:kokin-1045-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1045 ;
     waka:position 13 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:kokin-1045-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1045 ;
@@ -96473,7 +96473,7 @@ occ:kokin-1080-8 a waka:TokenOccurrence ;
 occ:kokin-1080-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1080 ;
     waka:position 9 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:kokin-1080-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1080 ;
@@ -151027,7 +151027,7 @@ occ:gosen-616-6 a waka:TokenOccurrence ;
 occ:gosen-616-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-616 ;
     waka:position 7 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:gosen-616-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-616 ;
@@ -195233,7 +195233,7 @@ occ:gosen-1129-12 a waka:TokenOccurrence ;
 occ:gosen-1129-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1129 ;
     waka:position 13 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:gosen-1129-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1129 ;
@@ -205984,7 +205984,7 @@ occ:gosen-1252-7 a waka:TokenOccurrence ;
 occ:gosen-1252-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1252 ;
     waka:position 8 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:gosen-1252-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1252 ;
@@ -211224,7 +211224,7 @@ occ:gosen-1312-13 a waka:TokenOccurrence ;
 occ:gosen-1312-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1312 ;
     waka:position 14 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:gosen-1312-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1312 ;
@@ -255694,7 +255694,7 @@ occ:shuui-412-16 a waka:TokenOccurrence ;
 occ:shuui-412-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-412 ;
     waka:position 17 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【買ふ】 .
 
 occ:shuui-412-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-412 ;
@@ -256218,7 +256218,7 @@ occ:shuui-419-1 a waka:TokenOccurrence ;
 occ:shuui-419-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-419 ;
     waka:position 2 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:shuui-419-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-419 ;
@@ -277573,7 +277573,7 @@ occ:shuui-614-4 a waka:TokenOccurrence ;
 occ:shuui-614-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-614 ;
     waka:position 5 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:shuui-614-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-614 ;
@@ -301595,7 +301595,7 @@ occ:shuui-895-4 a waka:TokenOccurrence ;
 occ:shuui-895-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-895 ;
     waka:position 5 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:shuui-895-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-895 ;
@@ -302378,7 +302378,7 @@ occ:shuui-904-4 a waka:TokenOccurrence ;
 occ:shuui-904-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-904 ;
     waka:position 5 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:shuui-904-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-904 ;
@@ -354324,7 +354324,7 @@ occ:goshuui-168-9 a waka:TokenOccurrence ;
 occ:goshuui-168-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-168 ;
     waka:position 10 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:goshuui-168-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-168 ;
@@ -414175,7 +414175,7 @@ occ:goshuui-881-1 a waka:TokenOccurrence ;
 occ:goshuui-881-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-881 ;
     waka:position 2 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:goshuui-881-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-881 ;
@@ -421035,7 +421035,7 @@ occ:goshuui-961-6 a waka:TokenOccurrence ;
 occ:goshuui-961-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-961 ;
     waka:position 7 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:goshuui-961-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-961 ;
@@ -437831,7 +437831,7 @@ occ:goshuui-1159-14 a waka:TokenOccurrence ;
 occ:goshuui-1159-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1159 ;
     waka:position 15 ;
-    waka:instantiates lex:かふ【買ふ・飼ふ】 .
+    waka:instantiates lex:かふ【飼ふ】 .
 
 occ:goshuui-1159-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1159 ;

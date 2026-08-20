@@ -1,0 +1,50 @@
+## PATCH: かふ【買ふ・飼ふ】split into 2 -- 買ふ「購入」vs 飼ふ「飼育」
+
+底本核实(全8代集)：買ふ恒为A00=BG-02-3760"売買"(仅1次)、飼ふ恒为
+A00=BG-02-3770"飼育"+A10=BG-02-3810(次选)，两者WLSP大类完全不同，
+是完全不同的两个动词被合并进同一个entry。
+
+已核实(限4部)：合并entry目前15处occurrence，逐条比对底本 = 買ふ1
+(shuui-412-17)+飼ふ14，完全对应，两个sense都是真实使用、无幽灵。
+
+无复合词引用，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:かふ【買ふ・飼ふ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かふ"@ja-Hira, "買ふ"@ja, "飼ふ"@ja ] ;
+    ontolex:sense lex:買ふ-BG-02-3760-06-0101, lex:飼ふ-BG-02-3770-05-0900 .
+
+NEW（拆成2个entry）:
+lex:かふ【買ふ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かふ"@ja-Hira, "買ふ"@ja ] ;
+    ontolex:sense lex:買ふ-BG-02-3760-06-0101 .
+
+lex:かふ【飼ふ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かふ"@ja-Hira, "飼ふ"@ja ] ;
+    ontolex:sense lex:飼ふ-BG-02-3770-05-0900 .
+
+-- 買ふ-BG-02-3760-06-0101 的 isSenseOf 改指 かふ【買ふ】
+-- 飼ふ-BG-02-3770-05-0900 的 isSenseOf 改指 かふ【飼ふ】
+
+### occurrence-batch.ttl
+
+1处 waka:instantiates 从 lex:かふ【買ふ・飼ふ】 改成 lex:かふ【買ふ】：
+  occ:shuui-412-17
+
+14处 waka:instantiates 从 lex:かふ【買ふ・飼ふ】 改成 lex:かふ【飼ふ】：
+  occ:kokin-1045-13, occ:kokin-1080-9, occ:gosen-616-7, occ:gosen-1129-13, occ:gosen-1252-8, occ:gosen-1312-14, occ:shuui-419-2, occ:shuui-614-5, occ:shuui-895-5, occ:shuui-904-5, occ:goshuui-168-10, occ:goshuui-881-2, occ:goshuui-961-7, occ:goshuui-1159-15
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用かふ【買ふ・飼ふ】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

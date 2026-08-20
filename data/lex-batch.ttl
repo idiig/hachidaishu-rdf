@@ -5203,13 +5203,13 @@ lex:かふ【交ふ・代ふ・変ふ・換ふ・更ふ・替ふ】 a ontolex:Le
     ontolex:canonicalForm [ ontolex:writtenRep "かふ"@ja-Hira, "交ふ"@ja, "代ふ"@ja, "変ふ"@ja, "換ふ"@ja, "更ふ"@ja, "替ふ"@ja ] ;
     ontolex:sense lex:交ふ-BG-02-1527-08-0200, lex:代ふ-BG-02-1501-01-0401, lex:変ふ-BG-02-1501-01-0501, lex:換ふ-BG-02-1501-01-0601, lex:更ふ-BG-02-1501-01-0605, lex:替ふ-BG-02-1501-01-0604 .
 
-lex:かふ【買ふ・飼ふ】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "かふ"@ja-Hira, "買ふ"@ja, "飼ふ"@ja ] ;
-    ontolex:sense lex:買ふ-BG-02-3760-06-0101, lex:飼ふ-BG-02-3770-05-0900 .
+lex:かふ【買ふ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かふ"@ja-Hira, "買ふ"@ja ] ;
+    ontolex:sense lex:買ふ-BG-02-3760-06-0101 .
 
 lex:かふ【飼ふ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かふ"@ja-Hira, "飼ふ"@ja ] ;
-    ontolex:sense lex:飼ふ-BG-02-3810-04-0101 .
+    ontolex:sense lex:飼ふ-BG-02-3770-05-0900, lex:飼ふ-BG-02-3810-04-0101 .
 
 lex:かへさ【帰さ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かへさ"@ja-Hira, "帰さ"@ja ] ;
@@ -40848,7 +40848,7 @@ lex:貶む-BG-02-3683-05-1001 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3683 .
 
 lex:買ふ-BG-02-3760-06-0101 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:かふ【買ふ・飼ふ】 ;
+    ontolex:isSenseOf lex:かふ【買ふ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-3760 .
 
@@ -43128,7 +43128,7 @@ lex:飯-BG-01-4310-02-0201 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-4310 .
 
 lex:飼ふ-BG-02-3770-05-0900 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:かふ【買ふ・飼ふ】 ;
+    ontolex:isSenseOf lex:かふ【飼ふ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-3770 .
 
