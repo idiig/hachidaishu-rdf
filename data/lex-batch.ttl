@@ -10843,9 +10843,13 @@ lex:つぎはし【継橋】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "つぎはし"@ja-Hira, "継橋"@ja ] ;
     ontolex:sense lex:継橋-BG-01-4710-13-1800 .
 
-lex:つく【付く・着く・突く・舂く】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "つく"@ja-Hira, "付く"@ja, "着く"@ja, "突く"@ja, "舂く"@ja ] ;
-    ontolex:sense lex:付く-BG-02-1560-02-0100, lex:付く-BG-02-1560-02-0200, lex:着く-BG-02-1521-08-0100, lex:突く-BG-02-1564-02-0100, lex:舂く-BG-02-1564-02-0101 .
+lex:つく【付く・着く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "つく"@ja-Hira, "付く"@ja, "着く"@ja ] ;
+    ontolex:sense lex:付く-BG-02-1560-02-0100, lex:付く-BG-02-1560-02-0200, lex:着く-BG-02-1521-08-0100 .
+
+lex:つく【突く・舂く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "つく"@ja-Hira, "突く"@ja, "舂く"@ja ] ;
+    ontolex:sense lex:突く-BG-02-1564-02-0100, lex:舂く-BG-02-1564-02-0101 .
 
 lex:つく【尽く】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "つく"@ja-Hira, "尽く"@ja ] ;
@@ -18937,7 +18941,7 @@ lex:ゆふづくひ【夕付く日・夕月日】-decomp-2-c1 a decomp:Component
     decomp:correspondsTo lex:ゆふ【夕】 .
 
 lex:ゆふづくひ【夕付く日・夕月日】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:つく【付く・着く・突く・舂く】 .
+    decomp:correspondsTo lex:つく【付く・着く】 .
 
 lex:ゆふづくひ【夕付く日・夕月日】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:ひ【日】 .
@@ -22618,12 +22622,12 @@ lex:仕業-BG-01-3430-05-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-3430 .
 
 lex:付く-BG-02-1560-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:つく【付く・着く・突く・舂く】 ;
+    ontolex:isSenseOf lex:つく【付く・着く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1560 .
 
 lex:付く-BG-02-1560-02-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:つく【付く・着く・突く・舂く】 ;
+    ontolex:isSenseOf lex:つく【付く・着く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1560 .
 
@@ -36540,7 +36544,7 @@ lex:眺め-BG-01-5290-01-0100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-5290 .
 
 lex:着く-BG-02-1521-08-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:つく【付く・着く・突く・舂く】 ;
+    ontolex:isSenseOf lex:つく【付く・着く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1521 .
 
@@ -37265,7 +37269,7 @@ lex:空音-BG-01-3072-05-1100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-3072 .
 
 lex:突く-BG-02-1564-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:つく【付く・着く・突く・舂く】 ;
+    ontolex:isSenseOf lex:つく【突く・舂く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1564 .
 
@@ -38775,7 +38779,7 @@ lex:至る-BG-02-1521-08-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1521 .
 
 lex:舂く-BG-02-1564-02-0101 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:つく【付く・着く・突く・舂く】 ;
+    ontolex:isSenseOf lex:つく【突く・舂く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1564 .
 
