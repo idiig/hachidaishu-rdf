@@ -3660,7 +3660,7 @@ lex:おきつ【興津】 a ontolex:LexicalEntry ;
 
 lex:おきどころ【置き所】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おきどころ"@ja-Hira, "置き所"@ja ] ;
-    decomp:subterm lex:おく【置く・起く】, lex:ところ【所】 ;
+    decomp:subterm lex:おく【置く】, lex:ところ【所】 ;
     ontolex:sense lex:置き所-BG-01-1700-07-0900 .
 
 lex:おきな【翁】 a ontolex:LexicalEntry ;
@@ -3675,13 +3675,13 @@ lex:おく【奥】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おく"@ja-Hira, "奥"@ja ] ;
     ontolex:sense lex:奥-BG-01-1771-01-0100 .
 
-lex:おく【置く・起く】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "おく"@ja-Hira, "置く"@ja, "起く"@ja ] ;
-    ontolex:sense lex:置く-BG-02-1515-03-0100, lex:起く-BG-02-1513-03-0100 .
+lex:おく【置く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おく"@ja-Hira, "置く"@ja ] ;
+    ontolex:sense lex:置く-BG-02-1515-03-0100 .
 
 lex:おく【起く】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おく"@ja-Hira, "起く"@ja ] ;
-    ontolex:sense lex:起く-BG-02-3330-02-0300 .
+    ontolex:sense lex:起く-BG-02-1513-03-0100, lex:起く-BG-02-3330-02-0300 .
 
 lex:おくて【晩稲】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おくて"@ja-Hira, "晩稲"@ja ] ;
@@ -38390,7 +38390,7 @@ lex:置き所-BG-01-1700-07-0900 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-1700 .
 
 lex:置く-BG-02-1515-03-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:おく【置く・起く】 ;
+    ontolex:isSenseOf lex:おく【置く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1515 .
 
@@ -40957,7 +40957,7 @@ lex:走井-BG-01-4720-08-0903 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-4720 .
 
 lex:起く-BG-02-1513-03-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:おく【置く・起く】 ;
+    ontolex:isSenseOf lex:おく【起く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1513 .
 

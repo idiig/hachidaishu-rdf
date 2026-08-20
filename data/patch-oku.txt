@@ -1,0 +1,55 @@
+## PATCH: おく【置く・起く】split into 2 -- 置く「置く/放置」vs 起く「起きる」
+
+底本核实(全8代集)：おく读音的置く/起く两个候选WLSP码在全库范围内
+完全稳定、无混淆：置く恒为A00=BG-02-1515("置く/放置")；起く恒为
+A00=BG-02-1513("起きる")+A10=BG-02-3330(次选)。两者是完全不同的
+动词(放置 vs 起身)，被合并进同一个entry找不到任何依据，属于典型的
+不同词被合并的bug。
+
+已核实(限4部)：合并entry目前185处occurrence，逐条比对底本 = 置く
+149+起く36，完全对应，无残留、无缺失、无假名歧义候选。
+
+### lex-batch.ttl
+
+OLD:
+lex:おく【置く・起く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おく"@ja-Hira, "置く"@ja, "起く"@ja ] ;
+    ontolex:sense lex:置く-BG-02-1515-03-0100, lex:起く-BG-02-1513-03-0100 .
+
+NEW（拆成2个entry）:
+lex:おく【置く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おく"@ja-Hira, "置く"@ja ] ;
+    ontolex:sense lex:置く-BG-02-1515-03-0100 .
+
+lex:おく【起く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おく"@ja-Hira, "起く"@ja ] ;
+    ontolex:sense lex:起く-BG-02-1513-03-0100 .
+
+-- 置く-BG-02-1515-03-0100 的 isSenseOf 改指 おく【置く】
+-- 起く-BG-02-1513-03-0100 的 isSenseOf 改指 おく【起く】
+
+### occurrence-batch.ttl
+
+149处 waka:instantiates 从 lex:おく【置く・起く】 改成 lex:おく【置く】：
+  occ:kokin-223-15, occ:kokin-225-5, occ:kokin-258-10, occ:kokin-259-6, occ:kokin-277-10, occ:kokin-279-3, occ:kokin-306-7, occ:kokin-336-6, occ:kokin-346-12, occ:kokin-375-9, occ:kokin-416-5, occ:kokin-440-10, occ:kokin-444-11, occ:kokin-470-9, occ:kokin-486-10, occ:kokin-545-15, occ:kokin-563-5, occ:kokin-564-9, occ:kokin-574-6, occ:kokin-589-8, occ:kokin-643-4, occ:kokin-663-5, occ:kokin-693-17, occ:kokin-737-7, occ:kokin-757-4, occ:kokin-801-16, occ:kokin-860-15, occ:kokin-863-7, occ:kokin-922-7, occ:kokin-940-6, occ:kokin-997-4, occ:kokin-1001-153, occ:kokin-1075-3, occ:kokin-1093-3, occ:gosen-193-8, occ:gosen-263-13, occ:gosen-275-7, occ:gosen-277-10, occ:gosen-280-18, occ:gosen-284-11, occ:gosen-285-6, occ:gosen-290-7, occ:gosen-291-2, occ:gosen-300-3, occ:gosen-303-7, occ:gosen-304-11, occ:gosen-306-9, occ:gosen-307-14, occ:gosen-309-5, occ:gosen-310-1, occ:gosen-312-5, occ:gosen-313-5, occ:gosen-314-16, occ:gosen-315-4, occ:gosen-335-10, occ:gosen-370-8, occ:gosen-381-14, occ:gosen-396-5, occ:gosen-431-4, occ:gosen-436-19, occ:gosen-460-9, occ:gosen-462-7, occ:gosen-478-19, occ:gosen-497-6, occ:gosen-524-2, occ:gosen-527-7, occ:gosen-559-16, occ:gosen-613-9, occ:gosen-677-9, occ:gosen-698-1, occ:gosen-792-6, occ:gosen-852-7, occ:gosen-893-14, occ:gosen-914-1, occ:gosen-915-2, occ:gosen-922-12, occ:gosen-1008-16, occ:gosen-1044-6, occ:gosen-1080-11, occ:gosen-1094-12, occ:gosen-1097-7, occ:gosen-1134-12, occ:gosen-1169-6, occ:gosen-1187-2, occ:gosen-1212-9, occ:gosen-1215-5, occ:gosen-1281-14, occ:gosen-1284-11, occ:gosen-1285-8, occ:gosen-1326-9, occ:gosen-1366-13, occ:gosen-1379-2, occ:gosen-1393-2, occ:gosen-1408-2, occ:gosen-1409-10, occ:shuui-159-11, occ:shuui-160-3, occ:shuui-167-18, occ:shuui-183-12, occ:shuui-214-8, occ:shuui-228-19, occ:shuui-230-2, occ:shuui-237-14, occ:shuui-257-1, occ:shuui-263-8, occ:shuui-356-19, occ:shuui-499-14, occ:shuui-500-11, occ:shuui-513-5, occ:shuui-573-46, occ:shuui-600-10, occ:shuui-690-14, occ:shuui-702-5, occ:shuui-721-7, occ:shuui-730-15, occ:shuui-755-11, occ:shuui-831-13, occ:shuui-835-9, occ:shuui-948-9, occ:shuui-1078-15, occ:shuui-1161-13, occ:shuui-1176-8, occ:shuui-1223-6, occ:shuui-1319-15, occ:shuui-1321-5, occ:shuui-1325-13, occ:shuui-1326-8, occ:goshuui-41-6, occ:goshuui-99-2, occ:goshuui-122-2, occ:goshuui-291-18, occ:goshuui-297-12, occ:goshuui-300-5, occ:goshuui-301-1, occ:goshuui-347-2, occ:goshuui-351-13, occ:goshuui-353-15, occ:goshuui-356-2, occ:goshuui-358-7, occ:goshuui-568-2, occ:goshuui-641-14, occ:goshuui-682-13, occ:goshuui-701-7, occ:goshuui-795-16, occ:goshuui-1008-16, occ:goshuui-1011-5, occ:goshuui-1135-10, occ:goshuui-1185-7, occ:goshuui-1186-7
+
+36处 waka:instantiates 从 lex:おく【置く・起く】 改成 lex:おく【起く】：
+  occ:kokin-354-4, occ:kokin-575-16, occ:kokin-605-10, occ:kokin-616-1, occ:kokin-641-8, occ:kokin-993-9, occ:kokin-1030-11, occ:gosen-283-1, occ:gosen-292-17, occ:gosen-424-12, occ:gosen-581-10, occ:gosen-626-11, occ:gosen-684-7, occ:gosen-720-10, occ:gosen-826-3, occ:gosen-862-8, occ:gosen-863-1, occ:gosen-913-4, occ:gosen-914-5, occ:gosen-925-9, occ:gosen-1134-17, occ:shuui-29-3, occ:shuui-349-11, occ:shuui-571-54, occ:shuui-715-8, occ:shuui-774-13, occ:shuui-786-9, occ:shuui-1302-11, occ:goshuui-1-4, occ:goshuui-275-1, occ:goshuui-295-1, occ:goshuui-310-5, occ:goshuui-313-11, occ:goshuui-681-1, occ:goshuui-865-9, occ:goshuui-914-2
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+1处，"置く"义（おきどころ【置き所】="放置物品的地方"），改成
+lex:おく【置く】：
+  おきどころ【置き所】 的 decomp:subterm (lex:おく【置く・起く】, lex:ところ【所】)
+
+### triple数预期变化
+
+entry声明: OLD 6 triple(a1+canonicalForm链接1+writtenRep2+sense2) ->
+NEW 2个entry各(a1+canonicalForm链接1+writtenRep1+sense1=4) = 8，
+delta +2
+isSenseOf x2改target: 同一triple换object，delta 0
+decomp:subterm改target: 同一triple换object，delta 0
+occurrence-batch.ttl: waka:instantiates换object，delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行
