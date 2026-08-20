@@ -102068,7 +102068,7 @@ occ:gosen-34-4 a waka:TokenOccurrence ;
 occ:gosen-34-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-34 ;
     waka:position 5 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:gosen-34-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-34 ;
@@ -162374,7 +162374,7 @@ occ:gosen-747-8 a waka:TokenOccurrence ;
 occ:gosen-747-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-747 ;
     waka:position 9 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【簾】 .
 
 occ:gosen-747-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-747 ;
@@ -209665,7 +209665,7 @@ occ:gosen-1295-4 a waka:TokenOccurrence ;
 occ:gosen-1295-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1295 ;
     waka:position 5 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:gosen-1295-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1295 ;
@@ -250583,7 +250583,7 @@ occ:shuui-354-2 a waka:TokenOccurrence ;
 occ:shuui-354-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-354 ;
     waka:position 3 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:shuui-354-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-354 ;
@@ -252368,7 +252368,7 @@ occ:shuui-374-2 a waka:TokenOccurrence ;
 occ:shuui-374-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-374 ;
     waka:position 3 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:shuui-374-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-374 ;
@@ -319812,7 +319812,7 @@ occ:shuui-1111-15 a waka:TokenOccurrence ;
 occ:shuui-1111-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1111 ;
     waka:position 16 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:shuui-1111-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1111 ;
@@ -324422,7 +324422,7 @@ occ:shuui-1166-11 a waka:TokenOccurrence ;
 occ:shuui-1166-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1166 ;
     waka:position 12 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:shuui-1166-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1166 ;
@@ -324524,7 +324524,7 @@ occ:shuui-1167-12 a waka:TokenOccurrence ;
 occ:shuui-1167-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1167 ;
     waka:position 13 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:shuui-1167-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1167 ;
@@ -365765,7 +365765,7 @@ occ:goshuui-306-2 a waka:TokenOccurrence ;
 occ:goshuui-306-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-306 ;
     waka:position 3 ;
-    waka:instantiates lex:す【巣・簾】 .
+    waka:instantiates lex:す【巣】 .
 
 occ:goshuui-306-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-306 ;

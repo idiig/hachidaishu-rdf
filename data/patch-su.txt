@@ -1,0 +1,50 @@
+## PATCH: す【巣・簾】split into 2 -- 巣「鳥の巣」vs 簾「すだれ」
+
+底本核实(全8代集)：巣恒为A00=BG-01-4400(鳥・動物の住処类，14次)、
+簾恒为A00=BG-01-4460(建具类，仅1次)，两者是完全不同的具体物名词，
+被合并进同一个entry找不到任何依据。
+
+已核实(限4部)：合并entry目前9处occurrence，逐条比对底本 = 巣8+
+簾1(gosen-747-9)，完全对应，两个sense都是真实使用、无幽灵。
+
+### lex-batch.ttl
+
+OLD:
+lex:す【巣・簾】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "巣"@ja, "簾"@ja ] ;
+    ontolex:sense lex:巣-BG-01-4400-02-0100, lex:簾-BG-01-4460-03-0300 .
+
+NEW（拆成2个entry）:
+lex:す【巣】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "巣"@ja ] ;
+    ontolex:sense lex:巣-BG-01-4400-02-0100 .
+
+lex:す【簾】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "簾"@ja ] ;
+    ontolex:sense lex:簾-BG-01-4460-03-0300 .
+
+-- 巣-BG-01-4400-02-0100 的 isSenseOf 改指 す【巣】
+-- 簾-BG-01-4460-03-0300 的 isSenseOf 改指 す【簾】
+
+### occurrence-batch.ttl
+
+8处 waka:instantiates 从 lex:す【巣・簾】 改成 lex:す【巣】：
+  occ:gosen-34-5, occ:gosen-1295-5, occ:shuui-354-3, occ:shuui-374-3, occ:shuui-1111-16, occ:shuui-1166-12, occ:shuui-1167-13, occ:goshuui-306-3
+
+1处 waka:instantiates 从 lex:す【巣・簾】 改成 lex:す【簾】：
+  occ:gosen-747-9
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+1处，"巣"义（すもり【巣守】="巣を守る"），改成lex:す【巣】：
+  すもり【巣守】 的 decomp:subterm (lex:す【巣・簾】, lex:まもる【守る・衛る】)
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+decomp:subterm改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

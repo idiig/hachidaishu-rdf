@@ -8935,9 +8935,13 @@ lex:す【す】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "す"@ja ] ;
     ontolex:sense lex:す-BG-02-3420-01-0100 .
 
-lex:す【巣・簾】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "巣"@ja, "簾"@ja ] ;
-    ontolex:sense lex:巣-BG-01-4400-02-0100, lex:簾-BG-01-4460-03-0300 .
+lex:す【巣】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "巣"@ja ] ;
+    ontolex:sense lex:巣-BG-01-4400-02-0100 .
+
+lex:す【簾】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "簾"@ja ] ;
+    ontolex:sense lex:簾-BG-01-4460-03-0300 .
 
 lex:す【洲】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "す"@ja-Hira, "洲"@ja ] ;
@@ -9258,7 +9262,7 @@ lex:すむ【澄む】 a ontolex:LexicalEntry ;
 
 lex:すもり【巣守】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "すもり"@ja-Hira, "巣守"@ja ] ;
-    decomp:subterm lex:す【巣・簾】, lex:まもる【守る・衛る】 ;
+    decomp:subterm lex:す【巣】, lex:まもる【守る・衛る】 ;
     ontolex:sense lex:巣守-BG-01-2417-02-1600 .
 
 lex:すら\*【すら】 a ontolex:LexicalEntry ;
@@ -27978,7 +27982,7 @@ lex:巡る-BG-02-1523-09-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1523 .
 
 lex:巣-BG-01-4400-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:す【巣・簾】 ;
+    ontolex:isSenseOf lex:す【巣】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-4400 .
 
@@ -37699,7 +37703,7 @@ lex:簾-BG-01-4460-03-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-4460 .
 
 lex:簾-BG-01-4460-03-0300 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:す【巣・簾】 ;
+    ontolex:isSenseOf lex:す【簾】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-4460 .
 
