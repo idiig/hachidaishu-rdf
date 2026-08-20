@@ -12653,7 +12653,7 @@ lex:ぬき【緯】 a ontolex:LexicalEntry ;
 
 lex:ぬく【抜く・貫く】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ぬく"@ja-Hira, "抜く"@ja, "貫く"@ja ] ;
-    ontolex:sense lex:抜く-BG-02-1524-04-0500, lex:抜く-BG-02-1531-05-0100, lex:貫く-BG-02-1524-04-0500 .
+    ontolex:sense lex:抜く-BG-02-1524-04-0500, lex:貫く-BG-02-1524-04-0500 .
 
 lex:ぬぐ【脱ぐ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ぬぐ"@ja-Hira, "脱ぐ"@ja ] ;
@@ -30003,11 +30003,6 @@ lex:抜く-BG-02-1524-04-0500 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:ぬく【抜く・貫く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1524 .
-
-lex:抜く-BG-02-1531-05-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ぬく【抜く・貫く】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1531 .
 
 lex:抵牾く-BG-02-3060-10-0600 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:もどく【抵牾く・擬く】 ;

@@ -1,0 +1,59 @@
+## PATCH: ぬく【抜く・貫く】-- 不拆分，删除幽灵sense 抜く-1531
+
+底本核实(全8代集，31个token)：抜く(9次)恒同时带A00=BG-02-1524
+"通過"+A10=BG-02-1531"込み"两个候选；貫く(22次)恒为A00=BG-02-1524
+(仅此一个码，无次选)。**抜く和貫く的主选码完全相同(都是1524"通過")**
+——两者本来就是同一个WLSP语义类别下的正字异写(both意为"穿过/贯穿")，
+不是两个不同词义被误合并；bug3的自动信号是被抜く的次选码1531"污染"
+才误判为高风险(码集合{1524,1531,1524}大小>1)，实质上跟しく/かる那批
+"真不同义合并"不是同一类问题。
+
+**抜く-BG-02-1531-05-0100**这个sense，跟しむ的締む-1565/1570、
+おこす的起す-1513同一模式——次选码从未做过主分类，全8代集范围内
+抜く从未以1531为主选，是纯粹的幽灵sense，删除不影响任何真实
+occurrence。
+
+已核实(限4部)：合并entry目前17处occurrence，逐条比对底本 = 抜く5+
+貫く12，完全对应，两者都归属于抜く-1524/貫く-1524这两个真实sense，
+抜く-1531 0次。
+
+方案：**不拆分entry**，保留ぬく【抜く・貫く】合一(两者本就同码同义)，
+只删除幽灵sense 抜く-BG-02-1531-05-0100。
+
+无复合词引用，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:ぬく【抜く・貫く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ぬく"@ja-Hira, "抜く"@ja, "貫く"@ja ] ;
+    ontolex:sense lex:抜く-BG-02-1524-04-0500, lex:抜く-BG-02-1531-05-0100, lex:貫く-BG-02-1524-04-0500 .
+
+NEW:
+lex:ぬく【抜く・貫く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ぬく"@ja-Hira, "抜く"@ja, "貫く"@ja ] ;
+    ontolex:sense lex:抜く-BG-02-1524-04-0500, lex:貫く-BG-02-1524-04-0500 .
+
+-- 删除孤立sense声明：抜く-BG-02-1531-05-0100（4个triple：a/isSenseOf/
+   partOfSpeech/reference全部删除，不retarget——从未被真实occurrence
+   使用）
+-- 抜く-BG-02-1524-04-0500、貫く-BG-02-1524-04-0500 的isSenseOf不变
+   (entry名不变)
+
+### occurrence-batch.ttl
+
+无需改动——entry名不变，全部17处occurrence保持指向
+lex:ぬく【抜く・貫く】不变。
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用ぬく【抜く・貫く】。
+
+### triple数预期变化
+
+entry声明: sense列表从3个减到2个，delta -1
+删除抜く-1531幽灵sense声明: -4 triple
+occurrence-batch.ttl: 无改动，delta 0
+总计lex-batch.ttl delta: -5
+
+### 状态：已执行
