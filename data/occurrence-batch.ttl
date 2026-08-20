@@ -2200,7 +2200,7 @@ occ:kokin-26-3 a waka:TokenOccurrence ;
 occ:kokin-26-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-26 ;
     waka:position 4 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:kokin-26-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-26 ;
@@ -2277,7 +2277,7 @@ occ:kokin-27-2 a waka:TokenOccurrence ;
 occ:kokin-27-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-27 ;
     waka:position 3 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:kokin-27-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-27 ;
@@ -2923,7 +2923,7 @@ occ:kokin-35-4 a waka:TokenOccurrence ;
 occ:kokin-35-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-35 ;
     waka:position 5 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-35-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-35 ;
@@ -9851,7 +9851,7 @@ occ:kokin-114-7 a waka:TokenOccurrence ;
 occ:kokin-114-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-114 ;
     waka:position 8 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:kokin-114-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-114 ;
@@ -24662,7 +24662,7 @@ occ:kokin-292-5 a waka:TokenOccurrence ;
 occ:kokin-292-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-292 ;
     waka:position 6 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-292-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-292 ;
@@ -35028,7 +35028,7 @@ occ:kokin-415-2 a waka:TokenOccurrence ;
 occ:kokin-415-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-415 ;
     waka:position 3 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:kokin-415-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-415 ;
@@ -40859,7 +40859,7 @@ occ:kokin-483-5 a waka:TokenOccurrence ;
 occ:kokin-483-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-483 ;
     waka:position 6 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:kokin-483-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-483 ;
@@ -45132,7 +45132,7 @@ occ:kokin-532-3 a waka:TokenOccurrence ;
 occ:kokin-532-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-532 ;
     waka:position 4 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-532-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-532 ;
@@ -47456,7 +47456,7 @@ occ:kokin-559-4 a waka:TokenOccurrence ;
 occ:kokin-559-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-559 ;
     waka:position 5 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-559-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-559 ;
@@ -53275,7 +53275,7 @@ occ:kokin-626-6 a waka:TokenOccurrence ;
 occ:kokin-626-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-626 ;
     waka:position 7 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-626-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-626 ;
@@ -60397,7 +60397,7 @@ occ:kokin-707-11 a waka:TokenOccurrence ;
 occ:kokin-707-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-707 ;
     waka:position 12 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-707-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-707 ;
@@ -64558,7 +64558,7 @@ occ:kokin-755-14 a waka:TokenOccurrence ;
 occ:kokin-755-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-755 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-755-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-755 ;
@@ -77011,7 +77011,7 @@ occ:kokin-899-3 a waka:TokenOccurrence ;
 occ:kokin-899-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-899 ;
     waka:position 4 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-899-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-899 ;
@@ -78033,7 +78033,7 @@ occ:kokin-910-13 a waka:TokenOccurrence ;
 occ:kokin-910-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-910 ;
     waka:position 14 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-910-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-910 ;
@@ -82935,7 +82935,7 @@ occ:kokin-966-9 a waka:TokenOccurrence ;
 occ:kokin-966-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-966 ;
     waka:position 10 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-966-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-966 ;
@@ -89790,7 +89790,7 @@ occ:kokin-1006-25 a waka:TokenOccurrence ;
 occ:kokin-1006-26 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1006 ;
     waka:position 26 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-1006-27 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1006 ;
@@ -92608,7 +92608,7 @@ occ:kokin-1035-10 a waka:TokenOccurrence ;
 occ:kokin-1035-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1035 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-1035-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1035 ;
@@ -94286,7 +94286,7 @@ occ:kokin-1054-8 a waka:TokenOccurrence ;
 occ:kokin-1054-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1054 ;
     waka:position 9 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:kokin-1054-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1054 ;
@@ -95509,7 +95509,7 @@ occ:kokin-1068-9 a waka:TokenOccurrence ;
 occ:kokin-1068-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1068 ;
     waka:position 10 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-1068-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1068 ;
@@ -96319,7 +96319,7 @@ occ:kokin-1078-11 a waka:TokenOccurrence ;
 occ:kokin-1078-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1078 ;
     waka:position 12 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:kokin-1078-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1078 ;
@@ -96525,7 +96525,7 @@ occ:kokin-1081-4 a waka:TokenOccurrence ;
 occ:kokin-1081-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1081 ;
     waka:position 5 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:kokin-1081-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1081 ;
@@ -104151,7 +104151,7 @@ occ:gosen-58-3 a waka:TokenOccurrence ;
 occ:gosen-58-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-58 ;
     waka:position 4 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:gosen-58-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-58 ;
@@ -104919,7 +104919,7 @@ occ:gosen-67-12 a waka:TokenOccurrence ;
 occ:gosen-67-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-67 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-67-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-67 ;
@@ -109011,7 +109011,7 @@ occ:gosen-113-14 a waka:TokenOccurrence ;
 occ:gosen-113-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-113 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-113-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-113 ;
@@ -109033,7 +109033,7 @@ occ:gosen-114-1 a waka:TokenOccurrence ;
 occ:gosen-114-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-114 ;
     waka:position 2 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-114-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-114 ;
@@ -109575,7 +109575,7 @@ occ:gosen-120-12 a waka:TokenOccurrence ;
 occ:gosen-120-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-120 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-120-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-120 ;
@@ -110477,7 +110477,7 @@ occ:gosen-131-4 a waka:TokenOccurrence ;
 occ:gosen-131-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-131 ;
     waka:position 5 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:gosen-131-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-131 ;
@@ -127721,7 +127721,7 @@ occ:gosen-338-7 a waka:TokenOccurrence ;
 occ:gosen-338-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-338 ;
     waka:position 8 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-338-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-338 ;
@@ -133421,7 +133421,7 @@ occ:gosen-408-1 a waka:TokenOccurrence ;
 occ:gosen-408-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-408 ;
     waka:position 2 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-408-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-408 ;
@@ -143437,7 +143437,7 @@ occ:gosen-526-13 a waka:TokenOccurrence ;
 occ:gosen-526-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-526 ;
     waka:position 14 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-526-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-526 ;
@@ -145505,7 +145505,7 @@ occ:gosen-550-15 a waka:TokenOccurrence ;
 occ:gosen-550-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-550 ;
     waka:position 16 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:gosen-550-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-550 ;
@@ -146402,7 +146402,7 @@ occ:gosen-561-5 a waka:TokenOccurrence ;
 occ:gosen-561-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-561 ;
     waka:position 6 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-561-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-561 ;
@@ -149638,7 +149638,7 @@ occ:gosen-599-3 a waka:TokenOccurrence ;
 occ:gosen-599-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-599 ;
     waka:position 4 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-599-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-599 ;
@@ -149658,7 +149658,7 @@ occ:gosen-599-7 a waka:TokenOccurrence ;
 occ:gosen-599-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-599 ;
     waka:position 8 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-599-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-599 ;
@@ -154095,7 +154095,7 @@ occ:gosen-650-10 a waka:TokenOccurrence ;
 occ:gosen-650-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-650 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-650-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-650 ;
@@ -154957,7 +154957,7 @@ occ:gosen-661-5 a waka:TokenOccurrence ;
 occ:gosen-661-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-661 ;
     waka:position 6 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-661-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-661 ;
@@ -155422,7 +155422,7 @@ occ:gosen-666-10 a waka:TokenOccurrence ;
 occ:gosen-666-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-666 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-666-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-666 ;
@@ -156784,7 +156784,7 @@ occ:gosen-682-1 a waka:TokenOccurrence ;
 occ:gosen-682-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-682 ;
     waka:position 2 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-682-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-682 ;
@@ -157572,7 +157572,7 @@ occ:gosen-691-10 a waka:TokenOccurrence ;
 occ:gosen-691-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-691 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-691-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-691 ;
@@ -166835,7 +166835,7 @@ occ:gosen-800-10 a waka:TokenOccurrence ;
 occ:gosen-800-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-800 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-800-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-800 ;
@@ -170116,7 +170116,7 @@ occ:gosen-838-1 a waka:TokenOccurrence ;
 occ:gosen-838-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-838 ;
     waka:position 2 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-838-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-838 ;
@@ -180031,7 +180031,7 @@ occ:gosen-953-7 a waka:TokenOccurrence ;
 occ:gosen-953-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-953 ;
     waka:position 8 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-953-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-953 ;
@@ -181055,7 +181055,7 @@ wakaid:gosen-965 waka:hasOccurrence occ:gosen-965-1, occ:gosen-965-2, occ:gosen-
 occ:gosen-965-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-965 ;
     waka:position 1 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-965-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-965 ;
@@ -185457,7 +185457,7 @@ occ:gosen-1016-13 a waka:TokenOccurrence ;
 occ:gosen-1016-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1016 ;
     waka:position 14 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-1016-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1016 ;
@@ -191037,7 +191037,7 @@ occ:gosen-1081-7 a waka:TokenOccurrence ;
 occ:gosen-1081-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1081 ;
     waka:position 8 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:gosen-1081-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1081 ;
@@ -191144,7 +191144,7 @@ occ:gosen-1082-12 a waka:TokenOccurrence ;
 occ:gosen-1082-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1082 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:gosen-1082-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1082 ;
@@ -194475,7 +194475,7 @@ occ:gosen-1120-7 a waka:TokenOccurrence ;
 occ:gosen-1120-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1120 ;
     waka:position 8 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-1120-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1120 ;
@@ -195882,7 +195882,7 @@ occ:gosen-1136-14 a waka:TokenOccurrence ;
 occ:gosen-1136-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1136 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-1136-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1136 ;
@@ -197373,7 +197373,7 @@ occ:gosen-1154-6 a waka:TokenOccurrence ;
 occ:gosen-1154-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1154 ;
     waka:position 7 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-1154-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1154 ;
@@ -202335,7 +202335,7 @@ occ:gosen-1210-12 a waka:TokenOccurrence ;
 occ:gosen-1210-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1210 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-1210-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1210 ;
@@ -206849,7 +206849,7 @@ occ:gosen-1262-11 a waka:TokenOccurrence ;
 occ:gosen-1262-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1262 ;
     waka:position 12 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-1262-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1262 ;
@@ -208430,7 +208430,7 @@ occ:gosen-1280-14 a waka:TokenOccurrence ;
 occ:gosen-1280-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1280 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:gosen-1280-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1280 ;
@@ -223804,7 +223804,7 @@ occ:shuui-32-3 a waka:TokenOccurrence ;
 occ:shuui-32-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-32 ;
     waka:position 4 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-32-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-32 ;
@@ -223916,7 +223916,7 @@ occ:shuui-33-11 a waka:TokenOccurrence ;
 occ:shuui-33-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-33 ;
     waka:position 12 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:shuui-33-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-33 ;
@@ -223978,7 +223978,7 @@ occ:shuui-34-6 a waka:TokenOccurrence ;
 occ:shuui-34-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-34 ;
     waka:position 7 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:shuui-34-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-34 ;
@@ -238941,7 +238941,7 @@ occ:shuui-213-11 a waka:TokenOccurrence ;
 occ:shuui-213-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-213 ;
     waka:position 12 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-213-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-213 ;
@@ -248245,7 +248245,7 @@ occ:shuui-325-10 a waka:TokenOccurrence ;
 occ:shuui-325-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-325 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:shuui-325-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-325 ;
@@ -248615,7 +248615,7 @@ occ:shuui-330-2 a waka:TokenOccurrence ;
 occ:shuui-330-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-330 ;
     waka:position 3 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:shuui-330-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-330 ;
@@ -251374,7 +251374,7 @@ occ:shuui-362-12 a waka:TokenOccurrence ;
 occ:shuui-362-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-362 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-362-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-362 ;
@@ -260173,7 +260173,7 @@ occ:shuui-464-14 a waka:TokenOccurrence ;
 occ:shuui-464-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-464 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-464-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-464 ;
@@ -264945,7 +264945,7 @@ occ:shuui-520-14 a waka:TokenOccurrence ;
 occ:shuui-520-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-520 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:shuui-520-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-520 ;
@@ -265027,7 +265027,7 @@ occ:shuui-521-12 a waka:TokenOccurrence ;
 occ:shuui-521-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-521 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:shuui-521-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-521 ;
@@ -267940,7 +267940,7 @@ occ:shuui-555-8 a waka:TokenOccurrence ;
 occ:shuui-555-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-555 ;
     waka:position 9 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-555-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-555 ;
@@ -268211,7 +268211,7 @@ occ:shuui-558-12 a waka:TokenOccurrence ;
 occ:shuui-558-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-558 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-558-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-558 ;
@@ -282012,7 +282012,7 @@ occ:shuui-666-11 a waka:TokenOccurrence ;
 occ:shuui-666-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-666 ;
     waka:position 12 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-666-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-666 ;
@@ -294895,7 +294895,7 @@ occ:shuui-815-2 a waka:TokenOccurrence ;
 occ:shuui-815-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-815 ;
     waka:position 3 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【撚る】 .
 
 occ:shuui-815-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-815 ;
@@ -304190,7 +304190,7 @@ occ:shuui-925-14 a waka:TokenOccurrence ;
 occ:shuui-925-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-925 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-925-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-925 ;
@@ -324688,7 +324688,7 @@ occ:shuui-1169-10 a waka:TokenOccurrence ;
 occ:shuui-1169-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1169 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-1169-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1169 ;
@@ -326066,7 +326066,7 @@ occ:shuui-1185-5 a waka:TokenOccurrence ;
 occ:shuui-1185-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1185 ;
     waka:position 6 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-1185-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1185 ;
@@ -326280,7 +326280,7 @@ occ:shuui-1187-14 a waka:TokenOccurrence ;
 occ:shuui-1187-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1187 ;
     waka:position 15 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-1187-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1187 ;
@@ -329412,7 +329412,7 @@ occ:shuui-1223-12 a waka:TokenOccurrence ;
 occ:shuui-1223-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1223 ;
     waka:position 13 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-1223-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1223 ;
@@ -337228,7 +337228,7 @@ occ:shuui-1316-3 a waka:TokenOccurrence ;
 occ:shuui-1316-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1316 ;
     waka:position 4 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:shuui-1316-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1316 ;
@@ -343663,7 +343663,7 @@ occ:goshuui-40-9 a waka:TokenOccurrence ;
 occ:goshuui-40-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-40 ;
     waka:position 10 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-40-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-40 ;
@@ -371168,7 +371168,7 @@ occ:goshuui-370-5 a waka:TokenOccurrence ;
 occ:goshuui-370-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-370 ;
     waka:position 6 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-370-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-370 ;
@@ -371260,7 +371260,7 @@ occ:goshuui-371-6 a waka:TokenOccurrence ;
 occ:goshuui-371-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-371 ;
     waka:position 7 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-371-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-371 ;
@@ -372383,7 +372383,7 @@ occ:goshuui-385-5 a waka:TokenOccurrence ;
 occ:goshuui-385-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-385 ;
     waka:position 6 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-385-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-385 ;
@@ -391124,7 +391124,7 @@ occ:goshuui-608-10 a waka:TokenOccurrence ;
 occ:goshuui-608-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-608 ;
     waka:position 11 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-608-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-608 ;
@@ -413626,7 +413626,7 @@ occ:goshuui-874-8 a waka:TokenOccurrence ;
 occ:goshuui-874-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-874 ;
     waka:position 9 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-874-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-874 ;
@@ -433556,7 +433556,7 @@ occ:goshuui-1109-11 a waka:TokenOccurrence ;
 occ:goshuui-1109-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1109 ;
     waka:position 12 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-1109-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1109 ;
@@ -435278,7 +435278,7 @@ occ:goshuui-1130-7 a waka:TokenOccurrence ;
 occ:goshuui-1130-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1130 ;
     waka:position 8 ;
-    waka:instantiates lex:よる【寄る・撚る】 .
+    waka:instantiates lex:よる【寄る】 .
 
 occ:goshuui-1130-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1130 ;

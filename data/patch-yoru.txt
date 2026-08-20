@@ -1,0 +1,56 @@
+## PATCH: よる【寄る・撚る】split into 2 -- 寄る「近づく」vs 撚る「糸をよる」
+
+底本核实(全8代集)：寄る恒同时带A00=BG-02-1560"接触・接近"+A10=
+BG-02-1562"比較・対等など"两个候选(188次)；撚る恒为A00=BG-02-1570
+"引く・締めるなど"(20次，无次选)。寄る自身的两个sense(1560+1562)都
+要保留，因为都是同一批真实token的合法候选；但寄る和撚る是完全不同
+的两个动词，被合并进同一个entry找不到依据。
+
+已核实(限4部)：合并entry目前80处occurrence，逐条比对底本 = 寄る61+
+撚る19，完全对应，三个sense都是真实使用、无幽灵。
+
+### lex-batch.ttl
+
+OLD:
+lex:よる【寄る・撚る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よる"@ja-Hira, "寄る"@ja, "撚る"@ja ] ;
+    ontolex:sense lex:寄る-BG-02-1560-07-0100, lex:寄る-BG-02-1562-01-0100, lex:撚る-BG-02-1570-07-0200 .
+
+NEW（拆成2个entry）:
+lex:よる【寄る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よる"@ja-Hira, "寄る"@ja ] ;
+    ontolex:sense lex:寄る-BG-02-1560-07-0100, lex:寄る-BG-02-1562-01-0100 .
+
+lex:よる【撚る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よる"@ja-Hira, "撚る"@ja ] ;
+    ontolex:sense lex:撚る-BG-02-1570-07-0200 .
+
+-- 寄る-BG-02-1560-07-0100、寄る-BG-02-1562-01-0100 的isSenseOf都改指
+   よる【寄る】
+-- 撚る-BG-02-1570-07-0200 的 isSenseOf 改指 よる【撚る】
+
+### occurrence-batch.ttl
+
+61处 waka:instantiates 从 lex:よる【寄る・撚る】 改成 lex:よる【寄る】：
+  occ:kokin-35-5, occ:kokin-292-6, occ:kokin-532-4, occ:kokin-559-5, occ:kokin-626-7, occ:kokin-707-12, occ:kokin-755-15, occ:kokin-899-4, occ:kokin-910-14, occ:kokin-966-10, occ:kokin-1006-26, occ:kokin-1035-11, occ:kokin-1068-10, occ:kokin-1078-12, occ:gosen-67-13, occ:gosen-113-15, occ:gosen-114-2, occ:gosen-120-13, occ:gosen-338-8, occ:gosen-408-2, occ:gosen-526-14, occ:gosen-561-6, occ:gosen-599-4, occ:gosen-599-8, occ:gosen-650-11, occ:gosen-661-6, occ:gosen-666-11, occ:gosen-682-2, occ:gosen-691-11, occ:gosen-800-11, occ:gosen-838-2, occ:gosen-953-8, occ:gosen-965-1, occ:gosen-1016-14, occ:gosen-1120-8, occ:gosen-1136-15, occ:gosen-1154-7, occ:gosen-1210-13, occ:gosen-1262-12, occ:gosen-1280-15, occ:shuui-32-4, occ:shuui-213-12, occ:shuui-362-13, occ:shuui-464-15, occ:shuui-555-9, occ:shuui-558-13, occ:shuui-666-12, occ:shuui-925-15, occ:shuui-1169-11, occ:shuui-1185-6, occ:shuui-1187-15, occ:shuui-1223-13, occ:shuui-1316-4, occ:goshuui-40-10, occ:goshuui-370-6, occ:goshuui-371-7, occ:goshuui-385-6, occ:goshuui-608-11, occ:goshuui-874-9, occ:goshuui-1109-12, occ:goshuui-1130-8
+
+19处 waka:instantiates 从 lex:よる【寄る・撚る】 改成 lex:よる【撚る】：
+  occ:kokin-26-4, occ:kokin-27-3, occ:kokin-114-8, occ:kokin-415-3, occ:kokin-483-6, occ:kokin-1054-9, occ:kokin-1081-5, occ:gosen-58-4, occ:gosen-131-5, occ:gosen-550-16, occ:gosen-1081-8, occ:gosen-1082-13, occ:shuui-33-12, occ:shuui-34-7, occ:shuui-325-11, occ:shuui-330-3, occ:shuui-520-15, occ:shuui-521-13, occ:shuui-815-3
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+1处，"寄る"义（よるべ【寄る辺・寄辺】="頼りにする所"），改成
+lex:よる【寄る】：
+  よるべ【寄る辺・寄辺】 的 decomp:subterm (lex:へ【方・辺】, lex:よる【寄る・撚る】)
+
+### triple数预期变化
+
+entry声明: OLD 7 triple(a1+canonicalForm链接1+writtenRep2+sense3) ->
+NEW よる【寄る】5(a1+canonicalForm链接1+writtenRep1+sense2)+
+よる【撚る】4(a1+canonicalForm链接1+writtenRep1+sense1) = 9，delta +2
+isSenseOf x3改target: delta 0
+decomp:subterm改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

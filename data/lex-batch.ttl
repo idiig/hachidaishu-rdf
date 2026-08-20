@@ -19444,13 +19444,17 @@ lex:よる【夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よる"@ja-Hira, "夜"@ja ] ;
     ontolex:sense lex:夜-BG-01-1635-05-0400 .
 
-lex:よる【寄る・撚る】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "よる"@ja-Hira, "寄る"@ja, "撚る"@ja ] ;
-    ontolex:sense lex:寄る-BG-02-1560-07-0100, lex:寄る-BG-02-1562-01-0100, lex:撚る-BG-02-1570-07-0200 .
+lex:よる【寄る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よる"@ja-Hira, "寄る"@ja ] ;
+    ontolex:sense lex:寄る-BG-02-1560-07-0100, lex:寄る-BG-02-1562-01-0100 .
+
+lex:よる【撚る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よる"@ja-Hira, "撚る"@ja ] ;
+    ontolex:sense lex:撚る-BG-02-1570-07-0200 .
 
 lex:よるべ【寄る辺・寄辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よるべ"@ja-Hira, "寄る辺"@ja, "寄辺"@ja ] ;
-    decomp:subterm lex:へ【方・辺】, lex:よる【寄る・撚る】 ;
+    decomp:subterm lex:へ【方・辺】, lex:よる【寄る】 ;
     ontolex:sense lex:寄る辺-BG-01-1710-06-0400, lex:寄辺-BG-01-1710-06-0400 .
 
 lex:よろこぶ【喜ぶ】 a ontolex:LexicalEntry ;
@@ -26877,12 +26881,12 @@ lex:寄す-BG-02-1560-07-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1560 .
 
 lex:寄る-BG-02-1560-07-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:よる【寄る・撚る】 ;
+    ontolex:isSenseOf lex:よる【寄る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1560 .
 
 lex:寄る-BG-02-1562-01-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:よる【寄る・撚る】 ;
+    ontolex:isSenseOf lex:よる【寄る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1562 .
 
@@ -30323,7 +30327,7 @@ lex:撓む-BG-02-1570-09-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1570 .
 
 lex:撚る-BG-02-1570-07-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:よる【寄る・撚る】 ;
+    ontolex:isSenseOf lex:よる【撚る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1570 .
 
