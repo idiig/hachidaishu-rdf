@@ -1,0 +1,51 @@
+## PATCH: くむ【汲む・組む】split into 2 -- 汲む「水を汲む」vs 組む「編む」
+
+底本核实(全8代集，51个token)：汲む恒为A00=BG-02-1532"すくう・つかむ
+など"+A10=BG-02-3393(次选)、組む恒为A00=BG-02-1550"編む・織るなど"
+(仅1次)，两者WLSP大类完全不同，是完全不同的两个动词被合并进同一个
+entry。
+
+已核实(限4部)：合并entry目前12处occurrence，逐条比对底本 = 汲む11+
+組む1(shuui-399-12)，完全对应，两个sense都是真实使用、无幽灵。
+
+无复合词引用，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:くむ【汲む・組む】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "くむ"@ja-Hira, "汲む"@ja, "組む"@ja ] ;
+    ontolex:sense lex:汲む-BG-02-1532-04-0300, lex:組む-BG-02-1550-02-0100 .
+
+NEW（拆成2个entry）:
+lex:くむ【汲む】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "くむ"@ja-Hira, "汲む"@ja ] ;
+    ontolex:sense lex:汲む-BG-02-1532-04-0300 .
+
+lex:くむ【組む】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "くむ"@ja-Hira, "組む"@ja ] ;
+    ontolex:sense lex:組む-BG-02-1550-02-0100 .
+
+-- 汲む-BG-02-1532-04-0300 的 isSenseOf 改指 くむ【汲む】
+-- 組む-BG-02-1550-02-0100 的 isSenseOf 改指 くむ【組む】
+
+### occurrence-batch.ttl
+
+11处 waka:instantiates 从 lex:くむ【汲む・組む】 改成 lex:くむ【汲む】：
+  occ:kokin-887-15, occ:kokin-1079-13, occ:gosen-558-11, occ:gosen-1165-13, occ:gosen-1219-12, occ:shuui-1346-14, occ:goshuui-587-5, occ:goshuui-615-1, occ:goshuui-1043-3, occ:goshuui-1116-14, occ:goshuui-1174-13
+
+1处 waka:instantiates 从 lex:くむ【汲む・組む】 改成 lex:くむ【組む】：
+  occ:shuui-399-12
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用くむ【汲む・組む】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

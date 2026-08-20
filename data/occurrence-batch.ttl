@@ -76032,7 +76032,7 @@ occ:kokin-887-14 a waka:TokenOccurrence ;
 occ:kokin-887-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-887 ;
     waka:position 15 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 wakaid:kokin-888 waka:hasOccurrence occ:kokin-888-1, occ:kokin-888-2, occ:kokin-888-3, occ:kokin-888-4, occ:kokin-888-5, occ:kokin-888-6, occ:kokin-888-7, occ:kokin-888-8, occ:kokin-888-9, occ:kokin-888-10, occ:kokin-888-11, occ:kokin-888-12, occ:kokin-888-13, occ:kokin-888-14, occ:kokin-888-15 .
 
@@ -96396,7 +96396,7 @@ occ:kokin-1079-12 a waka:TokenOccurrence ;
 occ:kokin-1079-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1079 ;
     waka:position 13 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:kokin-1079-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1079 ;
@@ -146156,7 +146156,7 @@ occ:gosen-558-10 a waka:TokenOccurrence ;
 occ:gosen-558-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-558 ;
     waka:position 11 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:gosen-558-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-558 ;
@@ -198390,7 +198390,7 @@ occ:gosen-1165-12 a waka:TokenOccurrence ;
 occ:gosen-1165-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1165 ;
     waka:position 13 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:gosen-1165-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1165 ;
@@ -203133,7 +203133,7 @@ occ:gosen-1219-11 a waka:TokenOccurrence ;
 occ:gosen-1219-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1219 ;
     waka:position 12 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:gosen-1219-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1219 ;
@@ -254558,7 +254558,7 @@ occ:shuui-399-11 a waka:TokenOccurrence ;
 occ:shuui-399-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-399 ;
     waka:position 12 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【組む】 .
 
 occ:shuui-399-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-399 ;
@@ -339853,7 +339853,7 @@ occ:shuui-1346-13 a waka:TokenOccurrence ;
 occ:shuui-1346-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1346 ;
     waka:position 14 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:shuui-1346-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1346 ;
@@ -389347,7 +389347,7 @@ occ:goshuui-587-4 a waka:TokenOccurrence ;
 occ:goshuui-587-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-587 ;
     waka:position 5 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:goshuui-587-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-587 ;
@@ -391668,7 +391668,7 @@ wakaid:goshuui-615 waka:hasOccurrence occ:goshuui-615-1, occ:goshuui-615-2, occ:
 occ:goshuui-615-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-615 ;
     waka:position 1 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:goshuui-615-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-615 ;
@@ -427974,7 +427974,7 @@ occ:goshuui-1043-2 a waka:TokenOccurrence ;
 occ:goshuui-1043-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1043 ;
     waka:position 3 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:goshuui-1043-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1043 ;
@@ -434150,7 +434150,7 @@ occ:goshuui-1116-13 a waka:TokenOccurrence ;
 occ:goshuui-1116-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1116 ;
     waka:position 14 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:goshuui-1116-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1116 ;
@@ -438956,7 +438956,7 @@ occ:goshuui-1174-12 a waka:TokenOccurrence ;
 occ:goshuui-1174-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1174 ;
     waka:position 13 ;
-    waka:instantiates lex:くむ【汲む・組む】 .
+    waka:instantiates lex:くむ【汲む】 .
 
 occ:goshuui-1174-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1174 ;

@@ -6185,11 +6185,11 @@ lex:くみ【組】 a ontolex:LexicalEntry ;
 
 lex:くむ【汲む】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "くむ"@ja-Hira, "汲む"@ja ] ;
-    ontolex:sense lex:汲む-BG-02-3393-07-0400 .
+    ontolex:sense lex:汲む-BG-02-3393-07-0400, lex:汲む-BG-02-1532-04-0300 .
 
-lex:くむ【汲む・組む】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "くむ"@ja-Hira, "汲む"@ja, "組む"@ja ] ;
-    ontolex:sense lex:汲む-BG-02-1532-04-0300, lex:組む-BG-02-1550-02-0100 .
+lex:くむ【組む】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "くむ"@ja-Hira, "組む"@ja ] ;
+    ontolex:sense lex:組む-BG-02-1550-02-0100 .
 
 lex:くめ【久米】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "くめ"@ja-Hira, "久米"@ja ] ;
@@ -33369,7 +33369,7 @@ lex:池辺-BG-01-1780-04-1100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-1780 .
 
 lex:汲む-BG-02-1532-04-0300 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:くむ【汲む・組む】 ;
+    ontolex:isSenseOf lex:くむ【汲む】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1532 .
 
@@ -37951,7 +37951,7 @@ lex:組-BG-01-2810-01-0100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-2810 .
 
 lex:組む-BG-02-1550-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:くむ【汲む・組む】 ;
+    ontolex:isSenseOf lex:くむ【組む】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1550 .
 
