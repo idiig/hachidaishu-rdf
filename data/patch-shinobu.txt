@@ -1,0 +1,70 @@
+## PATCH: しのぶ【偲ぶ・忍ぶ】+ しのぶ【偲ぶ・忍・忍ぶ】合并成一个
+
+底本核实：偲ぶ/忍ぶ的绝大多数token(67/72)本身就同时带3040/3060/5030
+三个候选WLSP分类，标注者自己都没有逐条区分清楚，不是干净可拆分的
+情况（跟いぬ/さす不同）。忍(5个token)则只有5030一个候选。三个分类
+含义：BG-02-3040="努力・忍耐"、BG-02-3060="思考・認識・知解"、
+BG-03-5030="音"。决定：不拆分，直接把两个entry合并成一个，三个
+sense全部保留。
+
+已逐条核对：底本(除信夫)72个token，跟RDF现有69处标注逐一比对，全部
+72个都能在RDF找到对应occurrence（含5处裸字"忍"，即下面要改指的
+那5处），没有残留未标注的token。
+
+### lex-batch.ttl -- 合并成一个entry（2个lemma，3个sense）
+
+合并方向：保留 しのぶ【偲ぶ・忍ぶ】 这个entry ID/canonicalForm
+（2个lemma，不加裸字"忍"），把 しのぶ【偲ぶ・忍・忍ぶ】 的
+忍-BG-03-5030-04-1000 这一条sense加进来，然后整个删掉
+しのぶ【偲ぶ・忍・忍ぶ】 这个entry。
+
+OLD（两个entry）:
+lex:しのぶ【偲ぶ・忍ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しのぶ"@ja-Hira, "偲ぶ"@ja, "忍ぶ"@ja ] ;
+    ontolex:sense lex:偲ぶ-BG-02-3040-06-0200, lex:偲ぶ-BG-02-3060-03-0800, lex:忍ぶ-BG-02-3040-06-0200, lex:忍ぶ-BG-02-3060-03-0800 .
+
+lex:しのぶ【偲ぶ・忍・忍ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しのぶ"@ja-Hira, "偲ぶ"@ja, "忍"@ja, "忍ぶ"@ja ] ;
+    ontolex:sense lex:偲ぶ-BG-03-5030-04-1000, lex:忍-BG-03-5030-04-1000, lex:忍ぶ-BG-03-5030-04-1000 .
+
+NEW（合并为一个，entry ID/canonicalForm沿用しのぶ【偲ぶ・忍ぶ】
+不变，只是sense列表多了忍-BG-03-5030-04-1000一条）:
+lex:しのぶ【偲ぶ・忍ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しのぶ"@ja-Hira, "偲ぶ"@ja, "忍ぶ"@ja ] ;
+    ontolex:sense lex:偲ぶ-BG-02-3040-06-0200, lex:偲ぶ-BG-02-3060-03-0800, lex:忍-BG-03-5030-04-1000, lex:忍ぶ-BG-02-3040-06-0200, lex:忍ぶ-BG-02-3060-03-0800 .
+
+-- 删除孤立sense声明：偲ぶ-BG-03-5030-04-1000、忍ぶ-BG-03-5030-04-1000
+   （多余重复声明，忍-BG-03-5030-04-1000本身保留，isSenseOf改指
+   しのぶ【偲ぶ・忍ぶ】）
+-- 整条删除 lex:しのぶ【偲ぶ・忍・忍ぶ】 的entry声明（合并后不再
+   单独存在；因为保留的是另一个entry ID，这个反而要删）
+
+### occurrence-batch.ttl -- 只需把しのぶ【偲ぶ・忍・忍ぶ】的5处
+### 改指到しのぶ【偲ぶ・忍ぶ】（entry ID没变的那64处occurrence不用动）
+
+以下5处，各自的 waka:instantiates 从
+  lex:しのぶ【偲ぶ・忍・忍ぶ】
+改成
+  lex:しのぶ【偲ぶ・忍ぶ】
+（只改这一行，waka:ofWaka / waka:position 不动；这5处诗歌原文写的
+就是裸字"忍"，虽然合并后entry的canonicalForm不再列"忍"这个写法，
+但occurrence还是指向这个entry）：
+  occ:kokin-769-11
+  occ:gosen-1187-13
+  occ:gosen-1393-12
+  occ:shuui-1310-4
+  occ:goshuui-737-7
+
+しのぶ【偲ぶ・忍ぶ】自己原有的64处occurrence不用动，entry ID没变。
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+已核实，1处，但因为保留的entry ID正好是这一处已经引用的那个，
+**不需要改动**：
+  lex:しのぶぐさ【忍草】 的 decomp:subterm 里
+  lex:しのぶ【偲ぶ・忍ぶ】 ——已经是合并后要保留的entry名，原样
+  不动即可
+（另外两个 decomp:correspondsTo lex:しのぶ【信夫】 是无关的地名
+entry，不受这次合并影响，不用动）
+
+### 状态：已执行

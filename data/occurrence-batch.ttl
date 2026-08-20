@@ -8300,7 +8300,7 @@ occ:kokin-96-14 a waka:TokenOccurrence ;
 occ:kokin-96-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-96 ;
     waka:position 15 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:kokin-96-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-96 ;
@@ -17778,7 +17778,7 @@ occ:kokin-210-3 a waka:TokenOccurrence ;
 occ:kokin-210-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-210 ;
     waka:position 4 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:kokin-210-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-210 ;
@@ -18628,7 +18628,7 @@ occ:kokin-220-12 a waka:TokenOccurrence ;
 occ:kokin-220-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-220 ;
     waka:position 13 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【寝ぬ】 .
 
 occ:kokin-220-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-220 ;
@@ -26484,7 +26484,7 @@ occ:kokin-313-15 a waka:TokenOccurrence ;
 occ:kokin-313-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-313 ;
     waka:position 16 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:kokin-313-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-313 ;
@@ -29014,7 +29014,7 @@ occ:kokin-343-4 a waka:TokenOccurrence ;
 occ:kokin-343-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-343 ;
     waka:position 5 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:kokin-343-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-343 ;
@@ -29203,7 +29203,7 @@ occ:kokin-345-7 a waka:TokenOccurrence ;
 occ:kokin-345-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-345 ;
     waka:position 8 ;
-    waka:instantiates lex:みよ【三夜・御世・御代】 .
+    waka:instantiates lex:みよ【御世・御代】 .
 
 occ:kokin-345-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-345 ;
@@ -29603,7 +29603,7 @@ occ:kokin-350-12 a waka:TokenOccurrence ;
 occ:kokin-350-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-350 ;
     waka:position 13 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:kokin-350-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-350 ;
@@ -42321,7 +42321,7 @@ occ:kokin-499-12 a waka:TokenOccurrence ;
 occ:kokin-499-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-499 ;
     waka:position 13 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【寝ぬ】 .
 
 occ:kokin-499-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-499 ;
@@ -58933,7 +58933,7 @@ occ:kokin-690-15 a waka:TokenOccurrence ;
 occ:kokin-690-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-690 ;
     waka:position 16 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:kokin-690-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-690 ;
@@ -65741,7 +65741,7 @@ occ:kokin-769-10 a waka:TokenOccurrence ;
 occ:kokin-769-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-769 ;
     waka:position 11 ;
-    waka:instantiates lex:しのぶ【偲ぶ・忍・忍ぶ】 .
+    waka:instantiates lex:しのぶ【偲ぶ・忍ぶ】 .
 
 occ:kokin-769-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-769 ;
@@ -66340,7 +66340,7 @@ occ:kokin-776-2 a waka:TokenOccurrence ;
 occ:kokin-776-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-776 ;
     waka:position 3 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:kokin-776-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-776 ;
@@ -76688,7 +76688,7 @@ occ:kokin-895-9 a waka:TokenOccurrence ;
 occ:kokin-895-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-895 ;
     waka:position 10 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:kokin-895-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-895 ;
@@ -77220,7 +77220,7 @@ occ:kokin-901-8 a waka:TokenOccurrence ;
 occ:kokin-901-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-901 ;
     waka:position 9 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:kokin-901-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-901 ;
@@ -80454,7 +80454,7 @@ occ:kokin-938-15 a waka:TokenOccurrence ;
 occ:kokin-938-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-938 ;
     waka:position 16 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:kokin-938-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-938 ;
@@ -83400,7 +83400,7 @@ occ:kokin-971-11 a waka:TokenOccurrence ;
 occ:kokin-971-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-971 ;
     waka:position 12 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:kokin-971-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-971 ;
@@ -83803,7 +83803,7 @@ occ:kokin-975-10 a waka:TokenOccurrence ;
 occ:kokin-975-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-975 ;
     waka:position 11 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:kokin-975-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-975 ;
@@ -86902,7 +86902,7 @@ occ:kokin-1002-5 a waka:TokenOccurrence ;
 occ:kokin-1002-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
     waka:position 6 ;
-    waka:instantiates lex:みよ【三夜・御世・御代】 .
+    waka:instantiates lex:みよ【御世・御代】 .
 
 occ:kokin-1002-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
@@ -87307,7 +87307,7 @@ occ:kokin-1002-86 a waka:TokenOccurrence ;
 occ:kokin-1002-87 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
     waka:position 87 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:kokin-1002-88 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
@@ -106266,7 +106266,7 @@ wakaid:gosen-83 waka:hasOccurrence occ:gosen-83-1, occ:gosen-83-2, occ:gosen-83-
 occ:gosen-83-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-83 ;
     waka:position 1 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-83-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-83 ;
@@ -115117,7 +115117,7 @@ occ:gosen-186-6 a waka:TokenOccurrence ;
 occ:gosen-186-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-186 ;
     waka:position 7 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-186-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-186 ;
@@ -117152,7 +117152,7 @@ occ:gosen-211-5 a waka:TokenOccurrence ;
 occ:gosen-211-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-211 ;
     waka:position 6 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:gosen-211-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-211 ;
@@ -129324,7 +129324,7 @@ occ:gosen-357-9 a waka:TokenOccurrence ;
 occ:gosen-357-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-357 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-357-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-357 ;
@@ -135521,7 +135521,7 @@ occ:gosen-433-9 a waka:TokenOccurrence ;
 occ:gosen-433-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-433 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-433-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-433 ;
@@ -144339,7 +144339,7 @@ wakaid:gosen-537 waka:hasOccurrence occ:gosen-537-1, occ:gosen-537-2, occ:gosen-
 occ:gosen-537-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-537 ;
     waka:position 1 ;
-    waka:instantiates lex:を【小】 .
+    waka:instantiates lex:を\*【小】 .
 
 occ:gosen-537-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-537 ;
@@ -148768,7 +148768,7 @@ occ:gosen-589-6 a waka:TokenOccurrence ;
 occ:gosen-589-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-589 ;
     waka:position 7 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:gosen-589-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-589 ;
@@ -155360,7 +155360,7 @@ occ:gosen-665-14 a waka:TokenOccurrence ;
 occ:gosen-665-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-665 ;
     waka:position 15 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:gosen-665-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-665 ;
@@ -166084,7 +166084,7 @@ wakaid:gosen-792 waka:hasOccurrence occ:gosen-792-1, occ:gosen-792-2, occ:gosen-
 occ:gosen-792-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-792 ;
     waka:position 1 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-792-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-792 ;
@@ -185397,7 +185397,7 @@ occ:gosen-1016-1 a waka:TokenOccurrence ;
 occ:gosen-1016-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1016 ;
     waka:position 2 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:gosen-1016-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1016 ;
@@ -188740,7 +188740,7 @@ occ:gosen-1055-1 a waka:TokenOccurrence ;
 occ:gosen-1055-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1055 ;
     waka:position 2 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:gosen-1055-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1055 ;
@@ -190520,7 +190520,7 @@ occ:gosen-1075-9 a waka:TokenOccurrence ;
 occ:gosen-1075-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1075 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-1075-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1075 ;
@@ -200279,7 +200279,7 @@ occ:gosen-1187-12 a waka:TokenOccurrence ;
 occ:gosen-1187-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1187 ;
     waka:position 13 ;
-    waka:instantiates lex:しのぶ【偲ぶ・忍・忍ぶ】 .
+    waka:instantiates lex:しのぶ【偲ぶ・忍ぶ】 .
 
 occ:gosen-1187-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1187 ;
@@ -216431,7 +216431,7 @@ occ:gosen-1373-10 a waka:TokenOccurrence ;
 occ:gosen-1373-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1373 ;
     waka:position 11 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-1373-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1373 ;
@@ -216503,7 +216503,7 @@ occ:gosen-1374-9 a waka:TokenOccurrence ;
 occ:gosen-1374-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1374 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-1374-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1374 ;
@@ -216836,7 +216836,7 @@ occ:gosen-1378-10 a waka:TokenOccurrence ;
 occ:gosen-1378-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1378 ;
     waka:position 11 ;
-    waka:instantiates lex:みよ【三夜・御世・御代】 .
+    waka:instantiates lex:みよ【御世・御代】 .
 
 occ:gosen-1378-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1378 ;
@@ -217179,7 +217179,7 @@ occ:gosen-1382-8 a waka:TokenOccurrence ;
 occ:gosen-1382-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1382 ;
     waka:position 9 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-1382-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1382 ;
@@ -217378,7 +217378,7 @@ occ:gosen-1384-12 a waka:TokenOccurrence ;
 occ:gosen-1384-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1384 ;
     waka:position 13 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-1384-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1384 ;
@@ -218206,7 +218206,7 @@ occ:gosen-1393-11 a waka:TokenOccurrence ;
 occ:gosen-1393-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1393 ;
     waka:position 12 ;
-    waka:instantiates lex:しのぶ【偲ぶ・忍・忍ぶ】 .
+    waka:instantiates lex:しのぶ【偲ぶ・忍ぶ】 .
 
 occ:gosen-1393-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1393 ;
@@ -219210,7 +219210,7 @@ occ:gosen-1405-2 a waka:TokenOccurrence ;
 occ:gosen-1405-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1405 ;
     waka:position 3 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:gosen-1405-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1405 ;
@@ -220167,7 +220167,7 @@ occ:gosen-1416-2 a waka:TokenOccurrence ;
 occ:gosen-1416-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1416 ;
     waka:position 3 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:gosen-1416-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1416 ;
@@ -223031,7 +223031,7 @@ occ:shuui-23-11 a waka:TokenOccurrence ;
 occ:shuui-23-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-23 ;
     waka:position 12 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-23-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-23 ;
@@ -243183,7 +243183,7 @@ occ:shuui-264-10 a waka:TokenOccurrence ;
 occ:shuui-264-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-264 ;
     waka:position 11 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-264-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-264 ;
@@ -243280,7 +243280,7 @@ occ:shuui-265-11 a waka:TokenOccurrence ;
 occ:shuui-265-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-265 ;
     waka:position 12 ;
-    waka:instantiates lex:みよ【三夜・御世・御代】 .
+    waka:instantiates lex:みよ【御世・御代】 .
 
 occ:shuui-265-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-265 ;
@@ -243347,7 +243347,7 @@ occ:shuui-266-9 a waka:TokenOccurrence ;
 occ:shuui-266-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-266 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-266-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-266 ;
@@ -243757,7 +243757,7 @@ occ:shuui-271-11 a waka:TokenOccurrence ;
 occ:shuui-271-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-271 ;
     waka:position 12 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-271-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-271 ;
@@ -243777,7 +243777,7 @@ occ:shuui-271-15 a waka:TokenOccurrence ;
 occ:shuui-271-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-271 ;
     waka:position 16 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-271-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-271 ;
@@ -244117,7 +244117,7 @@ occ:shuui-276-2 a waka:TokenOccurrence ;
 occ:shuui-276-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-276 ;
     waka:position 3 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-276-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-276 ;
@@ -245253,7 +245253,7 @@ occ:shuui-289-1 a waka:TokenOccurrence ;
 occ:shuui-289-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-289 ;
     waka:position 2 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-289-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-289 ;
@@ -252433,7 +252433,7 @@ occ:shuui-374-15 a waka:TokenOccurrence ;
 occ:shuui-374-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-374 ;
     waka:position 16 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:shuui-374-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-374 ;
@@ -252803,7 +252803,7 @@ occ:shuui-379-2 a waka:TokenOccurrence ;
 occ:shuui-379-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-379 ;
     waka:position 3 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:shuui-379-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-379 ;
@@ -253211,7 +253211,7 @@ occ:shuui-383-9 a waka:TokenOccurrence ;
 occ:shuui-383-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-383 ;
     waka:position 10 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:shuui-383-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-383 ;
@@ -257280,7 +257280,7 @@ occ:shuui-430-9 a waka:TokenOccurrence ;
 occ:shuui-430-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-430 ;
     waka:position 10 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:shuui-430-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-430 ;
@@ -261547,7 +261547,7 @@ occ:shuui-481-5 a waka:TokenOccurrence ;
 occ:shuui-481-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-481 ;
     waka:position 6 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:shuui-481-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-481 ;
@@ -270954,7 +270954,7 @@ occ:shuui-572-27 a waka:TokenOccurrence ;
 occ:shuui-572-28 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
     waka:position 28 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-572-29 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
@@ -276503,7 +276503,7 @@ occ:shuui-599-12 a waka:TokenOccurrence ;
 occ:shuui-599-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-599 ;
     waka:position 13 ;
-    waka:instantiates lex:みよ【三夜・御世・御代】 .
+    waka:instantiates lex:みよ【御世・御代】 .
 
 occ:shuui-599-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-599 ;
@@ -276570,7 +276570,7 @@ occ:shuui-600-11 a waka:TokenOccurrence ;
 occ:shuui-600-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-600 ;
     waka:position 12 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-600-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-600 ;
@@ -276925,7 +276925,7 @@ occ:shuui-605-10 a waka:TokenOccurrence ;
 occ:shuui-605-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-605 ;
     waka:position 11 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-605-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-605 ;
@@ -277223,7 +277223,7 @@ occ:shuui-609-11 a waka:TokenOccurrence ;
 occ:shuui-609-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-609 ;
     waka:position 12 ;
-    waka:instantiates lex:みよ【三夜・御世・御代】 .
+    waka:instantiates lex:みよ【御世・御代】 .
 
 occ:shuui-609-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-609 ;
@@ -277295,7 +277295,7 @@ occ:shuui-610-9 a waka:TokenOccurrence ;
 occ:shuui-610-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-610 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-610-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-610 ;
@@ -277834,7 +277834,7 @@ occ:shuui-617-8 a waka:TokenOccurrence ;
 occ:shuui-617-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-617 ;
     waka:position 9 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-617-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-617 ;
@@ -286412,7 +286412,7 @@ occ:shuui-716-10 a waka:TokenOccurrence ;
 occ:shuui-716-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-716 ;
     waka:position 11 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千夜】 .
 
 occ:shuui-716-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-716 ;
@@ -291455,7 +291455,7 @@ occ:shuui-775-10 a waka:TokenOccurrence ;
 occ:shuui-775-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-775 ;
     waka:position 11 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:shuui-775-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-775 ;
@@ -311151,7 +311151,7 @@ wakaid:shuui-1008 waka:hasOccurrence occ:shuui-1008-1, occ:shuui-1008-2, occ:shu
 occ:shuui-1008-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1008 ;
     waka:position 1 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:shuui-1008-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1008 ;
@@ -312531,7 +312531,7 @@ occ:shuui-1023-15 a waka:TokenOccurrence ;
 occ:shuui-1023-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1023 ;
     waka:position 16 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-1023-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1023 ;
@@ -325309,7 +325309,7 @@ occ:shuui-1177-6 a waka:TokenOccurrence ;
 occ:shuui-1177-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1177 ;
     waka:position 7 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:shuui-1177-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1177 ;
@@ -336701,7 +336701,7 @@ occ:shuui-1310-3 a waka:TokenOccurrence ;
 occ:shuui-1310-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1310 ;
     waka:position 4 ;
-    waka:instantiates lex:しのぶ【偲ぶ・忍・忍ぶ】 .
+    waka:instantiates lex:しのぶ【偲ぶ・忍ぶ】 .
 
 occ:shuui-1310-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1310 ;
@@ -342664,7 +342664,7 @@ occ:goshuui-28-13 a waka:TokenOccurrence ;
 occ:goshuui-28-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-28 ;
     waka:position 14 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-28-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-28 ;
@@ -349821,7 +349821,7 @@ occ:goshuui-114-10 a waka:TokenOccurrence ;
 occ:goshuui-114-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-114 ;
     waka:position 11 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:goshuui-114-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-114 ;
@@ -351071,7 +351071,7 @@ occ:goshuui-129-3 a waka:TokenOccurrence ;
 occ:goshuui-129-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-129 ;
     waka:position 4 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-129-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-129 ;
@@ -354488,7 +354488,7 @@ occ:goshuui-170-9 a waka:TokenOccurrence ;
 occ:goshuui-170-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-170 ;
     waka:position 10 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:goshuui-170-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-170 ;
@@ -361080,7 +361080,7 @@ occ:goshuui-251-2 a waka:TokenOccurrence ;
 occ:goshuui-251-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-251 ;
     waka:position 3 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-251-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-251 ;
@@ -361227,7 +361227,7 @@ occ:goshuui-252-14 a waka:TokenOccurrence ;
 occ:goshuui-252-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-252 ;
     waka:position 15 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:goshuui-252-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-252 ;
@@ -362420,7 +362420,7 @@ occ:goshuui-266-9 a waka:TokenOccurrence ;
 occ:goshuui-266-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-266 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-266-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-266 ;
@@ -376064,7 +376064,7 @@ occ:goshuui-428-13 a waka:TokenOccurrence ;
 occ:goshuui-428-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-428 ;
     waka:position 14 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-428-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-428 ;
@@ -376310,7 +376310,7 @@ occ:goshuui-431-9 a waka:TokenOccurrence ;
 occ:goshuui-431-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-431 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-431-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-431 ;
@@ -376407,7 +376407,7 @@ occ:goshuui-432-14 a waka:TokenOccurrence ;
 occ:goshuui-432-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-432 ;
     waka:position 15 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-432-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-432 ;
@@ -376474,7 +376474,7 @@ occ:goshuui-433-9 a waka:TokenOccurrence ;
 occ:goshuui-433-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-433 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-433-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-433 ;
@@ -376675,7 +376675,7 @@ occ:goshuui-436-3 a waka:TokenOccurrence ;
 occ:goshuui-436-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-436 ;
     waka:position 4 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-436-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-436 ;
@@ -376911,7 +376911,7 @@ wakaid:goshuui-439 waka:hasOccurrence occ:goshuui-439-1, occ:goshuui-439-2, occ:
 occ:goshuui-439-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-439 ;
     waka:position 1 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-439-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-439 ;
@@ -377371,7 +377371,7 @@ occ:goshuui-444-10 a waka:TokenOccurrence ;
 occ:goshuui-444-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-444 ;
     waka:position 11 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-444-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-444 ;
@@ -377729,7 +377729,7 @@ occ:goshuui-448-12 a waka:TokenOccurrence ;
 occ:goshuui-448-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-448 ;
     waka:position 13 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-448-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-448 ;
@@ -377776,7 +377776,7 @@ occ:goshuui-449-4 a waka:TokenOccurrence ;
 occ:goshuui-449-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-449 ;
     waka:position 5 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-449-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-449 ;
@@ -378355,7 +378355,7 @@ occ:goshuui-456-7 a waka:TokenOccurrence ;
 occ:goshuui-456-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-456 ;
     waka:position 8 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-456-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-456 ;
@@ -378504,7 +378504,7 @@ occ:goshuui-458-2 a waka:TokenOccurrence ;
 occ:goshuui-458-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-458 ;
     waka:position 3 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-458-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-458 ;
@@ -379391,7 +379391,7 @@ occ:goshuui-469-2 a waka:TokenOccurrence ;
 occ:goshuui-469-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-469 ;
     waka:position 3 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-469-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-469 ;
@@ -379682,7 +379682,7 @@ occ:goshuui-472-12 a waka:TokenOccurrence ;
 occ:goshuui-472-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-472 ;
     waka:position 13 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-472-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-472 ;
@@ -379816,7 +379816,7 @@ occ:goshuui-474-2 a waka:TokenOccurrence ;
 occ:goshuui-474-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-474 ;
     waka:position 3 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-474-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-474 ;
@@ -380544,7 +380544,7 @@ occ:goshuui-483-4 a waka:TokenOccurrence ;
 occ:goshuui-483-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-483 ;
     waka:position 5 ;
-    waka:instantiates lex:いぬ【去ぬ・寝ぬ・往ぬ】 .
+    waka:instantiates lex:いぬ【去ぬ・往ぬ】 .
 
 occ:goshuui-483-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-483 ;
@@ -399194,7 +399194,7 @@ occ:goshuui-703-17 a waka:TokenOccurrence ;
 occ:goshuui-703-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-703 ;
     waka:position 18 ;
-    waka:instantiates lex:を【小】 .
+    waka:instantiates lex:を\*【小】 .
 
 occ:goshuui-703-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-703 ;
@@ -399343,7 +399343,7 @@ occ:goshuui-705-9 a waka:TokenOccurrence ;
 occ:goshuui-705-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-705 ;
     waka:position 10 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-705-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-705 ;
@@ -401902,7 +401902,7 @@ occ:goshuui-737-6 a waka:TokenOccurrence ;
 occ:goshuui-737-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-737 ;
     waka:position 7 ;
-    waka:instantiates lex:しのぶ【偲ぶ・忍・忍ぶ】 .
+    waka:instantiates lex:しのぶ【偲ぶ・忍ぶ】 .
 
 occ:goshuui-737-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-737 ;
@@ -417568,7 +417568,7 @@ occ:goshuui-920-7 a waka:TokenOccurrence ;
 occ:goshuui-920-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-920 ;
     waka:position 8 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:goshuui-920-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-920 ;
@@ -437269,7 +437269,7 @@ occ:goshuui-1153-2 a waka:TokenOccurrence ;
 occ:goshuui-1153-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1153 ;
     waka:position 3 ;
-    waka:instantiates lex:ちよ【千世・千代・千夜】 .
+    waka:instantiates lex:ちよ【千世・千代】 .
 
 occ:goshuui-1153-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1153 ;
@@ -440825,7 +440825,7 @@ occ:goshuui-1196-16 a waka:TokenOccurrence ;
 occ:goshuui-1196-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1196 ;
     waka:position 17 ;
-    waka:instantiates lex:さす【さす・刺す・鎖す・閉す】 .
+    waka:instantiates lex:さす【鎖す・閉す】 .
 
 occ:goshuui-1196-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1196 ;

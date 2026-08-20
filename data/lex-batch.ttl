@@ -2284,9 +2284,9 @@ lex:いにしへ【古】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "いにしへ"@ja-Hira, "古"@ja ] ;
     ontolex:sense lex:古-BG-01-1642-01-0800 .
 
-lex:いぬ【去ぬ・寝ぬ・往ぬ】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "いぬ"@ja-Hira, "去ぬ"@ja, "寝ぬ"@ja, "往ぬ"@ja ] ;
-    ontolex:sense lex:去ぬ-BG-02-1527-02-0100, lex:寝ぬ-BG-02-1513-04-0303, lex:往ぬ-BG-02-1527-02-0100 .
+lex:いぬ【去ぬ・往ぬ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "いぬ"@ja-Hira, "去ぬ"@ja, "往ぬ"@ja ] ;
+    ontolex:sense lex:去ぬ-BG-02-1527-02-0100, lex:往ぬ-BG-02-1527-02-0100 .
 
 lex:いぬ【寝ぬ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "いぬ"@ja-Hira, "寝ぬ"@ja ] ;
@@ -7468,9 +7468,9 @@ lex:さす【さす】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さす"@ja-Hira, "さす"@ja ] ;
     ontolex:sense lex:さす-BG-02-3420-01-0500 .
 
-lex:さす【さす・刺す・鎖す・閉す】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "さす"@ja-Hira, "さす"@ja, "刺す"@ja, "鎖す"@ja, "閉す"@ja ] ;
-    ontolex:sense lex:さす-BG-02-1532-04-0500, lex:刺す-BG-02-1571-12-0200, lex:鎖す-BG-02-1553-03-0200, lex:閉す-BG-02-1553-03-0200 .
+lex:さす【鎖す・閉す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さす"@ja-Hira, "鎖す"@ja, "閉す"@ja ] ;
+    ontolex:sense lex:鎖す-BG-02-1553-03-0200, lex:閉す-BG-02-1553-03-0200 .
 
 lex:さす【刺す・差す・挿す】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さす"@ja-Hira, "刺す"@ja, "差す"@ja, "挿す"@ja ] ;
@@ -8466,11 +8466,7 @@ lex:しのぶ【信夫】 a ontolex:LexicalEntry ;
 
 lex:しのぶ【偲ぶ・忍ぶ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しのぶ"@ja-Hira, "偲ぶ"@ja, "忍ぶ"@ja ] ;
-    ontolex:sense lex:偲ぶ-BG-02-3040-06-0200, lex:偲ぶ-BG-02-3060-03-0800, lex:忍ぶ-BG-02-3040-06-0200, lex:忍ぶ-BG-02-3060-03-0800 .
-
-lex:しのぶ【偲ぶ・忍・忍ぶ】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "しのぶ"@ja-Hira, "偲ぶ"@ja, "忍"@ja, "忍ぶ"@ja ] ;
-    ontolex:sense lex:偲ぶ-BG-03-5030-04-1000, lex:忍-BG-03-5030-04-1000, lex:忍ぶ-BG-03-5030-04-1000 .
+    ontolex:sense lex:偲ぶ-BG-02-3040-06-0200, lex:偲ぶ-BG-02-3060-03-0800, lex:忍-BG-03-5030-04-1000, lex:忍ぶ-BG-02-3040-06-0200, lex:忍ぶ-BG-02-3060-03-0800 .
 
 lex:しのぶぐさ【忍草】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しのぶぐさ"@ja-Hira, "忍草"@ja ] ;
@@ -10728,10 +10724,15 @@ lex:ちまた【巷】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ちまた"@ja-Hira, "巷"@ja ] ;
     ontolex:sense lex:巷-BG-01-2540-05-0300 .
 
-lex:ちよ【千世・千代・千夜】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千世"@ja, "千代"@ja, "千夜"@ja ] ;
+lex:ちよ【千世・千代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千世"@ja, "千代"@ja ] ;
     decomp:subterm lex:ち【千】, lex:よ【世・代・夜】 ;
-    ontolex:sense lex:千世-BG-01-1642-04-1001, lex:千代-BG-01-1621-01-0800, lex:千代-BG-01-1642-04-1001, lex:千夜-BG-01-1613-03-2000 .
+    ontolex:sense lex:千世-BG-01-1642-04-1001, lex:千代-BG-01-1621-01-0800, lex:千代-BG-01-1642-04-1001 .
+
+lex:ちよ【千夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千夜"@ja ] ;
+    decomp:subterm lex:ち【千】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:千夜-BG-01-1613-03-2000 .
 
 lex:ちよく【勅】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ちよく"@ja-Hira, "勅"@ja ] ;
@@ -16812,11 +16813,18 @@ lex:みょうが【冥加】 a ontolex:LexicalEntry ;
 
 lex:みよ【三世・三代】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三世"@ja, "三代"@ja ] ;
+    decomp:subterm lex:み【三】, lex:よ【世・代・夜】 ;
     ontolex:sense lex:三世-BG-01-2610-01-1400, lex:三代-BG-01-2610-01-1500 .
 
-lex:みよ【三夜・御世・御代】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三夜"@ja, "御世"@ja, "御代"@ja ] ;
-    ontolex:sense lex:三夜-BG-01-1635-05-4800, lex:御世-BG-01-1623-05-0300, lex:御代-BG-01-1623-05-0300 .
+lex:みよ【御世・御代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "御世"@ja, "御代"@ja ] ;
+    decomp:subterm lex:み\*【御】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:御世-BG-01-1623-05-0300, lex:御代-BG-01-1623-05-0300 .
+
+lex:みよ【三夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三夜"@ja ] ;
+    decomp:subterm lex:み【三】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:三夜-BG-01-1635-05-4800 .
 
 lex:みよしの【吉野】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みよしの"@ja-Hira, "吉野"@ja ] ;
@@ -18046,7 +18054,7 @@ lex:やちよ【八千世・八千代】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:や【八】 .
 
 lex:やちよ【八千世・八千代】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:ちよ【千世・千代・千夜】 .
+    decomp:correspondsTo lex:ちよ【千世・千代】 .
 
 lex:やちよ【八千世・八千代】-decomp-3 a rdf:Seq ;
     decomp:constituent lex:やちよ【八千世・八千代】-decomp-3-c1, lex:やちよ【八千世・八千代】-decomp-3-c2, lex:やちよ【八千世・八千代】-decomp-3-c3 ;
@@ -20548,11 +20556,6 @@ lex:さして-BG-03-1991-02-0200 a ontolex:LexicalSense ;
     lexinfo:partOfSpeech lexinfo:adverb ;
     ontolex:reference concept:BG-03-1991 .
 
-lex:さす-BG-02-1532-04-0500 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:さす【さす・刺す・鎖す・閉す】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1532 .
-
 lex:さす-BG-02-3420-01-0500 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:さす【さす】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
@@ -21490,7 +21493,7 @@ lex:三千年-BG-01-1642-04-2100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-1642 .
 
 lex:三夜-BG-01-1635-05-4800 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:みよ【三夜・御世・御代】 ;
+    ontolex:isSenseOf lex:みよ【三夜】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1635 .
 
@@ -23193,11 +23196,6 @@ lex:偲ぶ-BG-02-3060-03-0800 a ontolex:LexicalSense ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-3060 .
 
-lex:偲ぶ-BG-03-5030-04-1000 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しのぶ【偲ぶ・忍・忍ぶ】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-03-5030 .
-
 lex:偶-BG-03-1650-08-0300 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:たまたま【偶】 ;
     lexinfo:partOfSpeech lexinfo:adverb ;
@@ -23990,11 +23988,6 @@ lex:刺す-BG-01-1531-01-1303 a ontolex:LexicalSense ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-01-1531 .
 
-lex:刺す-BG-02-1571-12-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:さす【さす・刺す・鎖す・閉す】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1571 .
-
 lex:削ぐ-BG-02-1571-16-0201 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:そぐ【削ぐ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
@@ -24236,17 +24229,17 @@ lex:千-BG-01-5151-01-1600 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-5151 .
 
 lex:千世-BG-01-1642-04-1001 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ちよ【千世・千代・千夜】 ;
+    ontolex:isSenseOf lex:ちよ【千世・千代】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1642 .
 
 lex:千代-BG-01-1621-01-0800 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ちよ【千世・千代・千夜】 ;
+    ontolex:isSenseOf lex:ちよ【千世・千代】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1621 .
 
 lex:千代-BG-01-1642-04-1001 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ちよ【千世・千代・千夜】 ;
+    ontolex:isSenseOf lex:ちよ【千世・千代】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1642 .
 
@@ -24271,7 +24264,7 @@ lex:千坂-CH-25-0000-00-2500 a ontolex:LexicalSense ;
     ontolex:reference concept:CH-25-0000 .
 
 lex:千夜-BG-01-1613-03-2000 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ちよ【千世・千代・千夜】 ;
+    ontolex:isSenseOf lex:ちよ【千夜】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1613 .
 
@@ -24476,7 +24469,7 @@ lex:厭ふ-BG-02-3020-05-0300 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3020 .
 
 lex:去ぬ-BG-02-1527-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:いぬ【去ぬ・寝ぬ・往ぬ】 ;
+    ontolex:isSenseOf lex:いぬ【去ぬ・往ぬ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1527 .
 
@@ -26928,11 +26921,6 @@ lex:寝-BG-02-3000-11-0100 a ontolex:LexicalSense ;
     lexinfo:partOfSpeech lexinfo:commonNoun, lexinfo:verb ;
     ontolex:reference concept:BG-02-3000 .
 
-lex:寝ぬ-BG-02-1513-04-0303 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:いぬ【去ぬ・寝ぬ・往ぬ】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1513 .
-
 lex:寝ぬ-BG-02-3000-11-0100 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:いぬ【寝ぬ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
@@ -28736,7 +28724,7 @@ lex:彼方-BG-01-1730-03-0300 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-1730 .
 
 lex:往ぬ-BG-02-1527-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:いぬ【去ぬ・寝ぬ・往ぬ】 ;
+    ontolex:isSenseOf lex:いぬ【去ぬ・往ぬ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1527 .
 
@@ -28931,12 +28919,12 @@ lex:御-BG-05-0070-01-0401 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-05-0070 .
 
 lex:御世-BG-01-1623-05-0300 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:みよ【三夜・御世・御代】 ;
+    ontolex:isSenseOf lex:みよ【御世・御代】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1623 .
 
 lex:御代-BG-01-1623-05-0300 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:みよ【三夜・御世・御代】 ;
+    ontolex:isSenseOf lex:みよ【御世・御代】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1623 .
 
@@ -29246,7 +29234,7 @@ lex:忌む-BG-02-3041-05-0300 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3041 .
 
 lex:忍-BG-03-5030-04-1000 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しのぶ【偲ぶ・忍・忍ぶ】 ;
+    ontolex:isSenseOf lex:しのぶ【偲ぶ・忍ぶ】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-03-5030 .
 
@@ -29264,11 +29252,6 @@ lex:忍ぶ-BG-02-3060-03-0800 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:しのぶ【偲ぶ・忍ぶ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-3060 .
-
-lex:忍ぶ-BG-03-5030-04-1000 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しのぶ【偲ぶ・忍・忍ぶ】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-03-5030 .
 
 lex:忍草-BG-01-5510-08-0702 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:しのぶぐさ【忍草】 ;
@@ -41972,7 +41955,7 @@ lex:鍋-BG-01-4520-06-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-4520 .
 
 lex:鎖す-BG-02-1553-03-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:さす【さす・刺す・鎖す・閉す】 ;
+    ontolex:isSenseOf lex:さす【鎖す・閉す】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1553 .
 
@@ -42127,7 +42110,7 @@ lex:閉ざす-BG-02-1553-03-0400 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1553 .
 
 lex:閉す-BG-02-1553-03-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:さす【さす・刺す・鎖す・閉す】 ;
+    ontolex:isSenseOf lex:さす【鎖す・閉す】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1553 .
 

@@ -1,0 +1,73 @@
+## PATCH: ちよ【千世・千代・千夜】split -- 千世/千代(世代) vs 千夜(夜)分开
+
+底本核实：51个token，千世18(BG-01-1642-04-1001)、千代32(BG-01-1621-
+01-0800/BG-01-1642-04-1001)、千夜仅1个(BG-01-1613-03-2000，
+shuui-716位置11)。千世/千代干净归一组(世代义)，千夜单独一组(不同
+义)，不存在交叉歧义(不像しのぶ那样底本本身就模糊)。
+
+已逐条核对：底本51个token跟RDF现有51处标注逐一比对，全部对上，唯一
+的"千夜"确认就是shuui-716位置11（下面要改指的那一处），没有残留
+未标注的token。
+
+### lex-batch.ttl -- 拆成两个entry
+
+OLD:
+lex:ちよ【千世・千代・千夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千世"@ja, "千代"@ja, "千夜"@ja ] ;
+    decomp:subterm lex:ち【千】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:千世-BG-01-1642-04-1001, lex:千代-BG-01-1621-01-0800, lex:千代-BG-01-1642-04-1001, lex:千夜-BG-01-1613-03-2000 .
+
+NEW（两个entry，decomp:subterm继续指向现有的よ【世・代・夜】不拆，
+见下"待确认"结论1）:
+lex:ちよ【千世・千代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千世"@ja, "千代"@ja ] ;
+    decomp:subterm lex:ち【千】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:千世-BG-01-1642-04-1001, lex:千代-BG-01-1621-01-0800, lex:千代-BG-01-1642-04-1001 .
+
+lex:ちよ【千夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千夜"@ja ] ;
+    decomp:subterm lex:ち【千】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:千夜-BG-01-1613-03-2000 .
+
+### occurrence-batch.ttl
+
+50处 waka:instantiates 从 lex:ちよ【千世・千代・千夜】 改成
+lex:ちよ【千世・千代】：
+  occ:kokin-96-15, occ:kokin-343-5, occ:kokin-350-13, occ:kokin-901-9,
+  occ:kokin-1002-87, occ:gosen-83-1, occ:gosen-186-7, occ:gosen-357-10,
+  occ:gosen-433-10, occ:gosen-792-1, occ:gosen-1075-10, occ:gosen-1373-11,
+  occ:gosen-1374-10, occ:gosen-1382-9, occ:gosen-1384-13, occ:gosen-1405-3,
+  occ:shuui-23-12, occ:shuui-264-11, occ:shuui-266-10, occ:shuui-271-12,
+  occ:shuui-271-16, occ:shuui-276-3, occ:shuui-289-2, occ:shuui-572-28,
+  occ:shuui-600-12, occ:shuui-605-11, occ:shuui-610-10, occ:shuui-617-9,
+  occ:shuui-1023-16, occ:shuui-1177-7, occ:goshuui-28-14, occ:goshuui-129-4,
+  occ:goshuui-251-3, occ:goshuui-266-10, occ:goshuui-428-14, occ:goshuui-431-10,
+  occ:goshuui-432-15, occ:goshuui-433-10, occ:goshuui-436-4, occ:goshuui-439-1,
+  occ:goshuui-444-11, occ:goshuui-448-13, occ:goshuui-449-5, occ:goshuui-456-8,
+  occ:goshuui-458-3, occ:goshuui-469-3, occ:goshuui-472-13, occ:goshuui-474-3,
+  occ:goshuui-705-10, occ:goshuui-1153-3
+
+1处 waka:instantiates 从 lex:ちよ【千世・千代・千夜】 改成
+lex:ちよ【千夜】：
+  occ:shuui-716-11
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+1处需要同步改名：
+  lex:やちよ【八千世・八千代】-decomp-2-c2 的 decomp:correspondsTo
+  lex:ちよ【千世・千代・千夜】 改成 lex:ちよ【千世・千代】
+  （这个复合词本身叫"八千世・八千代"，语义上就是世代组，不是千夜，
+  归到千世・千代这组没问题）
+
+### 待确认 -- 已核实
+
+1. よ【世・代】/よ【夜】暂不拆——两个新ちよ entry的decomp:subterm
+   继续指向现有的よ【世・代・夜】不变（拆よ本身是更大范围的独立任务，
+   牵扯所有引用よ【世・代・夜】的其它复合词，这次不做）。
+2. lex:やちよ【八千世・八千代】 跟 lex:やちよ【八千代】 **不是重复/
+   冲突**：已逐条核对底本8个token（7个"八千世"、1个"八千代"）跟
+   RDF现有8处标注完全一致——7个"八千世"(BG-03-1600"時"类)全部标注
+   在やちよ【八千世・八千代】，1个歧义的"八千代"(goshuui-453位置6)
+   标注在やちよ【八千代】。两个entry各自正确，不用动。
+
+### 状态：已执行

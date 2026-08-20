@@ -1,0 +1,73 @@
+## PATCH: みよ【三夜・御世・御代】split + みよ【三世・三代】补decomp
+
+底本核实(全8代集)：みよ读音共28个token。三世(2)/三代(4)都是
+BG-01-2610("社会分野")，御世(6)/御代(9)都是BG-01-1623("時代")，
+三夜仅1个(BG-01-1635-05-4800，"時間帯"类)——且这1个落在第07部
+(千載和歌集，我们4部范围外)。限定在我们4部范围内：御世4+御代2=6，
+三世1+三代2=3，三夜0。
+
+已核实：lex:みよ【三世・三代】 **本来就已经是独立、正确的entry**
+（sense BG-01-2610对齐两个字，occ:gosen-123-9/occ:goshuui-981-11/
+occ:goshuui-1161-5 三处都正确指向它）——这部分不用动，只是跟ちよ/
+やちよ一样，之前没有decomp:subterm，这次一并补上（见下）。
+
+真正要拆的只有 lex:みよ【三夜・御世・御代】。"三夜"参照さす【刺す・
+差す・挿す】的先例（范围外但真实存在的义项不删）单独建一个entry，
+即使这次0个occurrence会指向它。
+
+### lex-batch.ttl -- 拆成两个entry，两个都补decomp:subterm
+
+OLD:
+lex:みよ【三夜・御世・御代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三夜"@ja, "御世"@ja, "御代"@ja ] ;
+    ontolex:sense lex:三夜-BG-01-1635-05-4800, lex:御世-BG-01-1623-05-0300, lex:御代-BG-01-1623-05-0300 .
+
+NEW（两个entry）:
+lex:みよ【御世・御代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "御世"@ja, "御代"@ja ] ;
+    decomp:subterm lex:み\*【御】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:御世-BG-01-1623-05-0300, lex:御代-BG-01-1623-05-0300 .
+
+lex:みよ【三夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三夜"@ja ] ;
+    decomp:subterm lex:み【三】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:三夜-BG-01-1635-05-4800 .
+
+-- み\*【御】用的是第二批已经改过名的接头辞entry（不是み【御】）
+
+### lex-batch.ttl -- 已存在的みよ【三世・三代】补decomp:subterm（不改
+### canonicalForm/sense，只加这一行）
+
+lex:みよ【三世・三代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三世"@ja, "三代"@ja ] ;
+    decomp:subterm lex:み【三】, lex:よ【世・代・夜】 ;
+    ontolex:sense lex:三世-BG-01-2610-01-1400, lex:三代-BG-01-2610-01-1500 .
+
+### occurrence-batch.ttl -- 6处从みよ【三夜・御世・御代】改指到
+### みよ【御世・御代】（entry改名，occurrence集合不变）
+
+以下6处，各自的 waka:instantiates 从
+  lex:みよ【三夜・御世・御代】
+改成
+  lex:みよ【御世・御代】
+（只改这一行，waka:ofWaka / waka:position 不动）：
+  occ:kokin-345-8
+  occ:kokin-1002-6
+  occ:gosen-1378-11
+  occ:shuui-265-12
+  occ:shuui-599-13
+  occ:shuui-609-12
+
+みよ【三夜】：新entry，0处occurrence指向它（范围内没有真实用例，
+只是为了跟底本的lemma集合对齐才保留，参照さす【刺す・差す・挿す】
+里"刺す"的处理方式）。
+
+みよ【三世・三代】自己原有的3处occurrence不用动，entry ID/sense都
+没变，只是加了decomp:subterm。
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+已核实：みよ【三夜・御世・御代】/みよ【三世・三代】都没有被任何
+复合词当作分解成分引用，无需额外改动。
+
+### 状态：已执行

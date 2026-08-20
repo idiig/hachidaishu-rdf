@@ -1,0 +1,64 @@
+## PATCH: さす【さす・刺す・鎖す・閉す】+ さす【刺す・差す・挿す】split
+
+底本核实：这两个entry合计58处occurrence，除1处（下述）外全部按
+真实汉字（差す/挿す vs 閉す/鎖す）干净归类，"刺す"这个汉字写法在
+底本我们范围(4部)里完全不存在（さす读音只出现指す/射す/差す/挿す/
+閉す/鎖す/假名さす七种写法，没有"刺す"；全库唯一一处"刺す"在范围外
+的第08部，首选候选就是BG-01-1531-01-1303，跟差す/挿す同一个WLSP
+大类，不是要删掉的对象）。さす【指す】(8处)/さす【射す】(3处)/
+さす\*【さす】使役助动词(gosen-384-10, 1处)已经各自正确标注完整，
+不用动。
+
+已逐条核对：底本58个token跟RDF现有58处标注逐一比对，全部对上，只有
+1处假名书写(kokin-1020位置8)但首选候选本来就是差す，归属不变，没有
+残留未标注的token。
+
+### lex-batch.ttl -- 两个entry改名+删除不存在的"刺す"/多余的"さす"义项
+
+OLD:
+lex:さす【さす・刺す・鎖す・閉す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さす"@ja-Hira, "さす"@ja, "刺す"@ja, "鎖す"@ja, "閉す"@ja ] ;
+    ontolex:sense lex:さす-BG-02-1532-04-0500, lex:刺す-BG-02-1571-12-0200, lex:鎖す-BG-02-1553-03-0200, lex:閉す-BG-02-1553-03-0200 .
+
+NEW:
+lex:さす【鎖す・閉す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さす"@ja-Hira, "鎖す"@ja, "閉す"@ja ] ;
+    ontolex:sense lex:鎖す-BG-02-1553-03-0200, lex:閉す-BG-02-1553-03-0200 .
+
+-- 删除孤立sense声明：さす-BG-02-1532-04-0500、刺す-BG-02-1571-12-0200
+
+さす【刺す・差す・挿す】：不改动，原样保留（全库(含范围外的第08部)
+唯一一处"刺す"真实token首选候选就是BG-01-1531-01-1303，跟差す/挿す
+同一个WLSP大类，不是要删掉的对象）。
+
+### occurrence-batch.ttl -- 只需同步改名，不需要在entry之间搬动任何occurrence
+
+以下13处，各自的 waka:instantiates 从
+  lex:さす【さす・刺す・鎖す・閉す】
+改成
+  lex:さす【鎖す・閉す】
+（只改这一行，waka:ofWaka / waka:position 不动，occurrence集合本身
+不变，只是entry改名后同步指向新名字）：
+  occ:kokin-690-16
+  occ:kokin-895-10
+  occ:kokin-975-11
+  occ:gosen-589-7
+  occ:gosen-1016-2
+  occ:gosen-1055-2
+  occ:shuui-481-6
+  occ:shuui-775-11
+  occ:goshuui-114-11
+  occ:goshuui-170-10
+  occ:goshuui-252-15
+  occ:goshuui-920-8
+  occ:goshuui-1196-17
+
+さす【刺す・差す・挿す】：不改名，45处occurrence完全不用动。
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+已核实：さす【さす・刺す・鎖す・閉す】/さす【刺す・差す・挿す】/
+さす【指す】/さす【射す】都没有被任何复合词当作分解成分引用，无需
+额外改动。
+
+### 状态：已执行

@@ -1,0 +1,53 @@
+## PATCH: いぬ【去ぬ・寝ぬ・往ぬ】split
+
+已逐条核对：底本(限4部)29个token，跟RDF现有18处标注(含いぬ【犬】1处
+不受影响)逐条比对，只有2处不一致(下述)，其余全部正确，没有残留
+未标注的token。
+
+### lex-batch.ttl -- entry split
+
+OLD:
+lex:いぬ【去ぬ・寝ぬ・往ぬ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "いぬ"@ja-Hira, "去ぬ"@ja, "寝ぬ"@ja, "往ぬ"@ja ] ;
+    ontolex:sense lex:去ぬ-BG-02-1527-02-0100, lex:寝ぬ-BG-02-1513-04-0303, lex:往ぬ-BG-02-1527-02-0100 .
+
+NEW:
+lex:いぬ【去ぬ・往ぬ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "いぬ"@ja-Hira, "去ぬ"@ja, "往ぬ"@ja ] ;
+    ontolex:sense lex:去ぬ-BG-02-1527-02-0100, lex:往ぬ-BG-02-1527-02-0100 .
+
+-- also remove the now-orphaned sense declaration:
+lex:寝ぬ-BG-02-1513-04-0303 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:いぬ【去ぬ・寝ぬ・往ぬ】 ;
+    ...
+
+-- いぬ【寝ぬ】(sense 寝ぬ-BG-02-3000-11-0100) unchanged, no action.
+
+### occurrence-batch.ttl -- retarget waka:instantiates
+
+改指 lex:いぬ【寝ぬ】(2处，原底本核实为寝ぬ义):
+  occ:kokin-220-13
+  occ:kokin-499-13
+
+改指 lex:いぬ【去ぬ・往ぬ】(entry改名，14处同步更新):
+  occ:kokin-210-4
+  occ:kokin-313-16
+  occ:kokin-776-3
+  occ:kokin-938-16
+  occ:kokin-971-12
+  occ:shuui-1008-1
+  occ:gosen-211-6
+  occ:gosen-665-15
+  occ:gosen-1416-3
+  occ:shuui-374-16
+  occ:shuui-379-3
+  occ:shuui-383-10
+  occ:shuui-430-10
+  occ:goshuui-483-5
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词以いぬ【去ぬ・寝ぬ・往ぬ】或いぬ【寝ぬ】作为
+分解成分引用。
+
+### 状态：已执行
