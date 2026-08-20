@@ -1,0 +1,61 @@
+## PATCH: おこす【起す・遣す】-- 删除幽灵sense 起す-BG-02-1513，entry改名为おこす【遣す】
+
+底本核实(全8代集，19个token)：起す(3次：04-1208-12/05-632-15/
+07-1268-12，每次都同时带A00=BG-02-1220"成立・発生"+A10=BG-02-1513
+"起立・横臥"+A20=BG-02-3330，从未以1513为主分类)、遣す(16次，恒为
+A00=BG-02-1521"移動・発着"，无歧义)。
+
+既有独立entry おこす【起す】已经正确持有 起す-BG-02-1220-03-0301(主)
++起す-BG-02-3330-02-0401(次)两个sense，对应4部范围内唯一的1处真实
+occurrence(goshuui-1208-12)。而当前おこす【起す・遣す】entry里的
+"起す-BG-02-1513-03-0201"这个sense**从未被任何真实occurrence使用
+过**——是纯粹的幽灵sense，全8代集范围内起す从未以1513为主分类。
+
+已核实(限4部)：おこす【起す・遣す】目前4处occurrence，逐条比对底本
+= 全部是遣す(gosen-1182-19, shuui-1006-5, goshuui-465-16,
+goshuui-766-15)，完全对应，起す 0处。
+
+方案：删除幽灵sense 起す-BG-02-1513-03-0201，entry改名为
+おこす【遣す】，只保留遣す-BG-02-1521-05-1800这一个sense。
+既有的おこす【起す】entry不用动。
+
+无复合词引用おこす【起す・遣す】，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:おこす【起す・遣す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おこす"@ja-Hira, "起す"@ja, "遣す"@ja ] ;
+    ontolex:sense lex:起す-BG-02-1513-03-0201, lex:遣す-BG-02-1521-05-1800 .
+
+NEW:
+lex:おこす【遣す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おこす"@ja-Hira, "遣す"@ja ] ;
+    ontolex:sense lex:遣す-BG-02-1521-05-1800 .
+
+-- 删除孤立sense声明：起す-BG-02-1513-03-0201（4个triple：a/isSenseOf/
+   partOfSpeech/reference全部删除，不retarget——从未被真实occurrence
+   使用）
+-- 遣す-BG-02-1521-05-1800 的 isSenseOf 改指 おこす【遣す】
+
+### occurrence-batch.ttl
+
+4处 waka:instantiates 从 lex:おこす【起す・遣す】 改成
+lex:おこす【遣す】：
+  occ:gosen-1182-19, occ:shuui-1006-5, occ:goshuui-465-16, occ:goshuui-766-15
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用おこす【起す・遣す】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple(a1+canonicalForm链接1+writtenRep2+sense2) ->
+NEW 3 triple(a1+canonicalForm链接1+writtenRep1+sense... 实际sense1
+个=1，总计4) delta: 6->4 = -2
+删除起す幽灵sense声明: -4 triple
+isSenseOf改target: 同一triple换object，delta 0
+occurrence-batch.ttl: waka:instantiates换object，delta 0
+总计lex-batch.ttl delta: -6
+
+### 状态：已执行

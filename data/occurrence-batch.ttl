@@ -199869,7 +199869,7 @@ occ:gosen-1182-18 a waka:TokenOccurrence ;
 occ:gosen-1182-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1182 ;
     waka:position 19 ;
-    waka:instantiates lex:おこす【起す・遣す】 .
+    waka:instantiates lex:おこす【遣す】 .
 
 wakaid:gosen-1183 waka:hasOccurrence occ:gosen-1183-1, occ:gosen-1183-2, occ:gosen-1183-3, occ:gosen-1183-4, occ:gosen-1183-5, occ:gosen-1183-6, occ:gosen-1183-7, occ:gosen-1183-8, occ:gosen-1183-9, occ:gosen-1183-10, occ:gosen-1183-11, occ:gosen-1183-12, occ:gosen-1183-13, occ:gosen-1183-14, occ:gosen-1183-15, occ:gosen-1183-16, occ:gosen-1183-17, occ:gosen-1183-18, occ:gosen-1183-19 .
 
@@ -311007,7 +311007,7 @@ occ:shuui-1006-4 a waka:TokenOccurrence ;
 occ:shuui-1006-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1006 ;
     waka:position 5 ;
-    waka:instantiates lex:おこす【起す・遣す】 .
+    waka:instantiates lex:おこす【遣す】 .
 
 occ:shuui-1006-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1006 ;
@@ -379138,7 +379138,7 @@ occ:goshuui-465-15 a waka:TokenOccurrence ;
 occ:goshuui-465-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-465 ;
     waka:position 16 ;
-    waka:instantiates lex:おこす【起す・遣す】 .
+    waka:instantiates lex:おこす【遣す】 .
 
 wakaid:goshuui-466 waka:hasOccurrence occ:goshuui-466-1, occ:goshuui-466-2, occ:goshuui-466-3, occ:goshuui-466-4, occ:goshuui-466-5, occ:goshuui-466-6, occ:goshuui-466-7, occ:goshuui-466-8, occ:goshuui-466-9, occ:goshuui-466-10, occ:goshuui-466-11, occ:goshuui-466-12, occ:goshuui-466-13, occ:goshuui-466-14, occ:goshuui-466-15 .
 
@@ -404425,7 +404425,7 @@ occ:goshuui-766-14 a waka:TokenOccurrence ;
 occ:goshuui-766-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-766 ;
     waka:position 15 ;
-    waka:instantiates lex:おこす【起す・遣す】 .
+    waka:instantiates lex:おこす【遣す】 .
 
 occ:goshuui-766-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-766 ;

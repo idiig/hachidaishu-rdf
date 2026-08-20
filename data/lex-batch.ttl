@@ -3707,9 +3707,9 @@ lex:おこす【起す】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おこす"@ja-Hira, "起す"@ja ] ;
     ontolex:sense lex:起す-BG-02-1220-03-0301, lex:起す-BG-02-3330-02-0401 .
 
-lex:おこす【起す・遣す】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "おこす"@ja-Hira, "起す"@ja, "遣す"@ja ] ;
-    ontolex:sense lex:起す-BG-02-1513-03-0201, lex:遣す-BG-02-1521-05-1800 .
+lex:おこす【遣す】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おこす"@ja-Hira, "遣す"@ja ] ;
+    ontolex:sense lex:遣す-BG-02-1521-05-1800 .
 
 lex:おこる【起る】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おこる"@ja-Hira, "起る"@ja ] ;
@@ -40971,11 +40971,6 @@ lex:起す-BG-02-1220-03-0301 a ontolex:LexicalSense ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1220 .
 
-lex:起す-BG-02-1513-03-0201 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:おこす【起す・遣す】 ;
-    lexinfo:partOfSpeech lexinfo:verb ;
-    ontolex:reference concept:BG-02-1513 .
-
 lex:起す-BG-02-3330-02-0401 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:おこす【起す】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
@@ -41617,7 +41612,7 @@ lex:遡る-BG-02-1527-07-0100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1527 .
 
 lex:遣す-BG-02-1521-05-1800 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:おこす【起す・遣す】 ;
+    ontolex:isSenseOf lex:おこす【遣す】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1521 .
 
