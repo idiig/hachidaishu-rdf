@@ -1,0 +1,51 @@
+## PATCH: さく【放く・裂く】split into 2 -- 放く「遠ざかる」vs 裂く「引き裂く」
+
+底本核实(全8代集)：放く恒为A00=BG-02-1561"隔離"(仅1次)、裂く恒为
+A00=BG-02-1571"破壊・切断"(3次)，两者WLSP大类完全不同，是完全不同
+的两个动词被合并进同一个entry。
+
+已核实(限4部)：合并entry目前4处occurrence，逐条比对底本 = 放く1
+(kokin-406-3)+裂く3(kokin-701-11, shuui-408-3, shuui-825-5)，完全
+对应，两个sense都是真实使用、无幽灵。
+
+无复合词引用，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:さく【放く・裂く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さく"@ja-Hira, "放く"@ja, "裂く"@ja ] ;
+    ontolex:sense lex:放く-BG-02-1561-02-0300, lex:裂く-BG-02-1571-10-0200 .
+
+NEW（拆成2个entry）:
+lex:さく【放く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さく"@ja-Hira, "放く"@ja ] ;
+    ontolex:sense lex:放く-BG-02-1561-02-0300 .
+
+lex:さく【裂く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さく"@ja-Hira, "裂く"@ja ] ;
+    ontolex:sense lex:裂く-BG-02-1571-10-0200 .
+
+-- 放く-BG-02-1561-02-0300 的 isSenseOf 改指 さく【放く】
+-- 裂く-BG-02-1571-10-0200 的 isSenseOf 改指 さく【裂く】
+
+### occurrence-batch.ttl
+
+1处 waka:instantiates 从 lex:さく【放く・裂く】 改成 lex:さく【放く】：
+  occ:kokin-406-3
+
+3处 waka:instantiates 从 lex:さく【放く・裂く】 改成 lex:さく【裂く】：
+  occ:kokin-701-11, occ:shuui-408-3, occ:shuui-825-5
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用さく【放く・裂く】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

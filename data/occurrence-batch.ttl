@@ -34300,7 +34300,7 @@ occ:kokin-406-2 a waka:TokenOccurrence ;
 occ:kokin-406-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-406 ;
     waka:position 3 ;
-    waka:instantiates lex:さく【放く・裂く】 .
+    waka:instantiates lex:さく【放く】 .
 
 occ:kokin-406-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-406 ;
@@ -59890,7 +59890,7 @@ occ:kokin-701-10 a waka:TokenOccurrence ;
 occ:kokin-701-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-701 ;
     waka:position 11 ;
-    waka:instantiates lex:さく【放く・裂く】 .
+    waka:instantiates lex:さく【裂く】 .
 
 occ:kokin-701-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-701 ;
@@ -255286,7 +255286,7 @@ occ:shuui-408-2 a waka:TokenOccurrence ;
 occ:shuui-408-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-408 ;
     waka:position 3 ;
-    waka:instantiates lex:さく【放く・裂く】 .
+    waka:instantiates lex:さく【裂く】 .
 
 occ:shuui-408-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-408 ;
@@ -295740,7 +295740,7 @@ occ:shuui-825-4 a waka:TokenOccurrence ;
 occ:shuui-825-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-825 ;
     waka:position 5 ;
-    waka:instantiates lex:さく【放く・裂く】 .
+    waka:instantiates lex:さく【裂く】 .
 
 occ:shuui-825-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-825 ;

@@ -7361,11 +7361,11 @@ lex:さく【咲く】 a ontolex:LexicalEntry ;
 
 lex:さく【放く】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さく"@ja-Hira, "放く"@ja ] ;
-    ontolex:sense lex:放く-BG-02-3090-03-0900 .
+    ontolex:sense lex:放く-BG-02-3090-03-0900, lex:放く-BG-02-1561-02-0300 .
 
-lex:さく【放く・裂く】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "さく"@ja-Hira, "放く"@ja, "裂く"@ja ] ;
-    ontolex:sense lex:放く-BG-02-1561-02-0300, lex:裂く-BG-02-1571-10-0200 .
+lex:さく【裂く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さく"@ja-Hira, "裂く"@ja ] ;
+    ontolex:sense lex:裂く-BG-02-1571-10-0200 .
 
 lex:さく【避く】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さく"@ja-Hira, "避く"@ja ] ;
@@ -30365,7 +30365,7 @@ lex:改まる-BG-02-1501-01-0100 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1501 .
 
 lex:放く-BG-02-1561-02-0300 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:さく【放く・裂く】 ;
+    ontolex:isSenseOf lex:さく【放く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1561 .
 
@@ -40270,7 +40270,7 @@ lex:裁る-BG-02-1571-08-0202 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1571 .
 
 lex:裂く-BG-02-1571-10-0200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:さく【放く・裂く】 ;
+    ontolex:isSenseOf lex:さく【裂く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1571 .
 
