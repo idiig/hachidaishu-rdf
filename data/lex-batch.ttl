@@ -637,12 +637,12 @@ lex:あしびき【足曳】 a ontolex:LexicalEntry ;
 
 lex:あしべ【葦辺・蘆辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あしべ"@ja-Hira, "葦辺"@ja, "蘆辺"@ja ] ;
-    decomp:subterm lex:あし【葦・蘆】, lex:べ ;
+    decomp:subterm lex:あし【葦・蘆】, lex:へ【方・辺】 ;
     ontolex:sense lex:葦辺-BG-01-1780-07-2000, lex:蘆辺-BG-01-1780-07-2002 .
 
 lex:あしま【葦間・蘆間】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あしま"@ja-Hira, "葦間"@ja, "蘆間"@ja ] ;
-    decomp:subterm lex:あし【葦・蘆】, lex:ま\* ;
+    decomp:subterm lex:あし【葦・蘆】, lex:ま【間】 ;
     ontolex:sense lex:葦間-BG-01-1840-04-1000, lex:蘆間-BG-01-1840-04-1001 .
 
 lex:あしや【蘆屋】 a ontolex:LexicalEntry ;
@@ -756,7 +756,7 @@ lex:あだごと【徒言】 a ontolex:LexicalEntry ;
 
 lex:あだしごころ【徒し心】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あだしごころ"@ja-Hira, "徒し心"@ja ] ;
-    decomp:subterm lex:あだし, lex:こころ【心】 ;
+    decomp:subterm lex:あだし【徒し】, lex:こころ【心】 ;
     ontolex:sense lex:徒し心-BG-01-3040-03-2100 .
 
 lex:あだしの【徒野】 a ontolex:LexicalEntry ;
@@ -1157,7 +1157,7 @@ lex:あまのかぐやま【天の香具山】 a ontolex:LexicalEntry ;
 
 lex:あまのかは【天の川・天の河】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あまのかは"@ja-Hira, "天の川"@ja, "天の河"@ja ] ;
-    decomp:subterm lex:あま【天】, lex:かは【川・河】, lex:の\* ;
+    decomp:subterm lex:あま【天】, lex:かは【川・河】, lex:の\*【の】 ;
     ontolex:sense lex:天の川-BG-01-5210-09-0704, lex:天の河-BG-01-5210-09-0705 .
 
 lex:あまのこやね【天児屋根】 a ontolex:LexicalEntry ;
@@ -1170,7 +1170,7 @@ lex:あまのはしだて【天の橋立】 a ontolex:LexicalEntry ;
 
 lex:あまのはら【天の原】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あまのはら"@ja-Hira, "天の原"@ja ] ;
-    decomp:subterm lex:あま【天】, lex:の\*, lex:はら【原】 ;
+    decomp:subterm lex:あま【天】, lex:の\*【の】, lex:はら【原】 ;
     ontolex:sense lex:天の原-BG-01-5210-09-2200 .
 
 lex:あまびこ【天彦】 a ontolex:LexicalEntry ;
@@ -1631,27 +1631,27 @@ lex:あをうみ【青海】 a ontolex:LexicalEntry ;
 
 lex:あをつづら【青葛】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あをつづら"@ja-Hira, "青葛"@ja ] ;
-    decomp:subterm lex:あをし, lex:つづら【葛】 ;
+    decomp:subterm lex:あをし【青し】, lex:つづら【葛】 ;
     ontolex:sense lex:青葛-BG-01-5520-15-0903 .
 
 lex:あをね【青根】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あをね"@ja-Hira, "青根"@ja ] ;
-    decomp:subterm lex:あをし, lex:ね【根】 ;
+    decomp:subterm lex:あをし【青し】, lex:ね【根】 ;
     ontolex:sense lex:青根-BG-01-5530-04-1201 .
 
 lex:あをは【青羽】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あをは"@ja-Hira, "青羽"@ja ] ;
-    decomp:subterm lex:あをし, lex:は【羽】 ;
+    decomp:subterm lex:あをし【青し】, lex:は【羽】 ;
     ontolex:sense lex:青羽-BG-01-5750-08-0402 .
 
 lex:あをば【青葉】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あをば"@ja-Hira, "青葉"@ja ] ;
-    decomp:subterm lex:あをし, lex:は【葉】 ;
+    decomp:subterm lex:あをし【青し】, lex:は【葉】 ;
     ontolex:sense lex:青葉-BG-01-5530-10-0201 .
 
 lex:あをやぎ【青柳】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あをやぎ"@ja-Hira, "青柳"@ja ] ;
-    decomp:subterm lex:あをし, lex:やなぎ【柳】 ;
+    decomp:subterm lex:あをし【青し】, lex:やなぎ【柳】 ;
     ontolex:sense lex:青柳-BG-01-5520-26-0200 .
 
 lex:い【寝】 a ontolex:LexicalEntry ;
@@ -1696,7 +1696,7 @@ lex:いかに【如何に】 a ontolex:LexicalEntry ;
 
 lex:いかばかり【如何許り】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "いかばかり"@ja-Hira, "如何許り"@ja ] ;
-    decomp:subterm lex:いか, lex:ばかり\*【許り】 ;
+    decomp:subterm lex:いかなり【如何なり】, lex:ばかり\*【許り】 ;
     ontolex:sense lex:如何許り-BG-03-1000-04-1300 .
 
 lex:いかほ【伊香保】 a ontolex:LexicalEntry ;
@@ -1810,7 +1810,6 @@ lex:いくら【幾ら】 a ontolex:LexicalEntry ;
 
 lex:いけ【池】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "いけ"@ja-Hira, "池"@ja ] ;
-    decomp:subterm lex:いけ\* ;
     ontolex:sense lex:池-BG-01-5250-13-0200 .
 
 lex:いけべ【池辺】 a ontolex:LexicalEntry ;
@@ -1997,7 +1996,7 @@ lex:いそひたひ【磯干鯛】 a ontolex:LexicalEntry ;
 
 lex:いそべ【磯辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "いそべ"@ja-Hira, "磯辺"@ja ] ;
-    decomp:subterm lex:いそ【磯】, lex:べ ;
+    decomp:subterm lex:いそ【磯】, lex:へ【方・辺】 ;
     ontolex:sense lex:磯辺-BG-01-5260-11-0400 .
 
 lex:いそま【磯間】 a ontolex:LexicalEntry ;
@@ -2341,7 +2340,7 @@ lex:いは【岩】 a ontolex:LexicalEntry ;
 
 lex:いはかど【岩角】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "いはかど"@ja-Hira, "岩角"@ja ] ;
-    decomp:subterm lex:いは【岩】, lex:かど ;
+    decomp:subterm lex:いは【岩】, lex:かど【角】 ;
     ontolex:sense lex:岩角-BG-01-5111-07-1901 .
 
 lex:いはがき【岩垣】 a ontolex:LexicalEntry ;
@@ -3192,7 +3191,7 @@ lex:うつつ【現】 a ontolex:LexicalEntry ;
 
 lex:うつぶしぞめ【空五倍子染め】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うつぶしぞめ"@ja-Hira, "空五倍子染め"@ja ] ;
-    decomp:subterm lex:うつぶし, lex:そむ【染む】 ;
+    decomp:subterm lex:うつぶし【空五倍子】, lex:そむ【染む】 ;
     ontolex:sense lex:空五倍子染め-BG-01-3842-02-1400 .
 
 lex:うつりが【移り香】 a ontolex:LexicalEntry ;
@@ -3286,7 +3285,7 @@ lex:うね【蒲生】 a ontolex:LexicalEntry ;
 
 lex:うのはな【卯の花・卯花】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うのはな"@ja-Hira, "卯の花"@ja, "卯花"@ja ] ;
-    decomp:subterm lex:う, lex:の\*, lex:はな【花】 ;
+    decomp:subterm lex:う【卯】, lex:の\*【の】, lex:はな【花】 ;
     ontolex:sense lex:卯の花-BG-01-5530-16-0801, lex:卯花-BG-01-5530-16-0803 .
 
 lex:うのはなづくよ【卯の花月夜】 a ontolex:LexicalEntry ;
@@ -3328,7 +3327,7 @@ lex:うのはなづくよ【卯の花月夜】-decomp-3 a rdf:Seq ;
     rdf:_4 lex:うのはなづくよ【卯の花月夜】-decomp-3-c4 .
 
 lex:うのはなづくよ【卯の花月夜】-decomp-3-c1 a decomp:Component ;
-    decomp:correspondsTo lex:う .
+    decomp:correspondsTo lex:う【卯】 .
 
 lex:うのはなづくよ【卯の花月夜】-decomp-3-c2 a decomp:Component ;
     decomp:correspondsTo lex:の\*【の】 .
@@ -3348,7 +3347,7 @@ lex:うのはなづくよ【卯の花月夜】-decomp-4 a rdf:Seq ;
     rdf:_5 lex:うのはなづくよ【卯の花月夜】-decomp-4-c5 .
 
 lex:うのはなづくよ【卯の花月夜】-decomp-4-c1 a decomp:Component ;
-    decomp:correspondsTo lex:う .
+    decomp:correspondsTo lex:う【卯】 .
 
 lex:うのはなづくよ【卯の花月夜】-decomp-4-c2 a decomp:Component ;
     decomp:correspondsTo lex:の\*【の】 .
@@ -3364,7 +3363,7 @@ lex:うのはなづくよ【卯の花月夜】-decomp-4-c5 a decomp:Component ;
 
 lex:うはかぜ【上風】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うはかぜ"@ja-Hira, "上風"@ja ] ;
-    decomp:subterm lex:うは, lex:かぜ【風】 ;
+    decomp:subterm lex:うは【上】, lex:かぜ【風】 ;
     ontolex:sense lex:上風-BG-01-5151-01-1601 .
 
 lex:うはぎ【上着】 a ontolex:LexicalEntry ;
@@ -3381,17 +3380,17 @@ lex:うはごほり【上氷】 a ontolex:LexicalEntry ;
 
 lex:うはつゆ【上露】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うはつゆ"@ja-Hira, "上露"@ja ] ;
-    decomp:subterm lex:うは, lex:つゆ【露】 ;
+    decomp:subterm lex:うは【上】, lex:つゆ【露】 ;
     ontolex:sense lex:上露-BG-01-5130-13-1201 .
 
 lex:うはのそら【上の空】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うはのそら"@ja-Hira, "上の空"@ja ] ;
-    decomp:subterm lex:うは, lex:そら【空】, lex:の\* ;
+    decomp:subterm lex:うは【上】, lex:そら【空】, lex:の\*【の】 ;
     ontolex:sense lex:上の空-BG-01-3062-03-0101 .
 
 lex:うはば【上葉】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うはば"@ja-Hira, "上葉"@ja ] ;
-    decomp:subterm lex:うは, lex:は【葉】 ;
+    decomp:subterm lex:うは【上】, lex:は【葉】 ;
     ontolex:sense lex:上葉-BG-01-5530-09-0701 .
 
 lex:うはも【上裳】 a ontolex:LexicalEntry ;
@@ -3528,7 +3527,7 @@ lex:うらびる【うらびる】 a ontolex:LexicalEntry ;
 
 lex:うらべ【浦辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うらべ"@ja-Hira, "浦辺"@ja ] ;
-    decomp:subterm lex:うら【浦】, lex:べ ;
+    decomp:subterm lex:うら【浦】, lex:へ【方・辺】 ;
     ontolex:sense lex:浦辺-BG-01-5260-08-0700 .
 
 lex:うらみがほ【恨み顔】 a ontolex:LexicalEntry ;
@@ -3683,7 +3682,7 @@ lex:おきつ【興津】 a ontolex:LexicalEntry ;
 
 lex:おきどころ【置き所】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おきどころ"@ja-Hira, "置き所"@ja ] ;
-    decomp:subterm lex:おく\*, lex:ところ【所】 ;
+    decomp:subterm lex:おく【置く・起く】, lex:ところ【所】 ;
     ontolex:sense lex:置き所-BG-01-1700-07-0900 .
 
 lex:おきな【翁】 a ontolex:LexicalEntry ;
@@ -3863,7 +3862,7 @@ lex:おとはがは【音羽川・音羽河】 a ontolex:LexicalEntry ;
 
 lex:おとはやま【音羽山】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おとはやま"@ja-Hira, "音羽山"@ja ] ;
-    decomp:subterm lex:おとは【音羽】, lex:の\*, lex:やま【山】 ;
+    decomp:subterm lex:おとは【音羽】, lex:の\*【の】, lex:やま【山】 ;
     ontolex:sense lex:音羽山-CH-26-5240-05-0300 .
 
 lex:おとる【劣る】 a ontolex:LexicalEntry ;
@@ -3965,7 +3964,7 @@ lex:おほかたなり【大方なり】 a ontolex:LexicalEntry ;
 
 lex:おほかは【大河】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おほかは"@ja-Hira, "大河"@ja ] ;
-    decomp:subterm lex:おほ, lex:かは【川・河】 ;
+    decomp:subterm lex:おほ\*【大】, lex:かは【川・河】 ;
     ontolex:sense lex:大河-BG-01-5250-02-0201 .
 
 lex:おほきみ【大君】 a ontolex:LexicalEntry ;
@@ -4010,7 +4009,7 @@ lex:おほす【負ほす】 a ontolex:LexicalEntry ;
 
 lex:おほぞら【大空】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おほぞら"@ja-Hira, "大空"@ja ] ;
-    decomp:subterm lex:おほ, lex:そら【空】 ;
+    decomp:subterm lex:おほ\*【大】, lex:そら【空】 ;
     ontolex:sense lex:大空-BG-01-5200-02-0300 .
 
 lex:おほぢ【祖父】 a ontolex:LexicalEntry ;
@@ -4027,7 +4026,7 @@ lex:おほなむち【大汝】 a ontolex:LexicalEntry ;
 
 lex:おほぬさ【大幣】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おほぬさ"@ja-Hira, "大幣"@ja ] ;
-    decomp:subterm lex:おほ, lex:ぬさ【幣】 ;
+    decomp:subterm lex:おほ\*【大】, lex:ぬさ【幣】 ;
     ontolex:sense lex:大幣-BG-01-4500-02-1800 .
 
 lex:おほはら【大原】 a ontolex:LexicalEntry ;
@@ -4050,7 +4049,7 @@ lex:おほふ【覆ふ】 a ontolex:LexicalEntry ;
 
 lex:おほふね【大舟】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おほふね"@ja-Hira, "大舟"@ja ] ;
-    decomp:subterm lex:おほ, lex:ふね【舟・船】 ;
+    decomp:subterm lex:おほ\*【大】, lex:ふね【舟・船】 ;
     ontolex:sense lex:大舟-BG-01-4660-01-0800 .
 
 lex:おほみ【大忌】 a ontolex:LexicalEntry ;
@@ -4207,7 +4206,7 @@ lex:おもひがは【思河】-decomp-2 a rdf:Seq ;
     rdf:_2 lex:おもひがは【思河】-decomp-2-c2 .
 
 lex:おもひがは【思河】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:おもひ .
+    decomp:correspondsTo lex:おもふ【思ふ】 .
 
 lex:おもひがは【思河】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:かは【川・河】 .
@@ -4234,7 +4233,7 @@ lex:おもひぐさ【思草】-decomp-2 a rdf:Seq ;
     rdf:_2 lex:おもひぐさ【思草】-decomp-2-c2 .
 
 lex:おもひぐさ【思草】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:おもひ .
+    decomp:correspondsTo lex:おもふ【思ふ】 .
 
 lex:おもひぐさ【思草】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:くさ【草】 .
@@ -4261,14 +4260,14 @@ lex:おもひね【思ひ寝】-decomp-2 a rdf:Seq ;
     rdf:_2 lex:おもひね【思ひ寝】-decomp-2-c2 .
 
 lex:おもひね【思ひ寝】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:おもひ .
+    decomp:correspondsTo lex:おもふ【思ふ】 .
 
 lex:おもひね【思ひ寝】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:ぬ【寝】 .
 
 lex:おもふ【思ふ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おもふ"@ja-Hira, "思ふ"@ja ] ;
-    decomp:subterm lex:おもひ ;
+    decomp:subterm lex:おもふ【思ふ】 ;
     ontolex:sense lex:思ふ-BG-02-3060-01-0101 .
 
 lex:おもふどち【思ふどち】 a ontolex:LexicalEntry ;
@@ -4485,7 +4484,6 @@ lex:かくろふ【隠ろふ】 a ontolex:LexicalEntry ;
 
 lex:かぐ【嗅ぐ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かぐ"@ja-Hira, "嗅ぐ"@ja ] ;
-    decomp:subterm lex:かぐ ;
     ontolex:sense lex:嗅ぐ-BG-02-3093-01-0100 .
 
 lex:かけご【懸子・懸籠】 a ontolex:LexicalEntry ;
@@ -4766,7 +4764,7 @@ lex:かたおもひ【片思ひ】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:かた【片】 .
 
 lex:かたおもひ【片思ひ】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:おもひ .
+    decomp:correspondsTo lex:おもふ【思ふ】 .
 
 lex:かたがた【旁】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かたがた"@ja-Hira, "旁"@ja ] ;
@@ -5517,7 +5515,7 @@ lex:からくに【唐国】 a ontolex:LexicalEntry ;
 
 lex:からくれなゐ【唐紅】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "からくれなゐ"@ja-Hira, "唐紅"@ja ] ;
-    decomp:subterm lex:から, lex:くれなゐ【紅】 ;
+    decomp:subterm lex:から【唐】, lex:くれなゐ【紅】 ;
     ontolex:sense lex:唐紅-BG-01-5020-04-0700 .
 
 lex:からこと【唐琴】 a ontolex:LexicalEntry ;
@@ -5527,7 +5525,7 @@ lex:からこと【唐琴】 a ontolex:LexicalEntry ;
 
 lex:からころも【唐衣】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "からころも"@ja-Hira, "唐衣"@ja ] ;
-    decomp:subterm lex:から, lex:ころも【衣】 ;
+    decomp:subterm lex:から【唐】, lex:ころも【衣】 ;
     ontolex:sense lex:唐衣-BG-01-4220-06-0800 .
 
 lex:からさき【唐崎】 a ontolex:LexicalEntry ;
@@ -5549,7 +5547,7 @@ lex:からなづな【唐薺】 a ontolex:LexicalEntry ;
 
 lex:からなでしこ【唐撫子】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "からなでしこ"@ja-Hira, "唐撫子"@ja ] ;
-    decomp:subterm lex:から, lex:なでしこ【撫子】 ;
+    decomp:subterm lex:から【唐】, lex:なでしこ【撫子】 ;
     ontolex:sense lex:唐撫子-BG-01-5520-24-1302 .
 
 lex:からに\*【からに】 a ontolex:LexicalEntry ;
@@ -5558,7 +5556,7 @@ lex:からに\*【からに】 a ontolex:LexicalEntry ;
 
 lex:からにしき【唐錦・韓錦】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "からにしき"@ja-Hira, "唐錦"@ja, "韓錦"@ja ] ;
-    decomp:subterm lex:から, lex:にしき【錦】 ;
+    decomp:subterm lex:から【唐】, lex:にしき【錦】 ;
     ontolex:sense lex:唐錦-BG-01-4201-03-0500, lex:韓錦-BG-01-4201-03-0500 .
 
 lex:からびと【唐人】 a ontolex:LexicalEntry ;
@@ -5583,7 +5581,7 @@ lex:かり【雁】 a ontolex:LexicalEntry ;
 
 lex:かりいほ【仮庵】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かりいほ"@ja-Hira, "仮庵"@ja ] ;
-    decomp:subterm lex:いほ【庵】, lex:いほり【庵】, lex:かり ;
+    decomp:subterm lex:いほ【庵】, lex:いほり【庵】, lex:かり【仮】 ;
     ontolex:sense lex:仮庵-BG-01-3331-06-1200, lex:仮庵-BG-01-4410-08-0801 .
 
 lex:かりかりと【かりかりと】 a ontolex:LexicalEntry ;
@@ -5592,7 +5590,7 @@ lex:かりかりと【かりかりと】 a ontolex:LexicalEntry ;
 
 lex:かりがね【雁・雁が音・雁金】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かりがね"@ja-Hira, "雁"@ja, "雁が音"@ja, "雁金"@ja ] ;
-    decomp:subterm lex:かり【雁】, lex:が\*, lex:ね【音】 ;
+    decomp:subterm lex:かり【雁】, lex:が\*【が】, lex:ね【音】 ;
     ontolex:sense lex:雁-BG-01-5620-04-0503, lex:雁が音-BG-01-5620-04-0502, lex:雁金-BG-01-5620-04-0504 .
 
 lex:かりこも【刈菰】 a ontolex:LexicalEntry ;
@@ -5632,7 +5630,7 @@ lex:かりに【仮に】 a ontolex:LexicalEntry ;
 
 lex:かりね【仮寝】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かりね"@ja-Hira, "仮寝"@ja ] ;
-    decomp:subterm lex:かり, lex:ぬ【寝】 ;
+    decomp:subterm lex:かり【仮】, lex:ぬ【寝】 ;
     ontolex:sense lex:仮寝-BG-01-3002-05-0200 .
 
 lex:かりば【狩場】 a ontolex:LexicalEntry ;
@@ -5649,7 +5647,7 @@ lex:かりびと【狩人】 a ontolex:LexicalEntry ;
 
 lex:かりほ【仮庵】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かりほ"@ja-Hira, "仮庵"@ja ] ;
-    decomp:subterm lex:いほ【庵】, lex:かり ;
+    decomp:subterm lex:いほ【庵】, lex:かり【仮】 ;
     ontolex:sense lex:仮庵-BG-01-4410-08-0802 .
 
 lex:かりまくら【仮枕】 a ontolex:LexicalEntry ;
@@ -6564,7 +6562,7 @@ lex:こがね【黄金】 a ontolex:LexicalEntry ;
 
 lex:こがめ【小亀】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "こがめ"@ja-Hira, "小亀"@ja ] ;
-    decomp:subterm lex:かめ【亀】, lex:こ ;
+    decomp:subterm lex:かめ【亀】, lex:こ\*【小】 ;
     ontolex:sense lex:小亀-BG-01-5630-01-0201 .
 
 lex:こがらし【木枯し】 a ontolex:LexicalEntry ;
@@ -6667,7 +6665,7 @@ lex:こしぢ【越路】 a ontolex:LexicalEntry ;
 
 lex:こしのくに【越の国】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "こしのくに"@ja-Hira, "越の国"@ja ] ;
-    decomp:subterm lex:くに【国】, lex:こし【越】, lex:の\* ;
+    decomp:subterm lex:くに【国】, lex:こし【越】, lex:の\*【の】 ;
     ontolex:sense lex:越の国-CH-18-2530-01-0100 .
 
 lex:こしらふ【拵ふ】 a ontolex:LexicalEntry ;
@@ -6676,7 +6674,7 @@ lex:こしらふ【拵ふ】 a ontolex:LexicalEntry ;
 
 lex:こじま【小島】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "こじま"@ja-Hira, "小島"@ja ] ;
-    decomp:subterm lex:こ, lex:しま【島】 ;
+    decomp:subterm lex:こ\*【小】, lex:しま【島】 ;
     ontolex:sense lex:小島-BG-01-5260-06-0900 .
 
 lex:こす\*【こす】 a ontolex:LexicalEntry ;
@@ -6741,7 +6739,7 @@ lex:こづけ【小付】 a ontolex:LexicalEntry ;
 
 lex:こでら【小寺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "こでら"@ja-Hira, "小寺"@ja ] ;
-    decomp:subterm lex:こ, lex:てら ;
+    decomp:subterm lex:こ\*【小】, lex:てら【寺】 ;
     ontolex:sense lex:小寺-BG-01-2630-03-1400 .
 
 lex:こと【事】 a ontolex:LexicalEntry ;
@@ -6832,7 +6830,7 @@ lex:こなた【此方】 a ontolex:LexicalEntry ;
 
 lex:こはぎ【小萩】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "こはぎ"@ja-Hira, "小萩"@ja ] ;
-    decomp:subterm lex:こ, lex:はぎ【萩】 ;
+    decomp:subterm lex:こ\*【小】, lex:はぎ【萩】 ;
     ontolex:sense lex:小萩-BG-01-5520-19-2300 .
 
 lex:こはぎはら【小萩原】 a ontolex:LexicalEntry ;
@@ -6847,7 +6845,7 @@ lex:こはぎはら【小萩原】-decomp-1 a rdf:Seq ;
     rdf:_3 lex:こはぎはら【小萩原】-decomp-1-c3 .
 
 lex:こはぎはら【小萩原】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:こ .
+    decomp:correspondsTo lex:こ\*【小】 .
 
 lex:こはぎはら【小萩原】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:はぎ【萩】 .
@@ -7100,7 +7098,7 @@ lex:こまくら【小枕】 a ontolex:LexicalEntry ;
 
 lex:こまつ【小松】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "こまつ"@ja-Hira, "小松"@ja ] ;
-    decomp:subterm lex:こ, lex:まつ【松】 ;
+    decomp:subterm lex:こ\*【小】, lex:まつ【松】 ;
     ontolex:sense lex:小松-BG-01-5520-34-1000 .
 
 lex:こまつばら【小松原】 a ontolex:LexicalEntry ;
@@ -7135,7 +7133,7 @@ lex:こもる【籠る・隠る】 a ontolex:LexicalEntry ;
 
 lex:こや【小屋】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "こや"@ja-Hira, "小屋"@ja ] ;
-    decomp:subterm lex:こ, lex:や【屋】 ;
+    decomp:subterm lex:こ\*【小】, lex:や【屋】 ;
     ontolex:sense lex:小屋-BG-01-2650-11-0400 .
 
 lex:こや【小屋・蚕屋】 a ontolex:LexicalEntry ;
@@ -7213,7 +7211,6 @@ lex:ごくらく【極楽】 a ontolex:LexicalEntry ;
 
 lex:ごと【如】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ごと"@ja-Hira, "如"@ja ] ;
-    decomp:subterm lex:ごと\* ;
     ontolex:sense lex:如-BG-03-1140-01-2004 .
 
 lex:ごとし\*【如し】 a ontolex:LexicalEntry ;
@@ -7313,7 +7310,7 @@ lex:さかゆ【栄ゆ】 a ontolex:LexicalEntry ;
 
 lex:さかゆく【栄行く】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さかゆく"@ja-Hira, "栄行く"@ja ] ;
-    decomp:subterm lex:いく\*, lex:さかゆ【栄ゆ】 ;
+    decomp:subterm lex:いく【行く】, lex:さかゆ【栄ゆ】 ;
     ontolex:sense lex:栄行く-BG-02-3790-03-0600 .
 
 lex:さかり【盛】 a ontolex:LexicalEntry ;
@@ -7486,7 +7483,7 @@ lex:さしもぐさ【指焼草】 a ontolex:LexicalEntry ;
 
 lex:さす\*【さす】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さす"@ja-Hira, "さす"@ja ] ;
-    decomp:subterm lex:さす\*, lex:り\*【り】 ;
+    decomp:subterm lex:り\*【り】 ;
     ontolex:sense lex:さす-BG-09-0040-01-0300 .
 
 lex:さす【さす】 a ontolex:LexicalEntry ;
@@ -7667,7 +7664,6 @@ lex:さぶ【寂ぶ】 a ontolex:LexicalEntry ;
 
 lex:さへ\*【さへ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さへ"@ja-Hira, "さへ"@ja ] ;
-    decomp:subterm lex:さへ\* ;
     ontolex:sense lex:さへ-BG-01-1990-05-0301 .
 
 lex:さへづる【囀る】 a ontolex:LexicalEntry ;
@@ -7738,7 +7734,7 @@ lex:さや【佐夜】 a ontolex:LexicalEntry ;
 
 lex:さや【小夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さや"@ja-Hira, "小夜"@ja ] ;
-    decomp:subterm lex:さ, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:さ\*【小】, lex:よ【世・代・夜】 ;
     ontolex:sense lex:小夜-BG-01-1635-05-2800 .
 
 lex:さやかた【佐屋形】 a ontolex:LexicalEntry ;
@@ -7797,7 +7793,7 @@ lex:さゆりば【小百合葉】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:さゆりば【小百合葉】-decomp-2-c3 .
 
 lex:さゆりば【小百合葉】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:さ .
+    decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さゆりば【小百合葉】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:ゆり【百合】 .
@@ -7807,7 +7803,7 @@ lex:さゆりば【小百合葉】-decomp-2-c3 a decomp:Component ;
 
 lex:さよ【小夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さよ"@ja-Hira, "小夜"@ja ] ;
-    decomp:subterm lex:さ, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:さ\*【小】, lex:よ【世・代・夜】 ;
     ontolex:sense lex:小夜-BG-01-1635-05-2801 .
 
 lex:さよごろも【小夜衣】 a ontolex:LexicalEntry ;
@@ -7841,7 +7837,7 @@ lex:さよちどり【小夜千鳥】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:さよちどり【小夜千鳥】-decomp-2-c3 .
 
 lex:さよちどり【小夜千鳥】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:さ .
+    decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよちどり【小夜千鳥】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:よ【世・代・夜】 .
@@ -7872,7 +7868,7 @@ lex:さよちどり【小夜千鳥】-decomp-4 a rdf:Seq ;
     rdf:_4 lex:さよちどり【小夜千鳥】-decomp-4-c4 .
 
 lex:さよちどり【小夜千鳥】-decomp-4-c1 a decomp:Component ;
-    decomp:correspondsTo lex:さ .
+    decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよちどり【小夜千鳥】-decomp-4-c2 a decomp:Component ;
     decomp:correspondsTo lex:よ【世・代・夜】 .
@@ -7895,7 +7891,7 @@ lex:さよなか【小夜中】-decomp-1 a rdf:Seq ;
     rdf:_3 lex:さよなか【小夜中】-decomp-1-c3 .
 
 lex:さよなか【小夜中】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:さ .
+    decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよなか【小夜中】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:よ【世・代・夜】 .
@@ -7937,7 +7933,7 @@ lex:さよまくら【小夜枕】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:さよまくら【小夜枕】-decomp-2-c3 .
 
 lex:さよまくら【小夜枕】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:さ .
+    decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよまくら【小夜枕】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:よ【世・代・夜】 .
@@ -8212,7 +8208,7 @@ lex:した【舌】 a ontolex:LexicalEntry ;
 
 lex:したかげ【下蔭・下陰】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "したかげ"@ja-Hira, "下蔭"@ja, "下陰"@ja ] ;
-    decomp:subterm lex:かげ\*, lex:した【下】 ;
+    decomp:subterm lex:かげ【影・蔭・陰】, lex:した【下】 ;
     ontolex:sense lex:下蔭-BG-01-1771-08-1301, lex:下陰-BG-01-1771-08-1300 .
 
 lex:したかぜ【下風】 a ontolex:LexicalEntry ;
@@ -8745,7 +8741,7 @@ lex:しらいと【白糸】 a ontolex:LexicalEntry ;
 
 lex:しらかし【白橿】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しらかし"@ja-Hira, "白橿"@ja ] ;
-    decomp:subterm lex:かし, lex:しろし【白し】 ;
+    decomp:subterm lex:かし\*【かし】, lex:しろし【白し】 ;
     ontolex:sense lex:白橿-BG-01-5520-25-1901 .
 
 lex:しらかは【白川・白河】 a ontolex:LexicalEntry ;
@@ -8758,7 +8754,7 @@ lex:しらが【白髪】 a ontolex:LexicalEntry ;
 
 lex:しらがし【白樫】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しらがし"@ja-Hira, "白樫"@ja ] ;
-    decomp:subterm lex:かし, lex:しろし【白し】 ;
+    decomp:subterm lex:かし\*【かし】, lex:しろし【白し】 ;
     ontolex:sense lex:白樫-BG-01-5520-25-2400 .
 
 lex:しらぎく【白菊】 a ontolex:LexicalEntry ;
@@ -8849,7 +8845,7 @@ lex:しらまゆみ【白檀弓・白真弓】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:しろし【白し】 .
 
 lex:しらまゆみ【白檀弓・白真弓】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:ま .
+    decomp:correspondsTo lex:ま\*【真】 .
 
 lex:しらまゆみ【白檀弓・白真弓】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:ゆみ【弓】 .
@@ -9009,7 +9005,7 @@ lex:すき【隙】 a ontolex:LexicalEntry ;
 
 lex:すきま【隙間】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "すきま"@ja-Hira, "隙間"@ja ] ;
-    decomp:subterm lex:すき【隙】, lex:ま\* ;
+    decomp:subterm lex:すき【隙】, lex:ま【間】 ;
     ontolex:sense lex:隙間-BG-01-1840-04-0200 .
 
 lex:すぎ【杉】 a ontolex:LexicalEntry ;
@@ -9142,7 +9138,7 @@ lex:すずかがは【鈴鹿川・鈴鹿河】 a ontolex:LexicalEntry ;
 
 lex:すずかやま【鈴鹿山】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "すずかやま"@ja-Hira, "鈴鹿山"@ja ] ;
-    decomp:subterm lex:すずか, lex:やま【山】 ;
+    decomp:subterm lex:すずか【鈴鹿】, lex:やま【山】 ;
     ontolex:sense lex:鈴鹿山-CH-24-5240-05-0400 .
 
 lex:すずし【涼し】 a ontolex:LexicalEntry ;
@@ -10055,7 +10051,7 @@ lex:たつた【立田・竜田・龍田】 a ontolex:LexicalEntry ;
 
 lex:たつたかは【立田河】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "たつたかは"@ja-Hira, "立田河"@ja ] ;
-    decomp:subterm lex:かは【川・河】, lex:たつた【立田・竜田・龍田】, lex:の\* ;
+    decomp:subterm lex:かは【川・河】, lex:たつた【立田・竜田・龍田】, lex:の\*【の】 ;
     ontolex:sense lex:立田河-CH-29-5250-01-0400 .
 
 lex:たつたがは【立田川・立田河・竜田川・竜田河・龍田川】 a ontolex:LexicalEntry ;
@@ -10065,12 +10061,12 @@ lex:たつたがは【立田川・立田河・竜田川・竜田河・龍田川�
 
 lex:たつたひめ【立田姫・竜田姫・龍田姫】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "たつたひめ"@ja-Hira, "立田姫"@ja, "竜田姫"@ja, "龍田姫"@ja ] ;
-    decomp:subterm lex:たつた【立田・竜田・龍田】, lex:ひめ ;
+    decomp:subterm lex:たつた【立田・竜田・龍田】, lex:ひめ【姫】 ;
     ontolex:sense lex:立田姫-CH-29-2130-01-0100, lex:竜田姫-CH-29-2130-01-0100, lex:龍田姫-CH-29-2130-01-0100 .
 
 lex:たつたやま【立田山・竜田山・龍田山】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "たつたやま"@ja-Hira, "立田山"@ja, "竜田山"@ja, "龍田山"@ja ] ;
-    decomp:subterm lex:たつた【立田・竜田・龍田】, lex:の\*, lex:やま【山】 ;
+    decomp:subterm lex:たつた【立田・竜田・龍田】, lex:の\*【の】, lex:やま【山】 ;
     ontolex:sense lex:立田山-CH-29-5240-05-0500, lex:竜田山-CH-29-5240-05-0500, lex:龍田山-CH-29-5240-05-0500 .
 
 lex:たつみ【辰巳】 a ontolex:LexicalEntry ;
@@ -10141,7 +10137,7 @@ lex:たななしをぶね【棚無し小舟】-decomp-1 a rdf:Seq ;
     rdf:_3 lex:たななしをぶね【棚無し小舟】-decomp-1-c3 .
 
 lex:たななしをぶね【棚無し小舟】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:たな .
+    decomp:correspondsTo lex:たな【棚】 .
 
 lex:たななしをぶね【棚無し小舟】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:なし【亡し・無し】 .
@@ -10157,7 +10153,7 @@ lex:たななしをぶね【棚無し小舟】-decomp-2 a rdf:Seq ;
     rdf:_4 lex:たななしをぶね【棚無し小舟】-decomp-2-c4 .
 
 lex:たななしをぶね【棚無し小舟】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:たな .
+    decomp:correspondsTo lex:たな【棚】 .
 
 lex:たななしをぶね【棚無し小舟】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:なし【亡し・無し】 .
@@ -10170,7 +10166,7 @@ lex:たななしをぶね【棚無し小舟】-decomp-2-c4 a decomp:Component ;
 
 lex:たなはし【棚橋】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "たなはし"@ja-Hira, "棚橋"@ja ] ;
-    decomp:subterm lex:たな, lex:はし【橋】 ;
+    decomp:subterm lex:たな【棚】, lex:はし【橋】 ;
     ontolex:sense lex:棚橋-BG-01-4710-13-1500 .
 
 lex:たなばた【織女】 a ontolex:LexicalEntry ;
@@ -10323,7 +10319,7 @@ lex:たまがき【玉垣】 a ontolex:LexicalEntry ;
 
 lex:たまがしは【玉柏】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "たまがしは"@ja-Hira, "玉柏"@ja ] ;
-    decomp:subterm lex:かしは, lex:たま【玉・珠】 ;
+    decomp:subterm lex:かしは【柏】, lex:たま【玉・珠】 ;
     ontolex:sense lex:玉柏-BG-01-5520-25-1501, lex:玉柏-BG-01-5520-25-2500 .
 
 lex:たまがは【玉川】 a ontolex:LexicalEntry ;
@@ -10373,7 +10369,7 @@ lex:たまたま【偶】 a ontolex:LexicalEntry ;
 
 lex:たまだすき【玉襷】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "たまだすき"@ja-Hira, "玉襷"@ja ] ;
-    decomp:subterm lex:たすき, lex:たま【玉・珠】 ;
+    decomp:subterm lex:たすき【襷】, lex:たま【玉・珠】 ;
     ontolex:sense lex:玉襷-BG-01-4251-03-0800 .
 
 lex:たまだれ【玉垂れ・玉簾】 a ontolex:LexicalEntry ;
@@ -10544,7 +10540,6 @@ lex:たらちめ【垂乳女】 a ontolex:LexicalEntry ;
 
 lex:たり\*【たり】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "たり"@ja-Hira, "たり"@ja ] ;
-    decomp:subterm lex:たり\* ;
     ontolex:sense lex:たり-BG-09-0010-03-0400 .
 
 lex:たる【垂る】 a ontolex:LexicalEntry ;
@@ -10593,7 +10588,6 @@ lex:だう【堂】 a ontolex:LexicalEntry ;
 
 lex:だに\*【だに】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "だに"@ja-Hira, "だに"@ja ] ;
-    decomp:subterm lex:だに\* ;
     ontolex:sense lex:だに-BG-01-1990-05-0400 .
 
 lex:だむ【訛む】 a ontolex:LexicalEntry ;
@@ -10634,7 +10628,6 @@ lex:ちかづく【近付く】 a ontolex:LexicalEntry ;
 
 lex:ちかふ【誓ふ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ちかふ"@ja-Hira, "誓ふ"@ja ] ;
-    decomp:subterm lex:ちかひ ;
     ontolex:sense lex:誓ふ-BG-02-3520-01-0401 .
 
 lex:ちがふ【違ふ】 a ontolex:LexicalEntry ;
@@ -10809,7 +10802,7 @@ lex:つかねを【束緒】 a ontolex:LexicalEntry ;
 
 lex:つかのま【束の間】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "つかのま"@ja-Hira, "束の間"@ja ] ;
-    decomp:subterm lex:つか, lex:の\*, lex:ま【間】 ;
+    decomp:subterm lex:つか, lex:の\*【の】, lex:ま【間】 ;
     ontolex:sense lex:束の間-BG-01-1610-05-1400 .
 
 lex:つかふ【仕ふ】 a ontolex:LexicalEntry ;
@@ -10885,7 +10878,7 @@ lex:つくし【筑紫】 a ontolex:LexicalEntry ;
 
 lex:つくしぐし【筑紫櫛】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "つくしぐし"@ja-Hira, "筑紫櫛"@ja ] ;
-    decomp:subterm lex:くし, lex:つくし【筑紫】 ;
+    decomp:subterm lex:くし【櫛】, lex:つくし【筑紫】 ;
     ontolex:sense lex:筑紫櫛-BG-01-4540-11-0200 .
 
 lex:つくしぶね【筑紫船】 a ontolex:LexicalEntry ;
@@ -10910,7 +10903,7 @@ lex:つくばね【筑波嶺】 a ontolex:LexicalEntry ;
 
 lex:つくばやま【筑波山】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "つくばやま"@ja-Hira, "筑波山"@ja ] ;
-    decomp:subterm lex:つくば【筑波】, lex:の\*, lex:やま【山】 ;
+    decomp:subterm lex:つくば【筑波】, lex:の\*【の】, lex:やま【山】 ;
     ontolex:sense lex:筑波山-CH-08-5240-05-0100 .
 
 lex:つくま【筑摩】 a ontolex:LexicalEntry ;
@@ -11051,7 +11044,7 @@ lex:つの【角】 a ontolex:LexicalEntry ;
 
 lex:つのくに【津の国】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "つのくに"@ja-Hira, "津の国"@ja ] ;
-    decomp:subterm lex:くに【国】, lex:つ\*【つ】, lex:の\* ;
+    decomp:subterm lex:くに【国】, lex:つ\*【つ】, lex:の\*【の】 ;
     ontolex:sense lex:津の国-CH-27-2530-01-0300 .
 
 lex:つのぐむ【角ぐむ】 a ontolex:LexicalEntry ;
@@ -11341,7 +11334,6 @@ lex:でる【出る】 a ontolex:LexicalEntry ;
 
 lex:と\*【と】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "と"@ja-Hira, "と"@ja ] ;
-    decomp:subterm lex:と\* ;
     ontolex:sense lex:と-BG-08-0061-04-0100, lex:と-BG-08-0064-18-0100, lex:と-BG-08-0068-04-0100 .
 
 lex:と【兎】 a ontolex:LexicalEntry ;
@@ -11489,7 +11481,7 @@ lex:とせ【年】 a ontolex:LexicalEntry ;
 
 lex:とだえ【途絶え】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "とだえ"@ja-Hira, "途絶え"@ja ] ;
-    decomp:subterm lex:たゆ【絶ゆ】, lex:と ;
+    decomp:subterm lex:たゆ【絶ゆ】, lex:と【途】 ;
     ontolex:sense lex:途絶え-BG-02-1502-04-0203 .
 
 lex:とだち【鳥立ち】 a ontolex:LexicalEntry ;
@@ -11498,7 +11490,7 @@ lex:とだち【鳥立ち】 a ontolex:LexicalEntry ;
 
 lex:とだゆ【途絶ゆ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "とだゆ"@ja-Hira, "途絶ゆ"@ja ] ;
-    decomp:subterm lex:たゆ【絶ゆ】, lex:と ;
+    decomp:subterm lex:たゆ【絶ゆ】, lex:と【途】 ;
     ontolex:sense lex:途絶ゆ-BG-02-1502-04-0202 .
 
 lex:とづ【閉づ】 a ontolex:LexicalEntry ;
@@ -12023,7 +12015,7 @@ lex:ながめ【眺め】-decomp-2-c2 a decomp:Component ;
 
 lex:ながめ【長雨】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ながめ"@ja-Hira, "長雨"@ja ] ;
-    decomp:subterm lex:あめ【雨】, lex:ながい ;
+    decomp:subterm lex:あめ【雨】, lex:ながし【永し・長し】 ;
     ontolex:sense lex:長雨-BG-01-5153-04-0200 .
 
 lex:ながら\*【ながら】 a ontolex:LexicalEntry ;
@@ -12765,7 +12757,7 @@ lex:ねぎごと【祈事・祈言】 a ontolex:LexicalEntry ;
 
 lex:ねくたれがみ【寝腐れ髪】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ねくたれがみ"@ja-Hira, "寝腐れ髪"@ja ] ;
-    decomp:subterm lex:かみ【髪】, lex:くさる, lex:ぬ【寝】 ;
+    decomp:subterm lex:かみ【髪】, lex:くさる【腐る】, lex:ぬ【寝】 ;
     ontolex:sense lex:寝腐れ髪-BG-01-5750-04-1000 .
 
 lex:ねぐ【祈ぐ】 a ontolex:LexicalEntry ;
@@ -12893,7 +12885,7 @@ lex:のぢ【野地・野路】 a ontolex:LexicalEntry ;
 
 lex:のでら【野寺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "のでら"@ja-Hira, "野寺"@ja ] ;
-    decomp:subterm lex:てら, lex:の【野】 ;
+    decomp:subterm lex:てら【寺】, lex:の【野】 ;
     ontolex:sense lex:野寺-BG-01-2630-03-1200 .
 
 lex:のどかなり【長閑なり】 a ontolex:LexicalEntry ;
@@ -13016,7 +13008,7 @@ lex:はかる【図る】 a ontolex:LexicalEntry ;
 
 lex:はがしは【葉柏】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はがしは"@ja-Hira, "葉柏"@ja ] ;
-    decomp:subterm lex:かしは, lex:は【葉】 ;
+    decomp:subterm lex:かしは【柏】, lex:は【葉】 ;
     ontolex:sense lex:葉柏-BG-01-5520-25-2200 .
 
 lex:はぎ【脛】 a ontolex:LexicalEntry ;
@@ -13108,7 +13100,7 @@ lex:はしばしら【橋柱】 a ontolex:LexicalEntry ;
 
 lex:はしひめ【橋姫】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はしひめ"@ja-Hira, "橋姫"@ja ] ;
-    decomp:subterm lex:はし【橋】, lex:ひめ ;
+    decomp:subterm lex:はし【橋】, lex:ひめ【姫】 ;
     ontolex:sense lex:橋姫-BG-01-2030-09-0200 .
 
 lex:はしもり【橋守】 a ontolex:LexicalEntry ;
@@ -13232,7 +13224,7 @@ lex:はつあきかぜ【初秋風】-decomp-1 a rdf:Seq ;
     rdf:_2 lex:はつあきかぜ【初秋風】-decomp-1-c2 .
 
 lex:はつあきかぜ【初秋風】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:はつ .
+    decomp:correspondsTo lex:はつ【初】 .
 
 lex:はつあきかぜ【初秋風】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:あきかぜ【秋風】 .
@@ -13244,7 +13236,7 @@ lex:はつあきかぜ【初秋風】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:はつあきかぜ【初秋風】-decomp-2-c3 .
 
 lex:はつあきかぜ【初秋風】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:はつ .
+    decomp:correspondsTo lex:はつ【初】 .
 
 lex:はつあきかぜ【初秋風】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:あき【秋】 .
@@ -13263,7 +13255,7 @@ lex:はつか【二十日】 a ontolex:LexicalEntry ;
 
 lex:はつかぜ【初風】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はつかぜ"@ja-Hira, "初風"@ja ] ;
-    decomp:subterm lex:かぜ【風】, lex:はつ ;
+    decomp:subterm lex:かぜ【風】, lex:はつ【初】 ;
     ontolex:sense lex:初風-BG-01-5151-01-1300 .
 
 lex:はつかなり\*【僅かなり】 a ontolex:LexicalEntry ;
@@ -13281,7 +13273,7 @@ lex:はつかのやま【羽束の山】 a ontolex:LexicalEntry ;
 
 lex:はつかり【初雁】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はつかり"@ja-Hira, "初雁"@ja ] ;
-    decomp:subterm lex:かり【雁】, lex:はつ ;
+    decomp:subterm lex:かり【雁】, lex:はつ【初】 ;
     ontolex:sense lex:初雁-BG-01-5620-04-0501 .
 
 lex:はつこゑ【初声】 a ontolex:LexicalEntry ;
@@ -13299,7 +13291,7 @@ lex:はつさくらばな【初桜花】-decomp-1 a rdf:Seq ;
     rdf:_2 lex:はつさくらばな【初桜花】-decomp-1-c2 .
 
 lex:はつさくらばな【初桜花】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:はつ .
+    decomp:correspondsTo lex:はつ【初】 .
 
 lex:はつさくらばな【初桜花】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:さくらばな【桜花】 .
@@ -13311,7 +13303,7 @@ lex:はつさくらばな【初桜花】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:はつさくらばな【初桜花】-decomp-2-c3 .
 
 lex:はつさくらばな【初桜花】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:はつ .
+    decomp:correspondsTo lex:はつ【初】 .
 
 lex:はつさくらばな【初桜花】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:さくら【桜】 .
@@ -13330,7 +13322,7 @@ lex:はつしぐれ【初時雨】-decomp-1 a rdf:Seq ;
     rdf:_2 lex:はつしぐれ【初時雨】-decomp-1-c2 .
 
 lex:はつしぐれ【初時雨】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:はつ .
+    decomp:correspondsTo lex:はつ【初】 .
 
 lex:はつしぐれ【初時雨】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:しぐれ【時雨】 .
@@ -13341,7 +13333,7 @@ lex:はつしぐれ【初時雨】-decomp-2 a rdf:Seq ;
     rdf:_2 lex:はつしぐれ【初時雨】-decomp-2-c2 .
 
 lex:はつしぐれ【初時雨】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:はつ .
+    decomp:correspondsTo lex:はつ【初】 .
 
 lex:はつしぐれ【初時雨】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:しぐる【時雨る】 .
@@ -13353,7 +13345,7 @@ lex:はつしま【初島】 a ontolex:LexicalEntry ;
 
 lex:はつしも【初霜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はつしも"@ja-Hira, "初霜"@ja ] ;
-    decomp:subterm lex:しも【霜】, lex:はつ ;
+    decomp:subterm lex:しも【霜】, lex:はつ【初】 ;
     ontolex:sense lex:初霜-BG-01-5130-14-0200 .
 
 lex:はつせ【初瀬】 a ontolex:LexicalEntry ;
@@ -13379,7 +13371,7 @@ lex:はつね【初音】 a ontolex:LexicalEntry ;
 
 lex:はつはな【初花】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はつはな"@ja-Hira, "初花"@ja ] ;
-    decomp:subterm lex:はつ, lex:はな【花】 ;
+    decomp:subterm lex:はつ【初】, lex:はな【花】 ;
     ontolex:sense lex:初花-BG-01-5810-08-1400 .
 
 lex:はつはる【初春】 a ontolex:LexicalEntry ;
@@ -13442,7 +13434,7 @@ lex:はなうるし【花漆】 a ontolex:LexicalEntry ;
 
 lex:はなかげ【花陰】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はなかげ"@ja-Hira, "花陰"@ja ] ;
-    decomp:subterm lex:かげ\*, lex:はな【花】 ;
+    decomp:subterm lex:かげ【影・蔭・陰】, lex:はな【花】 ;
     ontolex:sense lex:花陰-BG-01-5010-10-1300 .
 
 lex:はなかつみ【花かつみ】 a ontolex:LexicalEntry ;
@@ -13594,7 +13586,7 @@ lex:はびろがしは【葉広柏】-decomp-1-c1 a decomp:Component ;
     decomp:correspondsTo lex:はびろ【葉広】 .
 
 lex:はびろがしは【葉広柏】-decomp-1-c2 a decomp:Component ;
-    decomp:correspondsTo lex:かしは .
+    decomp:correspondsTo lex:かしは【柏】 .
 
 lex:はびろがしは【葉広柏】-decomp-2 a rdf:Seq ;
     decomp:constituent lex:はびろがしは【葉広柏】-decomp-2-c1, lex:はびろがしは【葉広柏】-decomp-2-c2, lex:はびろがしは【葉広柏】-decomp-2-c3 ;
@@ -13609,7 +13601,7 @@ lex:はびろがしは【葉広柏】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:ひろし【広し】 .
 
 lex:はびろがしは【葉広柏】-decomp-2-c3 a decomp:Component ;
-    decomp:correspondsTo lex:かしは .
+    decomp:correspondsTo lex:かしは【柏】 .
 
 lex:はふ【延ふ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はふ"@ja-Hira, "延ふ"@ja ] ;
@@ -13685,7 +13677,7 @@ lex:はまひさぎ【浜楸】 a ontolex:LexicalEntry ;
 
 lex:はまべ【浜べ・浜辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はまべ"@ja-Hira, "浜べ"@ja, "浜辺"@ja ] ;
-    decomp:subterm lex:はま【浜】, lex:べ ;
+    decomp:subterm lex:はま【浜】, lex:へ【方・辺】 ;
     ontolex:sense lex:浜べ-BG-01-5260-10-0500, lex:浜辺-BG-01-5260-10-0500 .
 
 lex:はままつ【浜松】 a ontolex:LexicalEntry ;
@@ -13898,7 +13890,7 @@ lex:はるべ【春辺】 a ontolex:LexicalEntry ;
 
 lex:はるめく【春めく】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "はるめく"@ja-Hira, "春めく"@ja ] ;
-    decomp:subterm lex:はる【春】, lex:めく\* ;
+    decomp:subterm lex:はる【春】, lex:めく\*【めく】 ;
     ontolex:sense lex:春めく-BG-02-1600-06-0100, lex:春めく-BG-02-1624-02-1100 .
 
 lex:はるやま【春山】 a ontolex:LexicalEntry ;
@@ -13908,7 +13900,6 @@ lex:はるやま【春山】 a ontolex:LexicalEntry ;
 
 lex:ば\*【ば】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ば"@ja-Hira, "ば"@ja ] ;
-    decomp:subterm lex:ば\* ;
     ontolex:sense lex:ば-BG-08-0064-26-0100 .
 
 lex:ばかり\*【許り】 a ontolex:LexicalEntry ;
@@ -14362,7 +14353,7 @@ lex:ひめこまつ【姫小松】-decomp-1 a rdf:Seq ;
     rdf:_2 lex:ひめこまつ【姫小松】-decomp-1-c2 .
 
 lex:ひめこまつ【姫小松】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:ひめ .
+    decomp:correspondsTo lex:ひめ【姫】 .
 
 lex:ひめこまつ【姫小松】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:こまつ【小松】 .
@@ -14374,17 +14365,17 @@ lex:ひめこまつ【姫小松】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:ひめこまつ【姫小松】-decomp-2-c3 .
 
 lex:ひめこまつ【姫小松】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:ひめ .
+    decomp:correspondsTo lex:ひめ【姫】 .
 
 lex:ひめこまつ【姫小松】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:こ .
+    decomp:correspondsTo lex:こ\*【小】 .
 
 lex:ひめこまつ【姫小松】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:まつ【松】 .
 
 lex:ひめまつ【姫松】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ひめまつ"@ja-Hira, "姫松"@ja ] ;
-    decomp:subterm lex:ひめ, lex:まつ【松】 ;
+    decomp:subterm lex:ひめ【姫】, lex:まつ【松】 ;
     ontolex:sense lex:姫松-BG-01-5520-34-0900 .
 
 lex:ひも【紐】 a ontolex:LexicalEntry ;
@@ -14675,7 +14666,7 @@ lex:ふたき【二木】 a ontolex:LexicalEntry ;
 
 lex:ふたこゑ【二声】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふたこゑ"@ja-Hira, "二声"@ja ] ;
-    decomp:subterm lex:こゑ【声】, lex:ふた ;
+    decomp:subterm lex:こゑ【声】, lex:ふた【二・又】 ;
     ontolex:sense lex:二声-BG-01-3031-01-3000 .
 
 lex:ふたごころ【二心】 a ontolex:LexicalEntry ;
@@ -14777,7 +14768,7 @@ lex:ふぢなみ【藤波・藤浪】 a ontolex:LexicalEntry ;
 
 lex:ふぢばかま【藤袴】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふぢばかま"@ja-Hira, "藤袴"@ja ] ;
-    decomp:subterm lex:はかま, lex:ふぢ【藤】 ;
+    decomp:subterm lex:はかま【袴】, lex:ふぢ【藤】 ;
     ontolex:sense lex:藤袴-BG-01-5520-19-1900 .
 
 lex:ふで【筆】 a ontolex:LexicalEntry ;
@@ -14908,7 +14899,7 @@ lex:ふるかは【古河】 a ontolex:LexicalEntry ;
 
 lex:ふるかは【布留河】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふるかは"@ja-Hira, "布留河"@ja ] ;
-    decomp:subterm lex:かわ, lex:ふる【布留】 ;
+    decomp:subterm lex:かは【川・河】, lex:ふる【布留】 ;
     ontolex:sense lex:布留河-CH-29-5250-01-0200 .
 
 lex:ふるから【古幹】 a ontolex:LexicalEntry ;
@@ -14974,7 +14965,7 @@ lex:ふるす【古巣】 a ontolex:LexicalEntry ;
 
 lex:ふるでら【古寺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふるでら"@ja-Hira, "古寺"@ja ] ;
-    decomp:subterm lex:てら, lex:ふるし【古し】 ;
+    decomp:subterm lex:てら【寺】, lex:ふるし【古し】 ;
     ontolex:sense lex:古寺-BG-01-2630-03-1300 .
 
 lex:ふるね【古根】 a ontolex:LexicalEntry ;
@@ -14984,7 +14975,7 @@ lex:ふるね【古根】 a ontolex:LexicalEntry ;
 
 lex:ふるね【古音】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ふるね"@ja-Hira, "古音"@ja ] ;
-    decomp:subterm lex:ね【音】, lex:ふるい ;
+    decomp:subterm lex:ね【音】, lex:ふるし【古し】 ;
     ontolex:sense lex:古音-BG-01-5030-01-0900 .
 
 lex:ふるの【布留野】 a ontolex:LexicalEntry ;
@@ -15336,7 +15327,7 @@ lex:まくずはら【真葛原】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:まくずはら【真葛原】-decomp-2-c3 .
 
 lex:まくずはら【真葛原】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:ま .
+    decomp:correspondsTo lex:ま\*【真】 .
 
 lex:まくずはら【真葛原】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:くず【葛】 .
@@ -15366,7 +15357,7 @@ lex:まことに【誠に】 a ontolex:LexicalEntry ;
 
 lex:まこも【真菰・真薦】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "まこも"@ja-Hira, "真菰"@ja, "真薦"@ja ] ;
-    decomp:subterm lex:こも【菰】, lex:ま ;
+    decomp:subterm lex:こも【菰】, lex:ま\*【真】 ;
     ontolex:sense lex:真菰-BG-01-5520-32-3400, lex:真薦-BG-01-5520-32-3401 .
 
 lex:まこもぐさ【真菰草】 a ontolex:LexicalEntry ;
@@ -15392,7 +15383,7 @@ lex:まこもぐさ【真菰草】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:まこもぐさ【真菰草】-decomp-2-c3 .
 
 lex:まこもぐさ【真菰草】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:ま .
+    decomp:correspondsTo lex:ま\*【真】 .
 
 lex:まこもぐさ【真菰草】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:こも【菰】 .
@@ -15515,7 +15506,7 @@ lex:ますげはら【真菅原】-decomp-2 a rdf:Seq ;
     rdf:_3 lex:ますげはら【真菅原】-decomp-2-c3 .
 
 lex:ますげはら【真菅原】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:ま .
+    decomp:correspondsTo lex:ま\*【真】 .
 
 lex:ますげはら【真菅原】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:すが【菅】 .
@@ -15589,7 +15580,7 @@ lex:まちかねやま【待兼山】 a ontolex:LexicalEntry ;
 
 lex:まちどほ【待ち遠】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "まちどほ"@ja-Hira, "待ち遠"@ja ] ;
-    decomp:subterm lex:とほし【遠し】, lex:まつ\* ;
+    decomp:subterm lex:とほし【遠し】, lex:まつ【待つ】 ;
     ontolex:sense lex:待ち遠-BG-03-3012-03-0600 .
 
 lex:まつ【待つ】 a ontolex:LexicalEntry ;
@@ -15841,7 +15832,7 @@ lex:まゆとじめ【眉刀自女】 a ontolex:LexicalEntry ;
 
 lex:まゆみ【真弓】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "まゆみ"@ja-Hira, "真弓"@ja ] ;
-    decomp:subterm lex:ま, lex:ゆみ【弓】 ;
+    decomp:subterm lex:ま\*【真】, lex:ゆみ【弓】 ;
     ontolex:sense lex:真弓-BG-01-4551-02-1001 .
 
 lex:まよふ【迷ふ】 a ontolex:LexicalEntry ;
@@ -16446,7 +16437,7 @@ lex:みのしろころも【蓑代衣】 a ontolex:LexicalEntry ;
 
 lex:みののくに【美濃国】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みののくに"@ja-Hira, "美濃国"@ja ] ;
-    decomp:subterm lex:くに【国】, lex:の\*, lex:みの【美濃】 ;
+    decomp:subterm lex:くに【国】, lex:の\*【の】, lex:みの【美濃】 ;
     ontolex:sense lex:美濃国-CH-21-2530-01-0100 .
 
 lex:みのむし【蓑虫】 a ontolex:LexicalEntry ;
@@ -16650,7 +16641,7 @@ lex:みやまおろし【深山颪】-decomp-1-c1 a decomp:Component ;
     decomp:correspondsTo lex:みやま【深山】 .
 
 lex:みやまおろし【深山颪】-decomp-1-c2 a decomp:Component ;
-    decomp:correspondsTo lex:おろし .
+    decomp:correspondsTo lex:おろす【下ろす】 .
 
 lex:みやまおろし【深山颪】-decomp-2 a rdf:Seq ;
     decomp:constituent lex:みやまおろし【深山颪】-decomp-2-c1, lex:みやまおろし【深山颪】-decomp-2-c2, lex:みやまおろし【深山颪】-decomp-2-c3 ;
@@ -16665,7 +16656,7 @@ lex:みやまおろし【深山颪】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:やま【山】 .
 
 lex:みやまおろし【深山颪】-decomp-2-c3 a decomp:Component ;
-    decomp:correspondsTo lex:おろし .
+    decomp:correspondsTo lex:おろす【下ろす】 .
 
 lex:みやまぎ【深山木】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みやまぎ"@ja-Hira, "深山木"@ja ] ;
@@ -16796,7 +16787,7 @@ lex:みやまべ【深山辺】-decomp-1-c1 a decomp:Component ;
     decomp:correspondsTo lex:みやま【深山】 .
 
 lex:みやまべ【深山辺】-decomp-1-c2 a decomp:Component ;
-    decomp:correspondsTo lex:べ .
+    decomp:correspondsTo lex:へ【方・辺】 .
 
 lex:みやまべ【深山辺】-decomp-2 a rdf:Seq ;
     decomp:constituent lex:みやまべ【深山辺】-decomp-2-c1, lex:みやまべ【深山辺】-decomp-2-c2, lex:みやまべ【深山辺】-decomp-2-c3 ;
@@ -16811,7 +16802,7 @@ lex:みやまべ【深山辺】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:やま【山】 .
 
 lex:みやまべ【深山辺】-decomp-2-c3 a decomp:Component ;
-    decomp:correspondsTo lex:べ .
+    decomp:correspondsTo lex:へ【方・辺】 .
 
 lex:みやまべ【深山辺】-decomp-3 a rdf:Seq ;
     decomp:constituent lex:みやまべ【深山辺】-decomp-3-c1, lex:みやまべ【深山辺】-decomp-3-c2 ;
@@ -17062,7 +17053,7 @@ lex:むら【群】 a ontolex:LexicalEntry ;
 
 lex:むらぎえ【斑消え】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "むらぎえ"@ja-Hira, "斑消え"@ja ] ;
-    decomp:subterm lex:きゆ【消ゆ】, lex:むら ;
+    decomp:subterm lex:きゆ【消ゆ】, lex:むら【群】 ;
     ontolex:sense lex:斑消え-BG-01-1243-02-2200 .
 
 lex:むらくも【村雲】 a ontolex:LexicalEntry ;
@@ -17092,7 +17083,7 @@ lex:むらしぐれ【叢時雨】-decomp-1 a rdf:Seq ;
     rdf:_2 lex:むらしぐれ【叢時雨】-decomp-1-c2 .
 
 lex:むらしぐれ【叢時雨】-decomp-1-c1 a decomp:Component ;
-    decomp:correspondsTo lex:むら .
+    decomp:correspondsTo lex:むら【群】 .
 
 lex:むらしぐれ【叢時雨】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:しぐる【時雨る】 .
@@ -17103,14 +17094,14 @@ lex:むらしぐれ【叢時雨】-decomp-2 a rdf:Seq ;
     rdf:_2 lex:むらしぐれ【叢時雨】-decomp-2-c2 .
 
 lex:むらしぐれ【叢時雨】-decomp-2-c1 a decomp:Component ;
-    decomp:correspondsTo lex:むら .
+    decomp:correspondsTo lex:むら【群】 .
 
 lex:むらしぐれ【叢時雨】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:しぐれ【時雨】 .
 
 lex:むらすすき【叢薄】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "むらすすき"@ja-Hira, "叢薄"@ja ] ;
-    decomp:subterm lex:すすき【薄】, lex:むら ;
+    decomp:subterm lex:すすき【薄】, lex:むら【群】 ;
     ontolex:sense lex:叢薄-BG-01-5520-32-5100 .
 
 lex:むらたけ【群竹】 a ontolex:LexicalEntry ;
@@ -17120,7 +17111,7 @@ lex:むらたけ【群竹】 a ontolex:LexicalEntry ;
 
 lex:むらだつ【叢立つ・村立つ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "むらだつ"@ja-Hira, "叢立つ"@ja, "村立つ"@ja ] ;
-    decomp:subterm lex:たつ【断つ・立つ・絶つ・裁つ】, lex:むら ;
+    decomp:subterm lex:たつ【断つ・立つ・絶つ・裁つ】, lex:むら【群】 ;
     ontolex:sense lex:叢立つ-BG-02-1555-04-0401, lex:村立つ-BG-02-1555-04-0402 .
 
 lex:むらちどり【群千鳥】 a ontolex:LexicalEntry ;
@@ -17276,7 +17267,7 @@ lex:もがみがは【最上川・最上河】 a ontolex:LexicalEntry ;
 
 lex:もくづ【藻屑】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "もくづ"@ja-Hira, "藻屑"@ja ] ;
-    decomp:subterm lex:くづ, lex:も【藻】 ;
+    decomp:subterm lex:くづ【屑】, lex:も【藻】 ;
     ontolex:sense lex:藻屑-BG-01-4100-04-0401 .
 
 lex:もくづび【藻屑火】 a ontolex:LexicalEntry ;
@@ -17305,7 +17296,7 @@ lex:もくづび【藻屑火】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:も【藻】 .
 
 lex:もくづび【藻屑火】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:くづ .
+    decomp:correspondsTo lex:くづ【屑】 .
 
 lex:もくづび【藻屑火】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:ひ【火】 .
@@ -17550,7 +17541,6 @@ lex:もみぢば【紅葉葉】 a ontolex:LexicalEntry ;
 
 lex:もみづ【紅葉づ】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "もみづ"@ja-Hira, "紅葉づ"@ja ] ;
-    decomp:subterm lex:もみぢ ;
     ontolex:sense lex:紅葉づ-BG-02-5020-01-1201 .
 
 lex:もも【桃】 a ontolex:LexicalEntry ;
@@ -17610,7 +17600,7 @@ lex:ももちどり【百千鳥】-decomp-2-c3 a decomp:Component ;
 
 lex:ももとせ【百年】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ももとせ"@ja-Hira, "百年"@ja ] ;
-    decomp:subterm lex:とし【年】, lex:もも ;
+    decomp:subterm lex:とし【年】, lex:もも【百】 ;
     ontolex:sense lex:百年-BG-01-1642-04-1301 .
 
 lex:ももはがき【百羽掻き】 a ontolex:LexicalEntry ;
@@ -17678,7 +17668,7 @@ lex:もろこしぶね【唐土舟】 a ontolex:LexicalEntry ;
 
 lex:もろごゑ【諸声】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "もろごゑ"@ja-Hira, "諸声"@ja ] ;
-    decomp:subterm lex:こゑ【声】, lex:もろ ;
+    decomp:subterm lex:こゑ【声】, lex:もろ【諸】 ;
     ontolex:sense lex:諸声-BG-01-3031-01-3101 .
 
 lex:もろし【脆し】 a ontolex:LexicalEntry ;
@@ -18071,8 +18061,34 @@ lex:やちよ【八千世・八千代】-decomp-3-c3 a decomp:Component ;
 
 lex:やちよ【八千代】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やちよ"@ja-Hira, "八千代"@ja ] ;
-    decomp:subterm lex:せん, lex:はち, lex:はっせん, lex:よ【世】, lex:よ【世・代・夜】 ;
+    waka:parallelDecomp lex:やちよ【八千代】-decomp-1, lex:やちよ【八千代】-decomp-2 ;
     ontolex:sense lex:八千代-BG-01-1621-01-1000, lex:八千代-BG-01-1642-04-1101 .
+
+lex:やちよ【八千代】-decomp-1 a rdf:Seq ;
+    decomp:constituent lex:やちよ【八千代】-decomp-1-c1, lex:やちよ【八千代】-decomp-1-c2, lex:やちよ【八千代】-decomp-1-c3 ;
+    rdf:_1 lex:やちよ【八千代】-decomp-1-c1 ;
+    rdf:_2 lex:やちよ【八千代】-decomp-1-c2 ;
+    rdf:_3 lex:やちよ【八千代】-decomp-1-c3 .
+
+lex:やちよ【八千代】-decomp-1-c1 a decomp:Component ;
+    decomp:correspondsTo lex:や【八】 .
+
+lex:やちよ【八千代】-decomp-1-c2 a decomp:Component ;
+    decomp:correspondsTo lex:ち【千】 .
+
+lex:やちよ【八千代】-decomp-1-c3 a decomp:Component ;
+    decomp:correspondsTo lex:よ【世・代・夜】 .
+
+lex:やちよ【八千代】-decomp-2 a rdf:Seq ;
+    decomp:constituent lex:やちよ【八千代】-decomp-2-c1, lex:やちよ【八千代】-decomp-2-c2 ;
+    rdf:_1 lex:やちよ【八千代】-decomp-2-c1 ;
+    rdf:_2 lex:やちよ【八千代】-decomp-2-c2 .
+
+lex:やちよ【八千代】-decomp-2-c1 a decomp:Component ;
+    decomp:correspondsTo lex:やち【八千】 .
+
+lex:やちよ【八千代】-decomp-2-c2 a decomp:Component ;
+    decomp:correspondsTo lex:よ【世・代・夜】 .
 
 lex:やつかほ【八束穂】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やつかほ"@ja-Hira, "八束穂"@ja ] ;
@@ -18282,7 +18298,7 @@ lex:やまあゐ【山藍】 a ontolex:LexicalEntry ;
 
 lex:やまおろし【山颪】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やまおろし"@ja-Hira, "山颪"@ja ] ;
-    decomp:subterm lex:おろし, lex:やま【山】 ;
+    decomp:subterm lex:おろす【下ろす】, lex:やま【山】 ;
     ontolex:sense lex:山颪-BG-01-5151-05-1100 .
 
 lex:やまかげ【山陰】 a ontolex:LexicalEntry ;
@@ -18431,7 +18447,7 @@ lex:やまぢ【山地・山路】 a ontolex:LexicalEntry ;
 
 lex:やまでら【山寺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やまでら"@ja-Hira, "山寺"@ja ] ;
-    decomp:subterm lex:てら, lex:やま【山】 ;
+    decomp:subterm lex:てら【寺】, lex:やま【山】 ;
     ontolex:sense lex:山寺-BG-01-2630-03-0700 .
 
 lex:やまと【大和】 a ontolex:LexicalEntry ;
@@ -18472,7 +18488,7 @@ lex:やまなし【山梨】 a ontolex:LexicalEntry ;
 
 lex:やまのゐ【山の井】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やまのゐ"@ja-Hira, "山の井"@ja ] ;
-    decomp:subterm lex:の\*, lex:やま【山】, lex:ゐ【井】 ;
+    decomp:subterm lex:の\*【の】, lex:やま【山】, lex:ゐ【井】 ;
     ontolex:sense lex:山の井-BG-01-4720-08-0500 .
 
 lex:やまひ【病】 a ontolex:LexicalEntry ;
@@ -18481,7 +18497,7 @@ lex:やまひ【病】 a ontolex:LexicalEntry ;
 
 lex:やまひめ【山姫】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やまひめ"@ja-Hira, "山姫"@ja ] ;
-    decomp:subterm lex:ひめ, lex:やま【山】 ;
+    decomp:subterm lex:ひめ【姫】, lex:やま【山】 ;
     ontolex:sense lex:山姫-BG-01-2030-09-0300 .
 
 lex:やまびこ【山彦】 a ontolex:LexicalEntry ;
@@ -18503,7 +18519,7 @@ lex:やまぶし【山伏】 a ontolex:LexicalEntry ;
 
 lex:やまべ【山辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やまべ"@ja-Hira, "山辺"@ja ] ;
-    decomp:subterm lex:へ【方・辺】, lex:べ, lex:やま【山】 ;
+    decomp:subterm lex:へ【方・辺】, lex:へ【方・辺】, lex:やま【山】 ;
     ontolex:sense lex:山辺-BG-01-1742-03-1300, lex:山辺-BG-01-5240-06-0905 .
 
 lex:やまほととぎす【山時鳥・山郭公】 a ontolex:LexicalEntry ;
@@ -18723,7 +18739,7 @@ lex:ゆふ【結ふ】 a ontolex:LexicalEntry ;
 
 lex:ゆふかげ【夕影】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ゆふかげ"@ja-Hira, "夕影"@ja ] ;
-    decomp:subterm lex:かげ\*, lex:ゆふ【夕】 ;
+    decomp:subterm lex:かげ【影・蔭・陰】, lex:ゆふ【夕】 ;
     ontolex:sense lex:夕影-BG-01-5010-10-1503 .
 
 lex:ゆふかげぐさ【夕陰草】 a ontolex:LexicalEntry ;
@@ -18752,7 +18768,7 @@ lex:ゆふかげぐさ【夕陰草】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:ゆふ【夕】 .
 
 lex:ゆふかげぐさ【夕陰草】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:かげ\* .
+    decomp:correspondsTo lex:かげ【影・蔭・陰】 .
 
 lex:ゆふかげぐさ【夕陰草】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:くさ【草】 .
@@ -18828,7 +18844,7 @@ lex:ゆふその【木綿園】 a ontolex:LexicalEntry ;
 
 lex:ゆふだすき【木綿襷】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ゆふだすき"@ja-Hira, "木綿襷"@ja ] ;
-    decomp:subterm lex:たすき, lex:ゆふ【木綿】 ;
+    decomp:subterm lex:たすき【襷】, lex:ゆふ【木綿】 ;
     ontolex:sense lex:木綿襷-BG-01-4251-03-0700 .
 
 lex:ゆふちどり【夕千鳥】 a ontolex:LexicalEntry ;
@@ -19264,7 +19280,7 @@ lex:よに【世に】 a ontolex:LexicalEntry ;
 
 lex:よのなか【世の中】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よのなか"@ja-Hira, "世の中"@ja ] ;
-    decomp:subterm lex:なか【中】, lex:の\*, lex:よ【世】 ;
+    decomp:subterm lex:なか【中】, lex:の\*【の】, lex:よ【世】 ;
     ontolex:sense lex:世の中-BG-01-2600-01-0200 .
 
 lex:よは【夜半】 a ontolex:LexicalEntry ;
@@ -19285,7 +19301,7 @@ lex:よひ【宵】 a ontolex:LexicalEntry ;
 
 lex:よひと【世人】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よひと"@ja-Hira, "世人"@ja ] ;
-    decomp:subterm lex:ひと\*, lex:よ【世】 ;
+    decomp:subterm lex:ひと【人】, lex:よ【世】 ;
     ontolex:sense lex:世人-BG-01-2000-06-0900 .
 
 lex:よひよひ【宵宵】 a ontolex:LexicalEntry ;
@@ -19382,7 +19398,7 @@ lex:よる【寄る・撚る】 a ontolex:LexicalEntry ;
 
 lex:よるべ【寄る辺・寄辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よるべ"@ja-Hira, "寄る辺"@ja, "寄辺"@ja ] ;
-    decomp:subterm lex:べ, lex:よる【寄る・撚る】 ;
+    decomp:subterm lex:へ【方・辺】, lex:よる【寄る・撚る】 ;
     ontolex:sense lex:寄る辺-BG-01-1710-06-0400, lex:寄辺-BG-01-1710-06-0400 .
 
 lex:よろこぶ【喜ぶ】 a ontolex:LexicalEntry ;
@@ -19556,7 +19572,7 @@ lex:わけいかづち【別雷】 a ontolex:LexicalEntry ;
 
 lex:わさだ【早稲田】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "わさだ"@ja-Hira, "早稲田"@ja ] ;
-    decomp:subterm lex:た【田】, lex:わせ ;
+    decomp:subterm lex:た【田】, lex:わせ【早稲】 ;
     ontolex:sense lex:早稲田-BG-01-4700-04-1801 .
 
 lex:わざ【業】 a ontolex:LexicalEntry ;
@@ -19667,12 +19683,12 @@ lex:わぶ【侘ぶ】 a ontolex:LexicalEntry ;
 
 lex:わらび【藁火】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "わらび"@ja-Hira, "藁火"@ja ] ;
-    decomp:subterm lex:ひ【火】, lex:わら ;
+    decomp:subterm lex:ひ【火】, lex:わら【藁】 ;
     ontolex:sense lex:藁火-BG-01-5161-02-0400 .
 
 lex:わらや【藁屋】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "わらや"@ja-Hira, "藁屋"@ja ] ;
-    decomp:subterm lex:や【屋】, lex:わら ;
+    decomp:subterm lex:や【屋】, lex:わら【藁】 ;
     ontolex:sense lex:藁屋-BG-01-4410-01-2300 .
 
 lex:わりなし【理無し】 a ontolex:LexicalEntry ;
@@ -19781,7 +19797,7 @@ lex:をか【丘・岡】 a ontolex:LexicalEntry ;
 
 lex:をかべ【岡辺】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "をかべ"@ja-Hira, "岡辺"@ja ] ;
-    decomp:subterm lex:べ, lex:をか【丘・岡】 ;
+    decomp:subterm lex:へ【方・辺】, lex:をか【丘・岡】 ;
     ontolex:sense lex:岡辺-BG-01-5240-07-0700 .
 
 lex:をがさ【小笠】 a ontolex:LexicalEntry ;
@@ -43798,3 +43814,240 @@ lex:龍田川-CH-29-5250-01-0400 a ontolex:LexicalSense ;
 lex:＼-BG-16-0077-08-0100 a ontolex:LexicalSense ;
     ontolex:isSenseOf lex:＼【＼】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun .
+
+# --- entries added to resolve bare decomp:subterm/decomp:correspondsTo
+#     placeholders (see data/bug.txt) ---
+
+lex:かど【角】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かど"@ja-Hira, "角"@ja ] ;
+    ontolex:sense lex:角-BG-01-1820-01-0100 .
+
+lex:と【途】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "と"@ja-Hira, "途"@ja ] ;
+    ontolex:sense lex:途-BG-01-4710-04-0100 .
+
+lex:もも【百】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "もも"@ja-Hira, "百"@ja ] ;
+    ontolex:sense lex:百-BG-01-1950-03-0100 .
+
+lex:かしは【柏】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かしは"@ja-Hira, "柏"@ja ] ;
+    ontolex:sense lex:柏-BG-01-5520-06-0100 .
+
+lex:たな【棚】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "たな"@ja-Hira, "棚"@ja ] ;
+    ontolex:sense lex:棚-BG-01-4450-01-0100 .
+
+lex:てら【寺】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "てら"@ja-Hira, "寺"@ja ] ;
+    ontolex:sense lex:寺-BG-01-2630-01-0100 .
+
+lex:たすき【襷】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "たすき"@ja-Hira, "襷"@ja ] ;
+    ontolex:sense lex:襷-BG-01-4280-01-0100 .
+
+lex:もろ【諸】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "もろ"@ja-Hira, "諸"@ja ] ;
+    ontolex:sense lex:諸-BG-03-1950-02-0100 .
+
+lex:こ\*【小】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "こ"@ja-Hira, "小"@ja ] ;
+    ontolex:sense lex:小-BG-05-0070-02-0100 .
+
+lex:さ\*【小】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "さ"@ja-Hira, "小"@ja ] ;
+    ontolex:sense lex:小-BG-05-0070-03-0100 .
+
+lex:ま\*【真】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ま"@ja-Hira, "真"@ja ] ;
+    ontolex:sense lex:真-BG-05-0060-02-0100 .
+
+lex:おほ\*【大】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "おほ"@ja-Hira, "大"@ja ] ;
+    ontolex:sense lex:大-BG-05-0060-03-0100 .
+
+lex:めく\*【めく】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "めく"@ja-Hira, "めく"@ja ] ;
+    ontolex:sense lex:めく-BG-07-0020-01-0100 .
+
+lex:う【卯】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "う"@ja-Hira, "卯"@ja ] ;
+    ontolex:sense lex:卯-BG-01-1950-08-0100 .
+
+lex:すずか【鈴鹿】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "すずか"@ja-Hira, "鈴鹿"@ja ] ;
+    ontolex:sense lex:鈴鹿-CH-24-0000-00-0400 .
+
+lex:ひめ【姫】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ひめ"@ja-Hira, "姫"@ja ] ;
+    ontolex:sense lex:姫-BG-01-2000-04-0100 .
+
+lex:あだし【徒し】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "あだし"@ja-Hira, "徒し"@ja ] ;
+    ontolex:sense lex:徒し-BG-03-1200-01-0100 .
+
+lex:あをし【青し】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "あをし"@ja-Hira, "青し"@ja ] ;
+    ontolex:sense lex:青し-BG-03-5020-01-0100 .
+
+lex:うつぶし【空五倍子】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "うつぶし"@ja-Hira, "空五倍子"@ja ] ;
+    ontolex:sense lex:空五倍子-BG-01-5510-05-0100 .
+
+lex:うは【上】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "うは"@ja-Hira, "上"@ja ] ;
+    ontolex:sense lex:上-BG-01-1741-02-0100 .
+
+lex:くさる【腐る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "くさる"@ja-Hira, "腐る"@ja ] ;
+    ontolex:sense lex:腐る-BG-02-5830-01-0100 .
+
+lex:くし【櫛】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "くし"@ja-Hira, "櫛"@ja ] ;
+    ontolex:sense lex:櫛-BG-01-4280-03-0100 .
+
+lex:くづ【屑】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "くづ"@ja-Hira, "屑"@ja ] ;
+    ontolex:sense lex:屑-BG-01-4100-01-0100 .
+
+lex:はかま【袴】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "はかま"@ja-Hira, "袴"@ja ] ;
+    ontolex:sense lex:袴-BG-01-4210-05-0100 .
+
+lex:わせ【早稲】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "わせ"@ja-Hira, "早稲"@ja ] ;
+    ontolex:sense lex:早稲-BG-01-5520-01-0100 .
+
+lex:わら【藁】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "わら"@ja-Hira, "藁"@ja ] ;
+    ontolex:sense lex:藁-BG-01-5520-02-0100 .
+
+lex:角-BG-01-1820-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:かど【角】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-1820 .
+
+lex:途-BG-01-4710-04-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:と【途】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-4710 .
+
+lex:百-BG-01-1950-03-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:もも【百】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-1950 .
+
+lex:柏-BG-01-5520-06-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:かしは【柏】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-5520 .
+
+lex:棚-BG-01-4450-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:たな【棚】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-4450 .
+
+lex:寺-BG-01-2630-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:てら【寺】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-2630 .
+
+lex:襷-BG-01-4280-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:たすき【襷】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-4280 .
+
+lex:諸-BG-03-1950-02-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:もろ【諸】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-03-1950 .
+
+lex:小-BG-05-0070-02-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:こ\*【小】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-05-0070 .
+
+lex:小-BG-05-0070-03-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:さ\*【小】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-05-0070 .
+
+lex:真-BG-05-0060-02-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:ま\*【真】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-05-0060 .
+
+lex:大-BG-05-0060-03-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:おほ\*【大】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-05-0060 .
+
+lex:めく-BG-07-0020-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:めく\*【めく】 ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    ontolex:reference concept:BG-07-0020 .
+
+lex:卯-BG-01-1950-08-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:う【卯】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-1950 .
+
+lex:鈴鹿-CH-24-0000-00-0400 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:すずか【鈴鹿】 ;
+    lexinfo:partOfSpeech lexinfo:properNoun ;
+    ontolex:reference concept:CH-24-0000 .
+
+lex:姫-BG-01-2000-04-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:ひめ【姫】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-2000 .
+
+lex:徒し-BG-03-1200-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:あだし【徒し】 ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    ontolex:reference concept:BG-03-1200 .
+
+lex:青し-BG-03-5020-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:あをし【青し】 ;
+    lexinfo:partOfSpeech lexinfo:adjective ;
+    ontolex:reference concept:BG-03-5020 .
+
+lex:空五倍子-BG-01-5510-05-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:うつぶし【空五倍子】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-5510 .
+
+lex:上-BG-01-1741-02-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:うは【上】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-1741 .
+
+lex:腐る-BG-02-5830-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:くさる【腐る】 ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    ontolex:reference concept:BG-02-5830 .
+
+lex:櫛-BG-01-4280-03-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:くし【櫛】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-4280 .
+
+lex:屑-BG-01-4100-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:くづ【屑】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-4100 .
+
+lex:袴-BG-01-4210-05-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:はかま【袴】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-4210 .
+
+lex:早稲-BG-01-5520-01-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:わせ【早稲】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-5520 .
+
+lex:藁-BG-01-5520-02-0100 a ontolex:LexicalSense ;
+    ontolex:isSenseOf lex:わら【藁】 ;
+    lexinfo:partOfSpeech lexinfo:commonNoun ;
+    ontolex:reference concept:BG-01-5520 .
