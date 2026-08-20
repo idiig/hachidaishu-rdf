@@ -1,0 +1,68 @@
+## PATCH: ゆきげ【雪気・雪消】split into 2 -- 雪気「雪もようの空」vs 雪消「雪解け」
+
+底本核实(全8代集，9个token)：雪消(7次：01-320-9/02-676-6/03-1152-3/
+04-393-11/05-290-8/05-474-5/06-153-10)恒为B00=BG-01-5160"物質の
+変化"(雪が溶ける)；雪気(2次：08-23-11/08-690-3，都在book08，超出
+4部范围)恒为A00=BG-01-5154"天気"(雪もようの空模様)。两者WLSP大类
+完全不同(天候 vs 物质变化)，是完全不同的两个词被合并进同一个entry。
+
+雪気在4部范围内0处occurrence，但在全8代集范围内真实存在2次(跟之前
+さす的"刺す"、みよ的"三夜"同类情况)，按先例保留这个lemma/sense，
+不删除。
+
+**结构上的额外发现**：当前合并entry的decomp:subterm(きゆ【消ゆ】+
+ゆき【雪】)只对雪消(雪+消ゆ="雪が消える")成立，对雪気(雪+気，跟
+消ゆ无关)不成立——这也是两者被错误合并的一个佐证。拆分后
+ゆきげ【雪消】保留原decomp:subterm，ゆきげ【雪気】不设decomp
+(该词在4部范围内0occurrence，暂不深究其内部构词)。
+
+已核实(限4部)：合并entry目前4处occurrence，逐条比对底本 = 全部是
+雪消(kokin-320-9, gosen-676-6, shuui-1152-3, goshuui-393-11)，完全
+对应，雪気 0处(4部范围内)。
+
+无其他复合词引用ゆきげ【雪気・雪消】本身，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:ゆきげ【雪気・雪消】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ゆきげ"@ja-Hira, "雪気"@ja, "雪消"@ja ] ;
+    decomp:subterm lex:きゆ【消ゆ】, lex:ゆき【雪】 ;
+    ontolex:sense lex:雪気-BG-01-5154-08-0500, lex:雪消-BG-01-5160-02-1700 .
+
+NEW（拆成2个entry）:
+lex:ゆきげ【雪気】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ゆきげ"@ja-Hira, "雪気"@ja ] ;
+    ontolex:sense lex:雪気-BG-01-5154-08-0500 .
+
+lex:ゆきげ【雪消】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ゆきげ"@ja-Hira, "雪消"@ja ] ;
+    decomp:subterm lex:きゆ【消ゆ】, lex:ゆき【雪】 ;
+    ontolex:sense lex:雪消-BG-01-5160-02-1700 .
+
+-- 雪気-BG-01-5154-08-0500 的 isSenseOf 改指 ゆきげ【雪気】
+-- 雪消-BG-01-5160-02-1700 的 isSenseOf 改指 ゆきげ【雪消】
+
+### occurrence-batch.ttl
+
+4处 waka:instantiates 从 lex:ゆきげ【雪気・雪消】 改成 lex:ゆきげ【雪消】：
+  occ:kokin-320-9, occ:gosen-676-6, occ:shuui-1152-3, occ:goshuui-393-11
+
+(雪気在4部范围内无occurrence需要retarget)
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无其他复合词引用ゆきげ【雪気・雪消】本身(该entry自己的decomp:subterm
+已在上面entry声明变更中处理，转移到ゆきげ【雪消】)。
+
+### triple数预期变化
+
+entry声明: OLD 8 triple(a1+canonicalForm链接1+writtenRep2+decomp:subterm
+2+sense2) -> NEW ゆきげ【雪気】4(a1+canonicalForm链接1+writtenRep1+
+sense1)+ゆきげ【雪消】6(a1+canonicalForm链接1+writtenRep1+decomp:subterm2
++sense1) = 10，delta +2
+isSenseOf x2改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

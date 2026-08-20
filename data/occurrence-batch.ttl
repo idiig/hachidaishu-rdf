@@ -27028,7 +27028,7 @@ occ:kokin-320-8 a waka:TokenOccurrence ;
 occ:kokin-320-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-320 ;
     waka:position 9 ;
-    waka:instantiates lex:ゆきげ【雪気・雪消】 .
+    waka:instantiates lex:ゆきげ【雪消】 .
 
 occ:kokin-320-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-320 ;
@@ -156267,7 +156267,7 @@ occ:gosen-676-5 a waka:TokenOccurrence ;
 occ:gosen-676-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-676 ;
     waka:position 6 ;
-    waka:instantiates lex:ゆきげ【雪気・雪消】 .
+    waka:instantiates lex:ゆきげ【雪消】 .
 
 occ:gosen-676-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-676 ;
@@ -323179,7 +323179,7 @@ occ:shuui-1152-2 a waka:TokenOccurrence ;
 occ:shuui-1152-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1152 ;
     waka:position 3 ;
-    waka:instantiates lex:ゆきげ【雪気・雪消】 .
+    waka:instantiates lex:ゆきげ【雪消】 .
 
 occ:shuui-1152-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1152 ;
@@ -373084,7 +373084,7 @@ occ:goshuui-393-10 a waka:TokenOccurrence ;
 occ:goshuui-393-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-393 ;
     waka:position 11 ;
-    waka:instantiates lex:ゆきげ【雪気・雪消】 .
+    waka:instantiates lex:ゆきげ【雪消】 .
 
 occ:goshuui-393-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-393 ;

@@ -18730,10 +18730,14 @@ lex:ゆきき【行き来】 a ontolex:LexicalEntry ;
     decomp:subterm lex:く【来】, lex:ゆく【行く】 ;
     ontolex:sense lex:行き来-BG-01-1528-01-0800 .
 
-lex:ゆきげ【雪気・雪消】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "ゆきげ"@ja-Hira, "雪気"@ja, "雪消"@ja ] ;
+lex:ゆきげ【雪気】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ゆきげ"@ja-Hira, "雪気"@ja ] ;
+    ontolex:sense lex:雪気-BG-01-5154-08-0500 .
+
+lex:ゆきげ【雪消】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "ゆきげ"@ja-Hira, "雪消"@ja ] ;
     decomp:subterm lex:きゆ【消ゆ】, lex:ゆき【雪】 ;
-    ontolex:sense lex:雪気-BG-01-5154-08-0500, lex:雪消-BG-01-5160-02-1700 .
+    ontolex:sense lex:雪消-BG-01-5160-02-1700 .
 
 lex:ゆきま【雪間】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ゆきま"@ja-Hira, "雪間"@ja ] ;
@@ -42584,12 +42588,12 @@ lex:雪もよに-BG-01-5154-08-0600 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-5154 .
 
 lex:雪気-BG-01-5154-08-0500 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ゆきげ【雪気・雪消】 ;
+    ontolex:isSenseOf lex:ゆきげ【雪気】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-5154 .
 
 lex:雪消-BG-01-5160-02-1700 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:ゆきげ【雪気・雪消】 ;
+    ontolex:isSenseOf lex:ゆきげ【雪消】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-5160 .
 
