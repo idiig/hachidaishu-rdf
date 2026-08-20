@@ -5573,7 +5573,7 @@ lex:かりがね【雁・雁が音・雁金】 a ontolex:LexicalEntry ;
 
 lex:かりこも【刈菰】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かりこも"@ja-Hira, "刈菰"@ja ] ;
-    decomp:subterm lex:かる【刈る・離る】, lex:こも【菰】 ;
+    decomp:subterm lex:かる【刈る】, lex:こも【菰】 ;
     ontolex:sense lex:刈菰-BG-01-5520-32-3500 .
 
 lex:かりごろも【狩衣】 a ontolex:LexicalEntry ;
@@ -5595,7 +5595,7 @@ lex:かりそめびと【仮初人】 a ontolex:LexicalEntry ;
 
 lex:かりた【刈田】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かりた"@ja-Hira, "刈田"@ja ] ;
-    decomp:subterm lex:かる【刈る・離る】, lex:た【田】 ;
+    decomp:subterm lex:かる【刈る】, lex:た【田】 ;
     ontolex:sense lex:刈田-BG-01-4700-04-2000 .
 
 lex:かりなり【仮なり】 a ontolex:LexicalEntry ;
@@ -5645,9 +5645,13 @@ lex:かる【刈る・狩る】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "刈る"@ja, "狩る"@ja ] ;
     ontolex:sense lex:刈る-BG-02-3810-03-0100, lex:狩る-BG-02-3810-05-0700 .
 
-lex:かる【刈る・離る】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "刈る"@ja, "離る"@ja ] ;
-    ontolex:sense lex:刈る-BG-02-1571-08-2200, lex:離る-BG-02-1561-02-0100 .
+lex:かる【刈る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "刈る"@ja ] ;
+    ontolex:sense lex:刈る-BG-02-1571-08-2200 .
+
+lex:かる【離る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "離る"@ja ] ;
+    ontolex:sense lex:離る-BG-02-1561-02-0100 .
 
 lex:かる【枯る】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "枯る"@ja ] ;
@@ -23814,7 +23818,7 @@ lex:切る-BG-02-1571-08-0200 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1571 .
 
 lex:刈る-BG-02-1571-08-2200 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:かる【刈る・離る】 ;
+    ontolex:isSenseOf lex:かる【刈る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1571 .
 
@@ -42490,7 +42494,7 @@ lex:雛-BG-01-5620-01-2101 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-5620 .
 
 lex:離る-BG-02-1561-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:かる【刈る・離る】, lex:はなる【離る】 ;
+    ontolex:isSenseOf lex:かる【離る】, lex:はなる【離る】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1561 .
 

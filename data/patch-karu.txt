@@ -1,0 +1,73 @@
+## PATCH: かる【刈る・離る】split into 2 -- 刈る「刈り取る」vs 離る「疎遠になる」
+
+底本核实(全8代集)：刈る恒为A00=BG-02-1571"破壊・切断"(+A10=BG-02-3810
+次选)、離る恒为A00=BG-02-1561"隔離"，两者WLSP大类完全不同。全库
+168个かる系token范围内(含刈る/離る/借る/狩る/枯る)，未发现任何一个
+token同时被annotator给出刈る码(1571)和離る码(1561)两个候选——每个
+token的分类都是唯一确定的，不是さす/みよ那种"同一token多候选"式的
+真歧义。
+
+讨论过かる是否涉及文学层面的双关(用户提出的疑虑)：逐首核对了全部
+17处離る用例的和歌原文(8首kokin用原文XML核实，其余9首用底本自身
+按位置重建的词序核实)。结果：仅kokin-315"人めも草も枯ぬ"1例是底本
+自身的双重编码(annotator把共享的"かれぬ"拆成两个相邻token，人め
+→離る、草→枯る，分别捕捉了双关的两层含义)；其余16例(含kokin-338
+"冬草のかれにし人"这类明喻)都只有单一、明确的離る分类，没有配对的
+枯る token。讨论后决定：かる【枯る】entry(38处occurrence，语义/
+分类清晰独立)暂不与離る合并，仍按底本分类走，只做刈る/離る的拆分。
+
+另外发现：離る-BG-02-1561-02-0100这个sense目前isSenseOf同时指向
+かる【刈る・離る】和已有的独立entry はなる【離る】(同一"離る"字，
+かる/はなる两种读法共享同一个sense对象)——拆分时需要保留对
+はなる【離る】的引用，不能整体替换掉。
+
+已核实(限4部)：合并entry目前67处occurrence，逐条比对底本 = 刈る50+
+離る17，完全对应，两个sense都是真实使用、无幽灵。
+
+### lex-batch.ttl
+
+OLD:
+lex:かる【刈る・離る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "刈る"@ja, "離る"@ja ] ;
+    ontolex:sense lex:刈る-BG-02-1571-08-2200, lex:離る-BG-02-1561-02-0100 .
+
+NEW（拆成2个entry）:
+lex:かる【刈る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "刈る"@ja ] ;
+    ontolex:sense lex:刈る-BG-02-1571-08-2200 .
+
+lex:かる【離る】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "かる"@ja-Hira, "離る"@ja ] ;
+    ontolex:sense lex:離る-BG-02-1561-02-0100 .
+
+-- 刈る-BG-02-1571-08-2200 的 isSenseOf 改指 かる【刈る】
+-- 離る-BG-02-1561-02-0100 的 isSenseOf（原isSenseOf lex:かる【刈る・
+   離る】, lex:はなる【離る】）改成 isSenseOf lex:かる【離る】,
+   lex:はなる【離る】（保留はなる【離る】引用，只替换かる那一半）
+
+### occurrence-batch.ttl
+
+50处 waka:instantiates 从 lex:かる【刈る・離る】 改成 lex:かる【刈る】：
+  occ:kokin-308-1, occ:kokin-587-2, occ:kokin-755-9, occ:kokin-759-8, occ:kokin-776-6, occ:kokin-807-3, occ:kokin-892-13, occ:kokin-932-1, occ:kokin-934-15, occ:kokin-972-15, occ:gosen-268-8, occ:gosen-269-13, occ:gosen-483-2, occ:gosen-553-5, occ:gosen-616-6, occ:gosen-625-2, occ:gosen-650-2, occ:gosen-724-16, occ:gosen-772-2, occ:gosen-798-2, occ:gosen-908-17, occ:gosen-1149-17, occ:gosen-1178-13, occ:shuui-378-17, occ:shuui-489-10, occ:shuui-538-11, occ:shuui-540-5, occ:shuui-567-6, occ:shuui-567-10, occ:shuui-667-2, occ:shuui-768-9, occ:shuui-813-6, occ:shuui-824-1, occ:shuui-836-12, occ:shuui-886-4, occ:shuui-986-9, occ:shuui-987-3, occ:shuui-1123-10, occ:shuui-1124-4, occ:shuui-1125-1, occ:shuui-1172-6, occ:shuui-1212-16, occ:shuui-1272-2, occ:goshuui-206-8, occ:goshuui-219-2, occ:goshuui-228-15, occ:goshuui-616-12, occ:goshuui-685-5, occ:goshuui-959-6, occ:goshuui-962-16
+
+17处 waka:instantiates 从 lex:かる【刈る・離る】 改成 lex:かる【離る】：
+  occ:kokin-45-6, occ:kokin-315-13, occ:kokin-338-12, occ:kokin-623-13, occ:kokin-710-6, occ:kokin-716-13, occ:kokin-799-4, occ:kokin-803-20, occ:gosen-699-1, occ:gosen-914-15, occ:gosen-915-17, occ:gosen-1228-7, occ:goshuui-57-12, occ:goshuui-349-3, occ:goshuui-355-13, occ:goshuui-420-4, occ:goshuui-698-12
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+2处，都是"刈る"义，改成lex:かる【刈る】：
+  かりこも【刈菰】 的 decomp:subterm (lex:かる【刈る・離る】, lex:こも【菰】)
+  かりた【刈田】 的 decomp:subterm (lex:かる【刈る・離る】, lex:た【田】)
+
+### triple数预期变化
+
+entry声明: OLD 7 triple(a1+canonicalForm链接1+writtenRep3+sense2) ->
+NEW 2个entry各5(a1+canonicalForm链接1+writtenRep2+sense1) = 10，
+delta +3
+isSenseOf x2改target(其中離る那条2个object不变，只换其中一个object)：
+delta 0
+decomp:subterm x2改target: delta 0
+occurrence-batch.ttl: waka:instantiates换object，delta 0
+总计lex-batch.ttl delta: +3
+
+### 状态：已执行

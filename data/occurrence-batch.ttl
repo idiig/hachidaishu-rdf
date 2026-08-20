@@ -3858,7 +3858,7 @@ occ:kokin-45-5 a waka:TokenOccurrence ;
 occ:kokin-45-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-45 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-45-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-45 ;
@@ -25959,7 +25959,7 @@ wakaid:kokin-308 waka:hasOccurrence occ:kokin-308-1, occ:kokin-308-2, occ:kokin-
 occ:kokin-308-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-308 ;
     waka:position 1 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-308-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-308 ;
@@ -26623,7 +26623,7 @@ occ:kokin-315-12 a waka:TokenOccurrence ;
 occ:kokin-315-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-315 ;
     waka:position 13 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-315-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-315 ;
@@ -28609,7 +28609,7 @@ occ:kokin-338-11 a waka:TokenOccurrence ;
 occ:kokin-338-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-338 ;
     waka:position 12 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-338-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-338 ;
@@ -49867,7 +49867,7 @@ occ:kokin-587-1 a waka:TokenOccurrence ;
 occ:kokin-587-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-587 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-587-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-587 ;
@@ -53039,7 +53039,7 @@ occ:kokin-623-12 a waka:TokenOccurrence ;
 occ:kokin-623-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-623 ;
     waka:position 13 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-623-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-623 ;
@@ -60633,7 +60633,7 @@ occ:kokin-710-5 a waka:TokenOccurrence ;
 occ:kokin-710-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-710 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-710-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-710 ;
@@ -61165,7 +61165,7 @@ occ:kokin-716-12 a waka:TokenOccurrence ;
 occ:kokin-716-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-716 ;
     waka:position 13 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-716-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-716 ;
@@ -64528,7 +64528,7 @@ occ:kokin-755-8 a waka:TokenOccurrence ;
 occ:kokin-755-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-755 ;
     waka:position 9 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-755-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-755 ;
@@ -64881,7 +64881,7 @@ occ:kokin-759-7 a waka:TokenOccurrence ;
 occ:kokin-759-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-759 ;
     waka:position 8 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-759-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-759 ;
@@ -66355,7 +66355,7 @@ occ:kokin-776-5 a waka:TokenOccurrence ;
 occ:kokin-776-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-776 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-776-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-776 ;
@@ -68381,7 +68381,7 @@ occ:kokin-799-3 a waka:TokenOccurrence ;
 occ:kokin-799-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-799 ;
     waka:position 4 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-799-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-799 ;
@@ -68834,7 +68834,7 @@ occ:kokin-803-19 a waka:TokenOccurrence ;
 occ:kokin-803-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-803 ;
     waka:position 20 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:kokin-803-21 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-803 ;
@@ -69122,7 +69122,7 @@ occ:kokin-807-2 a waka:TokenOccurrence ;
 occ:kokin-807-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-807 ;
     waka:position 3 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-807-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-807 ;
@@ -76437,7 +76437,7 @@ occ:kokin-892-12 a waka:TokenOccurrence ;
 occ:kokin-892-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-892 ;
     waka:position 13 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-892-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-892 ;
@@ -79862,7 +79862,7 @@ wakaid:kokin-932 waka:hasOccurrence occ:kokin-932-1, occ:kokin-932-2, occ:kokin-
 occ:kokin-932-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-932 ;
     waka:position 1 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-932-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-932 ;
@@ -80096,7 +80096,7 @@ occ:kokin-934-14 a waka:TokenOccurrence ;
 occ:kokin-934-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-934 ;
     waka:position 15 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-934-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-934 ;
@@ -83517,7 +83517,7 @@ occ:kokin-972-14 a waka:TokenOccurrence ;
 occ:kokin-972-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-972 ;
     waka:position 15 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:kokin-972-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-972 ;
@@ -121766,7 +121766,7 @@ occ:gosen-268-7 a waka:TokenOccurrence ;
 occ:gosen-268-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-268 ;
     waka:position 8 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-268-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-268 ;
@@ -121883,7 +121883,7 @@ occ:gosen-269-12 a waka:TokenOccurrence ;
 occ:gosen-269-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-269 ;
     waka:position 13 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-269-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-269 ;
@@ -139721,7 +139721,7 @@ occ:gosen-483-1 a waka:TokenOccurrence ;
 occ:gosen-483-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-483 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-483-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-483 ;
@@ -145706,7 +145706,7 @@ occ:gosen-553-4 a waka:TokenOccurrence ;
 occ:gosen-553-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-553 ;
     waka:position 5 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-553-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-553 ;
@@ -151022,7 +151022,7 @@ occ:gosen-616-5 a waka:TokenOccurrence ;
 occ:gosen-616-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-616 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-616-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-616 ;
@@ -151805,7 +151805,7 @@ occ:gosen-625-1 a waka:TokenOccurrence ;
 occ:gosen-625-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-625 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-625-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-625 ;
@@ -154050,7 +154050,7 @@ occ:gosen-650-1 a waka:TokenOccurrence ;
 occ:gosen-650-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-650 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-650-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-650 ;
@@ -158178,7 +158178,7 @@ wakaid:gosen-699 waka:hasOccurrence occ:gosen-699-1, occ:gosen-699-2, occ:gosen-
 occ:gosen-699-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-699 ;
     waka:position 1 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:gosen-699-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-699 ;
@@ -160433,7 +160433,7 @@ occ:gosen-724-15 a waka:TokenOccurrence ;
 occ:gosen-724-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-724 ;
     waka:position 16 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-724-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-724 ;
@@ -164434,7 +164434,7 @@ occ:gosen-772-1 a waka:TokenOccurrence ;
 occ:gosen-772-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-772 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-772-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-772 ;
@@ -166616,7 +166616,7 @@ occ:gosen-798-1 a waka:TokenOccurrence ;
 occ:gosen-798-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-798 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-798-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-798 ;
@@ -176166,7 +176166,7 @@ occ:gosen-908-16 a waka:TokenOccurrence ;
 occ:gosen-908-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-908 ;
     waka:position 17 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-908-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-908 ;
@@ -176668,7 +176668,7 @@ occ:gosen-914-14 a waka:TokenOccurrence ;
 occ:gosen-914-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-914 ;
     waka:position 15 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:gosen-914-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-914 ;
@@ -176770,7 +176770,7 @@ occ:gosen-915-16 a waka:TokenOccurrence ;
 occ:gosen-915-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-915 ;
     waka:position 17 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:gosen-915-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-915 ;
@@ -196988,7 +196988,7 @@ occ:gosen-1149-16 a waka:TokenOccurrence ;
 occ:gosen-1149-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1149 ;
     waka:position 17 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-1149-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1149 ;
@@ -199471,7 +199471,7 @@ occ:gosen-1178-12 a waka:TokenOccurrence ;
 occ:gosen-1178-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1178 ;
     waka:position 13 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:gosen-1178-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1178 ;
@@ -203916,7 +203916,7 @@ occ:gosen-1228-6 a waka:TokenOccurrence ;
 occ:gosen-1228-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1228 ;
     waka:position 7 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:gosen-1228-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1228 ;
@@ -252781,7 +252781,7 @@ occ:shuui-378-16 a waka:TokenOccurrence ;
 occ:shuui-378-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-378 ;
     waka:position 17 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-378-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-378 ;
@@ -262263,7 +262263,7 @@ occ:shuui-489-9 a waka:TokenOccurrence ;
 occ:shuui-489-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-489 ;
     waka:position 10 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-489-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-489 ;
@@ -266511,7 +266511,7 @@ occ:shuui-538-10 a waka:TokenOccurrence ;
 occ:shuui-538-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-538 ;
     waka:position 11 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-538-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-538 ;
@@ -266655,7 +266655,7 @@ occ:shuui-540-4 a waka:TokenOccurrence ;
 occ:shuui-540-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-540 ;
     waka:position 5 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-540-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-540 ;
@@ -269019,7 +269019,7 @@ occ:shuui-567-5 a waka:TokenOccurrence ;
 occ:shuui-567-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-567 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-567-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-567 ;
@@ -269039,7 +269039,7 @@ occ:shuui-567-9 a waka:TokenOccurrence ;
 occ:shuui-567-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-567 ;
     waka:position 10 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-567-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-567 ;
@@ -282044,7 +282044,7 @@ occ:shuui-667-1 a waka:TokenOccurrence ;
 occ:shuui-667-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-667 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-667-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-667 ;
@@ -290861,7 +290861,7 @@ occ:shuui-768-8 a waka:TokenOccurrence ;
 occ:shuui-768-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-768 ;
     waka:position 9 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-768-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-768 ;
@@ -294731,7 +294731,7 @@ occ:shuui-813-5 a waka:TokenOccurrence ;
 occ:shuui-813-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-813 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-813-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-813 ;
@@ -295628,7 +295628,7 @@ wakaid:shuui-824 waka:hasOccurrence occ:shuui-824-1, occ:shuui-824-2, occ:shuui-
 occ:shuui-824-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-824 ;
     waka:position 1 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-824-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-824 ;
@@ -296732,7 +296732,7 @@ occ:shuui-836-11 a waka:TokenOccurrence ;
 occ:shuui-836-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-836 ;
     waka:position 12 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-836-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-836 ;
@@ -300867,7 +300867,7 @@ occ:shuui-886-3 a waka:TokenOccurrence ;
 occ:shuui-886-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-886 ;
     waka:position 4 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-886-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-886 ;
@@ -309362,7 +309362,7 @@ occ:shuui-986-8 a waka:TokenOccurrence ;
 occ:shuui-986-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-986 ;
     waka:position 9 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-986-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-986 ;
@@ -309424,7 +309424,7 @@ occ:shuui-987-2 a waka:TokenOccurrence ;
 occ:shuui-987-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-987 ;
     waka:position 3 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-987-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-987 ;
@@ -320841,7 +320841,7 @@ occ:shuui-1123-9 a waka:TokenOccurrence ;
 occ:shuui-1123-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1123 ;
     waka:position 10 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-1123-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1123 ;
@@ -320893,7 +320893,7 @@ occ:shuui-1124-3 a waka:TokenOccurrence ;
 occ:shuui-1124-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1124 ;
     waka:position 4 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-1124-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1124 ;
@@ -320965,7 +320965,7 @@ wakaid:shuui-1125 waka:hasOccurrence occ:shuui-1125-1, occ:shuui-1125-2, occ:shu
 occ:shuui-1125-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1125 ;
     waka:position 1 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-1125-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1125 ;
@@ -324889,7 +324889,7 @@ occ:shuui-1172-5 a waka:TokenOccurrence ;
 occ:shuui-1172-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1172 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-1172-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1172 ;
@@ -328455,7 +328455,7 @@ occ:shuui-1212-15 a waka:TokenOccurrence ;
 occ:shuui-1212-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1212 ;
     waka:position 16 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-1212-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1212 ;
@@ -333550,7 +333550,7 @@ occ:shuui-1272-1 a waka:TokenOccurrence ;
 occ:shuui-1272-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1272 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:shuui-1272-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1272 ;
@@ -345082,7 +345082,7 @@ occ:goshuui-57-11 a waka:TokenOccurrence ;
 occ:goshuui-57-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-57 ;
     waka:position 12 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:goshuui-57-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-57 ;
@@ -357355,7 +357355,7 @@ occ:goshuui-206-7 a waka:TokenOccurrence ;
 occ:goshuui-206-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-206 ;
     waka:position 8 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:goshuui-206-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-206 ;
@@ -358356,7 +358356,7 @@ occ:goshuui-219-1 a waka:TokenOccurrence ;
 occ:goshuui-219-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-219 ;
     waka:position 2 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:goshuui-219-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-219 ;
@@ -359194,7 +359194,7 @@ occ:goshuui-228-14 a waka:TokenOccurrence ;
 occ:goshuui-228-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-228 ;
     waka:position 15 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 wakaid:goshuui-229 waka:hasOccurrence occ:goshuui-229-1, occ:goshuui-229-2, occ:goshuui-229-3, occ:goshuui-229-4, occ:goshuui-229-5, occ:goshuui-229-6, occ:goshuui-229-7, occ:goshuui-229-8, occ:goshuui-229-9, occ:goshuui-229-10, occ:goshuui-229-11, occ:goshuui-229-12, occ:goshuui-229-13, occ:goshuui-229-14, occ:goshuui-229-15, occ:goshuui-229-16, occ:goshuui-229-17, occ:goshuui-229-18, occ:goshuui-229-19 .
 
@@ -369416,7 +369416,7 @@ occ:goshuui-349-2 a waka:TokenOccurrence ;
 occ:goshuui-349-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-349 ;
     waka:position 3 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:goshuui-349-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-349 ;
@@ -370003,7 +370003,7 @@ occ:goshuui-355-12 a waka:TokenOccurrence ;
 occ:goshuui-355-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-355 ;
     waka:position 13 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:goshuui-355-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-355 ;
@@ -375323,7 +375323,7 @@ occ:goshuui-420-3 a waka:TokenOccurrence ;
 occ:goshuui-420-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-420 ;
     waka:position 4 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:goshuui-420-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-420 ;
@@ -391805,7 +391805,7 @@ occ:goshuui-616-11 a waka:TokenOccurrence ;
 occ:goshuui-616-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-616 ;
     waka:position 12 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:goshuui-616-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-616 ;
@@ -397603,7 +397603,7 @@ occ:goshuui-685-4 a waka:TokenOccurrence ;
 occ:goshuui-685-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-685 ;
     waka:position 5 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:goshuui-685-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-685 ;
@@ -398719,7 +398719,7 @@ occ:goshuui-698-11 a waka:TokenOccurrence ;
 occ:goshuui-698-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-698 ;
     waka:position 12 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【離る】 .
 
 occ:goshuui-698-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-698 ;
@@ -420861,7 +420861,7 @@ occ:goshuui-959-5 a waka:TokenOccurrence ;
 occ:goshuui-959-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-959 ;
     waka:position 6 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:goshuui-959-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-959 ;
@@ -421177,7 +421177,7 @@ occ:goshuui-962-15 a waka:TokenOccurrence ;
 occ:goshuui-962-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-962 ;
     waka:position 16 ;
-    waka:instantiates lex:かる【刈る・離る】 .
+    waka:instantiates lex:かる【刈る】 .
 
 occ:goshuui-962-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-962 ;
