@@ -24232,7 +24232,7 @@ occ:kokin-287-9 a waka:TokenOccurrence ;
 occ:kokin-287-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-287 ;
     waka:position 10 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-287-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-287 ;
@@ -27177,7 +27177,7 @@ occ:kokin-322-6 a waka:TokenOccurrence ;
 occ:kokin-322-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-322 ;
     waka:position 7 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-322-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-322 ;
@@ -27381,7 +27381,7 @@ occ:kokin-324-7 a waka:TokenOccurrence ;
 occ:kokin-324-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-324 ;
     waka:position 8 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-324-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-324 ;
@@ -28114,7 +28114,7 @@ occ:kokin-333-8 a waka:TokenOccurrence ;
 occ:kokin-333-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-333 ;
     waka:position 9 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-333-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-333 ;
@@ -30659,7 +30659,7 @@ occ:kokin-363-3 a waka:TokenOccurrence ;
 occ:kokin-363-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-363 ;
     waka:position 4 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-363-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-363 ;
@@ -58801,7 +58801,7 @@ occ:kokin-689-4 a waka:TokenOccurrence ;
 occ:kokin-689-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-689 ;
     waka:position 5 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-689-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-689 ;
@@ -77287,7 +77287,7 @@ occ:kokin-902-4 a waka:TokenOccurrence ;
 occ:kokin-902-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-902 ;
     waka:position 5 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-902-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-902 ;
@@ -89588,7 +89588,7 @@ occ:kokin-1005-60 a waka:TokenOccurrence ;
 occ:kokin-1005-61 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1005 ;
     waka:position 61 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:kokin-1005-62 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1005 ;
@@ -125171,7 +125171,7 @@ occ:gosen-308-5 a waka:TokenOccurrence ;
 occ:gosen-308-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-308 ;
     waka:position 6 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-308-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-308 ;
@@ -125293,7 +125293,7 @@ occ:gosen-309-12 a waka:TokenOccurrence ;
 occ:gosen-309-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-309 ;
     waka:position 13 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-309-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-309 ;
@@ -128014,7 +128014,7 @@ occ:gosen-342-4 a waka:TokenOccurrence ;
 occ:gosen-342-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-342 ;
     waka:position 5 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-342-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-342 ;
@@ -133491,7 +133491,7 @@ occ:gosen-408-15 a waka:TokenOccurrence ;
 occ:gosen-408-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-408 ;
     waka:position 16 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-408-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-408 ;
@@ -133640,7 +133640,7 @@ occ:gosen-410-9 a waka:TokenOccurrence ;
 occ:gosen-410-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-410 ;
     waka:position 10 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-410-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-410 ;
@@ -133769,7 +133769,7 @@ occ:gosen-412-3 a waka:TokenOccurrence ;
 occ:gosen-412-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-412 ;
     waka:position 4 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-412-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-412 ;
@@ -138108,7 +138108,7 @@ occ:gosen-464-4 a waka:TokenOccurrence ;
 occ:gosen-464-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-464 ;
     waka:position 5 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-464-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-464 ;
@@ -138123,7 +138123,7 @@ occ:gosen-464-7 a waka:TokenOccurrence ;
 occ:gosen-464-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-464 ;
     waka:position 8 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-464-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-464 ;
@@ -209919,7 +209919,7 @@ occ:gosen-1297-15 a waka:TokenOccurrence ;
 occ:gosen-1297-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1297 ;
     waka:position 16 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:gosen-1297-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1297 ;
@@ -230648,7 +230648,7 @@ wakaid:shuui-114 waka:hasOccurrence occ:shuui-114-1, occ:shuui-114-2, occ:shuui-
 occ:shuui-114-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-114 ;
     waka:position 1 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:shuui-114-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-114 ;
@@ -242231,7 +242231,7 @@ occ:shuui-253-3 a waka:TokenOccurrence ;
 occ:shuui-253-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-253 ;
     waka:position 4 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:shuui-253-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-253 ;
@@ -269403,7 +269403,7 @@ occ:shuui-569-41 a waka:TokenOccurrence ;
 occ:shuui-569-42 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-569 ;
     waka:position 42 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:shuui-569-43 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-569 ;
@@ -358923,7 +358923,7 @@ occ:goshuui-225-12 a waka:TokenOccurrence ;
 occ:goshuui-225-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-225 ;
     waka:position 13 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【如く】 .
 
 occ:goshuui-225-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-225 ;
@@ -374923,7 +374923,7 @@ occ:goshuui-415-5 a waka:TokenOccurrence ;
 occ:goshuui-415-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-415 ;
     waka:position 6 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:goshuui-415-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-415 ;
@@ -385651,7 +385651,7 @@ occ:goshuui-544-4 a waka:TokenOccurrence ;
 occ:goshuui-544-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-544 ;
     waka:position 5 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:goshuui-544-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-544 ;
@@ -400610,7 +400610,7 @@ occ:goshuui-721-1 a waka:TokenOccurrence ;
 occ:goshuui-721-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-721 ;
     waka:position 2 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:goshuui-721-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-721 ;
@@ -403411,7 +403411,7 @@ occ:goshuui-754-12 a waka:TokenOccurrence ;
 occ:goshuui-754-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-754 ;
     waka:position 13 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:goshuui-754-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-754 ;
@@ -408665,7 +408665,7 @@ occ:goshuui-816-9 a waka:TokenOccurrence ;
 occ:goshuui-816-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-816 ;
     waka:position 10 ;
-    waka:instantiates lex:しく【如く・敷く】 .
+    waka:instantiates lex:しく【敷く】 .
 
 occ:goshuui-816-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-816 ;

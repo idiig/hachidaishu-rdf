@@ -1,0 +1,50 @@
+## PATCH: しく【如く・敷く】split into 2 -- 如く「及ぶ・匹敵する」vs 敷く「敷く」
+
+底本核实(全8代集)：如く恒为A00=BG-02-1562"比較・対等など"(5次)、
+敷く恒为A00=BG-02-1515"置く/放置"(79次)，两者WLSP大类完全不同，是
+完全不同的两个动词被合并进同一个entry。
+
+已核实(限4部)：合并entry目前26处occurrence，逐条比对底本 = 如く1
+(goshuui-225-13)+敷く25，完全对应，两个sense都是真实使用、无幽灵。
+
+无复合词引用，核实完毕。
+
+### lex-batch.ttl
+
+OLD:
+lex:しく【如く・敷く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しく"@ja-Hira, "如く"@ja, "敷く"@ja ] ;
+    ontolex:sense lex:如く-BG-02-1562-03-1700, lex:敷く-BG-02-1515-02-0100 .
+
+NEW（拆成2个entry）:
+lex:しく【如く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しく"@ja-Hira, "如く"@ja ] ;
+    ontolex:sense lex:如く-BG-02-1562-03-1700 .
+
+lex:しく【敷く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しく"@ja-Hira, "敷く"@ja ] ;
+    ontolex:sense lex:敷く-BG-02-1515-02-0100 .
+
+-- 如く-BG-02-1562-03-1700 的 isSenseOf 改指 しく【如く】
+-- 敷く-BG-02-1515-02-0100 的 isSenseOf 改指 しく【敷く】
+
+### occurrence-batch.ttl
+
+1处 waka:instantiates 从 lex:しく【如く・敷く】 改成 lex:しく【如く】：
+  occ:goshuui-225-13
+
+25处 waka:instantiates 从 lex:しく【如く・敷く】 改成 lex:しく【敷く】：
+  occ:kokin-287-10, occ:kokin-322-7, occ:kokin-324-8, occ:kokin-333-9, occ:kokin-363-4, occ:kokin-689-5, occ:kokin-902-5, occ:kokin-1005-61, occ:gosen-308-6, occ:gosen-309-13, occ:gosen-342-5, occ:gosen-408-16, occ:gosen-410-10, occ:gosen-412-4, occ:gosen-464-5, occ:gosen-464-8, occ:gosen-1297-16, occ:shuui-114-1, occ:shuui-253-4, occ:shuui-569-42, occ:goshuui-415-6, occ:goshuui-544-5, occ:goshuui-721-2, occ:goshuui-754-13, occ:goshuui-816-10
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+无——未发现任何复合词引用しく【如く・敷く】。
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行

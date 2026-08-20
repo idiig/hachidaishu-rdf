@@ -8144,9 +8144,13 @@ lex:しぎ【鴫】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しぎ"@ja-Hira, "鴫"@ja ] ;
     ontolex:sense lex:鴫-BG-01-5620-04-1400 .
 
-lex:しく【如く・敷く】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "しく"@ja-Hira, "如く"@ja, "敷く"@ja ] ;
-    ontolex:sense lex:如く-BG-02-1562-03-1700, lex:敷く-BG-02-1515-02-0100 .
+lex:しく【如く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しく"@ja-Hira, "如く"@ja ] ;
+    ontolex:sense lex:如く-BG-02-1562-03-1700 .
+
+lex:しく【敷く】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "しく"@ja-Hira, "敷く"@ja ] ;
+    ontolex:sense lex:敷く-BG-02-1515-02-0100 .
 
 lex:しく【頻く】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しく"@ja-Hira, "頻く"@ja ] ;
@@ -26380,7 +26384,7 @@ lex:如-BG-03-1140-01-2006 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-03-1140 .
 
 lex:如く-BG-02-1562-03-1700 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しく【如く・敷く】 ;
+    ontolex:isSenseOf lex:しく【如く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1562 .
 
@@ -30500,7 +30504,7 @@ lex:整ふ-BG-02-1300-01-0101 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1300 .
 
 lex:敷く-BG-02-1515-02-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:しく【如く・敷く】 ;
+    ontolex:isSenseOf lex:しく【敷く】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1515 .
 
