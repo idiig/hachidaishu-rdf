@@ -3470,7 +3470,7 @@ occ:kokin-41-2 a waka:TokenOccurrence ;
 occ:kokin-41-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-41 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-41-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-41 ;
@@ -6239,7 +6239,7 @@ occ:kokin-73-2 a waka:TokenOccurrence ;
 occ:kokin-73-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-73 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-73-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-73 ;
@@ -8439,7 +8439,7 @@ occ:kokin-98-3 a waka:TokenOccurrence ;
 occ:kokin-98-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-98 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-98-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-98 ;
@@ -9774,7 +9774,7 @@ occ:kokin-113-12 a waka:TokenOccurrence ;
 occ:kokin-113-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-113 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-113-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-113 ;
@@ -10142,7 +10142,7 @@ occ:kokin-117-9 a waka:TokenOccurrence ;
 occ:kokin-117-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-117 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-117-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-117 ;
@@ -13039,7 +13039,7 @@ occ:kokin-153-7 a waka:TokenOccurrence ;
 occ:kokin-153-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-153 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-153-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-153 ;
@@ -13076,7 +13076,7 @@ wakaid:kokin-154 waka:hasOccurrence occ:kokin-154-1, occ:kokin-154-2, occ:kokin-
 occ:kokin-154-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-154 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-154-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-154 ;
@@ -13255,7 +13255,7 @@ occ:kokin-156-2 a waka:TokenOccurrence ;
 occ:kokin-156-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-156 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-156-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-156 ;
@@ -13362,7 +13362,7 @@ occ:kokin-157-9 a waka:TokenOccurrence ;
 occ:kokin-157-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-157 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-157-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-157 ;
@@ -13618,7 +13618,7 @@ occ:kokin-160-11 a waka:TokenOccurrence ;
 occ:kokin-160-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-160 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-160-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-160 ;
@@ -14035,7 +14035,7 @@ occ:kokin-166-2 a waka:TokenOccurrence ;
 occ:kokin-166-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-166 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-166-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-166 ;
@@ -14895,7 +14895,7 @@ occ:kokin-176-4 a waka:TokenOccurrence ;
 occ:kokin-176-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-176 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-176-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-176 ;
@@ -15166,7 +15166,7 @@ occ:kokin-179-11 a waka:TokenOccurrence ;
 occ:kokin-179-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-179 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-179-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-179 ;
@@ -16031,7 +16031,7 @@ occ:kokin-189-11 a waka:TokenOccurrence ;
 occ:kokin-189-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-189 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-189-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-189 ;
@@ -16103,7 +16103,7 @@ occ:kokin-190-5 a waka:TokenOccurrence ;
 occ:kokin-190-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-190 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-190-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-190 ;
@@ -16225,7 +16225,7 @@ occ:kokin-191-13 a waka:TokenOccurrence ;
 occ:kokin-191-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-191 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-191-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-191 ;
@@ -16252,7 +16252,7 @@ occ:kokin-192-2 a waka:TokenOccurrence ;
 occ:kokin-192-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-192 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-192-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-192 ;
@@ -16503,7 +16503,7 @@ occ:kokin-195-2 a waka:TokenOccurrence ;
 occ:kokin-195-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-195 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-195-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-195 ;
@@ -16615,7 +16615,7 @@ occ:kokin-196-7 a waka:TokenOccurrence ;
 occ:kokin-196-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-196 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-196-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-196 ;
@@ -16672,7 +16672,7 @@ occ:kokin-197-2 a waka:TokenOccurrence ;
 occ:kokin-197-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-197 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-197-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-197 ;
@@ -16846,7 +16846,7 @@ occ:kokin-199-2 a waka:TokenOccurrence ;
 occ:kokin-199-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-199 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-199-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-199 ;
@@ -17840,7 +17840,7 @@ wakaid:kokin-211 waka:hasOccurrence occ:kokin-211-1, occ:kokin-211-2, occ:kokin-
 occ:kokin-211-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-211 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-211-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-211 ;
@@ -21749,7 +21749,7 @@ occ:kokin-258-2 a waka:TokenOccurrence ;
 occ:kokin-258-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-258 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-258-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-258 ;
@@ -23790,7 +23790,7 @@ occ:kokin-281-9 a waka:TokenOccurrence ;
 occ:kokin-281-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-281 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-281-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-281 ;
@@ -25087,7 +25087,7 @@ occ:kokin-297-11 a waka:TokenOccurrence ;
 occ:kokin-297-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-297 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-297-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-297 ;
@@ -26019,7 +26019,7 @@ occ:kokin-308-12 a waka:TokenOccurrence ;
 occ:kokin-308-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-308 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-308-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-308 ;
@@ -31176,7 +31176,7 @@ occ:kokin-369-9 a waka:TokenOccurrence ;
 occ:kokin-369-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-369 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-369-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-369 ;
@@ -33142,7 +33142,7 @@ occ:kokin-392-10 a waka:TokenOccurrence ;
 occ:kokin-392-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-392 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-392-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-392 ;
@@ -35095,7 +35095,7 @@ wakaid:kokin-416 waka:hasOccurrence occ:kokin-416-1, occ:kokin-416-2, occ:kokin-
 occ:kokin-416-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-416 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-416-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-416 ;
@@ -36303,7 +36303,7 @@ occ:kokin-430-12 a waka:TokenOccurrence ;
 occ:kokin-430-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-430 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-430-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-430 ;
@@ -37444,7 +37444,7 @@ occ:kokin-443-9 a waka:TokenOccurrence ;
 occ:kokin-443-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-443 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-443-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-443 ;
@@ -39788,7 +39788,7 @@ occ:kokin-470-6 a waka:TokenOccurrence ;
 occ:kokin-470-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-470 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-470-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-470 ;
@@ -43559,7 +43559,7 @@ occ:kokin-513-12 a waka:TokenOccurrence ;
 occ:kokin-513-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-513 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-513-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-513 ;
@@ -43785,7 +43785,7 @@ occ:kokin-516-11 a waka:TokenOccurrence ;
 occ:kokin-516-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-516 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-516-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-516 ;
@@ -44068,7 +44068,7 @@ occ:kokin-520-2 a waka:TokenOccurrence ;
 occ:kokin-520-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-520 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-520-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-520 ;
@@ -46064,7 +46064,7 @@ occ:kokin-543-9 a waka:TokenOccurrence ;
 occ:kokin-543-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-543 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-543-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-543 ;
@@ -47046,7 +47046,7 @@ occ:kokin-554-7 a waka:TokenOccurrence ;
 occ:kokin-554-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-554 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-554-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-554 ;
@@ -47158,7 +47158,7 @@ occ:kokin-555-14 a waka:TokenOccurrence ;
 occ:kokin-555-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-555 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-555-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-555 ;
@@ -48659,7 +48659,7 @@ wakaid:kokin-573 waka:hasOccurrence occ:kokin-573-1, occ:kokin-573-2, occ:kokin-
 occ:kokin-573-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-573 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-573-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-573 ;
@@ -48868,7 +48868,7 @@ occ:kokin-575-9 a waka:TokenOccurrence ;
 occ:kokin-575-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-575 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-575-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-575 ;
@@ -49149,7 +49149,7 @@ occ:kokin-578-12 a waka:TokenOccurrence ;
 occ:kokin-578-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-578 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-578-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-578 ;
@@ -49497,7 +49497,7 @@ occ:kokin-582-15 a waka:TokenOccurrence ;
 occ:kokin-582-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-582 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-582-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-582 ;
@@ -49641,7 +49641,7 @@ occ:kokin-584-8 a waka:TokenOccurrence ;
 occ:kokin-584-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-584 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-584-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-584 ;
@@ -50680,7 +50680,7 @@ occ:kokin-596-10 a waka:TokenOccurrence ;
 occ:kokin-596-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-596 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-596-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-596 ;
@@ -52390,7 +52390,7 @@ occ:kokin-616-8 a waka:TokenOccurrence ;
 occ:kokin-616-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-616 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-616-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-616 ;
@@ -52785,7 +52785,7 @@ occ:kokin-621-2 a waka:TokenOccurrence ;
 occ:kokin-621-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-621 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-621-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-621 ;
@@ -52952,7 +52952,7 @@ occ:kokin-622-16 a waka:TokenOccurrence ;
 occ:kokin-622-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-622 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-622-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-622 ;
@@ -53725,7 +53725,7 @@ occ:kokin-631-14 a waka:TokenOccurrence ;
 occ:kokin-631-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-631 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-631-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-631 ;
@@ -54003,7 +54003,7 @@ occ:kokin-635-2 a waka:TokenOccurrence ;
 occ:kokin-635-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-635 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-635-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-635 ;
@@ -54175,7 +54175,7 @@ occ:kokin-636-15 a waka:TokenOccurrence ;
 occ:kokin-636-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-636 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-636-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-636 ;
@@ -54622,7 +54622,7 @@ occ:kokin-642-10 a waka:TokenOccurrence ;
 occ:kokin-642-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-642 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-642-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-642 ;
@@ -54766,7 +54766,7 @@ occ:kokin-644-2 a waka:TokenOccurrence ;
 occ:kokin-644-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-644 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-644-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-644 ;
@@ -55778,7 +55778,7 @@ occ:kokin-655-12 a waka:TokenOccurrence ;
 occ:kokin-655-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-655 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-655-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-655 ;
@@ -56474,7 +56474,7 @@ occ:kokin-663-7 a waka:TokenOccurrence ;
 occ:kokin-663-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-663 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-663-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-663 ;
@@ -57081,7 +57081,7 @@ occ:kokin-669-10 a waka:TokenOccurrence ;
 occ:kokin-669-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-669 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-669-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-669 ;
@@ -58627,7 +58627,7 @@ occ:kokin-687-6 a waka:TokenOccurrence ;
 occ:kokin-687-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-687 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-687-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-687 ;
@@ -59062,7 +59062,7 @@ occ:kokin-692-2 a waka:TokenOccurrence ;
 occ:kokin-692-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-692 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-692-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-692 ;
@@ -60628,7 +60628,7 @@ occ:kokin-710-4 a waka:TokenOccurrence ;
 occ:kokin-710-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-710 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-710-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-710 ;
@@ -60797,7 +60797,7 @@ occ:kokin-712-3 a waka:TokenOccurrence ;
 occ:kokin-712-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-712 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-712-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-712 ;
@@ -61115,7 +61115,7 @@ occ:kokin-716-2 a waka:TokenOccurrence ;
 occ:kokin-716-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-716 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-716-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-716 ;
@@ -64083,7 +64083,7 @@ occ:kokin-750-14 a waka:TokenOccurrence ;
 occ:kokin-750-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-750 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-750-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-750 ;
@@ -64369,7 +64369,7 @@ occ:kokin-753-16 a waka:TokenOccurrence ;
 occ:kokin-753-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-753 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-753-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-753 ;
@@ -65065,7 +65065,7 @@ occ:kokin-761-11 a waka:TokenOccurrence ;
 occ:kokin-761-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-761 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-761-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-761 ;
@@ -65460,7 +65460,7 @@ occ:kokin-766-4 a waka:TokenOccurrence ;
 occ:kokin-766-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-766 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-766-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-766 ;
@@ -68284,7 +68284,7 @@ occ:kokin-798-3 a waka:TokenOccurrence ;
 occ:kokin-798-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-798 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-798-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-798 ;
@@ -69085,7 +69085,7 @@ occ:kokin-806-15 a waka:TokenOccurrence ;
 occ:kokin-806-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-806 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-806-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-806 ;
@@ -69192,7 +69192,7 @@ occ:kokin-807-16 a waka:TokenOccurrence ;
 occ:kokin-807-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-807 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-807-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-807 ;
@@ -71183,7 +71183,7 @@ occ:kokin-830-11 a waka:TokenOccurrence ;
 occ:kokin-830-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-830 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-830-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-830 ;
@@ -71449,7 +71449,7 @@ occ:kokin-833-13 a waka:TokenOccurrence ;
 occ:kokin-833-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-833 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-833-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-833 ;
@@ -71633,7 +71633,7 @@ occ:kokin-835-14 a waka:TokenOccurrence ;
 occ:kokin-835-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-835 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-835-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-835 ;
@@ -74061,7 +74061,7 @@ occ:kokin-864-4 a waka:TokenOccurrence ;
 occ:kokin-864-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-864 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-864-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-864 ;
@@ -77722,7 +77722,7 @@ occ:kokin-907-6 a waka:TokenOccurrence ;
 occ:kokin-907-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-907 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-907-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-907 ;
@@ -77784,7 +77784,7 @@ occ:kokin-908-3 a waka:TokenOccurrence ;
 occ:kokin-908-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-908 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-908-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-908 ;
@@ -79012,7 +79012,7 @@ occ:kokin-922-8 a waka:TokenOccurrence ;
 occ:kokin-922-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-922 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-922-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-922 ;
@@ -79206,7 +79206,7 @@ occ:kokin-924-11 a waka:TokenOccurrence ;
 occ:kokin-924-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-924 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-924-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-924 ;
@@ -79626,7 +79626,7 @@ occ:kokin-929-9 a waka:TokenOccurrence ;
 occ:kokin-929-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-929 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-929-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-929 ;
@@ -79820,7 +79820,7 @@ occ:kokin-931-10 a waka:TokenOccurrence ;
 occ:kokin-931-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-931 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-931-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-931 ;
@@ -80946,7 +80946,7 @@ occ:kokin-944-8 a waka:TokenOccurrence ;
 occ:kokin-944-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-944 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-944-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-944 ;
@@ -81048,7 +81048,7 @@ occ:kokin-945-12 a waka:TokenOccurrence ;
 occ:kokin-945-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-945 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-945-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-945 ;
@@ -81177,7 +81177,7 @@ occ:kokin-947-3 a waka:TokenOccurrence ;
 occ:kokin-947-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-947 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-947-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-947 ;
@@ -81478,7 +81478,7 @@ occ:kokin-950-8 a waka:TokenOccurrence ;
 occ:kokin-950-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-950 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-950-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-950 ;
@@ -81525,7 +81525,7 @@ wakaid:kokin-951 waka:hasOccurrence occ:kokin-951-1, occ:kokin-951-2, occ:kokin-
 occ:kokin-951-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-951 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-951-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-951 ;
@@ -81662,7 +81662,7 @@ occ:kokin-952-10 a waka:TokenOccurrence ;
 occ:kokin-952-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-952 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-952-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-952 ;
@@ -81883,7 +81883,7 @@ wakaid:kokin-955 waka:hasOccurrence occ:kokin-955-1, occ:kokin-955-2, occ:kokin-
 occ:kokin-955-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-955 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-955-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-955 ;
@@ -81975,7 +81975,7 @@ wakaid:kokin-956 waka:hasOccurrence occ:kokin-956-1, occ:kokin-956-2, occ:kokin-
 occ:kokin-956-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-956 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-956-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-956 ;
@@ -82122,7 +82122,7 @@ occ:kokin-957-10 a waka:TokenOccurrence ;
 occ:kokin-957-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-957 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-957-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-957 ;
@@ -82154,7 +82154,7 @@ wakaid:kokin-958 waka:hasOccurrence occ:kokin-958-1, occ:kokin-958-2, occ:kokin-
 occ:kokin-958-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-958 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-958-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-958 ;
@@ -82684,7 +82684,7 @@ occ:kokin-963-17 a waka:TokenOccurrence ;
 occ:kokin-963-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-963 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-963-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-963 ;
@@ -82701,7 +82701,7 @@ occ:kokin-964-1 a waka:TokenOccurrence ;
 occ:kokin-964-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-964 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-964-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-964 ;
@@ -84263,7 +84263,7 @@ occ:kokin-980-15 a waka:TokenOccurrence ;
 occ:kokin-980-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-980 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-980-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-980 ;
@@ -84305,7 +84305,7 @@ occ:kokin-981-5 a waka:TokenOccurrence ;
 occ:kokin-981-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-981 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-981-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-981 ;
@@ -84514,7 +84514,7 @@ occ:kokin-983-10 a waka:TokenOccurrence ;
 occ:kokin-983-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-983 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-983-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-983 ;
@@ -85364,7 +85364,7 @@ occ:kokin-993-2 a waka:TokenOccurrence ;
 occ:kokin-993-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-993 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-993-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-993 ;
@@ -87167,7 +87167,7 @@ occ:kokin-1002-58 a waka:TokenOccurrence ;
 occ:kokin-1002-59 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
     waka:position 59 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-1002-60 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
@@ -87327,7 +87327,7 @@ occ:kokin-1002-90 a waka:TokenOccurrence ;
 occ:kokin-1002-91 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
     waka:position 91 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-1002-92 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1002 ;
@@ -88049,7 +88049,7 @@ occ:kokin-1003-43 a waka:TokenOccurrence ;
 occ:kokin-1003-44 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1003 ;
     waka:position 44 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-1003-45 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1003 ;
@@ -89236,7 +89236,7 @@ occ:kokin-1004-2 a waka:TokenOccurrence ;
 occ:kokin-1004-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1004 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-1004-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1004 ;
@@ -90928,7 +90928,7 @@ occ:kokin-1015-16 a waka:TokenOccurrence ;
 occ:kokin-1015-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1015 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-1015-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1015 ;
@@ -93749,7 +93749,7 @@ occ:kokin-1048-9 a waka:TokenOccurrence ;
 occ:kokin-1048-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1048 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-1048-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1048 ;
@@ -95464,7 +95464,7 @@ wakaid:kokin-1068 waka:hasOccurrence occ:kokin-1068-1, occ:kokin-1068-2, occ:kok
 occ:kokin-1068-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1068 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-1068-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1068 ;
@@ -95780,7 +95780,7 @@ occ:kokin-1071-18 a waka:TokenOccurrence ;
 occ:kokin-1071-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1071 ;
     waka:position 19 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:kokin-1071-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1071 ;
@@ -96818,7 +96818,7 @@ occ:kokin-1085-2 a waka:TokenOccurrence ;
 occ:kokin-1085-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1085 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:kokin-1085-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-1085 ;
@@ -105463,7 +105463,7 @@ occ:gosen-74-2 a waka:TokenOccurrence ;
 occ:gosen-74-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-74 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-74-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-74 ;
@@ -105662,7 +105662,7 @@ occ:gosen-76-10 a waka:TokenOccurrence ;
 occ:gosen-76-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-76 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-76-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-76 ;
@@ -107400,7 +107400,7 @@ occ:gosen-95-4 a waka:TokenOccurrence ;
 occ:gosen-95-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-95 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-95-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-95 ;
@@ -112774,7 +112774,7 @@ occ:gosen-157-13 a waka:TokenOccurrence ;
 occ:gosen-157-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-157 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-157-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-157 ;
@@ -113683,7 +113683,7 @@ occ:gosen-169-2 a waka:TokenOccurrence ;
 occ:gosen-169-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-169 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-169-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-169 ;
@@ -113810,7 +113810,7 @@ occ:gosen-170-8 a waka:TokenOccurrence ;
 occ:gosen-170-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-170 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-170-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-170 ;
@@ -113892,7 +113892,7 @@ occ:gosen-171-8 a waka:TokenOccurrence ;
 occ:gosen-171-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-171 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-171-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-171 ;
@@ -113979,7 +113979,7 @@ occ:gosen-172-8 a waka:TokenOccurrence ;
 occ:gosen-172-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-172 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-172-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-172 ;
@@ -114747,7 +114747,7 @@ occ:gosen-181-12 a waka:TokenOccurrence ;
 occ:gosen-181-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-181 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-181-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-181 ;
@@ -115231,7 +115231,7 @@ occ:gosen-188-2 a waka:TokenOccurrence ;
 occ:gosen-188-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-188 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-188-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-188 ;
@@ -115492,7 +115492,7 @@ occ:gosen-191-6 a waka:TokenOccurrence ;
 occ:gosen-191-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-191 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-191-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-191 ;
@@ -115840,7 +115840,7 @@ occ:gosen-195-11 a waka:TokenOccurrence ;
 occ:gosen-195-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-195 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-195-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-195 ;
@@ -116444,7 +116444,7 @@ occ:gosen-202-13 a waka:TokenOccurrence ;
 occ:gosen-202-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-202 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-202-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-202 ;
@@ -116727,7 +116727,7 @@ occ:gosen-206-2 a waka:TokenOccurrence ;
 occ:gosen-206-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-206 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-206-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-206 ;
@@ -116869,7 +116869,7 @@ occ:gosen-207-11 a waka:TokenOccurrence ;
 occ:gosen-207-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-207 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-207-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-207 ;
@@ -117080,7 +117080,7 @@ occ:gosen-210-6 a waka:TokenOccurrence ;
 occ:gosen-210-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-210 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-210-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-210 ;
@@ -118668,7 +118668,7 @@ occ:gosen-229-3 a waka:TokenOccurrence ;
 occ:gosen-229-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-229 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-229-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-229 ;
@@ -118755,7 +118755,7 @@ occ:gosen-230-4 a waka:TokenOccurrence ;
 occ:gosen-230-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-230 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-230-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-230 ;
@@ -119135,7 +119135,7 @@ occ:gosen-235-2 a waka:TokenOccurrence ;
 occ:gosen-235-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-235 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-235-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-235 ;
@@ -120069,7 +120069,7 @@ occ:gosen-247-2 a waka:TokenOccurrence ;
 occ:gosen-247-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-247 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-247-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-247 ;
@@ -120330,7 +120330,7 @@ occ:gosen-250-7 a waka:TokenOccurrence ;
 occ:gosen-250-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-250 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-250-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-250 ;
@@ -123108,7 +123108,7 @@ occ:gosen-284-12 a waka:TokenOccurrence ;
 occ:gosen-284-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-284 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-284-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-284 ;
@@ -123590,7 +123590,7 @@ occ:gosen-290-2 a waka:TokenOccurrence ;
 occ:gosen-290-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-290 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-290-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-290 ;
@@ -123804,7 +123804,7 @@ occ:gosen-292-11 a waka:TokenOccurrence ;
 occ:gosen-292-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-292 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-292-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-292 ;
@@ -124122,7 +124122,7 @@ occ:gosen-296-2 a waka:TokenOccurrence ;
 occ:gosen-296-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-296 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-296-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-296 ;
@@ -125830,7 +125830,7 @@ occ:gosen-315-10 a waka:TokenOccurrence ;
 occ:gosen-315-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-315 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-315-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-315 ;
@@ -126061,7 +126061,7 @@ occ:gosen-318-2 a waka:TokenOccurrence ;
 occ:gosen-318-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-318 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-318-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-318 ;
@@ -126240,7 +126240,7 @@ occ:gosen-320-2 a waka:TokenOccurrence ;
 occ:gosen-320-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-320 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-320-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-320 ;
@@ -126511,7 +126511,7 @@ occ:gosen-323-2 a waka:TokenOccurrence ;
 occ:gosen-323-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-323 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-323-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-323 ;
@@ -126797,7 +126797,7 @@ occ:gosen-326-7 a waka:TokenOccurrence ;
 occ:gosen-326-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-326 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-326-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-326 ;
@@ -127388,7 +127388,7 @@ occ:gosen-334-2 a waka:TokenOccurrence ;
 occ:gosen-334-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-334 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-334-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-334 ;
@@ -127875,7 +127875,7 @@ occ:gosen-340-8 a waka:TokenOccurrence ;
 occ:gosen-340-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-340 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-340-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-340 ;
@@ -128260,7 +128260,7 @@ occ:gosen-345-4 a waka:TokenOccurrence ;
 occ:gosen-345-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-345 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-345-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-345 ;
@@ -129001,7 +129001,7 @@ occ:gosen-353-16 a waka:TokenOccurrence ;
 occ:gosen-353-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-353 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-353-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-353 ;
@@ -129182,7 +129182,7 @@ occ:gosen-356-2 a waka:TokenOccurrence ;
 occ:gosen-356-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-356 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-356-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-356 ;
@@ -130646,7 +130646,7 @@ occ:gosen-373-9 a waka:TokenOccurrence ;
 occ:gosen-373-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-373 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-373-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-373 ;
@@ -131918,7 +131918,7 @@ occ:gosen-389-14 a waka:TokenOccurrence ;
 occ:gosen-389-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-389 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-389-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-389 ;
@@ -133339,7 +133339,7 @@ occ:gosen-407-2 a waka:TokenOccurrence ;
 occ:gosen-407-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-407 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-407-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-407 ;
@@ -134768,7 +134768,7 @@ occ:gosen-424-8 a waka:TokenOccurrence ;
 occ:gosen-424-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-424 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-424-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-424 ;
@@ -135859,7 +135859,7 @@ occ:gosen-437-8 a waka:TokenOccurrence ;
 occ:gosen-437-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-437 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-437-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-437 ;
@@ -136259,7 +136259,7 @@ occ:gosen-442-2 a waka:TokenOccurrence ;
 occ:gosen-442-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-442 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-442-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-442 ;
@@ -136848,7 +136848,7 @@ occ:gosen-449-13 a waka:TokenOccurrence ;
 occ:gosen-449-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-449 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-449-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-449 ;
@@ -137447,7 +137447,7 @@ occ:gosen-456-11 a waka:TokenOccurrence ;
 occ:gosen-456-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-456 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-456-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-456 ;
@@ -139266,7 +139266,7 @@ wakaid:gosen-478 waka:hasOccurrence occ:gosen-478-1, occ:gosen-478-2, occ:gosen-
 occ:gosen-478-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-478 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-478-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-478 ;
@@ -139572,7 +139572,7 @@ occ:gosen-481-9 a waka:TokenOccurrence ;
 occ:gosen-481-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-481 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-481-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-481 ;
@@ -142003,7 +142003,7 @@ occ:gosen-509-14 a waka:TokenOccurrence ;
 occ:gosen-509-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-509 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-509-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-509 ;
@@ -142865,7 +142865,7 @@ wakaid:gosen-520 waka:hasOccurrence occ:gosen-520-1, occ:gosen-520-2, occ:gosen-
 occ:gosen-520-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-520 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-520-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-520 ;
@@ -143524,7 +143524,7 @@ occ:gosen-527-13 a waka:TokenOccurrence ;
 occ:gosen-527-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-527 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-527-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-527 ;
@@ -143586,7 +143586,7 @@ occ:gosen-528-8 a waka:TokenOccurrence ;
 occ:gosen-528-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-528 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-528-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-528 ;
@@ -144491,7 +144491,7 @@ occ:gosen-538-14 a waka:TokenOccurrence ;
 occ:gosen-538-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-538 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-538-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-538 ;
@@ -144578,7 +144578,7 @@ occ:gosen-539-14 a waka:TokenOccurrence ;
 occ:gosen-539-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-539 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-539-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-539 ;
@@ -148092,7 +148092,7 @@ occ:gosen-581-7 a waka:TokenOccurrence ;
 occ:gosen-581-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-581 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-581-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-581 ;
@@ -150344,7 +150344,7 @@ occ:gosen-607-11 a waka:TokenOccurrence ;
 occ:gosen-607-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-607 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-607-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-607 ;
@@ -150940,7 +150940,7 @@ occ:gosen-615-4 a waka:TokenOccurrence ;
 occ:gosen-615-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-615 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-615-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-615 ;
@@ -151089,7 +151089,7 @@ wakaid:gosen-617 waka:hasOccurrence occ:gosen-617-1, occ:gosen-617-2, occ:gosen-
 occ:gosen-617-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-617 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-617-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-617 ;
@@ -151656,7 +151656,7 @@ occ:gosen-623-9 a waka:TokenOccurrence ;
 occ:gosen-623-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-623 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-623-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-623 ;
@@ -153016,7 +153016,7 @@ occ:gosen-638-8 a waka:TokenOccurrence ;
 occ:gosen-638-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-638 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-638-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-638 ;
@@ -153784,7 +153784,7 @@ occ:gosen-647-7 a waka:TokenOccurrence ;
 occ:gosen-647-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-647 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-647-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-647 ;
@@ -155618,7 +155618,7 @@ wakaid:gosen-669 waka:hasOccurrence occ:gosen-669-1, occ:gosen-669-2, occ:gosen-
 occ:gosen-669-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-669 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-669-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-669 ;
@@ -159066,7 +159066,7 @@ occ:gosen-708-15 a waka:TokenOccurrence ;
 occ:gosen-708-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-708 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-708-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-708 ;
@@ -162583,7 +162583,7 @@ occ:gosen-749-17 a waka:TokenOccurrence ;
 occ:gosen-749-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-749 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-749-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-749 ;
@@ -162963,7 +162963,7 @@ occ:gosen-754-8 a waka:TokenOccurrence ;
 occ:gosen-754-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-754 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-754-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-754 ;
@@ -163512,7 +163512,7 @@ wakaid:gosen-761 waka:hasOccurrence occ:gosen-761-1, occ:gosen-761-2, occ:gosen-
 occ:gosen-761-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-761 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-761-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-761 ;
@@ -167988,7 +167988,7 @@ occ:gosen-814-3 a waka:TokenOccurrence ;
 occ:gosen-814-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-814 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-814-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-814 ;
@@ -168299,7 +168299,7 @@ occ:gosen-817-16 a waka:TokenOccurrence ;
 occ:gosen-817-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-817 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-817-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-817 ;
@@ -169440,7 +169440,7 @@ occ:gosen-830-13 a waka:TokenOccurrence ;
 occ:gosen-830-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-830 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-830-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-830 ;
@@ -169457,7 +169457,7 @@ wakaid:gosen-831 waka:hasOccurrence occ:gosen-831-1, occ:gosen-831-2, occ:gosen-
 occ:gosen-831-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-831 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-831-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-831 ;
@@ -170474,7 +170474,7 @@ occ:gosen-842-9 a waka:TokenOccurrence ;
 occ:gosen-842-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-842 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-842-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-842 ;
@@ -174369,7 +174369,7 @@ occ:gosen-887-12 a waka:TokenOccurrence ;
 occ:gosen-887-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-887 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-887-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-887 ;
@@ -175035,7 +175035,7 @@ occ:gosen-895-12 a waka:TokenOccurrence ;
 occ:gosen-895-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-895 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-895-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-895 ;
@@ -175308,7 +175308,7 @@ occ:gosen-899-2 a waka:TokenOccurrence ;
 occ:gosen-899-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-899 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-899-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-899 ;
@@ -175435,7 +175435,7 @@ occ:gosen-900-8 a waka:TokenOccurrence ;
 occ:gosen-900-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-900 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-900-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-900 ;
@@ -175614,7 +175614,7 @@ occ:gosen-902-7 a waka:TokenOccurrence ;
 occ:gosen-902-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-902 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-902-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-902 ;
@@ -175798,7 +175798,7 @@ occ:gosen-904-12 a waka:TokenOccurrence ;
 occ:gosen-904-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-904 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-904-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-904 ;
@@ -175845,7 +175845,7 @@ occ:gosen-905-5 a waka:TokenOccurrence ;
 occ:gosen-905-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-905 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-905-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-905 ;
@@ -175947,7 +175947,7 @@ occ:gosen-906-8 a waka:TokenOccurrence ;
 occ:gosen-906-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-906 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-906-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-906 ;
@@ -176029,7 +176029,7 @@ occ:gosen-907-7 a waka:TokenOccurrence ;
 occ:gosen-907-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-907 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-907-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-907 ;
@@ -176663,7 +176663,7 @@ occ:gosen-914-13 a waka:TokenOccurrence ;
 occ:gosen-914-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-914 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-914-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-914 ;
@@ -176765,7 +176765,7 @@ occ:gosen-915-15 a waka:TokenOccurrence ;
 occ:gosen-915-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-915 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-915-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-915 ;
@@ -177155,7 +177155,7 @@ occ:gosen-920-7 a waka:TokenOccurrence ;
 occ:gosen-920-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-920 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-920-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-920 ;
@@ -177707,7 +177707,7 @@ occ:gosen-926-8 a waka:TokenOccurrence ;
 occ:gosen-926-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-926 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-926-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-926 ;
@@ -178719,7 +178719,7 @@ occ:gosen-937-17 a waka:TokenOccurrence ;
 occ:gosen-937-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-937 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-937-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-937 ;
@@ -183312,7 +183312,7 @@ occ:gosen-991-7 a waka:TokenOccurrence ;
 occ:gosen-991-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-991 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-991-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-991 ;
@@ -183722,7 +183722,7 @@ occ:gosen-996-1 a waka:TokenOccurrence ;
 occ:gosen-996-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-996 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-996-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-996 ;
@@ -183839,7 +183839,7 @@ occ:gosen-997-6 a waka:TokenOccurrence ;
 occ:gosen-997-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-997 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-997-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-997 ;
@@ -187157,7 +187157,7 @@ occ:gosen-1036-10 a waka:TokenOccurrence ;
 occ:gosen-1036-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1036 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1036-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1036 ;
@@ -189195,7 +189195,7 @@ occ:gosen-1060-4 a waka:TokenOccurrence ;
 occ:gosen-1060-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1060 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-1060-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1060 ;
@@ -190090,7 +190090,7 @@ occ:gosen-1070-11 a waka:TokenOccurrence ;
 occ:gosen-1070-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1070 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-1070-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1070 ;
@@ -190808,7 +190808,7 @@ wakaid:gosen-1079 waka:hasOccurrence occ:gosen-1079-1, occ:gosen-1079-2, occ:gos
 occ:gosen-1079-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1079 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1079-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1079 ;
@@ -191646,7 +191646,7 @@ occ:gosen-1088-9 a waka:TokenOccurrence ;
 occ:gosen-1088-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1088 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1088-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1088 ;
@@ -191840,7 +191840,7 @@ occ:gosen-1090-11 a waka:TokenOccurrence ;
 occ:gosen-1090-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1090 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1090-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1090 ;
@@ -192807,7 +192807,7 @@ occ:gosen-1101-14 a waka:TokenOccurrence ;
 occ:gosen-1101-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1101 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1101-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1101 ;
@@ -193990,7 +193990,7 @@ occ:gosen-1115-3 a waka:TokenOccurrence ;
 occ:gosen-1115-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1115 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1115-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1115 ;
@@ -196215,7 +196215,7 @@ occ:gosen-1140-14 a waka:TokenOccurrence ;
 occ:gosen-1140-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1140 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-1140-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1140 ;
@@ -199021,7 +199021,7 @@ occ:gosen-1173-7 a waka:TokenOccurrence ;
 occ:gosen-1173-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1173 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1173-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1173 ;
@@ -199103,7 +199103,7 @@ occ:gosen-1174-1 a waka:TokenOccurrence ;
 occ:gosen-1174-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1174 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1174-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1174 ;
@@ -199255,7 +199255,7 @@ occ:gosen-1175-13 a waka:TokenOccurrence ;
 occ:gosen-1175-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1175 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1175-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1175 ;
@@ -200438,7 +200438,7 @@ occ:gosen-1189-9 a waka:TokenOccurrence ;
 occ:gosen-1189-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1189 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1189-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1189 ;
@@ -200647,7 +200647,7 @@ occ:gosen-1191-17 a waka:TokenOccurrence ;
 occ:gosen-1191-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1191 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1191-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1191 ;
@@ -201027,7 +201027,7 @@ wakaid:gosen-1196 waka:hasOccurrence occ:gosen-1196-1, occ:gosen-1196-2, occ:gos
 occ:gosen-1196-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1196 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1196-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1196 ;
@@ -201579,7 +201579,7 @@ wakaid:gosen-1202 waka:hasOccurrence occ:gosen-1202-1, occ:gosen-1202-2, occ:gos
 occ:gosen-1202-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1202 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1202-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1202 ;
@@ -204294,7 +204294,7 @@ occ:gosen-1232-10 a waka:TokenOccurrence ;
 occ:gosen-1232-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1232 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1232-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1232 ;
@@ -204913,7 +204913,7 @@ occ:gosen-1239-13 a waka:TokenOccurrence ;
 occ:gosen-1239-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1239 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1239-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1239 ;
@@ -205343,7 +205343,7 @@ occ:gosen-1244-13 a waka:TokenOccurrence ;
 occ:gosen-1244-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1244 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1244-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1244 ;
@@ -207699,7 +207699,7 @@ occ:gosen-1272-10 a waka:TokenOccurrence ;
 occ:gosen-1272-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1272 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1272-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1272 ;
@@ -211818,7 +211818,7 @@ occ:gosen-1319-12 a waka:TokenOccurrence ;
 occ:gosen-1319-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1319 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1319-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1319 ;
@@ -213908,7 +213908,7 @@ occ:gosen-1344-2 a waka:TokenOccurrence ;
 occ:gosen-1344-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1344 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1344-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1344 ;
@@ -213968,7 +213968,7 @@ occ:gosen-1344-14 a waka:TokenOccurrence ;
 occ:gosen-1344-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1344 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1344-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1344 ;
@@ -214465,7 +214465,7 @@ occ:gosen-1350-7 a waka:TokenOccurrence ;
 occ:gosen-1350-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1350 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1350-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1350 ;
@@ -216150,7 +216150,7 @@ occ:gosen-1370-8 a waka:TokenOccurrence ;
 occ:gosen-1370-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1370 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1370-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1370 ;
@@ -216620,7 +216620,7 @@ occ:gosen-1375-16 a waka:TokenOccurrence ;
 occ:gosen-1375-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1375 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1375-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1375 ;
@@ -217271,7 +217271,7 @@ occ:gosen-1383-11 a waka:TokenOccurrence ;
 occ:gosen-1383-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1383 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1383-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1383 ;
@@ -217609,7 +217609,7 @@ occ:gosen-1387-2 a waka:TokenOccurrence ;
 occ:gosen-1387-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1387 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:gosen-1387-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1387 ;
@@ -217813,7 +217813,7 @@ occ:gosen-1389-2 a waka:TokenOccurrence ;
 occ:gosen-1389-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1389 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1389-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1389 ;
@@ -218243,7 +218243,7 @@ occ:gosen-1394-1 a waka:TokenOccurrence ;
 occ:gosen-1394-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1394 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1394-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1394 ;
@@ -218576,7 +218576,7 @@ occ:gosen-1398-2 a waka:TokenOccurrence ;
 occ:gosen-1398-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1398 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1398-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1398 ;
@@ -219655,7 +219655,7 @@ occ:gosen-1410-7 a waka:TokenOccurrence ;
 occ:gosen-1410-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1410 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1410-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1410 ;
@@ -220463,7 +220463,7 @@ occ:gosen-1419-7 a waka:TokenOccurrence ;
 occ:gosen-1419-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1419 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:gosen-1419-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1419 ;
@@ -223568,7 +223568,7 @@ occ:shuui-29-10 a waka:TokenOccurrence ;
 occ:shuui-29-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-29 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-29-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-29 ;
@@ -227505,7 +227505,7 @@ occ:shuui-75-16 a waka:TokenOccurrence ;
 occ:shuui-75-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-75 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-75-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-75 ;
@@ -229292,7 +229292,7 @@ occ:shuui-96-7 a waka:TokenOccurrence ;
 occ:shuui-96-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-96 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-96-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-96 ;
@@ -229980,7 +229980,7 @@ occ:shuui-105-8 a waka:TokenOccurrence ;
 occ:shuui-105-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-105 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-105-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-105 ;
@@ -230631,7 +230631,7 @@ occ:shuui-113-12 a waka:TokenOccurrence ;
 occ:shuui-113-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-113 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-113-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-113 ;
@@ -231011,7 +231011,7 @@ occ:shuui-118-8 a waka:TokenOccurrence ;
 occ:shuui-118-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-118 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-118-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-118 ;
@@ -231088,7 +231088,7 @@ occ:shuui-119-7 a waka:TokenOccurrence ;
 occ:shuui-119-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-119 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-119-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-119 ;
@@ -231242,7 +231242,7 @@ occ:shuui-121-2 a waka:TokenOccurrence ;
 occ:shuui-121-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-121 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-121-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-121 ;
@@ -231329,7 +231329,7 @@ occ:shuui-122-2 a waka:TokenOccurrence ;
 occ:shuui-122-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-122 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-122-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-122 ;
@@ -231642,7 +231642,7 @@ occ:shuui-126-12 a waka:TokenOccurrence ;
 occ:shuui-126-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-126 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-126-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-126 ;
@@ -232991,7 +232991,7 @@ occ:shuui-143-2 a waka:TokenOccurrence ;
 occ:shuui-143-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-143 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-143-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-143 ;
@@ -233210,7 +233210,7 @@ occ:shuui-145-11 a waka:TokenOccurrence ;
 occ:shuui-145-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-145 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-145-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-145 ;
@@ -233374,7 +233374,7 @@ occ:shuui-147-11 a waka:TokenOccurrence ;
 occ:shuui-147-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-147 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-147-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-147 ;
@@ -233687,7 +233687,7 @@ occ:shuui-151-7 a waka:TokenOccurrence ;
 occ:shuui-151-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-151 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-151-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-151 ;
@@ -235633,7 +235633,7 @@ occ:shuui-174-17 a waka:TokenOccurrence ;
 occ:shuui-174-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-174 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-174-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-174 ;
@@ -238471,7 +238471,7 @@ occ:shuui-208-2 a waka:TokenOccurrence ;
 occ:shuui-208-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-208 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-208-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-208 ;
@@ -239773,7 +239773,7 @@ occ:shuui-224-7 a waka:TokenOccurrence ;
 occ:shuui-224-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-224 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-224-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-224 ;
@@ -239887,7 +239887,7 @@ wakaid:shuui-226 waka:hasOccurrence occ:shuui-226-1, occ:shuui-226-2, occ:shuui-
 occ:shuui-226-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-226 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-226-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-226 ;
@@ -240051,7 +240051,7 @@ wakaid:shuui-228 waka:hasOccurrence occ:shuui-228-1, occ:shuui-228-2, occ:shuui-
 occ:shuui-228-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-228 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-228-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-228 ;
@@ -240275,7 +240275,7 @@ occ:shuui-230-8 a waka:TokenOccurrence ;
 occ:shuui-230-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-230 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-230-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-230 ;
@@ -240357,7 +240357,7 @@ occ:shuui-231-7 a waka:TokenOccurrence ;
 occ:shuui-231-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-231 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-231-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-231 ;
@@ -240521,7 +240521,7 @@ occ:shuui-233-10 a waka:TokenOccurrence ;
 occ:shuui-233-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-233 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-233-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-233 ;
@@ -240745,7 +240745,7 @@ occ:shuui-235-15 a waka:TokenOccurrence ;
 occ:shuui-235-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-235 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-235-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-235 ;
@@ -241090,7 +241090,7 @@ occ:shuui-240-2 a waka:TokenOccurrence ;
 occ:shuui-240-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-240 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-240-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-240 ;
@@ -241324,7 +241324,7 @@ occ:shuui-242-12 a waka:TokenOccurrence ;
 occ:shuui-242-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-242 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-242-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-242 ;
@@ -242594,7 +242594,7 @@ occ:shuui-257-12 a waka:TokenOccurrence ;
 occ:shuui-257-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-257 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-257-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-257 ;
@@ -244055,7 +244055,7 @@ occ:shuui-275-10 a waka:TokenOccurrence ;
 occ:shuui-275-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-275 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-275-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-275 ;
@@ -244209,7 +244209,7 @@ occ:shuui-277-2 a waka:TokenOccurrence ;
 occ:shuui-277-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-277 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-277-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-277 ;
@@ -245477,7 +245477,7 @@ occ:shuui-291-7 a waka:TokenOccurrence ;
 occ:shuui-291-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-291 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-291-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-291 ;
@@ -246004,7 +246004,7 @@ occ:shuui-297-10 a waka:TokenOccurrence ;
 occ:shuui-297-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-297 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-297-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-297 ;
@@ -246143,7 +246143,7 @@ occ:shuui-299-2 a waka:TokenOccurrence ;
 occ:shuui-299-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-299 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-299-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-299 ;
@@ -246933,7 +246933,7 @@ occ:shuui-309-2 a waka:TokenOccurrence ;
 occ:shuui-309-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-309 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-309-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-309 ;
@@ -249127,7 +249127,7 @@ occ:shuui-336-13 a waka:TokenOccurrence ;
 occ:shuui-336-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-336 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-336-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-336 ;
@@ -250039,7 +250039,7 @@ occ:shuui-347-13 a waka:TokenOccurrence ;
 occ:shuui-347-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-347 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-347-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-347 ;
@@ -256616,7 +256616,7 @@ wakaid:shuui-423 waka:hasOccurrence occ:shuui-423-1, occ:shuui-423-2, occ:shuui-
 occ:shuui-423-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-423 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-423-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-423 ;
@@ -257384,7 +257384,7 @@ wakaid:shuui-432 waka:hasOccurrence occ:shuui-432-1, occ:shuui-432-2, occ:shuui-
 occ:shuui-432-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-432 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-432-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-432 ;
@@ -257618,7 +257618,7 @@ occ:shuui-434-11 a waka:TokenOccurrence ;
 occ:shuui-434-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-434 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-434-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-434 ;
@@ -257772,7 +257772,7 @@ occ:shuui-436-11 a waka:TokenOccurrence ;
 occ:shuui-436-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-436 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-436-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-436 ;
@@ -260021,7 +260021,7 @@ occ:shuui-463-1 a waka:TokenOccurrence ;
 occ:shuui-463-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-463 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-463-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-463 ;
@@ -260103,7 +260103,7 @@ wakaid:shuui-464 waka:hasOccurrence occ:shuui-464-1, occ:shuui-464-2, occ:shuui-
 occ:shuui-464-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-464 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-464-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-464 ;
@@ -261480,7 +261480,7 @@ occ:shuui-480-10 a waka:TokenOccurrence ;
 occ:shuui-480-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-480 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-480-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-480 ;
@@ -261527,7 +261527,7 @@ occ:shuui-481-1 a waka:TokenOccurrence ;
 occ:shuui-481-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-481 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-481-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-481 ;
@@ -262730,7 +262730,7 @@ wakaid:shuui-495 waka:hasOccurrence occ:shuui-495-1, occ:shuui-495-2, occ:shuui-
 occ:shuui-495-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-495 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-495-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-495 ;
@@ -263155,7 +263155,7 @@ occ:shuui-500-5 a waka:TokenOccurrence ;
 occ:shuui-500-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-500 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-500-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-500 ;
@@ -263498,7 +263498,7 @@ occ:shuui-504-1 a waka:TokenOccurrence ;
 occ:shuui-504-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-504 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-504-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-504 ;
@@ -264977,7 +264977,7 @@ occ:shuui-521-2 a waka:TokenOccurrence ;
 occ:shuui-521-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-521 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-521-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-521 ;
@@ -265069,7 +265069,7 @@ wakaid:shuui-522 waka:hasOccurrence occ:shuui-522-1, occ:shuui-522-2, occ:shuui-
 occ:shuui-522-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-522 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-522-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-522 ;
@@ -265196,7 +265196,7 @@ occ:shuui-523-9 a waka:TokenOccurrence ;
 occ:shuui-523-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-523 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-523-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-523 ;
@@ -266496,7 +266496,7 @@ occ:shuui-538-7 a waka:TokenOccurrence ;
 occ:shuui-538-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-538 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-538-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-538 ;
@@ -268467,7 +268467,7 @@ occ:shuui-561-10 a waka:TokenOccurrence ;
 occ:shuui-561-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-561 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-561-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-561 ;
@@ -270477,7 +270477,7 @@ occ:shuui-571-155 a waka:TokenOccurrence ;
 occ:shuui-571-156 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-571 ;
     waka:position 156 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-571-157 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-571 ;
@@ -271089,7 +271089,7 @@ occ:shuui-572-54 a waka:TokenOccurrence ;
 occ:shuui-572-55 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
     waka:position 55 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-572-56 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
@@ -271544,7 +271544,7 @@ occ:shuui-572-145 a waka:TokenOccurrence ;
 occ:shuui-572-146 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
     waka:position 146 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-572-147 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-572 ;
@@ -272236,7 +272236,7 @@ occ:shuui-573-93 a waka:TokenOccurrence ;
 occ:shuui-573-94 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
     waka:position 94 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-573-95 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
@@ -272491,7 +272491,7 @@ occ:shuui-573-144 a waka:TokenOccurrence ;
 occ:shuui-573-145 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
     waka:position 145 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-573-146 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
@@ -273263,7 +273263,7 @@ occ:shuui-574-102 a waka:TokenOccurrence ;
 occ:shuui-574-103 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-574 ;
     waka:position 103 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-574-104 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-574 ;
@@ -274637,7 +274637,7 @@ occ:shuui-576-8 a waka:TokenOccurrence ;
 occ:shuui-576-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-576 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-576-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-576 ;
@@ -276361,7 +276361,7 @@ occ:shuui-598-2 a waka:TokenOccurrence ;
 occ:shuui-598-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-598 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-598-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-598 ;
@@ -276545,7 +276545,7 @@ occ:shuui-600-6 a waka:TokenOccurrence ;
 occ:shuui-600-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-600 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-600-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-600 ;
@@ -276642,7 +276642,7 @@ occ:shuui-601-12 a waka:TokenOccurrence ;
 occ:shuui-601-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-601 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-601-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-601 ;
@@ -276982,7 +276982,7 @@ occ:shuui-606-8 a waka:TokenOccurrence ;
 occ:shuui-606-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-606 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-606-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-606 ;
@@ -280503,7 +280503,7 @@ occ:shuui-649-3 a waka:TokenOccurrence ;
 occ:shuui-649-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-649 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-649-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-649 ;
@@ -282698,7 +282698,7 @@ occ:shuui-674-11 a waka:TokenOccurrence ;
 occ:shuui-674-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-674 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-674-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-674 ;
@@ -285087,7 +285087,7 @@ occ:shuui-701-11 a waka:TokenOccurrence ;
 occ:shuui-701-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-701 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-701-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-701 ;
@@ -286606,7 +286606,7 @@ occ:shuui-718-14 a waka:TokenOccurrence ;
 occ:shuui-718-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-718 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-718-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-718 ;
@@ -287304,7 +287304,7 @@ occ:shuui-727-7 a waka:TokenOccurrence ;
 occ:shuui-727-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-727 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-727-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-727 ;
@@ -287873,7 +287873,7 @@ occ:shuui-734-5 a waka:TokenOccurrence ;
 occ:shuui-734-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-734 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-734-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-734 ;
@@ -287938,7 +287938,7 @@ occ:shuui-734-18 a waka:TokenOccurrence ;
 occ:shuui-734-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-734 ;
     waka:position 19 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-734-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-734 ;
@@ -288020,7 +288020,7 @@ occ:shuui-735-14 a waka:TokenOccurrence ;
 occ:shuui-735-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-735 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-735-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-735 ;
@@ -288435,7 +288435,7 @@ occ:shuui-740-13 a waka:TokenOccurrence ;
 occ:shuui-740-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-740 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-740-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-740 ;
@@ -289730,7 +289730,7 @@ occ:shuui-755-14 a waka:TokenOccurrence ;
 occ:shuui-755-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-755 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-755-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-755 ;
@@ -291348,7 +291348,7 @@ occ:shuui-774-8 a waka:TokenOccurrence ;
 occ:shuui-774-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-774 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-774-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-774 ;
@@ -291696,7 +291696,7 @@ occ:shuui-778-10 a waka:TokenOccurrence ;
 occ:shuui-778-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-778 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-778-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-778 ;
@@ -292240,7 +292240,7 @@ occ:shuui-785-2 a waka:TokenOccurrence ;
 occ:shuui-785-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-785 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-785-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-785 ;
@@ -292332,7 +292332,7 @@ occ:shuui-786-2 a waka:TokenOccurrence ;
 occ:shuui-786-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-786 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-786-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-786 ;
@@ -293262,7 +293262,7 @@ occ:shuui-796-10 a waka:TokenOccurrence ;
 occ:shuui-796-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-796 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-796-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-796 ;
@@ -293314,7 +293314,7 @@ occ:shuui-797-2 a waka:TokenOccurrence ;
 occ:shuui-797-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-797 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-797-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-797 ;
@@ -293446,7 +293446,7 @@ occ:shuui-798-11 a waka:TokenOccurrence ;
 occ:shuui-798-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-798 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-798-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-798 ;
@@ -293483,7 +293483,7 @@ occ:shuui-799-1 a waka:TokenOccurrence ;
 occ:shuui-799-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-799 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-799-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-799 ;
@@ -293635,7 +293635,7 @@ occ:shuui-800-11 a waka:TokenOccurrence ;
 occ:shuui-800-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-800 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-800-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-800 ;
@@ -293677,7 +293677,7 @@ wakaid:shuui-801 waka:hasOccurrence occ:shuui-801-1, occ:shuui-801-2, occ:shuui-
 occ:shuui-801-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-801 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-801-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-801 ;
@@ -293906,7 +293906,7 @@ occ:shuui-803-10 a waka:TokenOccurrence ;
 occ:shuui-803-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-803 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-803-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-803 ;
@@ -294060,7 +294060,7 @@ occ:shuui-805-8 a waka:TokenOccurrence ;
 occ:shuui-805-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-805 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-805-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-805 ;
@@ -294341,7 +294341,7 @@ occ:shuui-808-13 a waka:TokenOccurrence ;
 occ:shuui-808-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-808 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-808-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-808 ;
@@ -294423,7 +294423,7 @@ occ:shuui-809-10 a waka:TokenOccurrence ;
 occ:shuui-809-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-809 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-809-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-809 ;
@@ -295293,7 +295293,7 @@ occ:shuui-819-12 a waka:TokenOccurrence ;
 occ:shuui-819-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-819 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-819-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-819 ;
@@ -297771,7 +297771,7 @@ occ:shuui-848-4 a waka:TokenOccurrence ;
 occ:shuui-848-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-848 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-848-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-848 ;
@@ -301232,7 +301232,7 @@ wakaid:shuui-891 waka:hasOccurrence occ:shuui-891-1, occ:shuui-891-2, occ:shuui-
 occ:shuui-891-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-891 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-891-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-891 ;
@@ -303009,7 +303009,7 @@ occ:shuui-912-4 a waka:TokenOccurrence ;
 occ:shuui-912-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-912 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-912-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-912 ;
@@ -303730,7 +303730,7 @@ occ:shuui-920-7 a waka:TokenOccurrence ;
 occ:shuui-920-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-920 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-920-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-920 ;
@@ -304130,7 +304130,7 @@ occ:shuui-925-2 a waka:TokenOccurrence ;
 occ:shuui-925-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-925 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-925-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-925 ;
@@ -304364,7 +304364,7 @@ occ:shuui-927-16 a waka:TokenOccurrence ;
 occ:shuui-927-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-927 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-927-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-927 ;
@@ -305592,7 +305592,7 @@ occ:shuui-941-9 a waka:TokenOccurrence ;
 occ:shuui-941-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-941 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-941-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-941 ;
@@ -306601,7 +306601,7 @@ occ:shuui-953-11 a waka:TokenOccurrence ;
 occ:shuui-953-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-953 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-953-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-953 ;
@@ -310135,7 +310135,7 @@ occ:shuui-995-13 a waka:TokenOccurrence ;
 occ:shuui-995-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-995 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-995-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-995 ;
@@ -312732,7 +312732,7 @@ occ:shuui-1026-2 a waka:TokenOccurrence ;
 occ:shuui-1026-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1026 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1026-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1026 ;
@@ -313401,7 +313401,7 @@ occ:shuui-1033-10 a waka:TokenOccurrence ;
 occ:shuui-1033-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1033 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1033-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1033 ;
@@ -317719,7 +317719,7 @@ wakaid:shuui-1087 waka:hasOccurrence occ:shuui-1087-1, occ:shuui-1087-2, occ:shu
 occ:shuui-1087-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1087 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1087-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1087 ;
@@ -318132,7 +318132,7 @@ occ:shuui-1091-15 a waka:TokenOccurrence ;
 occ:shuui-1091-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1091 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-1091-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1091 ;
@@ -318184,7 +318184,7 @@ occ:shuui-1092-8 a waka:TokenOccurrence ;
 occ:shuui-1092-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1092 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1092-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1092 ;
@@ -318706,7 +318706,7 @@ occ:shuui-1098-13 a waka:TokenOccurrence ;
 occ:shuui-1098-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1098 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1098-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1098 ;
@@ -319342,7 +319342,7 @@ occ:shuui-1106-11 a waka:TokenOccurrence ;
 occ:shuui-1106-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1106 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-1106-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1106 ;
@@ -319444,7 +319444,7 @@ occ:shuui-1107-17 a waka:TokenOccurrence ;
 occ:shuui-1107-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1107 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-1107-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1107 ;
@@ -320448,7 +320448,7 @@ wakaid:shuui-1119 waka:hasOccurrence occ:shuui-1119-1, occ:shuui-1119-2, occ:shu
 occ:shuui-1119-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1119 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-1119-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1119 ;
@@ -320714,7 +320714,7 @@ occ:shuui-1122-2 a waka:TokenOccurrence ;
 occ:shuui-1122-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1122 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1122-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1122 ;
@@ -323132,7 +323132,7 @@ occ:shuui-1151-11 a waka:TokenOccurrence ;
 occ:shuui-1151-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1151 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-1151-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1151 ;
@@ -324320,7 +324320,7 @@ occ:shuui-1165-10 a waka:TokenOccurrence ;
 occ:shuui-1165-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1165 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1165-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1165 ;
@@ -325028,7 +325028,7 @@ occ:shuui-1174-2 a waka:TokenOccurrence ;
 occ:shuui-1174-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1174 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1174-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1174 ;
@@ -326986,7 +326986,7 @@ occ:shuui-1195-16 a waka:TokenOccurrence ;
 occ:shuui-1195-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1195 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-1195-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1195 ;
@@ -328266,7 +328266,7 @@ occ:shuui-1210-9 a waka:TokenOccurrence ;
 occ:shuui-1210-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1210 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1210-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1210 ;
@@ -328681,7 +328681,7 @@ occ:shuui-1215-6 a waka:TokenOccurrence ;
 occ:shuui-1215-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1215 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1215-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1215 ;
@@ -329325,7 +329325,7 @@ occ:shuui-1222-14 a waka:TokenOccurrence ;
 occ:shuui-1222-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1222 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1222-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1222 ;
@@ -331517,7 +331517,7 @@ occ:shuui-1248-9 a waka:TokenOccurrence ;
 occ:shuui-1248-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1248 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1248-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1248 ;
@@ -331979,7 +331979,7 @@ wakaid:shuui-1254 waka:hasOccurrence occ:shuui-1254-1, occ:shuui-1254-2, occ:shu
 occ:shuui-1254-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1254 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1254-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1254 ;
@@ -332111,7 +332111,7 @@ occ:shuui-1255-8 a waka:TokenOccurrence ;
 occ:shuui-1255-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1255 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:shuui-1255-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1255 ;
@@ -333473,7 +333473,7 @@ occ:shuui-1271-2 a waka:TokenOccurrence ;
 occ:shuui-1271-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1271 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1271-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1271 ;
@@ -334313,7 +334313,7 @@ occ:shuui-1281-12 a waka:TokenOccurrence ;
 occ:shuui-1281-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1281 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1281-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1281 ;
@@ -335001,7 +335001,7 @@ occ:shuui-1290-6 a waka:TokenOccurrence ;
 occ:shuui-1290-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1290 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1290-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1290 ;
@@ -335682,7 +335682,7 @@ occ:shuui-1298-11 a waka:TokenOccurrence ;
 occ:shuui-1298-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1298 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1298-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1298 ;
@@ -335821,7 +335821,7 @@ occ:shuui-1300-2 a waka:TokenOccurrence ;
 occ:shuui-1300-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1300 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1300-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1300 ;
@@ -336189,7 +336189,7 @@ occ:shuui-1304-6 a waka:TokenOccurrence ;
 occ:shuui-1304-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1304 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1304-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1304 ;
@@ -336281,7 +336281,7 @@ occ:shuui-1305-5 a waka:TokenOccurrence ;
 occ:shuui-1305-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1305 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1305-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1305 ;
@@ -336358,7 +336358,7 @@ occ:shuui-1306-1 a waka:TokenOccurrence ;
 occ:shuui-1306-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1306 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1306-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1306 ;
@@ -337631,7 +337631,7 @@ occ:shuui-1320-12 a waka:TokenOccurrence ;
 occ:shuui-1320-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1320 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1320-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1320 ;
@@ -337830,7 +337830,7 @@ occ:shuui-1322-14 a waka:TokenOccurrence ;
 occ:shuui-1322-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1322 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1322-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1322 ;
@@ -337877,7 +337877,7 @@ occ:shuui-1323-4 a waka:TokenOccurrence ;
 occ:shuui-1323-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1323 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1323-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1323 ;
@@ -338471,7 +338471,7 @@ occ:shuui-1330-1 a waka:TokenOccurrence ;
 occ:shuui-1330-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1330 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1330-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1330 ;
@@ -338777,7 +338777,7 @@ occ:shuui-1333-12 a waka:TokenOccurrence ;
 occ:shuui-1333-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1333 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:shuui-1333-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1333 ;
@@ -342870,7 +342870,7 @@ occ:goshuui-31-2 a waka:TokenOccurrence ;
 occ:goshuui-31-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-31 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-31-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-31 ;
@@ -344597,7 +344597,7 @@ occ:goshuui-52-2 a waka:TokenOccurrence ;
 occ:goshuui-52-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-52 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-52-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-52 ;
@@ -345261,7 +345261,7 @@ occ:goshuui-59-8 a waka:TokenOccurrence ;
 occ:goshuui-59-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-59 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-59-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-59 ;
@@ -348419,7 +348419,7 @@ occ:goshuui-98-4 a waka:TokenOccurrence ;
 occ:goshuui-98-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-98 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-98-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-98 ;
@@ -351178,7 +351178,7 @@ occ:goshuui-130-6 a waka:TokenOccurrence ;
 occ:goshuui-130-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-130 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-130-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-130 ;
@@ -351404,7 +351404,7 @@ wakaid:goshuui-133 waka:hasOccurrence occ:goshuui-133-1, occ:goshuui-133-2, occ:
 occ:goshuui-133-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-133 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-133-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-133 ;
@@ -352197,7 +352197,7 @@ occ:goshuui-142-12 a waka:TokenOccurrence ;
 occ:goshuui-142-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-142 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-142-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-142 ;
@@ -355966,7 +355966,7 @@ wakaid:goshuui-189 waka:hasOccurrence occ:goshuui-189-1, occ:goshuui-189-2, occ:
 occ:goshuui-189-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-189 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-189-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-189 ;
@@ -356063,7 +356063,7 @@ occ:goshuui-190-2 a waka:TokenOccurrence ;
 occ:goshuui-190-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-190 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-190-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-190 ;
@@ -356150,7 +356150,7 @@ occ:goshuui-191-2 a waka:TokenOccurrence ;
 occ:goshuui-191-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-191 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-191-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-191 ;
@@ -356304,7 +356304,7 @@ occ:goshuui-193-2 a waka:TokenOccurrence ;
 occ:goshuui-193-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-193 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-193-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-193 ;
@@ -356319,7 +356319,7 @@ occ:goshuui-193-5 a waka:TokenOccurrence ;
 occ:goshuui-193-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-193 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-193-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-193 ;
@@ -356756,7 +356756,7 @@ occ:goshuui-199-1 a waka:TokenOccurrence ;
 occ:goshuui-199-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-199 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-199-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-199 ;
@@ -356945,7 +356945,7 @@ occ:goshuui-201-9 a waka:TokenOccurrence ;
 occ:goshuui-201-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-201 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-201-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-201 ;
@@ -356992,7 +356992,7 @@ occ:goshuui-202-2 a waka:TokenOccurrence ;
 occ:goshuui-202-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-202 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-202-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-202 ;
@@ -357007,7 +357007,7 @@ occ:goshuui-202-5 a waka:TokenOccurrence ;
 occ:goshuui-202-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-202 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-202-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-202 ;
@@ -357134,7 +357134,7 @@ occ:goshuui-203-15 a waka:TokenOccurrence ;
 occ:goshuui-203-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-203 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-203-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-203 ;
@@ -358602,7 +358602,7 @@ occ:goshuui-222-2 a waka:TokenOccurrence ;
 occ:goshuui-222-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-222 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-222-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-222 ;
@@ -358769,7 +358769,7 @@ occ:goshuui-223-15 a waka:TokenOccurrence ;
 occ:goshuui-223-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-223 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-223-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-223 ;
@@ -358796,7 +358796,7 @@ occ:goshuui-224-2 a waka:TokenOccurrence ;
 occ:goshuui-224-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-224 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-224-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-224 ;
@@ -359308,7 +359308,7 @@ occ:goshuui-230-2 a waka:TokenOccurrence ;
 occ:goshuui-230-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-230 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-230-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-230 ;
@@ -360036,7 +360036,7 @@ occ:goshuui-239-7 a waka:TokenOccurrence ;
 occ:goshuui-239-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-239 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-239-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-239 ;
@@ -360339,7 +360339,7 @@ occ:goshuui-243-2 a waka:TokenOccurrence ;
 occ:goshuui-243-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-243 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-243-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-243 ;
@@ -360451,7 +360451,7 @@ occ:goshuui-244-3 a waka:TokenOccurrence ;
 occ:goshuui-244-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-244 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-244-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-244 ;
@@ -360916,7 +360916,7 @@ occ:goshuui-249-9 a waka:TokenOccurrence ;
 occ:goshuui-249-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-249 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-249-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-249 ;
@@ -360978,7 +360978,7 @@ occ:goshuui-250-2 a waka:TokenOccurrence ;
 occ:goshuui-250-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-250 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-250-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-250 ;
@@ -361140,7 +361140,7 @@ occ:goshuui-251-14 a waka:TokenOccurrence ;
 occ:goshuui-251-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-251 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-251-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-251 ;
@@ -361319,7 +361319,7 @@ occ:goshuui-253-15 a waka:TokenOccurrence ;
 occ:goshuui-253-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-253 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-253-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-253 ;
@@ -361580,7 +361580,7 @@ occ:goshuui-256-9 a waka:TokenOccurrence ;
 occ:goshuui-256-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-256 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-256-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-256 ;
@@ -361692,7 +361692,7 @@ occ:goshuui-257-14 a waka:TokenOccurrence ;
 occ:goshuui-257-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-257 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-257-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-257 ;
@@ -361749,7 +361749,7 @@ occ:goshuui-258-8 a waka:TokenOccurrence ;
 occ:goshuui-258-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-258 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-258-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-258 ;
@@ -361851,7 +361851,7 @@ occ:goshuui-259-12 a waka:TokenOccurrence ;
 occ:goshuui-259-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-259 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-259-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-259 ;
@@ -362189,7 +362189,7 @@ occ:goshuui-263-16 a waka:TokenOccurrence ;
 occ:goshuui-263-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-263 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-263-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-263 ;
@@ -362216,7 +362216,7 @@ occ:goshuui-264-2 a waka:TokenOccurrence ;
 occ:goshuui-264-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-264 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-264-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-264 ;
@@ -364893,7 +364893,7 @@ occ:goshuui-295-14 a waka:TokenOccurrence ;
 occ:goshuui-295-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-295 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-295-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-295 ;
@@ -368427,7 +368427,7 @@ occ:goshuui-337-2 a waka:TokenOccurrence ;
 occ:goshuui-337-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-337 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-337-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-337 ;
@@ -368529,7 +368529,7 @@ occ:goshuui-338-8 a waka:TokenOccurrence ;
 occ:goshuui-338-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-338 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-338-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-338 ;
@@ -370984,7 +370984,7 @@ occ:goshuui-368-2 a waka:TokenOccurrence ;
 occ:goshuui-368-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-368 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-368-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-368 ;
@@ -372152,7 +372152,7 @@ occ:goshuui-382-13 a waka:TokenOccurrence ;
 occ:goshuui-382-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-382 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-382-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-382 ;
@@ -372177,7 +372177,7 @@ occ:goshuui-382-18 a waka:TokenOccurrence ;
 occ:goshuui-382-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-382 ;
     waka:position 19 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-382-20 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-382 ;
@@ -372930,7 +372930,7 @@ occ:goshuui-391-17 a waka:TokenOccurrence ;
 occ:goshuui-391-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-391 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-391-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-391 ;
@@ -372957,7 +372957,7 @@ occ:goshuui-392-2 a waka:TokenOccurrence ;
 occ:goshuui-392-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-392 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-392-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-392 ;
@@ -373494,7 +373494,7 @@ occ:goshuui-398-8 a waka:TokenOccurrence ;
 occ:goshuui-398-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-398 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-398-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-398 ;
@@ -375318,7 +375318,7 @@ occ:goshuui-420-2 a waka:TokenOccurrence ;
 occ:goshuui-420-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-420 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-420-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-420 ;
@@ -375487,7 +375487,7 @@ occ:goshuui-422-2 a waka:TokenOccurrence ;
 occ:goshuui-422-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-422 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-422-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-422 ;
@@ -376347,7 +376347,7 @@ occ:goshuui-432-2 a waka:TokenOccurrence ;
 occ:goshuui-432-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-432 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-432-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-432 ;
@@ -376593,7 +376593,7 @@ occ:goshuui-435-2 a waka:TokenOccurrence ;
 occ:goshuui-435-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-435 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-435-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-435 ;
@@ -377766,7 +377766,7 @@ occ:goshuui-449-2 a waka:TokenOccurrence ;
 occ:goshuui-449-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-449 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-449-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-449 ;
@@ -377848,7 +377848,7 @@ occ:goshuui-450-2 a waka:TokenOccurrence ;
 occ:goshuui-450-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-450 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-450-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-450 ;
@@ -378084,7 +378084,7 @@ occ:goshuui-453-2 a waka:TokenOccurrence ;
 occ:goshuui-453-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-453 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-453-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-453 ;
@@ -378621,7 +378621,7 @@ occ:goshuui-459-9 a waka:TokenOccurrence ;
 occ:goshuui-459-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-459 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-459-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-459 ;
@@ -379222,7 +379222,7 @@ wakaid:goshuui-467 waka:hasOccurrence occ:goshuui-467-1, occ:goshuui-467-2, occ:
 occ:goshuui-467-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-467 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-467-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-467 ;
@@ -379458,7 +379458,7 @@ occ:goshuui-470-2 a waka:TokenOccurrence ;
 occ:goshuui-470-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-470 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-470-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-470 ;
@@ -379478,7 +379478,7 @@ occ:goshuui-470-6 a waka:TokenOccurrence ;
 occ:goshuui-470-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-470 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-470-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-470 ;
@@ -385144,7 +385144,7 @@ occ:goshuui-538-12 a waka:TokenOccurrence ;
 occ:goshuui-538-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-538 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-538-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-538 ;
@@ -385328,7 +385328,7 @@ occ:goshuui-540-14 a waka:TokenOccurrence ;
 occ:goshuui-540-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-540 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-540-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-540 ;
@@ -385815,7 +385815,7 @@ occ:goshuui-546-8 a waka:TokenOccurrence ;
 occ:goshuui-546-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-546 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-546-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-546 ;
@@ -386839,7 +386839,7 @@ occ:goshuui-558-16 a waka:TokenOccurrence ;
 occ:goshuui-558-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-558 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-558-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-558 ;
@@ -387271,7 +387271,7 @@ occ:goshuui-564-4 a waka:TokenOccurrence ;
 occ:goshuui-564-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-564 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-564-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-564 ;
@@ -387465,7 +387465,7 @@ occ:goshuui-566-5 a waka:TokenOccurrence ;
 occ:goshuui-566-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-566 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-566-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-566 ;
@@ -388263,7 +388263,7 @@ occ:goshuui-575-4 a waka:TokenOccurrence ;
 occ:goshuui-575-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-575 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-575-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-575 ;
@@ -388457,7 +388457,7 @@ occ:goshuui-577-4 a waka:TokenOccurrence ;
 occ:goshuui-577-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-577 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-577-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-577 ;
@@ -388661,7 +388661,7 @@ occ:goshuui-579-12 a waka:TokenOccurrence ;
 occ:goshuui-579-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-579 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-579-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-579 ;
@@ -391509,7 +391509,7 @@ occ:goshuui-613-4 a waka:TokenOccurrence ;
 occ:goshuui-613-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-613 ;
     waka:position 5 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-613-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-613 ;
@@ -391616,7 +391616,7 @@ occ:goshuui-614-6 a waka:TokenOccurrence ;
 occ:goshuui-614-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-614 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-614-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-614 ;
@@ -394263,7 +394263,7 @@ occ:goshuui-645-14 a waka:TokenOccurrence ;
 occ:goshuui-645-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-645 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-645-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-645 ;
@@ -394524,7 +394524,7 @@ occ:goshuui-648-10 a waka:TokenOccurrence ;
 occ:goshuui-648-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-648 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-648-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-648 ;
@@ -394944,7 +394944,7 @@ occ:goshuui-653-9 a waka:TokenOccurrence ;
 occ:goshuui-653-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-653 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-653-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-653 ;
@@ -395995,7 +395995,7 @@ wakaid:goshuui-666 waka:hasOccurrence occ:goshuui-666-1, occ:goshuui-666-2, occ:
 occ:goshuui-666-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-666 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-666-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-666 ;
@@ -396184,7 +396184,7 @@ occ:goshuui-668-9 a waka:TokenOccurrence ;
 occ:goshuui-668-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-668 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-668-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-668 ;
@@ -396815,7 +396815,7 @@ occ:goshuui-676-7 a waka:TokenOccurrence ;
 occ:goshuui-676-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-676 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-676-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-676 ;
@@ -398212,7 +398212,7 @@ occ:goshuui-692-7 a waka:TokenOccurrence ;
 occ:goshuui-692-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-692 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-692-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-692 ;
@@ -398545,7 +398545,7 @@ occ:goshuui-696-14 a waka:TokenOccurrence ;
 occ:goshuui-696-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-696 ;
     waka:position 15 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-696-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-696 ;
@@ -398714,7 +398714,7 @@ occ:goshuui-698-10 a waka:TokenOccurrence ;
 occ:goshuui-698-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-698 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-698-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-698 ;
@@ -401850,7 +401850,7 @@ occ:goshuui-736-9 a waka:TokenOccurrence ;
 occ:goshuui-736-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-736 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-736-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-736 ;
@@ -402655,7 +402655,7 @@ occ:goshuui-746-1 a waka:TokenOccurrence ;
 occ:goshuui-746-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-746 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-746-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-746 ;
@@ -403945,7 +403945,7 @@ occ:goshuui-761-8 a waka:TokenOccurrence ;
 occ:goshuui-761-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-761 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-761-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-761 ;
@@ -404099,7 +404099,7 @@ occ:goshuui-763-5 a waka:TokenOccurrence ;
 occ:goshuui-763-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-763 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-763-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-763 ;
@@ -405638,7 +405638,7 @@ occ:goshuui-780-10 a waka:TokenOccurrence ;
 occ:goshuui-780-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-780 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-780-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-780 ;
@@ -406955,7 +406955,7 @@ occ:goshuui-796-10 a waka:TokenOccurrence ;
 occ:goshuui-796-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-796 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-796-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-796 ;
@@ -408881,7 +408881,7 @@ occ:goshuui-819-8 a waka:TokenOccurrence ;
 occ:goshuui-819-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-819 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-819-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-819 ;
@@ -409960,7 +409960,7 @@ occ:goshuui-831-6 a waka:TokenOccurrence ;
 occ:goshuui-831-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-831 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-831-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-831 ;
@@ -410770,7 +410770,7 @@ occ:goshuui-841-5 a waka:TokenOccurrence ;
 occ:goshuui-841-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-841 ;
     waka:position 6 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-841-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-841 ;
@@ -411712,7 +411712,7 @@ occ:goshuui-852-11 a waka:TokenOccurrence ;
 occ:goshuui-852-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-852 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-852-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-852 ;
@@ -412408,7 +412408,7 @@ occ:goshuui-860-6 a waka:TokenOccurrence ;
 occ:goshuui-860-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-860 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-860-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-860 ;
@@ -412654,7 +412654,7 @@ occ:goshuui-863-6 a waka:TokenOccurrence ;
 occ:goshuui-863-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-863 ;
     waka:position 7 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-863-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-863 ;
@@ -412940,7 +412940,7 @@ occ:goshuui-866-10 a waka:TokenOccurrence ;
 occ:goshuui-866-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-866 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-866-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-866 ;
@@ -413047,7 +413047,7 @@ occ:goshuui-867-13 a waka:TokenOccurrence ;
 occ:goshuui-867-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-867 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-867-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-867 ;
@@ -413104,7 +413104,7 @@ occ:goshuui-868-3 a waka:TokenOccurrence ;
 occ:goshuui-868-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-868 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-868-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-868 ;
@@ -413258,7 +413258,7 @@ occ:goshuui-870-1 a waka:TokenOccurrence ;
 occ:goshuui-870-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-870 ;
     waka:position 2 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-870-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-870 ;
@@ -416345,7 +416345,7 @@ occ:goshuui-906-8 a waka:TokenOccurrence ;
 occ:goshuui-906-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-906 ;
     waka:position 9 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-906-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-906 ;
@@ -416636,7 +416636,7 @@ occ:goshuui-909-12 a waka:TokenOccurrence ;
 occ:goshuui-909-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-909 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-909-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-909 ;
@@ -417250,7 +417250,7 @@ occ:goshuui-916-17 a waka:TokenOccurrence ;
 occ:goshuui-916-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-916 ;
     waka:position 18 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-916-19 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-916 ;
@@ -417608,7 +417608,7 @@ occ:goshuui-920-15 a waka:TokenOccurrence ;
 occ:goshuui-920-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-920 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-920-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-920 ;
@@ -418289,7 +418289,7 @@ occ:goshuui-928-12 a waka:TokenOccurrence ;
 occ:goshuui-928-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-928 ;
     waka:position 13 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-928-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-928 ;
@@ -418483,7 +418483,7 @@ occ:goshuui-930-15 a waka:TokenOccurrence ;
 occ:goshuui-930-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-930 ;
     waka:position 16 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-930-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-930 ;
@@ -419096,7 +419096,7 @@ wakaid:goshuui-939 waka:hasOccurrence occ:goshuui-939-1, occ:goshuui-939-2, occ:
 occ:goshuui-939-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-939 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-939-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-939 ;
@@ -420053,7 +420053,7 @@ occ:goshuui-950-9 a waka:TokenOccurrence ;
 occ:goshuui-950-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-950 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-950-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-950 ;
@@ -421572,7 +421572,7 @@ occ:goshuui-967-10 a waka:TokenOccurrence ;
 occ:goshuui-967-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-967 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-967-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-967 ;
@@ -424082,7 +424082,7 @@ occ:goshuui-997-9 a waka:TokenOccurrence ;
 occ:goshuui-997-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-997 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-997-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-997 ;
@@ -424952,7 +424952,7 @@ occ:goshuui-1007-13 a waka:TokenOccurrence ;
 occ:goshuui-1007-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1007 ;
     waka:position 14 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1007-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1007 ;
@@ -426801,7 +426801,7 @@ wakaid:goshuui-1029 waka:hasOccurrence occ:goshuui-1029-1, occ:goshuui-1029-2, o
 occ:goshuui-1029-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1029 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1029-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1029 ;
@@ -426943,7 +426943,7 @@ occ:goshuui-1030-9 a waka:TokenOccurrence ;
 occ:goshuui-1030-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1030 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1030-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1030 ;
@@ -428382,7 +428382,7 @@ occ:goshuui-1047-16 a waka:TokenOccurrence ;
 occ:goshuui-1047-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1047 ;
     waka:position 17 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1047-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1047 ;
@@ -428439,7 +428439,7 @@ occ:goshuui-1048-9 a waka:TokenOccurrence ;
 occ:goshuui-1048-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1048 ;
     waka:position 10 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1048-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1048 ;
@@ -429995,7 +429995,7 @@ occ:goshuui-1066-11 a waka:TokenOccurrence ;
 occ:goshuui-1066-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1066 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1066-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1066 ;
@@ -431175,7 +431175,7 @@ occ:goshuui-1081-2 a waka:TokenOccurrence ;
 occ:goshuui-1081-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1081 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-1081-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1081 ;
@@ -431978,7 +431978,7 @@ occ:goshuui-1090-10 a waka:TokenOccurrence ;
 occ:goshuui-1090-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1090 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-1090-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1090 ;
@@ -432055,7 +432055,7 @@ occ:goshuui-1091-7 a waka:TokenOccurrence ;
 occ:goshuui-1091-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1091 ;
     waka:position 8 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-1091-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1091 ;
@@ -433603,7 +433603,7 @@ occ:goshuui-1110-3 a waka:TokenOccurrence ;
 occ:goshuui-1110-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1110 ;
     waka:position 4 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1110-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1110 ;
@@ -434289,7 +434289,7 @@ wakaid:goshuui-1118 waka:hasOccurrence occ:goshuui-1118-1, occ:goshuui-1118-2, o
 occ:goshuui-1118-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1118 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1118-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1118 ;
@@ -434888,7 +434888,7 @@ occ:goshuui-1125-10 a waka:TokenOccurrence ;
 occ:goshuui-1125-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1125 ;
     waka:position 11 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-1125-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1125 ;
@@ -439572,7 +439572,7 @@ wakaid:goshuui-1182 waka:hasOccurrence occ:goshuui-1182-1, occ:goshuui-1182-2, o
 occ:goshuui-1182-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1182 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1182-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1182 ;
@@ -440278,7 +440278,7 @@ occ:goshuui-1190-11 a waka:TokenOccurrence ;
 occ:goshuui-1190-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1190 ;
     waka:position 12 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1190-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1190 ;
@@ -440745,7 +440745,7 @@ wakaid:goshuui-1196 waka:hasOccurrence occ:goshuui-1196-1, occ:goshuui-1196-2, o
 occ:goshuui-1196-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1196 ;
     waka:position 1 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【世・代】 .
 
 occ:goshuui-1196-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1196 ;
@@ -441384,7 +441384,7 @@ occ:goshuui-1203-2 a waka:TokenOccurrence ;
 occ:goshuui-1203-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1203 ;
     waka:position 3 ;
-    waka:instantiates lex:よ【世・代・夜】 .
+    waka:instantiates lex:よ【夜】 .
 
 occ:goshuui-1203-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-1203 ;

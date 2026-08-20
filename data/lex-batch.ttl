@@ -1166,7 +1166,7 @@ lex:あまま【雨間】 a ontolex:LexicalEntry ;
 
 lex:あまよ【雨夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "あまよ"@ja-Hira, "雨夜"@ja ] ;
-    decomp:subterm lex:あめ【雨】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:あめ【雨】, lex:よ【夜】 ;
     ontolex:sense lex:雨夜-BG-01-1635-05-4900 .
 
 lex:あまりなり【余りなり】 a ontolex:LexicalEntry ;
@@ -1774,7 +1774,7 @@ lex:いくへ【幾重】 a ontolex:LexicalEntry ;
 
 lex:いくよ【幾世・幾代】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "いくよ"@ja-Hira, "幾世"@ja, "幾代"@ja ] ;
-    decomp:subterm lex:いく【幾】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:いく【幾】, lex:よ【世・代】 ;
     ontolex:sense lex:幾世-BG-01-1950-07-0900, lex:幾代-BG-01-1950-07-0901 .
 
 lex:いくよ【幾夜】 a ontolex:LexicalEntry ;
@@ -3284,7 +3284,7 @@ lex:うのはなづくよ【卯の花月夜】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:つき【月】 .
 
 lex:うのはなづくよ【卯の花月夜】-decomp-1-c3 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:うのはなづくよ【卯の花月夜】-decomp-2 a rdf:Seq ;
     decomp:constituent lex:うのはなづくよ【卯の花月夜】-decomp-2-c1, lex:うのはなづくよ【卯の花月夜】-decomp-2-c2 ;
@@ -3337,7 +3337,7 @@ lex:うのはなづくよ【卯の花月夜】-decomp-4-c4 a decomp:Component ;
     decomp:correspondsTo lex:つき【月】 .
 
 lex:うのはなづくよ【卯の花月夜】-decomp-4-c5 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:うはかぜ【上風】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "うはかぜ"@ja-Hira, "上風"@ja ] ;
@@ -4116,7 +4116,7 @@ lex:おぼろづきよ【朧月夜】-decomp-2-c2 a decomp:Component ;
     decomp:correspondsTo lex:つき【月】 .
 
 lex:おぼろづきよ【朧月夜】-decomp-2-c3 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:おぼろなり\*【朧なり】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "おぼろなり"@ja-Hira, "朧なり"@ja ] ;
@@ -7712,7 +7712,7 @@ lex:さや【佐夜】 a ontolex:LexicalEntry ;
 
 lex:さや【小夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さや"@ja-Hira, "小夜"@ja ] ;
-    decomp:subterm lex:さ\*【小】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:さ\*【小】, lex:よ【夜】 ;
     ontolex:sense lex:小夜-BG-01-1635-05-2800 .
 
 lex:さやかた【佐屋形】 a ontolex:LexicalEntry ;
@@ -7781,7 +7781,7 @@ lex:さゆりば【小百合葉】-decomp-2-c3 a decomp:Component ;
 
 lex:さよ【小夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "さよ"@ja-Hira, "小夜"@ja ] ;
-    decomp:subterm lex:さ\*【小】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:さ\*【小】, lex:よ【夜】 ;
     ontolex:sense lex:小夜-BG-01-1635-05-2801 .
 
 lex:さよごろも【小夜衣】 a ontolex:LexicalEntry ;
@@ -7818,7 +7818,7 @@ lex:さよちどり【小夜千鳥】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよちどり【小夜千鳥】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:さよちどり【小夜千鳥】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:ちどり【千鳥】 .
@@ -7849,7 +7849,7 @@ lex:さよちどり【小夜千鳥】-decomp-4-c1 a decomp:Component ;
     decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよちどり【小夜千鳥】-decomp-4-c2 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:さよちどり【小夜千鳥】-decomp-4-c3 a decomp:Component ;
     decomp:correspondsTo lex:ち【千】 .
@@ -7872,7 +7872,7 @@ lex:さよなか【小夜中】-decomp-1-c1 a decomp:Component ;
     decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよなか【小夜中】-decomp-1-c2 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:さよなか【小夜中】-decomp-1-c3 a decomp:Component ;
     decomp:correspondsTo lex:なか【中】 .
@@ -7914,7 +7914,7 @@ lex:さよまくら【小夜枕】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:さ\*【小】 .
 
 lex:さよまくら【小夜枕】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:さよまくら【小夜枕】-decomp-2-c3 a decomp:Component ;
     decomp:correspondsTo lex:まくら【枕】 .
@@ -8700,7 +8700,7 @@ lex:しもと【細枝】 a ontolex:LexicalEntry ;
 
 lex:しもよ【しも夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "しもよ"@ja-Hira, "しも夜"@ja ] ;
-    decomp:subterm lex:しも【霜】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:しも【霜】, lex:よ【夜】 ;
     ontolex:sense lex:しも夜-BG-01-1635-05-4100 .
 
 lex:しらあわ【白泡】 a ontolex:LexicalEntry ;
@@ -10726,12 +10726,12 @@ lex:ちまた【巷】 a ontolex:LexicalEntry ;
 
 lex:ちよ【千世・千代】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千世"@ja, "千代"@ja ] ;
-    decomp:subterm lex:ち【千】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:ち【千】, lex:よ【世・代】 ;
     ontolex:sense lex:千世-BG-01-1642-04-1001, lex:千代-BG-01-1621-01-0800, lex:千代-BG-01-1642-04-1001 .
 
 lex:ちよ【千夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ちよ"@ja-Hira, "千夜"@ja ] ;
-    decomp:subterm lex:ち【千】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:ち【千】, lex:よ【夜】 ;
     ontolex:sense lex:千夜-BG-01-1613-03-2000 .
 
 lex:ちよく【勅】 a ontolex:LexicalEntry ;
@@ -10824,7 +10824,7 @@ lex:つきひ【月日】 a ontolex:LexicalEntry ;
 
 lex:つきよ【月夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "つきよ"@ja-Hira, "月夜"@ja ] ;
-    decomp:subterm lex:つき【月】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:つき【月】, lex:よ【夜】 ;
     ontolex:sense lex:月夜-BG-01-1635-05-1700 .
 
 lex:つきよみ【月夜見】 a ontolex:LexicalEntry ;
@@ -14253,7 +14253,7 @@ lex:ひともと【一本】 a ontolex:LexicalEntry ;
 
 lex:ひとよ【一夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ひとよ"@ja-Hira, "一夜"@ja ] ;
-    decomp:subterm lex:ひと【一】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:ひと【一】, lex:よ【夜】 ;
     ontolex:sense lex:一夜-BG-01-1635-05-3300 .
 
 lex:ひとり【一人】 a ontolex:LexicalEntry ;
@@ -16061,7 +16061,7 @@ lex:みじかし【短かし・短し】 a ontolex:LexicalEntry ;
 
 lex:みじかよ【短夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みじかよ"@ja-Hira, "短夜"@ja ] ;
-    decomp:subterm lex:みじかし【短かし・短し】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:みじかし【短かし・短し】, lex:よ【夜】 ;
     ontolex:sense lex:短夜-BG-01-1635-05-3101 .
 
 lex:みす【見す】 a ontolex:LexicalEntry ;
@@ -16206,12 +16206,12 @@ lex:みちゆきぶり【道行振り】 a ontolex:LexicalEntry ;
 
 lex:みちよ【三千代】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みちよ"@ja-Hira, "三千代"@ja ] ;
-    decomp:subterm lex:ち【千】, lex:み【三】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:ち【千】, lex:み【三】, lex:よ【世・代】 ;
     ontolex:sense lex:三千代-BG-01-1621-01-1500 .
 
 lex:みぢかよ【短夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みぢかよ"@ja-Hira, "短夜"@ja ] ;
-    decomp:subterm lex:みじかし【短かし・短し】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:みじかし【短かし・短し】, lex:よ【夜】 ;
     ontolex:sense lex:短夜-BG-01-1635-05-3102 .
 
 lex:みつ【三・三つ】 a ontolex:LexicalEntry ;
@@ -16813,17 +16813,17 @@ lex:みょうが【冥加】 a ontolex:LexicalEntry ;
 
 lex:みよ【三世・三代】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三世"@ja, "三代"@ja ] ;
-    decomp:subterm lex:み【三】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:み【三】, lex:よ【世・代】 ;
     ontolex:sense lex:三世-BG-01-2610-01-1400, lex:三代-BG-01-2610-01-1500 .
 
 lex:みよ【御世・御代】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "御世"@ja, "御代"@ja ] ;
-    decomp:subterm lex:み\*【御】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:み\*【御】, lex:よ【世・代】 ;
     ontolex:sense lex:御世-BG-01-1623-05-0300, lex:御代-BG-01-1623-05-0300 .
 
 lex:みよ【三夜】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "みよ"@ja-Hira, "三夜"@ja ] ;
-    decomp:subterm lex:み【三】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:み【三】, lex:よ【夜】 ;
     ontolex:sense lex:三夜-BG-01-1635-05-4800 .
 
 lex:みよしの【吉野】 a ontolex:LexicalEntry ;
@@ -18089,7 +18089,7 @@ lex:やちよ【八千代】-decomp-1-c2 a decomp:Component ;
     decomp:correspondsTo lex:ち【千】 .
 
 lex:やちよ【八千代】-decomp-1-c3 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【世・代】 .
 
 lex:やちよ【八千代】-decomp-2 a rdf:Seq ;
     decomp:constituent lex:やちよ【八千代】-decomp-2-c1, lex:やちよ【八千代】-decomp-2-c2 ;
@@ -18100,7 +18100,7 @@ lex:やちよ【八千代】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:やち【八千】 .
 
 lex:やちよ【八千代】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【世・代】 .
 
 lex:やつかほ【八束穂】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "やつかほ"@ja-Hira, "八束穂"@ja ] ;
@@ -18974,7 +18974,7 @@ lex:ゆふづくよ【夕月夜】-decomp-2-c1 a decomp:Component ;
     decomp:correspondsTo lex:ゆふづき【夕月】 .
 
 lex:ゆふづくよ【夕月夜】-decomp-2-c2 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:ゆふづくよ【夕月夜】-decomp-3 a rdf:Seq ;
     decomp:constituent lex:ゆふづくよ【夕月夜】-decomp-3-c1, lex:ゆふづくよ【夕月夜】-decomp-3-c2, lex:ゆふづくよ【夕月夜】-decomp-3-c3 ;
@@ -18989,7 +18989,7 @@ lex:ゆふづくよ【夕月夜】-decomp-3-c2 a decomp:Component ;
     decomp:correspondsTo lex:つき【月】 .
 
 lex:ゆふづくよ【夕月夜】-decomp-3-c3 a decomp:Component ;
-    decomp:correspondsTo lex:よ【世・代・夜】 .
+    decomp:correspondsTo lex:よ【夜】 .
 
 lex:ゆふなぎ【夕凪】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "ゆふなぎ"@ja-Hira, "夕凪"@ja ] ;
@@ -19121,9 +19121,13 @@ lex:よ【世】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "世"@ja ] ;
     ontolex:sense lex:世-BG-01-2600-01-0900, lex:世-BG-01-2610-01-0400 .
 
-lex:よ【世・代・夜】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "世"@ja, "代"@ja, "夜"@ja ] ;
-    ontolex:sense lex:世-BG-01-1623-05-0100, lex:代-BG-01-1623-05-0100, lex:夜-BG-01-1635-05-0500 .
+lex:よ【世・代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "世"@ja, "代"@ja ] ;
+    ontolex:sense lex:世-BG-01-1623-05-0100, lex:代-BG-01-1623-05-0100 .
+
+lex:よ【夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "夜"@ja ] ;
+    ontolex:sense lex:夜-BG-01-1635-05-0500 .
 
 lex:よ【節】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "節"@ja ] ;
@@ -19131,7 +19135,7 @@ lex:よ【節】 a ontolex:LexicalEntry ;
 
 lex:よかぜ【夜風】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よかぜ"@ja-Hira, "夜風"@ja ] ;
-    decomp:subterm lex:かぜ【風】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:かぜ【風】, lex:よ【夜】 ;
     ontolex:sense lex:夜風-BG-01-5151-07-0300 .
 
 lex:よかは【横河】 a ontolex:LexicalEntry ;
@@ -19266,7 +19270,7 @@ lex:よどこ【夜床】 a ontolex:LexicalEntry ;
 
 lex:よどこね【夜床寝】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よどこね"@ja-Hira, "夜床寝"@ja ] ;
-    decomp:subterm lex:とこ【床】, lex:ぬ【寝】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:とこ【床】, lex:ぬ【寝】, lex:よ【夜】 ;
     ontolex:sense lex:夜床寝-BG-01-3331-11-1800 .
 
 lex:よどの【夜殿】 a ontolex:LexicalEntry ;
@@ -19283,7 +19287,7 @@ lex:よどむ【淀む】 a ontolex:LexicalEntry ;
 
 lex:よなよな【夜な夜な】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よなよな"@ja-Hira, "夜な夜な"@ja ] ;
-    decomp:subterm lex:よ【世・代・夜】 ;
+    decomp:subterm lex:よ【夜】 ;
     ontolex:sense lex:夜な夜な-BG-01-1613-03-0801 .
 
 lex:よに【世に】 a ontolex:LexicalEntry ;
@@ -19327,7 +19331,7 @@ lex:よふ【酔ふ】 a ontolex:LexicalEntry ;
 
 lex:よふね【夜舟・夜船】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "よふね"@ja-Hira, "夜舟"@ja, "夜船"@ja ] ;
-    decomp:subterm lex:ふね【舟・船】, lex:よ【世・代・夜】 ;
+    decomp:subterm lex:ふね【舟・船】, lex:よ【夜】 ;
     ontolex:sense lex:夜舟-BG-01-4660-01-0901, lex:夜船-BG-01-4660-01-0902 .
 
 lex:よぶ【呼ぶ】 a ontolex:LexicalEntry ;
@@ -21833,7 +21837,7 @@ lex:且且-BG-03-1992-03-0101 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-03-1992 .
 
 lex:世-BG-01-1623-05-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:よ【世・代・夜】 ;
+    ontolex:isSenseOf lex:よ【世・代】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1623 .
 
@@ -22621,7 +22625,7 @@ lex:代-BG-01-1040-03-0802 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-1040 .
 
 lex:代-BG-01-1623-05-0100 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:よ【世・代・夜】 ;
+    ontolex:isSenseOf lex:よ【世・代】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1623 .
 
@@ -25938,7 +25942,7 @@ lex:夜-BG-01-1635-05-0400 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-01-1635 .
 
 lex:夜-BG-01-1635-05-0500 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:よ【世・代・夜】 ;
+    ontolex:isSenseOf lex:よ【夜】 ;
     lexinfo:partOfSpeech lexinfo:commonNoun ;
     ontolex:reference concept:BG-01-1635 .
 

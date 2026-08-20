@@ -1,54 +1,79 @@
-## PATCH: よ【世・代・夜】split -- 排最后做，先记录依赖清单
+## PATCH: よ【世・代・夜】split -- 世・代(世代) vs 夜 分开
 
-拆よ本身牵涉面最广（比ちよ/みよ大得多），且前面几个patch
-(patch-chiyo.txt / patch-miyo.txt) 里新拆出来的entry目前都还是
-"decomp:subterm继续指向现有的よ【世・代・夜】不变"——也就是说，
-它们本身也在依赖名单里，等真正要拆よ的时候，这些新entry的
-decomp:subterm/correspondsTo也要跟着一起改。这个patch暂不含
-方案本身（不确定要不要拆、怎么拆——世/代 vs 夜？还是别的分法？），
-先把当前依赖よ【世・代・夜】的完整清单记录下来，供以后处理时核对。
+底本核实(限4部)：よ读音直接标注的token共728个。世(362)/代(94)候选
+都是BG-01-1623(時代)，夜(237)候选是BG-01-1635(時間帯)；世另有
+BG-01-2600/2610("社会"类)候选但现有entry从未用过这两个码，这次
+不处理这层细分(按讨论，只按底本汉字世/代 vs 夜 二分，不细分世内部
+的社会义)。另外よ(假名,33，像是BG-08开头的语法助词/终助词)和節(2，
+已经是独立的よ【節】entry)不在这次处理范围内。
 
-### 当前(执行其它patch之前)引用よ【世・代・夜】的复合词清单
+现有 lex:よ【世・代・夜】 只有3个sense(世-1623/代-1623/夜-1635)，
+直接标注的occurrence有464处；已逐条核对，464处跟底本完全对应
+(夜237全部对上、世220、代7)，无一处不一致。底本里另外229个世/代
+token(362+94-227=229)不在这464处里，应该是被其它复合词捕获或者
+确实缺失，这次不处理(不在讨论范围内，只处理现有464处怎么拆)。
 
-简单decomp:subterm机制(15个)：
-  あまよ【雨夜】
-  いくよ【幾世・幾代】
-  さや【小夜】
-  さよ【小夜】
-  しもよ【しも夜】
-  ちよ【千世・千代・千夜】  -- patch-chiyo.txt执行后entry会被拆掉，
-    届时要看新的ちよ【千世・千代】/ちよ【千夜】各自的decomp:subterm
-  つきよ【月夜】
-  ひとよ【一夜】
-  みじかよ【短夜】
-  みちよ【三千代】
-  みぢかよ【短夜】
-  よかぜ【夜風】
-  よどこね【夜床寝】
-  よなよな【夜な夜な】
-  よふね【夜舟・夜船】
+### lex-batch.ttl -- entry拆成两个
 
-waka:parallelDecomp机制(11处，跨9个复合词)：
-  うのはなづくよ【卯の花月夜】 (方案1、方案4)
-  おぼろづきよ【朧月夜】 (方案2)
-  さよちどり【小夜千鳥】 (方案2、方案4)
-  さよなか【小夜中】 (方案1)
-  さよまくら【小夜枕】 (方案2)
-  やちよ【八千代】 (方案1、方案2)  -- 第二批已处理过的entry，
-    decomp:subterm现在就是や+ち+よ / やち+よ，两个方案都用到よ
-  ゆふづくよ【夕月夜】 (方案2、方案3)
+OLD:
+lex:よ【世・代・夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "世"@ja, "代"@ja, "夜"@ja ] ;
+    ontolex:sense lex:世-BG-01-1623-05-0100, lex:代-BG-01-1623-05-0100, lex:夜-BG-01-1635-05-0500 .
 
-### 另外会追加的依赖（patch-chiyo.txt / patch-miyo.txt 执行后）
+NEW:
+lex:よ【世・代】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "世"@ja, "代"@ja ] ;
+    ontolex:sense lex:世-BG-01-1623-05-0100, lex:代-BG-01-1623-05-0100 .
 
-  ちよ【千世・千代】、ちよ【千夜】（decomp:subterm都继续指向
-    よ【世・代・夜】，见patch-chiyo.txt）
-  みよ【御世・御代】、みよ【三夜】、みよ【三世・三代】（decomp:subterm
-    都继续指向よ【世・代・夜】，见patch-miyo.txt）
+lex:よ【夜】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "よ"@ja-Hira, "夜"@ja ] ;
+    ontolex:sense lex:夜-BG-01-1635-05-0500 .
 
-### 尚未查的部分
+-- 3个sense(世-1623/代-1623/夜-1635)各自的isSenseOf都要同步改指到
+   对应的新entry，无孤立sense需要删除(全部复用)。
 
-よ本身作为直接被occurrence标注的读音（不是作为复合词的decomp
-成分），底本里有多少个token、怎么分布，这次还没有查，真正要拆よ
-之前需要单独做一次跟いぬ/さす/しのぶ/ちよ/みよ一样的底本核对。
+### occurrence-batch.ttl -- 464处直接标注(不含下面复合词部分)
 
-### 状态：暂缓 -- 排在其它5个patch之后最后处理
+227处 waka:instantiates 从 lex:よ【世・代・夜】 改成 lex:よ【世・代】：
+  occ:kokin-73-3, occ:kokin-98-4, occ:kokin-113-13, occ:kokin-308-13, occ:kokin-430-13, occ:kokin-443-10, occ:kokin-513-13, occ:kokin-520-3, occ:kokin-573-1, occ:kokin-631-15, occ:kokin-669-11, occ:kokin-687-7, occ:kokin-712-4, occ:kokin-716-3, occ:kokin-750-15, occ:kokin-753-17, occ:kokin-798-4, occ:kokin-806-16, occ:kokin-807-17, occ:kokin-830-12, occ:kokin-833-14, occ:kokin-835-15, occ:kokin-907-7, occ:kokin-908-4, occ:kokin-922-9, occ:kokin-924-12, occ:kokin-929-10, occ:kokin-931-11, occ:kokin-944-9, occ:kokin-945-13, occ:kokin-947-4, occ:kokin-950-9, occ:kokin-951-1, occ:kokin-952-11, occ:kokin-955-1, occ:kokin-956-1, occ:kokin-957-11, occ:kokin-958-1, occ:kokin-963-18, occ:kokin-964-2, occ:kokin-981-6, occ:kokin-983-11, occ:kokin-1002-91, occ:kokin-1003-44, occ:kokin-1004-3, occ:kokin-1068-1, occ:kokin-1085-3, occ:gosen-74-3, occ:gosen-95-5, occ:gosen-195-12, occ:gosen-202-14, occ:gosen-250-8, occ:gosen-315-11, occ:gosen-389-15, occ:gosen-520-1, occ:gosen-527-14, occ:gosen-528-9, occ:gosen-607-12, occ:gosen-615-5, occ:gosen-617-1, occ:gosen-638-9, occ:gosen-647-8, occ:gosen-669-1, occ:gosen-708-16, occ:gosen-749-18, occ:gosen-754-9, occ:gosen-761-1, occ:gosen-830-14, occ:gosen-831-1, occ:gosen-904-13, occ:gosen-905-6, occ:gosen-906-9, occ:gosen-907-8, occ:gosen-920-8, occ:gosen-926-9, occ:gosen-937-18, occ:gosen-991-8, occ:gosen-996-2, occ:gosen-997-7, occ:gosen-1036-11, occ:gosen-1079-1, occ:gosen-1088-10, occ:gosen-1090-12, occ:gosen-1101-15, occ:gosen-1115-4, occ:gosen-1173-8, occ:gosen-1174-2, occ:gosen-1175-14, occ:gosen-1189-10, occ:gosen-1191-18, occ:gosen-1196-1, occ:gosen-1202-1, occ:gosen-1232-11, occ:gosen-1239-14, occ:gosen-1244-14, occ:gosen-1272-11, occ:gosen-1319-13, occ:gosen-1344-3, occ:gosen-1344-15, occ:gosen-1350-8, occ:gosen-1370-9, occ:gosen-1375-17, occ:gosen-1383-12, occ:gosen-1389-3, occ:gosen-1394-2, occ:gosen-1398-3, occ:gosen-1410-8, occ:gosen-1419-8, occ:shuui-75-17, occ:shuui-235-16, occ:shuui-275-11, occ:shuui-277-3, occ:shuui-291-8, occ:shuui-297-11, occ:shuui-299-3, occ:shuui-309-3, occ:shuui-336-14, occ:shuui-423-1, occ:shuui-432-1, occ:shuui-434-12, occ:shuui-436-12, occ:shuui-463-2, occ:shuui-464-1, occ:shuui-480-11, occ:shuui-481-2, occ:shuui-495-1, occ:shuui-500-6, occ:shuui-504-2, occ:shuui-538-8, occ:shuui-561-11, occ:shuui-571-156, occ:shuui-572-55, occ:shuui-572-146, occ:shuui-573-94, occ:shuui-573-145, occ:shuui-574-103, occ:shuui-576-9, occ:shuui-598-3, occ:shuui-600-7, occ:shuui-601-13, occ:shuui-606-9, occ:shuui-701-12, occ:shuui-734-19, occ:shuui-755-15, occ:shuui-891-1, occ:shuui-920-8, occ:shuui-925-3, occ:shuui-927-17, occ:shuui-941-10, occ:shuui-953-12, occ:shuui-995-14, occ:shuui-1026-3, occ:shuui-1033-11, occ:shuui-1087-1, occ:shuui-1092-9, occ:shuui-1098-14, occ:shuui-1122-3, occ:shuui-1165-11, occ:shuui-1174-3, occ:shuui-1210-10, occ:shuui-1215-7, occ:shuui-1222-15, occ:shuui-1248-10, occ:shuui-1254-1, occ:shuui-1271-3, occ:shuui-1281-13, occ:shuui-1290-7, occ:shuui-1298-12, occ:shuui-1300-3, occ:shuui-1304-7, occ:shuui-1305-6, occ:shuui-1306-2, occ:shuui-1320-13, occ:shuui-1322-15, occ:shuui-1323-5, occ:shuui-1330-2, occ:shuui-1333-13, occ:goshuui-31-3, occ:goshuui-130-7, occ:goshuui-133-1, occ:goshuui-142-13, occ:goshuui-264-3, occ:goshuui-432-3, occ:goshuui-435-3, occ:goshuui-449-3, occ:goshuui-450-3, occ:goshuui-453-3, occ:goshuui-459-10, occ:goshuui-467-1, occ:goshuui-470-3, occ:goshuui-470-7, occ:goshuui-538-13, occ:goshuui-540-15, occ:goshuui-546-9, occ:goshuui-558-17, occ:goshuui-564-5, occ:goshuui-566-6, occ:goshuui-579-13, occ:goshuui-613-5, occ:goshuui-645-15, occ:goshuui-653-10, occ:goshuui-692-8, occ:goshuui-696-15, occ:goshuui-746-2, occ:goshuui-761-9, occ:goshuui-763-6, occ:goshuui-780-11, occ:goshuui-819-9, occ:goshuui-831-7, occ:goshuui-852-12, occ:goshuui-860-7, occ:goshuui-866-11, occ:goshuui-868-4, occ:goshuui-916-18, occ:goshuui-928-13, occ:goshuui-930-16, occ:goshuui-1007-14, occ:goshuui-1029-1, occ:goshuui-1030-10, occ:goshuui-1047-17, occ:goshuui-1048-10, occ:goshuui-1066-12, occ:goshuui-1110-4, occ:goshuui-1118-1, occ:goshuui-1182-1, occ:goshuui-1190-12, occ:goshuui-1196-1
+
+237处 waka:instantiates 从 lex:よ【世・代・夜】 改成 lex:よ【夜】：
+  occ:kokin-41-3, occ:kokin-117-10, occ:kokin-153-8, occ:kokin-154-1, occ:kokin-156-3, occ:kokin-157-10, occ:kokin-160-12, occ:kokin-166-3, occ:kokin-176-5, occ:kokin-179-12, occ:kokin-189-12, occ:kokin-190-6, occ:kokin-191-14, occ:kokin-192-3, occ:kokin-195-3, occ:kokin-196-8, occ:kokin-197-3, occ:kokin-199-3, occ:kokin-211-1, occ:kokin-258-3, occ:kokin-281-10, occ:kokin-297-12, occ:kokin-369-10, occ:kokin-392-11, occ:kokin-416-1, occ:kokin-470-7, occ:kokin-516-12, occ:kokin-543-10, occ:kokin-554-8, occ:kokin-555-15, occ:kokin-575-10, occ:kokin-578-13, occ:kokin-582-16, occ:kokin-584-9, occ:kokin-596-11, occ:kokin-616-9, occ:kokin-621-3, occ:kokin-622-17, occ:kokin-635-3, occ:kokin-636-16, occ:kokin-642-11, occ:kokin-644-3, occ:kokin-655-13, occ:kokin-663-8, occ:kokin-692-3, occ:kokin-710-5, occ:kokin-761-12, occ:kokin-766-5, occ:kokin-864-5, occ:kokin-980-16, occ:kokin-993-3, occ:kokin-1002-59, occ:kokin-1015-17, occ:kokin-1048-10, occ:kokin-1071-19, occ:gosen-76-11, occ:gosen-157-14, occ:gosen-169-3, occ:gosen-170-9, occ:gosen-171-9, occ:gosen-172-9, occ:gosen-181-13, occ:gosen-188-3, occ:gosen-191-7, occ:gosen-206-3, occ:gosen-207-12, occ:gosen-210-7, occ:gosen-229-4, occ:gosen-230-5, occ:gosen-235-3, occ:gosen-247-3, occ:gosen-284-13, occ:gosen-290-3, occ:gosen-292-12, occ:gosen-296-3, occ:gosen-318-3, occ:gosen-320-3, occ:gosen-323-3, occ:gosen-326-8, occ:gosen-334-3, occ:gosen-340-9, occ:gosen-345-5, occ:gosen-353-17, occ:gosen-356-3, occ:gosen-373-10, occ:gosen-407-3, occ:gosen-424-9, occ:gosen-437-9, occ:gosen-442-3, occ:gosen-449-14, occ:gosen-456-12, occ:gosen-478-1, occ:gosen-481-10, occ:gosen-509-15, occ:gosen-538-15, occ:gosen-539-15, occ:gosen-581-8, occ:gosen-623-10, occ:gosen-814-4, occ:gosen-817-17, occ:gosen-842-10, occ:gosen-887-13, occ:gosen-895-13, occ:gosen-899-3, occ:gosen-900-9, occ:gosen-902-8, occ:gosen-914-14, occ:gosen-915-16, occ:gosen-1060-5, occ:gosen-1070-12, occ:gosen-1140-15, occ:gosen-1387-3, occ:shuui-29-11, occ:shuui-96-8, occ:shuui-105-9, occ:shuui-113-13, occ:shuui-118-9, occ:shuui-119-8, occ:shuui-121-3, occ:shuui-122-3, occ:shuui-126-13, occ:shuui-143-3, occ:shuui-145-12, occ:shuui-147-12, occ:shuui-151-8, occ:shuui-174-18, occ:shuui-208-3, occ:shuui-224-8, occ:shuui-226-1, occ:shuui-228-1, occ:shuui-230-9, occ:shuui-231-8, occ:shuui-233-11, occ:shuui-240-3, occ:shuui-242-13, occ:shuui-257-13, occ:shuui-347-14, occ:shuui-521-3, occ:shuui-522-1, occ:shuui-523-10, occ:shuui-649-4, occ:shuui-674-12, occ:shuui-718-15, occ:shuui-727-8, occ:shuui-734-6, occ:shuui-735-15, occ:shuui-740-14, occ:shuui-774-9, occ:shuui-778-11, occ:shuui-785-3, occ:shuui-786-3, occ:shuui-796-11, occ:shuui-797-3, occ:shuui-798-12, occ:shuui-799-2, occ:shuui-800-12, occ:shuui-801-1, occ:shuui-803-11, occ:shuui-805-9, occ:shuui-808-14, occ:shuui-809-11, occ:shuui-819-13, occ:shuui-848-5, occ:shuui-912-5, occ:shuui-1091-16, occ:shuui-1106-12, occ:shuui-1107-18, occ:shuui-1119-1, occ:shuui-1151-12, occ:shuui-1195-17, occ:shuui-1255-9, occ:goshuui-52-3, occ:goshuui-59-9, occ:goshuui-98-5, occ:goshuui-189-1, occ:goshuui-190-3, occ:goshuui-191-3, occ:goshuui-193-3, occ:goshuui-193-6, occ:goshuui-199-2, occ:goshuui-201-10, occ:goshuui-202-3, occ:goshuui-202-6, occ:goshuui-203-16, occ:goshuui-222-3, occ:goshuui-223-16, occ:goshuui-224-3, occ:goshuui-230-3, occ:goshuui-239-8, occ:goshuui-243-3, occ:goshuui-244-4, occ:goshuui-249-10, occ:goshuui-250-3, occ:goshuui-251-15, occ:goshuui-253-16, occ:goshuui-256-10, occ:goshuui-257-15, occ:goshuui-258-9, occ:goshuui-259-13, occ:goshuui-263-17, occ:goshuui-295-15, occ:goshuui-337-3, occ:goshuui-338-9, occ:goshuui-368-3, occ:goshuui-382-14, occ:goshuui-382-19, occ:goshuui-391-18, occ:goshuui-392-3, occ:goshuui-398-9, occ:goshuui-420-3, occ:goshuui-422-3, occ:goshuui-575-5, occ:goshuui-577-5, occ:goshuui-614-7, occ:goshuui-648-11, occ:goshuui-666-1, occ:goshuui-668-10, occ:goshuui-676-8, occ:goshuui-698-11, occ:goshuui-736-10, occ:goshuui-796-11, occ:goshuui-841-6, occ:goshuui-863-7, occ:goshuui-867-14, occ:goshuui-870-2, occ:goshuui-906-9, occ:goshuui-909-13, occ:goshuui-920-16, occ:goshuui-939-1, occ:goshuui-950-10, occ:goshuui-967-11, occ:goshuui-997-10, occ:goshuui-1081-3, occ:goshuui-1090-11, occ:goshuui-1091-8, occ:goshuui-1125-11, occ:goshuui-1203-3
+
+### 复合词成分 -- 按复合词自身汉字含义分类归属(26个复合词，
+### 共30处decomp引用需要把よ【世・代・夜】改成よ【世・代】或よ【夜】)
+
+改成 lex:よ【世・代】(6个复合词，7处引用)：
+  いくよ【幾世・幾代】(简单机制)
+  ちよ【千世・千代】(简单机制)
+  みちよ【三千代】(简单机制)
+  みよ【三世・三代】(简单机制)
+  みよ【御世・御代】(简单机制)
+  やちよ【八千代】(parallelDecomp方案1、方案2，2处)
+
+改成 lex:よ【夜】(20个复合词，23处引用)：
+  あまよ【雨夜】(简单机制)
+  さや【小夜】(简单机制)
+  さよ【小夜】(简单机制)
+  しもよ【しも夜】(简单机制)
+  ちよ【千夜】(简单机制)
+  つきよ【月夜】(简单机制)
+  ひとよ【一夜】(简单机制)
+  みじかよ【短夜】(简单机制)
+  みぢかよ【短夜】(简单机制，异体字重复条目)
+  みよ【三夜】(简单机制)
+  よかぜ【夜風】(简单机制)
+  よどこね【夜床寝】(简单机制)
+  よなよな【夜な夜な】(简单机制)
+  よふね【夜舟・夜船】(简单机制)
+  うのはなづくよ【卯の花月夜】(parallelDecomp方案1、方案4，2处)
+  おぼろづきよ【朧月夜】(parallelDecomp方案2)
+  さよちどり【小夜千鳥】(parallelDecomp方案2、方案4，2处)
+  さよなか【小夜中】(parallelDecomp方案1)
+  さよまくら【小夜枕】(parallelDecomp方案2)
+  ゆふづくよ【夕月夜】(parallelDecomp方案2、方案3，2处)
+
+（19简单机制条目 + 11parallelDecomp引用 = 30处，跟当前lex-batch.ttl
+grep出来的数量一致，已核实无遗漏）
+
+### 状态：已执行
