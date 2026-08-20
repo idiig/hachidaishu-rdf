@@ -16953,12 +16953,16 @@ lex:むす【生す】 a ontolex:LexicalEntry ;
 
 lex:むすびまつ【結び松】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "むすびまつ"@ja-Hira, "結び松"@ja ] ;
-    decomp:subterm lex:まつ【松】, lex:むすぶ【掬ぶ・結ぶ】 ;
+    decomp:subterm lex:まつ【松】, lex:むすぶ【結ぶ】 ;
     ontolex:sense lex:結び松-BG-01-5520-34-1800 .
 
-lex:むすぶ【掬ぶ・結ぶ】 a ontolex:LexicalEntry ;
-    ontolex:canonicalForm [ ontolex:writtenRep "むすぶ"@ja-Hira, "掬ぶ"@ja, "結ぶ"@ja ] ;
-    ontolex:sense lex:掬ぶ-BG-02-1515-08-0105, lex:結ぶ-BG-02-1554-02-0101 .
+lex:むすぶ【掬ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "むすぶ"@ja-Hira, "掬ぶ"@ja ] ;
+    ontolex:sense lex:掬ぶ-BG-02-1515-08-0105 .
+
+lex:むすぶ【結ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "むすぶ"@ja-Hira, "結ぶ"@ja ] ;
+    ontolex:sense lex:結ぶ-BG-02-1554-02-0101 .
 
 lex:むすぼほる【結ぼほる】 a ontolex:LexicalEntry ;
     ontolex:canonicalForm [ ontolex:writtenRep "むすぼほる"@ja-Hira, "結ぼほる"@ja ] ;
@@ -30231,7 +30235,7 @@ lex:探る-BG-02-3062-05-0400 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-3062 .
 
 lex:掬ぶ-BG-02-1515-08-0105 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:むすぶ【掬ぶ・結ぶ】 ;
+    ontolex:isSenseOf lex:むすぶ【掬ぶ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1515 .
 
@@ -37991,7 +37995,7 @@ lex:結ふ-BG-02-1554-02-0201 a ontolex:LexicalSense ;
     ontolex:reference concept:BG-02-1554 .
 
 lex:結ぶ-BG-02-1554-02-0101 a ontolex:LexicalSense ;
-    ontolex:isSenseOf lex:むすぶ【掬ぶ・結ぶ】 ;
+    ontolex:isSenseOf lex:むすぶ【結ぶ】 ;
     lexinfo:partOfSpeech lexinfo:verb ;
     ontolex:reference concept:BG-02-1554 .
 

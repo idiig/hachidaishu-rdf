@@ -137,7 +137,7 @@ occ:kokin-2-3 a waka:TokenOccurrence ;
 occ:kokin-2-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-2 ;
     waka:position 4 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【掬ぶ】 .
 
 occ:kokin-2-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-2 ;
@@ -34111,7 +34111,7 @@ wakaid:kokin-404 waka:hasOccurrence occ:kokin-404-1, occ:kokin-404-2, occ:kokin-
 occ:kokin-404-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-404 ;
     waka:position 1 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:kokin-404-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-404 ;
@@ -45920,7 +45920,7 @@ occ:kokin-541-12 a waka:TokenOccurrence ;
 occ:kokin-541-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-541 ;
     waka:position 13 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:kokin-541-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-541 ;
@@ -63909,7 +63909,7 @@ occ:kokin-748-13 a waka:TokenOccurrence ;
 occ:kokin-748-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-748 ;
     waka:position 14 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:kokin-748-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:kokin-748 ;
@@ -121965,7 +121965,7 @@ occ:gosen-270-12 a waka:TokenOccurrence ;
 occ:gosen-270-13 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-270 ;
     waka:position 13 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:gosen-270-14 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-270 ;
@@ -130852,7 +130852,7 @@ occ:gosen-376-5 a waka:TokenOccurrence ;
 occ:gosen-376-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-376 ;
     waka:position 6 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:gosen-376-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-376 ;
@@ -143188,7 +143188,7 @@ wakaid:gosen-524 waka:hasOccurrence occ:gosen-524-1, occ:gosen-524-2, occ:gosen-
 occ:gosen-524-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-524 ;
     waka:position 1 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:gosen-524-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-524 ;
@@ -150098,7 +150098,7 @@ occ:gosen-604-14 a waka:TokenOccurrence ;
 occ:gosen-604-15 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-604 ;
     waka:position 15 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:gosen-604-16 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-604 ;
@@ -200219,7 +200219,7 @@ wakaid:gosen-1187 waka:hasOccurrence occ:gosen-1187-1, occ:gosen-1187-2, occ:gos
 occ:gosen-1187-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1187 ;
     waka:position 1 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:gosen-1187-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1187 ;
@@ -214368,7 +214368,7 @@ occ:gosen-1349-4 a waka:TokenOccurrence ;
 occ:gosen-1349-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1349 ;
     waka:position 5 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:gosen-1349-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1349 ;
@@ -218151,7 +218151,7 @@ wakaid:gosen-1393 waka:hasOccurrence occ:gosen-1393-1, occ:gosen-1393-2, occ:gos
 occ:gosen-1393-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1393 ;
     waka:position 1 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:gosen-1393-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:gosen-1393 ;
@@ -232027,7 +232027,7 @@ occ:shuui-131-6 a waka:TokenOccurrence ;
 occ:shuui-131-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-131 ;
     waka:position 7 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【掬ぶ】 .
 
 occ:shuui-131-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-131 ;
@@ -250178,7 +250178,7 @@ occ:shuui-349-7 a waka:TokenOccurrence ;
 occ:shuui-349-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-349 ;
     waka:position 8 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-349-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-349 ;
@@ -261910,7 +261910,7 @@ occ:shuui-485-3 a waka:TokenOccurrence ;
 occ:shuui-485-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-485 ;
     waka:position 4 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-485-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-485 ;
@@ -263426,7 +263426,7 @@ occ:shuui-503-6 a waka:TokenOccurrence ;
 occ:shuui-503-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-503 ;
     waka:position 7 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-503-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-503 ;
@@ -271991,7 +271991,7 @@ occ:shuui-573-44 a waka:TokenOccurrence ;
 occ:shuui-573-45 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
     waka:position 45 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-573-46 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
@@ -272661,7 +272661,7 @@ occ:shuui-573-178 a waka:TokenOccurrence ;
 occ:shuui-573-179 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
     waka:position 179 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-573-180 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-573 ;
@@ -288559,7 +288559,7 @@ occ:shuui-742-4 a waka:TokenOccurrence ;
 occ:shuui-742-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-742 ;
     waka:position 5 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-742-6 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-742 ;
@@ -290170,7 +290170,7 @@ occ:shuui-760-10 a waka:TokenOccurrence ;
 occ:shuui-760-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-760 ;
     waka:position 11 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【掬ぶ】 .
 
 occ:shuui-760-12 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-760 ;
@@ -310848,7 +310848,7 @@ occ:shuui-1004-8 a waka:TokenOccurrence ;
 occ:shuui-1004-9 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1004 ;
     waka:position 9 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-1004-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1004 ;
@@ -315565,7 +315565,7 @@ occ:shuui-1060-6 a waka:TokenOccurrence ;
 occ:shuui-1060-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1060 ;
     waka:position 7 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-1060-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1060 ;
@@ -329782,7 +329782,7 @@ wakaid:shuui-1228 waka:hasOccurrence occ:shuui-1228-1, occ:shuui-1228-2, occ:shu
 occ:shuui-1228-1 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1228 ;
     waka:position 1 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【掬ぶ】 .
 
 occ:shuui-1228-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1228 ;
@@ -332198,7 +332198,7 @@ occ:shuui-1256-6 a waka:TokenOccurrence ;
 occ:shuui-1256-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1256 ;
     waka:position 7 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-1256-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1256 ;
@@ -332946,7 +332946,7 @@ occ:shuui-1265-3 a waka:TokenOccurrence ;
 occ:shuui-1265-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1265 ;
     waka:position 4 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-1265-5 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1265 ;
@@ -337770,7 +337770,7 @@ occ:shuui-1322-2 a waka:TokenOccurrence ;
 occ:shuui-1322-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1322 ;
     waka:position 3 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:shuui-1322-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:shuui-1322 ;
@@ -345783,7 +345783,7 @@ occ:goshuui-65-1 a waka:TokenOccurrence ;
 occ:goshuui-65-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-65 ;
     waka:position 2 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:goshuui-65-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-65 ;
@@ -354289,7 +354289,7 @@ occ:goshuui-168-2 a waka:TokenOccurrence ;
 occ:goshuui-168-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-168 ;
     waka:position 3 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:goshuui-168-4 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-168 ;
@@ -359609,7 +359609,7 @@ occ:goshuui-233-9 a waka:TokenOccurrence ;
 occ:goshuui-233-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-233 ;
     waka:position 10 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:goshuui-233-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-233 ;
@@ -365917,7 +365917,7 @@ occ:goshuui-307-16 a waka:TokenOccurrence ;
 occ:goshuui-307-17 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-307 ;
     waka:position 17 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:goshuui-307-18 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-307 ;
@@ -375788,7 +375788,7 @@ occ:goshuui-425-6 a waka:TokenOccurrence ;
 occ:goshuui-425-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-425 ;
     waka:position 7 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:goshuui-425-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-425 ;
@@ -377530,7 +377530,7 @@ occ:goshuui-446-6 a waka:TokenOccurrence ;
 occ:goshuui-446-7 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-446 ;
     waka:position 7 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:goshuui-446-8 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-446 ;
@@ -394571,7 +394571,7 @@ occ:goshuui-649-1 a waka:TokenOccurrence ;
 occ:goshuui-649-2 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-649 ;
     waka:position 2 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【掬ぶ】 .
 
 occ:goshuui-649-3 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-649 ;
@@ -398448,7 +398448,7 @@ occ:goshuui-695-9 a waka:TokenOccurrence ;
 occ:goshuui-695-10 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-695 ;
     waka:position 10 ;
-    waka:instantiates lex:むすぶ【掬ぶ・結ぶ】 .
+    waka:instantiates lex:むすぶ【結ぶ】 .
 
 occ:goshuui-695-11 a waka:TokenOccurrence ;
     waka:ofWaka wakaid:goshuui-695 ;

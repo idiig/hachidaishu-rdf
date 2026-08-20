@@ -1,0 +1,51 @@
+## PATCH: むすぶ【掬ぶ・結ぶ】split into 2 -- 掬ぶ「手ですくう」vs 結ぶ「結ぶ」
+
+底本核实(全8代集)：掬ぶ恒为A00=BG-02-1515"置く/放置"(10次)、結ぶ
+恒为A00=BG-02-1554"結ぶ・繋ぐなど"(78次)，两者WLSP大类完全不同，
+是完全不同的两个动词被合并进同一个entry。
+
+已核实(限4部)：合并entry目前33处occurrence，逐条比对底本 = 掬ぶ5+
+結ぶ28，完全对应，两个sense都是真实使用、无幽灵。
+
+### lex-batch.ttl
+
+OLD:
+lex:むすぶ【掬ぶ・結ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "むすぶ"@ja-Hira, "掬ぶ"@ja, "結ぶ"@ja ] ;
+    ontolex:sense lex:掬ぶ-BG-02-1515-08-0105, lex:結ぶ-BG-02-1554-02-0101 .
+
+NEW（拆成2个entry）:
+lex:むすぶ【掬ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "むすぶ"@ja-Hira, "掬ぶ"@ja ] ;
+    ontolex:sense lex:掬ぶ-BG-02-1515-08-0105 .
+
+lex:むすぶ【結ぶ】 a ontolex:LexicalEntry ;
+    ontolex:canonicalForm [ ontolex:writtenRep "むすぶ"@ja-Hira, "結ぶ"@ja ] ;
+    ontolex:sense lex:結ぶ-BG-02-1554-02-0101 .
+
+-- 掬ぶ-BG-02-1515-08-0105 的 isSenseOf 改指 むすぶ【掬ぶ】
+-- 結ぶ-BG-02-1554-02-0101 的 isSenseOf 改指 むすぶ【結ぶ】
+
+### occurrence-batch.ttl
+
+5处 waka:instantiates 从 lex:むすぶ【掬ぶ・結ぶ】 改成 lex:むすぶ【掬ぶ】：
+  occ:kokin-2-4, occ:shuui-131-7, occ:shuui-760-11, occ:shuui-1228-1, occ:goshuui-649-2
+
+28处 waka:instantiates 从 lex:むすぶ【掬ぶ・結ぶ】 改成 lex:むすぶ【結ぶ】：
+  occ:kokin-404-1, occ:kokin-541-13, occ:kokin-748-14, occ:gosen-270-13, occ:gosen-376-6, occ:gosen-524-1, occ:gosen-604-15, occ:gosen-1187-1, occ:gosen-1349-5, occ:gosen-1393-1, occ:shuui-349-8, occ:shuui-485-4, occ:shuui-503-7, occ:shuui-573-45, occ:shuui-573-179, occ:shuui-742-5, occ:shuui-1004-9, occ:shuui-1060-7, occ:shuui-1256-7, occ:shuui-1265-4, occ:shuui-1322-3, occ:goshuui-65-2, occ:goshuui-168-3, occ:goshuui-233-10, occ:goshuui-307-17, occ:goshuui-425-7, occ:goshuui-446-7, occ:goshuui-695-10
+
+### 复合词成分（decomp:subterm / decomp:correspondsTo）
+
+1处，"結ぶ"义（むすびまつ【結び松】="松の枝を結ぶ"），改成
+lex:むすぶ【結ぶ】：
+  むすびまつ【結び松】 的 decomp:subterm (lex:まつ【松】, lex:むすぶ【掬ぶ・結ぶ】)
+
+### triple数预期变化
+
+entry声明: OLD 6 triple -> NEW 2个entry各4 = 8，delta +2
+isSenseOf x2改target: delta 0
+decomp:subterm改target: delta 0
+occurrence-batch.ttl: delta 0
+总计lex-batch.ttl delta: +2
+
+### 状态：已执行
