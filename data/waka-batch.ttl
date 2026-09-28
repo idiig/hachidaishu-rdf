@@ -123,7 +123,7 @@ wakaid:gosen-7 a waka:Waka ;
 
 wakaid:gosen-8 a waka:Waka ;
     dcterms:identifier "8" ;
-    dcterms:creator person:anonymous-unknown-gender-unknown-status ;
+    dcterms:creator person:anonymous-female-unknown-status ;
     waka:headnote "題しらす"@ja ;
     waka:ku "かすみたつ"@ja ;
     waka:ku "かすかののへの"@ja ;
@@ -39462,7 +39462,7 @@ wakaid:kokin-653 a waka:Waka ;
 
 wakaid:kokin-654 a waka:Waka ;
     dcterms:identifier "654" ;
-    dcterms:creator person:anonymous-unknown-gender-unknown-status ;
+    dcterms:creator person:anonymous-female-unknown-status ;
     waka:headnote "たちはなのきよきかしのひにあひしれりける女のもとよりおこせたりける"@ja ;
     waka:ku "おもふとち"@ja ;
     waka:ku "ひとりひとりか"@ja ;
