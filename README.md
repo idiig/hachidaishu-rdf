@@ -1,6 +1,8 @@
 # hachidaishu-rdf
 
-An RDF dataset of classical Japanese waka poetry (古今和歌集 Kokinshu, 後撰和歌集 Gosenshu, 拾遺和歌集 Shuishu, 後拾遺和歌集 Goshuishu — the first four of the eight imperial anthologies, 八代集), plus a set of SPARQL query scripts for looking things up by word, concept (WLSP semantic classification), gender, or poem.
+An RDF dataset of classical Japanese waka poetry from the eight imperial anthologies (八代集), plus a set of SPARQL query scripts for looking things up by word, concept (WLSP semantic classification), gender, or poem.
+
+The first four anthologies (古今・後撰・拾遺・後拾遺) have full poem metadata. The latter four (金葉・詞花・千載・新古今) currently have token data only: each poem has an identifier and token occurrences, but no creator, headnote, five ku, topic, book, or anthology membership metadata yet. Consequently, corpus-wide word/concept queries cover all eight anthologies, while anthology-, topic-, and gender-scoped queries cover only the first four.
 
 ## Requirements
 
@@ -22,13 +24,13 @@ brew install jena jena-fuseki jq
 
 | File | Contents |
 |---|---|
-| `waka-batch.ttl` | Poems (`waka:Waka`): identifier, creator(s), headnote, ku (5 metrical segments), topic (部立), voice/gender-switch info |
-| `book-batch.ttl` | Anthology volumes (`waka:Book`, 巻) and which poems belong to which |
+| `waka-batch.ttl` | Poems (`waka:Waka`): all eight have identifiers; the first four also have creator(s), headnote, ku (5 metrical segments), topic (部立), and voice/gender-switch info |
+| `book-batch.ttl` | Anthology volumes (`waka:Book`, 巻) and poem membership for the first four anthologies |
 | `lex-batch.ttl` | Dictionary entries (`ontolex:LexicalEntry`/`LexicalSense`), including compound-word decomposition |
 | `concept-batch.ttl` | WLSP semantic classification hierarchy (`skos:Concept`), including place-name and person-name categories |
 | `concept-example.ttl` | Additional concept schemes not from WLSP: 部立 (anthology section topics), 官位, 宗教状態 |
 | `author-batch.ttl`, `author-example.ttl` | Poets (`foaf:Person`): name, gender, court rank, religious status |
-| `occurrence-batch.ttl` | Every word's occurrence at every position in every poem (`waka:TokenOccurrence`), linking poems to dictionary entries |
+| `occurrence-batch.ttl` | Every word's occurrence at every position in all eight anthologies (`waka:TokenOccurrence`), linking poems to dictionary entries |
 
 ## HTTP API
 
