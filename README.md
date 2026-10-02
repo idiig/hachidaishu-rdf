@@ -2,7 +2,7 @@
 
 An RDF dataset of classical Japanese waka poetry from the eight imperial anthologies (八代集), plus a set of SPARQL query scripts for looking things up by word, concept (WLSP semantic classification), gender, or poem.
 
-The first four anthologies (古今・後撰・拾遺・後拾遺) have full poem metadata. The latter four (金葉・詞花・千載・新古今) currently have token data only: each poem has an identifier and token occurrences, but no creator, headnote, five ku, topic, book, or anthology membership metadata yet. Consequently, corpus-wide word/concept queries cover all eight anthologies, while anthology-, topic-, and gender-scoped queries cover only the first four.
+The first four anthologies (古今・後撰・拾遺・後拾遺) have full poem metadata. 金葉・詞花・千載 currently have token data only. 新古今 has identifiers, token occurrences, and poem-level author attributions, but not yet headnotes, five ku, topics, books, or anthology membership metadata. Consequently, corpus-wide word/concept and anthology-ID queries cover all eight anthologies; topic queries cover the first four, and author/gender queries cover the first four plus 新古今.
 
 ## Requirements
 
@@ -24,13 +24,110 @@ brew install jena jena-fuseki jq
 
 | File | Contents |
 |---|---|
-| `waka-batch.ttl` | Poems (`waka:Waka`): all eight have identifiers; the first four also have creator(s), headnote, ku (5 metrical segments), topic (部立), and voice/gender-switch info |
+| `waka-batch.ttl` | Poems (`waka:Waka`): all eight have identifiers; the first four also have creator(s), headnote, ku (5 metrical segments), topic (部立), and voice/gender-switch info; 新古今 additionally has creator(s) |
 | `book-batch.ttl` | Anthology volumes (`waka:Book`, 巻) and poem membership for the first four anthologies |
 | `lex-batch.ttl` | Dictionary entries (`ontolex:LexicalEntry`/`LexicalSense`), including compound-word decomposition |
 | `concept-batch.ttl` | WLSP semantic classification hierarchy (`skos:Concept`), including place-name and person-name categories |
 | `concept-example.ttl` | Additional concept schemes not from WLSP: 部立 (anthology section topics), 官位, 宗教状態 |
 | `author-batch.ttl`, `author-example.ttl` | Poets (`foaf:Person`): name, gender, court rank, religious status |
 | `occurrence-batch.ttl` | Every word's occurrence at every position in all eight anthologies (`waka:TokenOccurrence`), linking poems to dictionary entries |
+
+### Refreshing 新古今 authors
+
+The Shinkokin creator links come from the sibling
+`goshuishu-poet-list/data/processed/poems_by_sex/shinkokin_*.txt` files. Refresh
+the generated RDF with:
+
+```sh
+python3 scripts/import_shinkokin_authors.py
+```
+
+Use `--processed-dir DIR` if that repository is not beside this one, or
+`--check` to verify the generated files without writing. The importer uses the
+companion JSONL crosswalk because the source files have 1,981 Hachidaishu
+numbers while this repository has 1,978 Shinkokutaikan numbers. It skips the
+three Hachidaishu insertions at 1785, 1803, and 1916. Per-person sex comes from
+`shinkokin_persons.jsonl`; the `unknown` poem bucket is not itself treated as a
+person's gender.
+
+If a Shinkokin person sex conflicts with an existing same-ID person, the
+importer reports the conflict and keeps the existing value. The current source
+set reports five such IDs: 圓融天皇, 源周子, 源趁, 禎子內親王, and 藤原詮子.
+
+Slash-separated names are retained as multiple attribution candidates, with
+exact duplicates removed. They must not automatically be read as joint
+composition: most have no relation type in the source, and Shinkokin 1922 is
+explicitly an alternative attribution. The three source labels for anonymous
+or missing authors currently share
+`person:anonymous-unknown-gender-unknown-status`.
+
+## TEI export
+
+Generate one unified TEI document for the eight anthologies, plus a JSON count
+report:
+
+```sh
+python3 scripts/export_tei.py
+```
+
+The default output is `tei/hachidaishu.xml`. Use `--output-dir DIR` to change
+its directory, or repeat `--anthology kokin` (using any of the eight short
+names) to include only a selected subset in the same unified document. The
+exporter uses only the Python standard library.
+
+The TEI mapping is deliberately conservative while no manuscript base text is
+selected:
+
+- Each poem is one `<l>`, with its `<w>` children directly inside it; no `<seg>`
+  elements are generated. `w/@n` preserves the source occurrence position.
+- Word text is temporarily reconstructed from the lexical entry's `ja-Hira`
+  form. It is not a claim about the surface form of any manuscript witness.
+- `w/@lemmaRef` points directly to the corresponding one-level dictionary
+  `<entry>`. Dictionary IDs retain the readable `かな【表記】` form; characters
+  that cannot occur in an XML name (such as `*` or `+`) use `_xHHHH_` escapes.
+- Direct and alternative compound decompositions are retained as
+  `<form type="compound"><ref .../></form>`, and component entries are included
+  in the dictionary closure.
+- Poem-level creators are recorded on `l/@resp`. A `w/@resp` is emitted only
+  when the RDF occurrence itself has a creator, so local responsibility is not
+  guessed for multi-author poems.
+- Person records, including `person/@gender`, are held in a root-level
+  `<standOff><listPerson>`. Gender is not copied onto words.
+- The body contains one top-level `<div type="和歌集">` per anthology. All eight
+  share one de-duplicated dictionary, classification section, and person list.
+- The first four anthologies are grouped by their available book and topic
+  metadata. The latter four remain flat because those metadata are not yet in
+  the RDF.
+
+The source `waka:ku` strings are not separately serialized while segmentation
+is disabled. Source lexical senses shared by more than one entry are repeated
+inside those entries without `xml:id`; their concept and part-of-speech data are
+still retained. A positive `waka:poeticVoice` is retained, while an explicit
+`voiceGenderSwitched false` is currently not distinguished from missing data.
+
+The generated document points at the current official TEI P5 `tei_all.rng`.
+For local validation, use a validator whose XML-name handling follows XML 1.0
+Fifth Edition, for example the currently tested libxml2 2.15.3:
+
+```sh
+curl -L https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng \
+  -o /tmp/tei_all.rng
+nix shell nixpkgs#libxml2 --command \
+  xmllint --noout --relaxng /tmp/tei_all.rng tei/hachidaishu.xml
+```
+
+`【` and `】` are legal NCName characters under
+[XML 1.0 Fifth Edition](https://www.w3.org/TR/xml/#NT-NameStartChar) and the
+[xml:id rules](https://www.w3.org/TR/xml-id/#processing), and are accepted by
+that tested libxml2 version. macOS libxml2 2.9.13 and Jing 20241231 still apply
+an older name-character table and reject them; that is a validator compatibility
+limitation, not malformed XML.
+
+Run all importer and exporter tests with:
+
+```sh
+python3 -m unittest discover -s tests -v
+```
 
 ## HTTP API
 
@@ -115,11 +212,11 @@ Each query is a standalone shell script. Run it directly (`./queries/poems-by-wo
 
 ### By gender
 
-`<gender>` is `Male` or `Female`. Gender-switched poetic voice (a poem performed in an assumed gender, whether or not it matches the biographical author) counts, and a poem jointly composed by both a male and a female poet appears for both genders.
+`<gender>` is `Male` or `Female`. Gender-switched poetic voice (a poem performed in an assumed gender, whether or not it matches the biographical author) counts. A poem with multiple poem-level creator candidates appears for every known gender among them; in the Shinkokin source these values can be alternative or otherwise unresolved attributions, not necessarily joint composition.
 
 - **`poems-by-gender.sh <gender>`** — poems attributable to this gender.
   Output: `?waka`.
-- **`gender-context-in-poem.sh <gender> <poem-id>`** — the words in that poem attributable to this gender. For an ordinary single-voice poem this is every word in it; for a poem jointly composed by two authors of different genders (a kami-no-ku/shimo-no-ku exchange), only the half attributed to the given gender.
+- **`gender-context-in-poem.sh <gender> <poem-id>`** — the words in that poem attributable to this gender. For an ordinary single-voice poem this is every word in it; where occurrence-level responsibility exists (the four split 拾遺 examples), only the matching half is returned. With multiple poem-level candidates but no occurrence-level responsibility, the whole poem is returned and no local division is inferred.
   Output: `?pos`, `?entry`.
 - **`gender-context-concept-in-poem.sh <gender> <poem-id>`** — same, mapped to concepts.
   Output: `?pos`, `?concept`.
