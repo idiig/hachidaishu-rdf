@@ -1,0 +1,70 @@
+{
+  "anthologies": {
+    "kokin": {
+      "poems": 1111,
+      "tokens": 19370,
+      "locally_attributed_tokens": 0,
+      "dictionary_entries": 1787,
+      "people": 129
+    },
+    "gosen": {
+      "poems": 1425,
+      "tokens": 23832,
+      "locally_attributed_tokens": 0,
+      "dictionary_entries": 1708,
+      "people": 221
+    },
+    "shuui": {
+      "poems": 1351,
+      "tokens": 23284,
+      "locally_attributed_tokens": 71,
+      "dictionary_entries": 2070,
+      "people": 194
+    },
+    "goshuui": {
+      "poems": 1218,
+      "tokens": 19998,
+      "locally_attributed_tokens": 0,
+      "dictionary_entries": 1760,
+      "people": 323
+    },
+    "kinyo": {
+      "poems": 717,
+      "tokens": 11539,
+      "locally_attributed_tokens": 0,
+      "dictionary_entries": 1559,
+      "people": 0
+    },
+    "shika": {
+      "poems": 415,
+      "tokens": 6790,
+      "locally_attributed_tokens": 0,
+      "dictionary_entries": 1100,
+      "people": 0
+    },
+    "senzai": {
+      "poems": 1288,
+      "tokens": 21705,
+      "locally_attributed_tokens": 0,
+      "dictionary_entries": 1914,
+      "people": 0
+    },
+    "shinkokin": {
+      "poems": 1978,
+      "tokens": 32564,
+      "locally_attributed_tokens": 0,
+      "dictionary_entries": 2250,
+      "people": 410
+    }
+  },
+  "totals": {
+    "anthologies": 8,
+    "poems": 9503,
+    "tokens": 159082
+  },
+  "shared_resources": {
+    "dictionary_entries": 4097,
+    "people": 1007,
+    "classification_items": 1478
+  }
+}
