@@ -120,16 +120,16 @@ person:anonymous-unknown-gender-unknown-status a foaf:Person .
 # "unknown", genuinely not applicable to a shrine or a dream.
 # Source: goshuishu-poet-list's syuui_persons.jsonl / goshuishu_persons.jsonl.
 
-person:菩提 a foaf:Person ;
-    foaf:name "菩提"@ja, "ぼだい"@ja-Hira .
-    # alias "婆羅門" (Brahmin) in the source -- not modeled yet, no
-    # alias/altLabel property defined for persons in this prototype.
+person:菩提僊那 a foaf:Person ;
+    foaf:name "菩提僊那"@ja, "ぼだいせんな"@ja-Hira ;
+    schema:alternateName "菩提"@ja, "婆羅門僧正"@ja, "菩提僧正"@ja ;
+    schema:gender schema:Male ;
+    waka:religiousStatus concept:宗教状態-出家 .
 
-person:賀茂明神 a foaf:Person ;
-    foaf:name "賀茂明神"@ja, "かもみゃうじん"@ja-Hira .
+person:賀茂明神 a waka:DivineAgent ;
+    foaf:name "賀茂明神"@ja, "かもみゃうじん"@ja-Hira ;
+    schema:alternateName "賀茂御社"@ja, "御社"@ja .
 
-person:夢想歌 a foaf:Person ;
-    foaf:name "夢想歌"@ja, "むそうか"@ja-Hira .
-
-person:伊勢大神宮 a foaf:Person ;
-    foaf:name "伊勢大神宮"@ja, "いせのおほかむみや"@ja-Hira .
+person:伊勢大神宮 a waka:DivineAgent ;
+    foaf:name "伊勢大神宮"@ja, "いせのおほかむみや"@ja-Hira ;
+    schema:alternateName "伊勢神宮"@ja .
